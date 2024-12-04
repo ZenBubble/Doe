@@ -1,0 +1,44 @@
+[0.015s] Invoking command in '/home/dorson/Documents/github/Doe/build/doe_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dorson/Documents/github/Doe/src/doe_simulation -DCMAKE_INSTALL_PREFIX=/home/dorson/Documents/github/Doe/install/doe_simulation
+[0.342s] -- The C compiler identification is GNU 13.2.0
+[0.649s] -- The CXX compiler identification is GNU 13.2.0
+[0.701s] -- Detecting C compiler ABI info
+[0.998s] -- Detecting C compiler ABI info - done
+[1.037s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.068s] -- Detecting C compile features
+[1.071s] -- Detecting C compile features - done
+[1.104s] -- Detecting CXX compiler ABI info
+[1.430s] -- Detecting CXX compiler ABI info - done
+[1.462s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.463s] -- Detecting CXX compile features
+[1.464s] -- Detecting CXX compile features - done
+[1.531s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.984s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.507s] -- Found ros_gz: 1.0.7 (/opt/ros/jazzy/share/ros_gz/cmake)
+[2.516s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.667s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.731s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.810s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.898s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.288s] -- Found message_filters: 4.11.2 (/opt/ros/jazzy/share/message_filters/cmake)
+[3.497s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.510s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.821s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.898s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.983s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.329s] -- Found rclcpp_components: 28.1.5 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[4.516s] -- Found rclpy: 7.1.2 (/opt/ros/jazzy/share/rclpy/cmake)
+[4.869s] -- Configuring done (4.8s)
+[4.894s] -- Generating done (0.0s)
+[4.901s] -- Build files have been written to: /home/dorson/Documents/github/Doe/build/doe_simulation
+[4.931s] Invoked command in '/home/dorson/Documents/github/Doe/build/doe_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dorson/Documents/github/Doe/src/doe_simulation -DCMAKE_INSTALL_PREFIX=/home/dorson/Documents/github/Doe/install/doe_simulation
+[4.934s] Invoking command in '/home/dorson/Documents/github/Doe/build/doe_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dorson/Documents/github/Doe/build/doe_simulation -- -j20 -l20
+[5.084s] [ 50%] [32mBuilding CXX object CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o[0m
+[5.173s] In file included from [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:1[m[K:
+[5.173s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/thruster_driver_plugin.hpp:6:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[5.174s]     6 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[5.174s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.174s] compilation terminated.
+[5.176s] gmake[2]: *** [CMakeFiles/thruster_driver_plugin.dir/build.make:76: CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o] Error 1
+[5.177s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thruster_driver_plugin.dir/all] Error 2
+[5.177s] gmake: *** [Makefile:146: all] Error 2
+[5.182s] Invoked command in '/home/dorson/Documents/github/Doe/build/doe_simulation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dorson/Documents/github/Doe/build/doe_simulation -- -j20 -l20

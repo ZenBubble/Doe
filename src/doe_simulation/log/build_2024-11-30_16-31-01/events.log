@@ -1,0 +1,199 @@
+[0.000000] (-) TimerEvent: {}
+[0.000688] (doe_simulation) JobQueued: {'identifier': 'doe_simulation', 'dependencies': OrderedDict()}
+[0.000786] (doe_simulation) JobStarted: {'identifier': 'doe_simulation'}
+[0.018365] (doe_simulation) JobProgress: {'identifier': 'doe_simulation', 'progress': 'cmake'}
+[0.021162] (doe_simulation) JobProgress: {'identifier': 'doe_simulation', 'progress': 'build'}
+[0.021233] (doe_simulation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation', '--', '-j20', '-l20'], 'cwd': '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/dorson/Documents/github/Doe/src/doe_simulation', 'LANGUAGE': 'en_CA:en', 'USER': 'dorson', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/dorson', 'OLDPWD': '/home/dorson/Documents/github/Doe/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2413', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/dorson/Documents/github/Doe/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'dorson', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dorson', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/dorson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/dorson-AORUS-5-SE:@/tmp/.ICE-unix/2375,unix/dorson-AORUS-5-SE:/tmp/.ICE-unix/2375', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7b1d232b_0592_410b_9506_93434991bd79', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.597', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'RCUTILS_COLORIZED_OUTPUT': '1', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.064689] (doe_simulation) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099524] (-) TimerEvent: {}
+[0.199823] (-) TimerEvent: {}
+[0.300170] (-) TimerEvent: {}
+[0.394182] (doe_simulation) StdoutLine: {'line': b'-- Found ros_gz: 1.0.7 (/opt/ros/jazzy/share/ros_gz/cmake)\n'}
+[0.394413] (doe_simulation) StdoutLine: {'line': b'-- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.400357] (-) TimerEvent: {}
+[0.437532] (doe_simulation) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.449928] (doe_simulation) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.466053] (doe_simulation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.484684] (doe_simulation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500516] (-) TimerEvent: {}
+[0.576839] (doe_simulation) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.578710] (doe_simulation) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600700] (-) TimerEvent: {}
+[0.685821] (doe_simulation) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.700909] (-) TimerEvent: {}
+[0.782970] (doe_simulation) StdoutLine: {'line': b'-- Found rclcpp_components: 28.1.5 (/opt/ros/jazzy/share/rclcpp_components/cmake)\n'}
+[0.801092] (-) TimerEvent: {}
+[0.821459] (doe_simulation) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.864549] (doe_simulation) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[0.898095] (doe_simulation) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[0.901273] (-) TimerEvent: {}
+[1.001608] (-) TimerEvent: {}
+[1.084559] (doe_simulation) StdoutLine: {'line': b'-- Configuring done (1.0s)\n'}
+[1.101745] (-) TimerEvent: {}
+[1.105784] (doe_simulation) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.109470] (doe_simulation) StdoutLine: {'line': b'-- Build files have been written to: /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation\n'}
+[1.188239] (doe_simulation) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o\x1b[0m\n'}
+[1.190802] (doe_simulation) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cpp_executable.dir/src/thruster_driver_plugin.cpp.o\x1b[0m\n'}
+[1.201957] (-) TimerEvent: {}
+[1.302414] (-) TimerEvent: {}
+[1.402872] (-) TimerEvent: {}
+[1.503334] (-) TimerEvent: {}
+[1.526948] (doe_simulation) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[1.527649] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:7:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kstd_msgs/msg/float64_multi_array.hpp: No such file or directory\n'}
+[1.527795] (doe_simulation) StderrLine: {'line': b'    7 | #include \x1b[01;31m\x1b[K"std_msgs/msg/float64_multi_array.hpp"\x1b[m\x1b[K\n'}
+[1.527897] (doe_simulation) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.527983] (doe_simulation) StderrLine: {'line': b'compilation terminated.\n'}
+[1.561681] (doe_simulation) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cpp_executable.dir/build.make:76: CMakeFiles/cpp_executable.dir/src/thruster_driver_plugin.cpp.o] Error 1\n'}
+[1.562051] (doe_simulation) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/cpp_executable.dir/all] Error 2\n'}
+[1.562233] (doe_simulation) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[1.603504] (-) TimerEvent: {}
+[1.703918] (-) TimerEvent: {}
+[1.804327] (-) TimerEvent: {}
+[1.904747] (-) TimerEvent: {}
+[2.005175] (-) TimerEvent: {}
+[2.105579] (-) TimerEvent: {}
+[2.206011] (-) TimerEvent: {}
+[2.306384] (-) TimerEvent: {}
+[2.406828] (-) TimerEvent: {}
+[2.507245] (-) TimerEvent: {}
+[2.607655] (-) TimerEvent: {}
+[2.708119] (-) TimerEvent: {}
+[2.808608] (-) TimerEvent: {}
+[2.909019] (-) TimerEvent: {}
+[3.009522] (-) TimerEvent: {}
+[3.110046] (-) TimerEvent: {}
+[3.210479] (-) TimerEvent: {}
+[3.310997] (-) TimerEvent: {}
+[3.411431] (-) TimerEvent: {}
+[3.511919] (-) TimerEvent: {}
+[3.612281] (-) TimerEvent: {}
+[3.712737] (-) TimerEvent: {}
+[3.813158] (-) TimerEvent: {}
+[3.913577] (-) TimerEvent: {}
+[4.013925] (-) TimerEvent: {}
+[4.114377] (-) TimerEvent: {}
+[4.214802] (-) TimerEvent: {}
+[4.315224] (-) TimerEvent: {}
+[4.415646] (-) TimerEvent: {}
+[4.493364] (doe_simulation) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[4.493639] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:14:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgazebo\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.493749] (doe_simulation) StderrLine: {'line': b'   14 |     class ThrusterDriver : public \x1b[01;31m\x1b[Kgazebo\x1b[m\x1b[K::ModelPlugin\n'}
+[4.494062] (doe_simulation) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.494168] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:14:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[KModelPlugin\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.494251] (doe_simulation) StderrLine: {'line': b'   14 |     class ThrusterDriver : public gazebo::\x1b[01;31m\x1b[KModelPlugin\x1b[m\x1b[K\n'}
+[4.494329] (doe_simulation) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.494406] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:17:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kpublic\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.494483] (doe_simulation) StderrLine: {'line': b'   17 |     \x1b[01;31m\x1b[Kpublic\x1b[m\x1b[K:\n'}
+[4.494554] (doe_simulation) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.494623] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:17:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kpublic\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.494712] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:15:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.494798] (doe_simulation) StderrLine: {'line': b'   15 |     \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[4.494869] (doe_simulation) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.494935] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:23:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected constructor, destructor, or type conversion before \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.495005] (doe_simulation) StderrLine: {'line': b'   23 |         ~ThrusterDriver(void)\x1b[01;31m\x1b[K;\x1b[m\x1b[K\n'}
+[4.495079] (doe_simulation) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.495147] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:30:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvirtual\x1b[m\x1b[K\xe2\x80\x99 outside class declaration\n'}
+[4.495215] (doe_simulation) StderrLine: {'line': b'   30 |         \x1b[01;31m\x1b[Kvirtual\x1b[m\x1b[K void Load(gazebo::physics::ModelPtr _model, sdf::ElementPtr _sdf);\n'}
+[4.495283] (doe_simulation) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.495352] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:30:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kvariable or field \xe2\x80\x98\x1b[01m\x1b[KLoad\x1b[m\x1b[K\xe2\x80\x99 declared void\n'}
+[4.495430] (doe_simulation) StderrLine: {'line': b'   30 |         virtual void \x1b[01;31m\x1b[KLoad\x1b[m\x1b[K(gazebo::physics::ModelPtr _model, sdf::ElementPtr _sdf);\n'}
+[4.495496] (doe_simulation) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.495563] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:30:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgazebo\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.495631] (doe_simulation) StderrLine: {'line': b'   30 |         virtual void Load(\x1b[01;31m\x1b[Kgazebo\x1b[m\x1b[K::physics::ModelPtr _model, sdf::ElementPtr _sdf);\n'}
+[4.495698] (doe_simulation) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.495778] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:30:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksdf\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.495849] (doe_simulation) StderrLine: {'line': b'   30 |         virtual void Load(gazebo::physics::ModelPtr _model, \x1b[01;31m\x1b[Ksdf\x1b[m\x1b[K::ElementPtr _sdf);\n'}
+[4.495919] (doe_simulation) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.495988] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:32:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kprivate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.496058] (doe_simulation) StderrLine: {'line': b'   32 |     \x1b[01;31m\x1b[Kprivate\x1b[m\x1b[K:\n'}
+[4.496129] (doe_simulation) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.515829] (-) TimerEvent: {}
+[4.529166] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:63:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgazebo\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.529439] (doe_simulation) StderrLine: {'line': b'   63 |         \x1b[01;31m\x1b[Kgazebo\x1b[m\x1b[K::event::ConnectionPtr updateConnection_;\n'}
+[4.529554] (doe_simulation) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.535621] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:65:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgazebo\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.535853] (doe_simulation) StderrLine: {'line': b'   65 |         std::vector<\x1b[01;31m\x1b[Kgazebo\x1b[m\x1b[K::physics::LinkPtr> thruster;\n'}
+[4.535953] (doe_simulation) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.536041] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:65:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[4.536128] (doe_simulation) StderrLine: {'line': b'   65 |         std::vector<gazebo::physics::LinkPtr\x1b[01;31m\x1b[K>\x1b[m\x1b[K thruster;\n'}
+[4.536206] (doe_simulation) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.536286] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:65:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[4.536688] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:75:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected constructor, destructor, or type conversion before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.537221] (doe_simulation) StderrLine: {'line': b'   75 |     GZ_REGISTER_MODEL_PLUGIN\x1b[01;31m\x1b[K(\x1b[m\x1b[KThrusterDriver)\n'}
+[4.537410] (doe_simulation) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.537509] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:77:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.537600] (doe_simulation) StderrLine: {'line': b'   77 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[4.537685] (doe_simulation) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.537787] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:6:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass doe_simulation::ThrusterDriver\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.537872] (doe_simulation) StderrLine: {'line': b'    6 |     ThrusterDriver::ThrusterDriver(\x1b[01;31m\x1b[K)\x1b[m\x1b[K : node{rclcpp::Node::make_shared("thruster_driver")} {}\n'}
+[4.537953] (doe_simulation) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.538032] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:14:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass doe_simulation::ThrusterDriver\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.538123] (doe_simulation) StderrLine: {'line': b'   14 |     class \x1b[01;36m\x1b[KThrusterDriver\x1b[m\x1b[K : public gazebo::ModelPlugin\n'}
+[4.538201] (doe_simulation) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.538279] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:6:91:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.538361] (doe_simulation) StderrLine: {'line': b'    6 | hrusterDriver() : node{rclcpp::Node::make_shared("thruster_driver")} \x1b[01;31m\x1b[K{\x1b[m\x1b[K}\n'}
+[4.538440] (doe_simulation) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.538519] (doe_simulation) StderrLine: {'line': b'\n'}
+[4.538599] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:9:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass doe_simulation::ThrusterDriver\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.538677] (doe_simulation) StderrLine: {'line': b'    9 |     ThrusterDriver::~ThrusterDriver(\x1b[01;31m\x1b[K)\x1b[m\x1b[K {}\n'}
+[4.538765] (doe_simulation) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.538842] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:14:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass doe_simulation::ThrusterDriver\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.538920] (doe_simulation) StderrLine: {'line': b'   14 |     class \x1b[01;36m\x1b[KThrusterDriver\x1b[m\x1b[K : public gazebo::ModelPlugin\n'}
+[4.539001] (doe_simulation) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.539076] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:12:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass doe_simulation::ThrusterDriver\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.539157] (doe_simulation) StderrLine: {'line': b'   12 |     void ThrusterDriver::Load(\x1b[01;31m\x1b[Kgazebo\x1b[m\x1b[K::physics::ModelPtr _model, sdf::ElementPtr _sdf)\n'}
+[4.539235] (doe_simulation) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.539315] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:14:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass doe_simulation::ThrusterDriver\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.539395] (doe_simulation) StderrLine: {'line': b'   14 |     class \x1b[01;36m\x1b[KThrusterDriver\x1b[m\x1b[K : public gazebo::ModelPlugin\n'}
+[4.539472] (doe_simulation) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.539553] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:12:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgazebo\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.539639] (doe_simulation) StderrLine: {'line': b'   12 |     void ThrusterDriver::Load(\x1b[01;31m\x1b[Kgazebo\x1b[m\x1b[K::physics::ModelPtr _model, sdf::ElementPtr _sdf)\n'}
+[4.539740] (doe_simulation) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.539832] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:12:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksdf\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.539920] (doe_simulation) StderrLine: {'line': b'   12 | void ThrusterDriver::Load(gazebo::physics::ModelPtr _model, \x1b[01;31m\x1b[Ksdf\x1b[m\x1b[K::ElementPtr _sdf)\n'}
+[4.540005] (doe_simulation) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.540089] (doe_simulation) StderrLine: {'line': b'\n'}
+[4.540176] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:53:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass doe_simulation::ThrusterDriver\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.540267] (doe_simulation) StderrLine: {'line': b'   53 |     void ThrusterDriver::GetRosNamespace(\x1b[01;31m\x1b[Ksdf\x1b[m\x1b[K::ElementPtr ros_sdf)\n'}
+[4.540351] (doe_simulation) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.540435] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:14:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass doe_simulation::ThrusterDriver\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.540522] (doe_simulation) StderrLine: {'line': b'   14 |     class \x1b[01;36m\x1b[KThrusterDriver\x1b[m\x1b[K : public gazebo::ModelPlugin\n'}
+[4.540611] (doe_simulation) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.540692] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:53:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksdf\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.540813] (doe_simulation) StderrLine: {'line': b'   53 |     void ThrusterDriver::GetRosNamespace(\x1b[01;31m\x1b[Ksdf\x1b[m\x1b[K::ElementPtr ros_sdf)\n'}
+[4.540902] (doe_simulation) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.540983] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:80:97:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass doe_simulation::ThrusterDriver\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.541072] (doe_simulation) StderrLine: {'line': b'   80 | etForceCmd(const std_msgs::msg::Float64MultiArray::SharedPtr joint_cmd\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[4.541155] (doe_simulation) StderrLine: {'line': b'      |                                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.541237] (doe_simulation) StderrLine: {'line': b'\n'}
+[4.541319] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:14:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass doe_simulation::ThrusterDriver\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.541404] (doe_simulation) StderrLine: {'line': b'   14 |     class \x1b[01;36m\x1b[KThrusterDriver\x1b[m\x1b[K : public gazebo::ModelPlugin\n'}
+[4.541485] (doe_simulation) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.541568] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:95:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass doe_simulation::ThrusterDriver\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.541653] (doe_simulation) StderrLine: {'line': b'   95 |     void ThrusterDriver::ApplyForce(\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[4.541739] (doe_simulation) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.541821] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:14:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass doe_simulation::ThrusterDriver\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.541906] (doe_simulation) StderrLine: {'line': b'   14 |     class \x1b[01;36m\x1b[KThrusterDriver\x1b[m\x1b[K : public gazebo::ModelPlugin\n'}
+[4.541988] (doe_simulation) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.542068] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:104:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass doe_simulation::ThrusterDriver\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.542154] (doe_simulation) StderrLine: {'line': b'  104 |     void ThrusterDriver::SpinNode(\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[4.542236] (doe_simulation) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.542315] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:14:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass doe_simulation::ThrusterDriver\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.542398] (doe_simulation) StderrLine: {'line': b'   14 |     class \x1b[01;36m\x1b[KThrusterDriver\x1b[m\x1b[K : public gazebo::ModelPlugin\n'}
+[4.542479] (doe_simulation) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.616033] (-) TimerEvent: {}
+[4.716426] (-) TimerEvent: {}
+[4.816837] (-) TimerEvent: {}
+[4.917258] (-) TimerEvent: {}
+[5.017748] (-) TimerEvent: {}
+[5.118177] (-) TimerEvent: {}
+[5.218603] (-) TimerEvent: {}
+[5.318957] (-) TimerEvent: {}
+[5.419285] (-) TimerEvent: {}
+[5.473066] (doe_simulation) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/thruster_driver_plugin.dir/build.make:76: CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o] Error 1\n'}
+[5.473579] (doe_simulation) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/thruster_driver_plugin.dir/all] Error 2\n'}
+[5.473952] (doe_simulation) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.477947] (doe_simulation) CommandEnded: {'returncode': 2}
+[5.519485] (-) TimerEvent: {}
+[5.541459] (doe_simulation) JobEnded: {'identifier': 'doe_simulation', 'rc': 2}
+[5.552326] (-) EventReactorShutdown: {}

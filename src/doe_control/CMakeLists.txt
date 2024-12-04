@@ -21,20 +21,33 @@ find_package(ament_cmake_python REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(rclcpp_components REQUIRED)
 find_package(Eigen3 REQUIRED)
-find_package(triton_interfaces REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
-find_package(OpenCV 4.10 REQUIRED)
+find_package(OpenCV 4.10.0 REQUIRED)
 find_package(tf2 REQUIRED)
 
 # Header files
 include_directories(include)
+include_directories(${OpenCV_INCLUDE_DIRS})
 
+
+# Create cpp executable
 # Do this for every node
 add_executable(thrust_publisher src/thrust_publisher.cpp)
+
+
+
 install(TARGETS thrust_publisher
   DESTINATION lib/${PROJECT_NAME}
+)
+
+ament_target_dependencies(
+  thrust_publisher
+  "rclcpp"
+  "geometry_msgs"
+  "rclcpp_components"
+  "OpenCV"
 )
 
 

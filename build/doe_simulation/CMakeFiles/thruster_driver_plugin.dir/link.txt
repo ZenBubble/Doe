@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -O3 -DNDEBUG -shared -Wl,-soname,libthruster_driver_plugin.so -o libthruster_driver_plugin.so CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o 

@@ -1,0 +1,137 @@
+[0.022s] Invoking command in '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation -- -j20 -l20
+[0.069s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.413s] -- Found ros_gz: 1.0.7 (/opt/ros/jazzy/share/ros_gz/cmake)
+[0.413s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.459s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.472s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.488s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.509s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.624s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.626s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.732s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.837s] -- Found rclcpp_components: 28.1.5 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[0.888s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.948s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.988s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.201s] -- Configuring done (1.1s)
+[1.228s] -- Generating done (0.0s)
+[1.231s] -- Build files have been written to: /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation
+[1.312s] [ 25%] [32mBuilding CXX object CMakeFiles/cpp_executable.dir/src/thruster_driver_plugin.cpp.o[0m
+[1.314s] [ 50%] [32mBuilding CXX object CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o[0m
+[1.661s] In file included from [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:1[m[K:
+[1.661s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:7:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/float64_multi_array.hpp: No such file or directory
+[1.661s]     7 | #include [01;31m[K"std_msgs/msg/float64_multi_array.hpp"[m[K
+[1.661s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.661s] compilation terminated.
+[1.695s] gmake[2]: *** [CMakeFiles/cpp_executable.dir/build.make:76: CMakeFiles/cpp_executable.dir/src/thruster_driver_plugin.cpp.o] Error 1
+[1.695s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/cpp_executable.dir/all] Error 2
+[1.695s] gmake[1]: *** Waiting for unfinished jobs....
+[4.543s] In file included from [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:1[m[K:
+[4.543s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:14:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo[m[K’ has not been declared
+[4.543s]    14 |     class ThrusterDriver : public [01;31m[Kgazebo[m[K::ModelPlugin
+[4.544s]       |                                   [01;31m[K^~~~~~[m[K
+[4.544s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:14:43:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[KModelPlugin[m[K’
+[4.544s]    14 |     class ThrusterDriver : public gazebo::[01;31m[KModelPlugin[m[K
+[4.544s]       |                                           [01;31m[K^~~~~~~~~~~[m[K
+[4.544s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:17:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpublic[m[K’
+[4.545s]    17 |     [01;31m[Kpublic[m[K:
+[4.545s]       |     [01;31m[K^~~~~~[m[K
+[4.545s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:17:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kpublic[m[K’
+[4.545s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:15:5:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[4.545s]    15 |     [01;36m[K{[m[K
+[4.545s]       |     [01;36m[K^[m[K
+[4.545s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:23:30:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+[4.545s]    23 |         ~ThrusterDriver(void)[01;31m[K;[m[K
+[4.545s]       |                              [01;31m[K^[m[K
+[4.545s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:30:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvirtual[m[K’ outside class declaration
+[4.545s]    30 |         [01;31m[Kvirtual[m[K void Load(gazebo::physics::ModelPtr _model, sdf::ElementPtr _sdf);
+[4.545s]       |         [01;31m[K^~~~~~~[m[K
+[4.546s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:30:22:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KLoad[m[K’ declared void
+[4.546s]    30 |         virtual void [01;31m[KLoad[m[K(gazebo::physics::ModelPtr _model, sdf::ElementPtr _sdf);
+[4.546s]       |                      [01;31m[K^~~~[m[K
+[4.546s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:30:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo[m[K’ has not been declared
+[4.546s]    30 |         virtual void Load([01;31m[Kgazebo[m[K::physics::ModelPtr _model, sdf::ElementPtr _sdf);
+[4.546s]       |                           [01;31m[K^~~~~~[m[K
+[4.546s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:30:61:[m[K [01;31m[Kerror: [m[K‘[01m[Ksdf[m[K’ has not been declared
+[4.546s]    30 |         virtual void Load(gazebo::physics::ModelPtr _model, [01;31m[Ksdf[m[K::ElementPtr _sdf);
+[4.546s]       |                                                             [01;31m[K^~~[m[K
+[4.546s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:32:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+[4.546s]    32 |     [01;31m[Kprivate[m[K:
+[4.546s]       |     [01;31m[K^~~~~~~[m[K
+[4.579s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:63:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo[m[K’ does not name a type
+[4.579s]    63 |         [01;31m[Kgazebo[m[K::event::ConnectionPtr updateConnection_;
+[4.579s]       |         [01;31m[K^~~~~~[m[K
+[4.585s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:65:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo[m[K’ was not declared in this scope
+[4.585s]    65 |         std::vector<[01;31m[Kgazebo[m[K::physics::LinkPtr> thruster;
+[4.585s]       |                     [01;31m[K^~~~~~[m[K
+[4.585s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:65:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.585s]    65 |         std::vector<gazebo::physics::LinkPtr[01;31m[K>[m[K thruster;
+[4.585s]       |                                             [01;31m[K^[m[K
+[4.586s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:65:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[4.586s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:75:29:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+[4.586s]    75 |     GZ_REGISTER_MODEL_PLUGIN[01;31m[K([m[KThrusterDriver)
+[4.586s]       |                             [01;31m[K^[m[K
+[4.586s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:77:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[4.586s]    77 | [01;31m[K}[m[K
+[4.586s]       | [01;31m[K^[m[K
+[4.586s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:6:36:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass doe_simulation::ThrusterDriver[m[K’
+[4.586s]     6 |     ThrusterDriver::ThrusterDriver([01;31m[K)[m[K : node{rclcpp::Node::make_shared("thruster_driver")} {}
+[4.586s]       |                                    [01;31m[K^[m[K
+[4.587s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:14:11:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass doe_simulation::ThrusterDriver[m[K’
+[4.587s]    14 |     class [01;36m[KThrusterDriver[m[K : public gazebo::ModelPlugin
+[4.587s]       |           [01;36m[K^~~~~~~~~~~~~~[m[K
+[4.587s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:6:91:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+[4.587s]     6 | hrusterDriver() : node{rclcpp::Node::make_shared("thruster_driver")} [01;31m[K{[m[K}
+[4.587s]       |                                                                      [01;31m[K^[m[K
+[4.587s] 
+[4.587s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:9:37:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass doe_simulation::ThrusterDriver[m[K’
+[4.587s]     9 |     ThrusterDriver::~ThrusterDriver([01;31m[K)[m[K {}
+[4.587s]       |                                     [01;31m[K^[m[K
+[4.587s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:14:11:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass doe_simulation::ThrusterDriver[m[K’
+[4.587s]    14 |     class [01;36m[KThrusterDriver[m[K : public gazebo::ModelPlugin
+[4.587s]       |           [01;36m[K^~~~~~~~~~~~~~[m[K
+[4.588s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:12:31:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass doe_simulation::ThrusterDriver[m[K’
+[4.588s]    12 |     void ThrusterDriver::Load([01;31m[Kgazebo[m[K::physics::ModelPtr _model, sdf::ElementPtr _sdf)
+[4.588s]       |                               [01;31m[K^~~~~~[m[K
+[4.588s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:14:11:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass doe_simulation::ThrusterDriver[m[K’
+[4.588s]    14 |     class [01;36m[KThrusterDriver[m[K : public gazebo::ModelPlugin
+[4.588s]       |           [01;36m[K^~~~~~~~~~~~~~[m[K
+[4.588s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:12:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo[m[K’ has not been declared
+[4.588s]    12 |     void ThrusterDriver::Load([01;31m[Kgazebo[m[K::physics::ModelPtr _model, sdf::ElementPtr _sdf)
+[4.588s]       |                               [01;31m[K^~~~~~[m[K
+[4.588s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:12:65:[m[K [01;31m[Kerror: [m[K‘[01m[Ksdf[m[K’ has not been declared
+[4.588s]    12 | void ThrusterDriver::Load(gazebo::physics::ModelPtr _model, [01;31m[Ksdf[m[K::ElementPtr _sdf)
+[4.588s]       |                                                             [01;31m[K^~~[m[K
+[4.588s] 
+[4.588s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:53:42:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass doe_simulation::ThrusterDriver[m[K’
+[4.589s]    53 |     void ThrusterDriver::GetRosNamespace([01;31m[Ksdf[m[K::ElementPtr ros_sdf)
+[4.589s]       |                                          [01;31m[K^~~[m[K
+[4.589s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:14:11:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass doe_simulation::ThrusterDriver[m[K’
+[4.589s]    14 |     class [01;36m[KThrusterDriver[m[K : public gazebo::ModelPlugin
+[4.589s]       |           [01;36m[K^~~~~~~~~~~~~~[m[K
+[4.589s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:53:42:[m[K [01;31m[Kerror: [m[K‘[01m[Ksdf[m[K’ has not been declared
+[4.589s]    53 |     void ThrusterDriver::GetRosNamespace([01;31m[Ksdf[m[K::ElementPtr ros_sdf)
+[4.589s]       |                                          [01;31m[K^~~[m[K
+[4.589s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:80:97:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass doe_simulation::ThrusterDriver[m[K’
+[4.589s]    80 | etForceCmd(const std_msgs::msg::Float64MultiArray::SharedPtr joint_cmd[01;31m[K)[m[K
+[4.589s]       |                                                                       [01;31m[K^[m[K
+[4.589s] 
+[4.589s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:14:11:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass doe_simulation::ThrusterDriver[m[K’
+[4.590s]    14 |     class [01;36m[KThrusterDriver[m[K : public gazebo::ModelPlugin
+[4.590s]       |           [01;36m[K^~~~~~~~~~~~~~[m[K
+[4.590s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:95:37:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass doe_simulation::ThrusterDriver[m[K’
+[4.590s]    95 |     void ThrusterDriver::ApplyForce([01;31m[K)[m[K
+[4.590s]       |                                     [01;31m[K^[m[K
+[4.590s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:14:11:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass doe_simulation::ThrusterDriver[m[K’
+[4.590s]    14 |     class [01;36m[KThrusterDriver[m[K : public gazebo::ModelPlugin
+[4.590s]       |           [01;36m[K^~~~~~~~~~~~~~[m[K
+[4.590s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:104:35:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass doe_simulation::ThrusterDriver[m[K’
+[4.590s]   104 |     void ThrusterDriver::SpinNode([01;31m[K)[m[K
+[4.590s]       |                                   [01;31m[K^[m[K
+[4.590s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:14:11:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass doe_simulation::ThrusterDriver[m[K’
+[4.590s]    14 |     class [01;36m[KThrusterDriver[m[K : public gazebo::ModelPlugin
+[4.591s]       |           [01;36m[K^~~~~~~~~~~~~~[m[K
+[5.498s] gmake[2]: *** [CMakeFiles/thruster_driver_plugin.dir/build.make:76: CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o] Error 1
+[5.498s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/thruster_driver_plugin.dir/all] Error 2
+[5.498s] gmake: *** [Makefile:146: all] Error 2
+[5.501s] Invoked command in '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation -- -j20 -l20
