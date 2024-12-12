@@ -1,0 +1,304 @@
+[0.022s] Invoking command in '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation -- -j20 -l20
+[0.069s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.388s] -- Found ros_gz: 1.0.7 (/opt/ros/jazzy/share/ros_gz/cmake)
+[0.388s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.417s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.426s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.436s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.449s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.510s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.512s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.595s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.681s] -- Found rclcpp_components: 28.1.5 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[0.708s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.738s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.762s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.794s] -- Looking for gz-plugin2 -- found version 2.0.3
+[0.794s] -- Searching for dependencies of gz-plugin2
+[0.795s] -- Looking for gz-utils2 -- found version 2.2.0
+[0.795s] -- Searching for dependencies of gz-utils2
+[0.795s] -- Searching for <gz-utils2> component [cli]
+[0.796s] -- Looking for gz-utils2-cli -- found version 2.2.0
+[0.796s] -- Searching for dependencies of gz-utils2-cli
+[0.797s] -- Searching for <gz-plugin2> component [register]
+[0.797s] -- Looking for gz-plugin2-register -- found version 2.0.3
+[0.797s] -- Searching for dependencies of gz-plugin2-register
+[0.798s] -- Looking for gz-plugin2 - found
+[0.798s] 
+[0.799s] -- Looking for gz-sim8 -- found version 8.7.0
+[0.799s] -- Searching for dependencies of gz-sim8
+[0.799s] -- Looking for sdformat14 -- found version 14.5.0
+[0.799s] -- Searching for dependencies of sdformat14
+[0.805s] -- Checking for module 'tinyxml2'
+[0.825s] --   Found tinyxml2, version 10.0.0
+[0.879s] -- Looking for gz-math7 -- found version 7.5.1
+[0.880s] -- Searching for dependencies of gz-math7
+[0.880s] -- Looking for gz-utils2 -- found version 2.2.0
+[0.882s] -- Looking for gz-utils2 -- found version 2.2.0
+[0.884s] -- Looking for gz-plugin2 -- found version 2.0.3
+[0.884s] -- Searching for dependencies of gz-plugin2
+[0.885s] -- Looking for gz-utils2 -- found version 2.2.0
+[0.885s] -- Searching for <gz-plugin2> component [loader]
+[0.886s] -- Looking for gz-plugin2-loader -- found version 2.0.3
+[0.886s] -- Searching for dependencies of gz-plugin2-loader
+[0.887s] -- Searching for <gz-plugin2> component [register]
+[0.888s] -- Looking for gz-transport13 -- found version 13.4.0
+[0.888s] -- Searching for dependencies of gz-transport13
+[0.948s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.955s] -- Checking for module 'libzmq >= 4'
+[0.978s] --   Found libzmq, version 4.3.5
+[1.059s] -- Checking for module 'uuid'
+[1.085s] --   Found uuid, version 2.39.3
+[1.151s] -- Looking for gz-utils2 -- found version 2.2.0
+[1.152s] -- Looking for gz-msgs10 -- found version 10.3.1
+[1.152s] -- Searching for dependencies of gz-msgs10
+[1.184s] -- Looking for gz-utils2 -- found version 2.2.0
+[1.185s] -- Looking for gz-math7 -- found version 7.5.1
+[1.432s] -- Searching for <gz-transport13> component [log]
+[1.433s] -- Looking for gz-transport13-log -- found version 13.4.0
+[1.434s] -- Searching for dependencies of gz-transport13-log
+[1.434s] -- Searching for <gz-transport13> component [parameters]
+[1.435s] -- Looking for gz-transport13-parameters -- found version 13.4.0
+[1.435s] -- Searching for dependencies of gz-transport13-parameters
+[1.437s] -- Looking for gz-msgs10 -- found version 10.3.1
+[1.438s] -- Looking for gz-common5 -- found version 5.7.0
+[1.438s] -- Searching for dependencies of gz-common5
+[1.438s] -- Looking for gz-utils2 -- found version 2.2.0
+[1.439s] -- Looking for dlfcn.h - found
+[1.439s] -- Looking for libdl - found
+[1.452s] -- Searching for <gz-common5> component [av]
+[1.453s] -- Looking for gz-common5-av -- found version 5.7.0
+[1.453s] -- Searching for dependencies of gz-common5-av
+[1.463s] -- Checking for module 'libswscale'
+[1.490s] --   Found libswscale, version 7.5.100
+[1.563s] -- Checking for module 'libavdevice >= 56.4.100'
+[1.588s] --   Found libavdevice, version 60.3.100
+[1.677s] -- Checking for module 'libavformat'
+[1.703s] --   Found libavformat, version 60.16.100
+[1.777s] -- Checking for module 'libavcodec'
+[1.803s] --   Found libavcodec, version 60.31.102
+[1.880s] -- Checking for module 'libavutil'
+[1.909s] --   Found libavutil, version 58.29.100
+[1.973s] -- Searching for <gz-common5> component [events]
+[1.973s] -- Looking for gz-common5-events -- found version 5.7.0
+[1.973s] -- Searching for dependencies of gz-common5-events
+[1.974s] -- Looking for gz-math7 -- found version 7.5.1
+[1.975s] -- Searching for <gz-common5> component [graphics]
+[1.976s] -- Looking for gz-common5-graphics -- found version 5.7.0
+[1.976s] -- Searching for dependencies of gz-common5-graphics
+[1.977s] -- Looking for gz-math7 -- found version 7.5.1
+[1.981s] -- Searching for <gz-common5> component [io]
+[1.982s] -- Looking for gz-common5-io -- found version 5.7.0
+[1.983s] -- Searching for dependencies of gz-common5-io
+[1.983s] -- Searching for <gz-common5> component [profiler]
+[1.984s] -- Looking for gz-common5-profiler -- found version 5.7.0
+[1.985s] -- Searching for dependencies of gz-common5-profiler
+[1.986s] -- Looking for gz-fuel_tools9 -- found version 9.1.0
+[1.986s] -- Searching for dependencies of gz-fuel_tools9
+[2.062s] -- Checking for module 'jsoncpp'
+[2.088s] --   Found jsoncpp, version 1.9.5
+[2.177s] -- Checking for module 'yaml-0.1'
+[2.200s] --   Found yaml-0.1, version 0.2.5
+[2.267s] -- Checking for module 'libzip'
+[2.295s] --   Found libzip, version 1.7.3
+[2.355s] -- Looking for gz-utils2 -- found version 2.2.0
+[2.356s] -- Looking for gz-common5 -- found version 5.7.0
+[2.357s] -- Searching for dependencies of gz-common5
+[2.357s] -- Looking for gz-utils2 -- found version 2.2.0
+[2.358s] -- Looking for dlfcn.h - found
+[2.358s] -- Looking for libdl - found
+[2.372s] -- Searching for <gz-common5> component [testing]
+[2.373s] -- Looking for gz-common5-testing -- found version 5.7.0
+[2.373s] -- Searching for dependencies of gz-common5-testing
+[2.376s] -- Looking for gz-math7 -- found version 7.5.1
+[2.376s] -- Looking for gz-msgs10 -- found version 10.3.1
+[2.378s] -- Looking for gz-gui8 -- found version 8.3.0
+[2.378s] -- Searching for dependencies of gz-gui8
+[2.424s] -- Looking for gz-utils2 -- found version 2.2.0
+[2.425s] -- Looking for gz-math7 -- found version 7.5.1
+[2.425s] -- Looking for gz-common5 -- found version 5.7.0
+[2.426s] -- Looking for gz-plugin2 -- found version 2.0.3
+[2.427s] -- Looking for gz-transport13 -- found version 13.4.0
+[2.428s] -- Looking for gz-rendering8 -- found version 8.2.1
+[2.428s] -- Searching for dependencies of gz-rendering8
+[2.429s] -- Looking for gz-math7 -- found version 7.5.1
+[2.429s] -- Searching for dependencies of gz-math7
+[2.430s] -- Looking for gz-utils2 -- found version 2.2.0
+[2.430s] -- Searching for <gz-math7> component [eigen3]
+[2.431s] -- Looking for gz-math7-eigen3 -- found version 7.5.1
+[2.431s] -- Searching for dependencies of gz-math7-eigen3
+[2.434s] -- Looking for gz-common5 -- found version 5.7.0
+[2.434s] -- Searching for dependencies of gz-common5
+[2.435s] -- Looking for gz-utils2 -- found version 2.2.0
+[2.435s] -- Looking for dlfcn.h - found
+[2.435s] -- Looking for libdl - found
+[2.449s] -- Searching for <gz-common5> component [graphics]
+[2.449s] -- Searching for <gz-common5> component [events]
+[2.449s] -- Searching for <gz-common5> component [geospatial]
+[2.450s] -- Looking for gz-common5-geospatial -- found version 5.7.0
+[2.450s] -- Searching for dependencies of gz-common5-geospatial
+[2.451s] -- Looking for gz-math7 -- found version 7.5.1
+[2.452s] -- Looking for gz-common5 -- found version 5.7.0
+[2.453s] -- Looking for gz-plugin2 -- found version 2.0.3
+[2.454s] -- Searching for dependencies of gz-plugin2
+[2.454s] -- Looking for gz-utils2 -- found version 2.2.0
+[2.455s] -- Searching for <gz-plugin2> component [all]
+[2.455s] -- Looking for all libraries of gz-plugin2 -- found version 2.0.3
+[2.456s] -- Looking for gz-plugin2 -- found version 2.0.3
+[2.458s] -- Looking for gz-utils2 -- found version 2.2.0
+[2.463s] -- Looking for gz-msgs10 -- found version 10.3.1
+[2.488s] -- Looking for gz-physics7 -- found version 7.4.0
+[2.489s] -- Searching for dependencies of gz-physics7
+[2.489s] -- Looking for gz-common5 -- found version 5.7.0
+[2.490s] -- Looking for gz-math7 -- found version 7.5.1
+[2.490s] -- Looking for gz-plugin2 -- found version 2.0.3
+[2.491s] -- Looking for gz-utils2 -- found version 2.2.0
+[2.492s] -- Searching for <gz-physics7> component [heightmap]
+[2.493s] -- Looking for gz-physics7-heightmap -- found version 7.4.0
+[2.493s] -- Searching for dependencies of gz-physics7-heightmap
+[2.494s] -- Looking for gz-common5 -- found version 5.7.0
+[2.495s] -- Searching for <gz-physics7> component [mesh]
+[2.495s] -- Looking for gz-physics7-mesh -- found version 7.4.0
+[2.495s] -- Searching for dependencies of gz-physics7-mesh
+[2.496s] -- Looking for gz-common5 -- found version 5.7.0
+[2.497s] -- Searching for <gz-physics7> component [sdf]
+[2.497s] -- Looking for gz-physics7-sdf -- found version 7.4.0
+[2.498s] -- Searching for dependencies of gz-physics7-sdf
+[2.498s] -- Looking for sdformat14 -- found version 14.5.0
+[2.499s] -- Looking for gz-sensors8 -- found version 8.2.1
+[2.500s] -- Searching for dependencies of gz-sensors8
+[2.522s] -- Looking for gz-math7 -- found version 7.5.1
+[2.522s] -- Looking for gz-common5 -- found version 5.7.0
+[2.522s] -- Looking for gz-transport13 -- found version 13.4.0
+[2.523s] -- Looking for gz-rendering8 -- found version 8.2.1
+[2.523s] -- Looking for gz-msgs10 -- found version 10.3.1
+[2.524s] -- Looking for sdformat14 -- found version 14.5.0
+[2.524s] -- Searching for <gz-sensors8> component [air_pressure]
+[2.524s] -- Looking for gz-sensors8-air_pressure -- found version 8.2.1
+[2.525s] -- Searching for dependencies of gz-sensors8-air_pressure
+[2.525s] -- Searching for <gz-sensors8> component [air_speed]
+[2.526s] -- Looking for gz-sensors8-air_speed -- found version 8.2.1
+[2.526s] -- Searching for dependencies of gz-sensors8-air_speed
+[2.527s] -- Searching for <gz-sensors8> component [altimeter]
+[2.527s] -- Looking for gz-sensors8-altimeter -- found version 8.2.1
+[2.527s] -- Searching for dependencies of gz-sensors8-altimeter
+[2.528s] -- Searching for <gz-sensors8> component [imu]
+[2.529s] -- Looking for gz-sensors8-imu -- found version 8.2.1
+[2.529s] -- Searching for dependencies of gz-sensors8-imu
+[2.530s] -- Searching for <gz-sensors8> component [force_torque]
+[2.530s] -- Looking for gz-sensors8-force_torque -- found version 8.2.1
+[2.531s] -- Searching for dependencies of gz-sensors8-force_torque
+[2.531s] -- Searching for <gz-sensors8> component [logical_camera]
+[2.532s] -- Looking for gz-sensors8-logical_camera -- found version 8.2.1
+[2.533s] -- Searching for dependencies of gz-sensors8-logical_camera
+[2.533s] -- Searching for <gz-sensors8> component [magnetometer]
+[2.534s] -- Looking for gz-sensors8-magnetometer -- found version 8.2.1
+[2.534s] -- Searching for dependencies of gz-sensors8-magnetometer
+[2.535s] -- Searching for <gz-sensors8> component [navsat]
+[2.535s] -- Looking for gz-sensors8-navsat -- found version 8.2.1
+[2.536s] -- Searching for dependencies of gz-sensors8-navsat
+[2.536s] -- Searching for <gz-sensors8> component [dvl]
+[2.537s] -- Looking for gz-sensors8-dvl -- found version 8.2.1
+[2.537s] -- Searching for dependencies of gz-sensors8-dvl
+[2.538s] -- Looking for gz-sensors8 -- found version 8.2.1
+[2.538s] -- Searching for dependencies of gz-sensors8
+[2.570s] -- Looking for gz-math7 -- found version 7.5.1
+[2.571s] -- Looking for gz-common5 -- found version 5.7.0
+[2.572s] -- Looking for gz-transport13 -- found version 13.4.0
+[2.572s] -- Looking for gz-rendering8 -- found version 8.2.1
+[2.573s] -- Looking for gz-msgs10 -- found version 10.3.1
+[2.574s] -- Looking for sdformat14 -- found version 14.5.0
+[2.574s] -- Searching for <gz-sensors8> component [rendering]
+[2.574s] -- Looking for gz-sensors8-rendering -- found version 8.2.1
+[2.575s] -- Searching for dependencies of gz-sensors8-rendering
+[2.576s] -- Searching for <gz-sensors8> component [rendering]
+[2.576s] -- Searching for <gz-sensors8> component [lidar]
+[2.577s] -- Looking for gz-sensors8-lidar -- found version 8.2.1
+[2.577s] -- Searching for dependencies of gz-sensors8-lidar
+[2.578s] -- Looking for gz-sensors8 -- found version 8.2.1
+[2.579s] -- Searching for <gz-sensors8> component [gpu_lidar]
+[2.579s] -- Looking for gz-sensors8-gpu_lidar -- found version 8.2.1
+[2.580s] -- Searching for dependencies of gz-sensors8-gpu_lidar
+[2.580s] -- Looking for gz-sensors8 -- found version 8.2.1
+[2.581s] -- Searching for <gz-sensors8> component [camera]
+[2.582s] -- Looking for gz-sensors8-camera -- found version 8.2.1
+[2.582s] -- Searching for dependencies of gz-sensors8-camera
+[2.583s] -- Looking for gz-sensors8 -- found version 8.2.1
+[2.584s] -- Searching for <gz-sensors8> component [boundingbox_camera]
+[2.584s] -- Looking for gz-sensors8-boundingbox_camera -- found version 8.2.1
+[2.585s] -- Searching for dependencies of gz-sensors8-boundingbox_camera
+[2.586s] -- Searching for <gz-sensors8> component [segmentation_camera]
+[2.586s] -- Looking for gz-sensors8-segmentation_camera -- found version 8.2.1
+[2.586s] -- Searching for dependencies of gz-sensors8-segmentation_camera
+[2.587s] -- Searching for <gz-sensors8> component [depth_camera]
+[2.588s] -- Looking for gz-sensors8-depth_camera -- found version 8.2.1
+[2.588s] -- Searching for dependencies of gz-sensors8-depth_camera
+[2.589s] -- Looking for gz-sensors8 -- found version 8.2.1
+[2.590s] -- Searching for <gz-sensors8> component [rgbd_camera]
+[2.591s] -- Looking for gz-sensors8-rgbd_camera -- found version 8.2.1
+[2.591s] -- Searching for dependencies of gz-sensors8-rgbd_camera
+[2.591s] -- Looking for gz-sensors8 -- found version 8.2.1
+[2.592s] -- Searching for <gz-sensors8> component [thermal_camera]
+[2.593s] -- Looking for gz-sensors8-thermal_camera -- found version 8.2.1
+[2.593s] -- Searching for dependencies of gz-sensors8-thermal_camera
+[2.594s] -- Looking for gz-sensors8 -- found version 8.2.1
+[2.595s] -- Searching for <gz-sensors8> component [wide_angle_camera]
+[2.596s] -- Looking for gz-sensors8-wide_angle_camera -- found version 8.2.1
+[2.596s] -- Searching for dependencies of gz-sensors8-wide_angle_camera
+[2.598s] -- Looking for gz-rendering8 -- found version 8.2.1
+[2.598s] -- Looking for gz-math7 -- found version 7.5.1
+[2.599s] -- Looking for gz-utils2 -- found version 2.2.0
+[2.627s] -- Looking for gz-sim8 - found
+[2.628s] 
+[2.761s] -- Configuring done (2.7s)
+[2.857s] -- Generating done (0.1s)
+[2.860s] -- Build files have been written to: /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation
+[2.935s] [ 50%] [32mBuilding CXX object CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o[0m
+[6.074s] In file included from [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:1[m[K:
+[6.074s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:38:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kphysics[m[K’ has not been declared
+[6.075s]    38 |         virtual void Load([01;31m[Kphysics[m[K::ModelPtr _model, sdf::ElementPtr _sdf);
+[6.075s]       |                           [01;31m[K^~~~~~~[m[K
+[6.075s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:38:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K_model[m[K’
+[6.075s]    38 |         virtual void Load(physics::ModelPtr [01;31m[K_model[m[K, sdf::ElementPtr _sdf);
+[6.075s]       |                                             [01;31m[K^~~~~~[m[K
+[6.096s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:71:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kevent[m[K’ does not name a type
+[6.096s]    71 |         [01;31m[Kevent[m[K::ConnectionPtr updateConnection_;
+[6.096s]       |         [01;31m[K^~~~~[m[K
+[6.102s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:73:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kphysics[m[K’ was not declared in this scope
+[6.102s]    73 |         std::vector<[01;31m[Kphysics[m[K::LinkPtr> thruster;
+[6.103s]       |                     [01;31m[K^~~~~~~[m[K
+[6.103s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:73:37:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.103s]    73 |         std::vector<physics::LinkPtr[01;31m[K>[m[K thruster;
+[6.103s]       |                                     [01;31m[K^[m[K
+[6.103s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:73:37:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[6.103s] In file included from [01m[K/opt/ros/jazzy/opt/gz_plugin_vendor/include/gz/plugin2/gz/plugin/Register.hh:22[m[K,
+[6.103s]                  from [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:7[m[K:
+[6.103s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:[m[K In constructor ‘[01m[Kdoe_simulation::gz::plugin::{anonymous}::ExecuteWhenLoadingLibrary0::[01;32m[KExecuteWhenLoadingLibrary0[m[K()[m[K’:
+[6.103s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:83:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[6.103s]    83 |     [01;31m[KGZ_ADD_PLUGIN[m[K(ThrusterDriver)
+[6.103s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[6.103s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:83:5:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[6.103s]    83 |     [01;31m[KGZ_ADD_PLUGIN[m[K(ThrusterDriver)
+[6.103s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[6.104s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:[m[K At global scope:
+[6.104s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:12:10:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KLoad[m[K’ declared void
+[6.104s]    12 |     void [01;31m[KThrusterDriver[m[K::Load(physics::ModelPtr _model, sdf::ElementPtr _sdf)
+[6.104s]       |          [01;31m[K^~~~~~~~~~~~~~[m[K
+[6.104s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:12:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kphysics[m[K’ has not been declared
+[6.104s]    12 |     void ThrusterDriver::Load([01;31m[Kphysics[m[K::ModelPtr _model, sdf::ElementPtr _sdf)
+[6.104s]       |                               [01;31m[K^~~~~~~[m[K
+[6.104s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:12:73:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K_sdf[m[K’
+[6.105s]    12 | id ThrusterDriver::Load(physics::ModelPtr _model, sdf::ElementPtr [01;31m[K_sdf[m[K)
+[6.105s]       |                                                                   [01;31m[K^~~~[m[K
+[6.105s] 
+[6.107s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:[m[K In member function ‘[01m[Kvoid doe_simulation::ThrusterDriver::[01;32m[KApplyForce[m[K()[m[K’:
+[6.107s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:99:27:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[unsigned int][m[K’ for array subscript
+[6.107s]    99 |             this->thruster[01;31m[K[[m[Ki]->AddLinkForce(ignition::math::Vector3d(0, 0, this->thrust_values[i]));
+[6.107s]       |                           [01;31m[K^[m[K
+[6.107s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:99:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kignition[m[K’ has not been declared
+[6.107s]    99 |             this->thruster[i]->AddLinkForce([01;31m[Kignition[m[K::math::Vector3d(0, 0, this->thrust_values[i]));
+[6.107s]       |                                             [01;31m[K^~~~~~~~[m[K
+[7.264s] gmake[2]: *** [CMakeFiles/thruster_driver_plugin.dir/build.make:76: CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o] Error 1
+[7.264s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thruster_driver_plugin.dir/all] Error 2
+[7.265s] gmake: *** [Makefile:166: all] Error 2
+[7.267s] Invoked command in '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation -- -j20 -l20

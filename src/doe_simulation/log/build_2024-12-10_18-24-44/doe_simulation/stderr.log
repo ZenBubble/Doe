@@ -1,0 +1,24 @@
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void doe_simulation::ThrusterDriver::[01;32m[KConfigure[m[K(const gz::sim::v8::Entity&, const std::shared_ptr<const sdf::v14::Element>&, gz::sim::v8::EntityComponentManager&, gz::sim::v8::EventManager&)[m[K’:
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:7:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_entity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    7 | void ThrusterDriver::Configure([01;35m[Kconst Entity &_entity[m[K, const std::shared_ptr<const sdf::Element> &_sdf, EntityComponentManager &_ecm, EventManager &_eventMgr) {
+      |                                [01;35m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:7:128:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_ecm[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    7 | ared_ptr<const sdf::Element> &_sdf, [01;35m[KEntityComponentManager &_ecm[m[K, EventManager &_eventMgr) {
+      |                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:7:148:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_eventMgr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    7 | Element> &_sdf, EntityComponentManager &_ecm, [01;35m[KEventManager &_eventMgr[m[K) {
+      |                                               [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~[m[K
+
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:[m[K At global scope:
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:27:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid doe_simulation::ThrusterDriver::[01;32m[KGetRosNamespace[m[K(sdf::v14::ElementPtr)[m[K’
+   27 | void [01;31m[KThrusterDriver[m[K::GetRosNamespace(sdf::ElementPtr ros_sdf)
+      |      [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:27:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid doe_simulation::ThrusterDriver::[01;32m[KGetRosNamespace[m[K(sdf::v14::ElementPtr)[m[K’
+In file included from [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:1[m[K:
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:19:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass doe_simulation::ThrusterDriver[m[K’ defined here
+   19 |     class [01;36m[KThrusterDriver[m[K: public System, public ISystemConfigure, public ISystemUpdate
+      |           [01;36m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/thruster_driver_plugin.dir/build.make:76: CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thruster_driver_plugin.dir/all] Error 2
+gmake: *** [Makefile:166: all] Error 2

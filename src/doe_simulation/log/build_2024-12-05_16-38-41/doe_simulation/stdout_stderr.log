@@ -1,0 +1,14 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libthruster_driver_plugin.so[0m
+[100%] Built target thruster_driver_plugin
+-- Install configuration: ""
+-- Installing: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/environment/library_path.sh
+-- Installing: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/environment/library_path.dsv
+-- Installing: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/lib/doe_simulation/libthruster_driver_plugin.so
+-- Set non-toolchain portion of runtime path of "/home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/lib/doe_simulation/libthruster_driver_plugin.so" to ""
+[31mCMake Error at cmake_install.cmake:81 (file):
+  file INSTALL cannot find
+  "/home/dorson/Documents/github/Doe/src/doe_simulation/config": No such file
+  or directory.
+
+[0m

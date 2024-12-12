@@ -1,1 +1,1 @@
-rclcpp;ros_gz;geometry_msgs;sensor_msgs;nav_msgs;std_msgs;rclcpp_components;ament_lint_auto;ament_lint_common
+rclcpp;ros_gz;geometry_msgs;sensor_msgs;nav_msgs;std_msgs;rclcpp_components;gz-cmake3;ament_lint_auto;ament_lint_common

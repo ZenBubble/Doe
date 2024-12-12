@@ -1,0 +1,351 @@
+[0.000000] (-) TimerEvent: {}
+[0.000596] (doe_simulation) JobQueued: {'identifier': 'doe_simulation', 'dependencies': OrderedDict()}
+[0.000703] (doe_simulation) JobStarted: {'identifier': 'doe_simulation'}
+[0.008725] (doe_simulation) JobProgress: {'identifier': 'doe_simulation', 'progress': 'cmake'}
+[0.010724] (doe_simulation) JobProgress: {'identifier': 'doe_simulation', 'progress': 'build'}
+[0.010768] (doe_simulation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation', '--', '-j20', '-l20'], 'cwd': '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/lib/doe_simulation:', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/dorson/Documents/github/Doe/src/doe_simulation', 'LANGUAGE': 'en_CA:en', 'USER': 'dorson', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/dorson', 'OLDPWD': '/home/dorson/Documents/github/Doe/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2292', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/dorson/Documents/github/Doe/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'dorson', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dorson', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/dorson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/dorson-AORUS-5-SE:@/tmp/.ICE-unix/2260,unix/dorson-AORUS-5-SE:/tmp/.ICE-unix/2260', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/af85838f_0457_4174_9e14_b443d3006ee4', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.127', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'RCUTILS_COLORIZED_OUTPUT': '1', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.037558] (doe_simulation) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099970] (-) TimerEvent: {}
+[0.200309] (-) TimerEvent: {}
+[0.208879] (doe_simulation) StdoutLine: {'line': b'-- Found ros_gz: 1.0.7 (/opt/ros/jazzy/share/ros_gz/cmake)\n'}
+[0.209193] (doe_simulation) StdoutLine: {'line': b'-- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.236588] (doe_simulation) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.243958] (doe_simulation) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.254945] (doe_simulation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.268763] (doe_simulation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.300539] (-) TimerEvent: {}
+[0.326360] (doe_simulation) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.327881] (doe_simulation) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.380410] (doe_simulation) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400679] (-) TimerEvent: {}
+[0.435144] (doe_simulation) StdoutLine: {'line': b'-- Found rclcpp_components: 28.1.5 (/opt/ros/jazzy/share/rclcpp_components/cmake)\n'}
+[0.457588] (doe_simulation) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.483045] (doe_simulation) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[0.500899] (-) TimerEvent: {}
+[0.501602] (doe_simulation) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[0.527972] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[0.528276] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[0.528741] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[0.528906] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[0.529371] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-utils2> component [cli]\n'}
+[0.529650] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-utils2-cli -- found version 2.2.0\n'}
+[0.529866] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2-cli\n'}
+[0.531049] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [register]\n'}
+[0.531321] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-plugin2-register -- found version 2.0.3\n'}
+[0.531519] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-register\n'}
+[0.531859] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-plugin2 - found\n'}
+[0.531974] (doe_simulation) StdoutLine: {'line': b'\n'}
+[0.532735] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sim8 -- found version 8.7.0\n'}
+[0.532904] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sim8\n'}
+[0.533400] (doe_simulation) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.5.0\n'}
+[0.533579] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of sdformat14\n'}
+[0.537722] (doe_simulation) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[0.552392] (doe_simulation) StdoutLine: {'line': b'--   Found tinyxml2, version 10.0.0\n'}
+[0.601199] (-) TimerEvent: {}
+[0.608686] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[0.609164] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[0.609710] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[0.612267] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[0.614684] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[0.615047] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[0.615742] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[0.615939] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [loader]\n'}
+[0.617108] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-plugin2-loader -- found version 2.0.3\n'}
+[0.617397] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-loader\n'}
+[0.618915] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [register]\n'}
+[0.620644] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.4.0\n'}
+[0.620952] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13\n'}
+[0.662145] (doe_simulation) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[0.665443] (doe_simulation) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[0.678361] (doe_simulation) StdoutLine: {'line': b'--   Found libzmq, version 4.3.5\n'}
+[0.701294] (-) TimerEvent: {}
+[0.761317] (doe_simulation) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[0.788086] (doe_simulation) StdoutLine: {'line': b'--   Found uuid, version 2.39.3\n'}
+[0.801398] (-) TimerEvent: {}
+[0.852514] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[0.854047] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.1\n'}
+[0.854539] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-msgs10\n'}
+[0.883306] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[0.883589] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[0.901637] (-) TimerEvent: {}
+[1.002073] (-) TimerEvent: {}
+[1.023446] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-transport13> component [log]\n'}
+[1.024246] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-transport13-log -- found version 13.4.0\n'}
+[1.024690] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13-log\n'}
+[1.025228] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-transport13> component [parameters]\n'}
+[1.025958] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-transport13-parameters -- found version 13.4.0\n'}
+[1.026165] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13-parameters\n'}
+[1.027844] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.1\n'}
+[1.028832] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[1.029119] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[1.029392] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[1.029707] (doe_simulation) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.029784] (doe_simulation) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.039644] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-common5> component [av]\n'}
+[1.039956] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-common5-av -- found version 5.7.0\n'}
+[1.040036] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-av\n'}
+[1.044948] (doe_simulation) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[1.068900] (doe_simulation) StdoutLine: {'line': b'--   Found libswscale, version 7.5.100\n'}
+[1.102212] (-) TimerEvent: {}
+[1.141214] (doe_simulation) StdoutLine: {'line': b"-- Checking for module 'libavdevice >= 56.4.100'\n"}
+[1.167445] (doe_simulation) StdoutLine: {'line': b'--   Found libavdevice, version 60.3.100\n'}
+[1.202340] (-) TimerEvent: {}
+[1.261041] (doe_simulation) StdoutLine: {'line': b"-- Checking for module 'libavformat'\n"}
+[1.288146] (doe_simulation) StdoutLine: {'line': b'--   Found libavformat, version 60.16.100\n'}
+[1.302514] (-) TimerEvent: {}
+[1.370402] (doe_simulation) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[1.399540] (doe_simulation) StdoutLine: {'line': b'--   Found libavcodec, version 60.31.102\n'}
+[1.402593] (-) TimerEvent: {}
+[1.480681] (doe_simulation) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[1.502772] (-) TimerEvent: {}
+[1.506894] (doe_simulation) StdoutLine: {'line': b'--   Found libavutil, version 58.29.100\n'}
+[1.567437] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[1.568364] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-common5-events -- found version 5.7.0\n'}
+[1.568779] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-events\n'}
+[1.569476] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.571138] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-common5> component [graphics]\n'}
+[1.572060] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-common5-graphics -- found version 5.7.0\n'}
+[1.572429] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-graphics\n'}
+[1.572898] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.578516] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-common5> component [io]\n'}
+[1.579588] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-common5-io -- found version 5.7.0\n'}
+[1.580016] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-io\n'}
+[1.580950] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-common5> component [profiler]\n'}
+[1.581859] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-common5-profiler -- found version 5.7.0\n'}
+[1.582263] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-profiler\n'}
+[1.583921] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-fuel_tools9 -- found version 9.1.0\n'}
+[1.584301] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-fuel_tools9\n'}
+[1.602942] (-) TimerEvent: {}
+[1.628744] (doe_simulation) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.654811] (doe_simulation) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[1.703209] (-) TimerEvent: {}
+[1.735324] (doe_simulation) StdoutLine: {'line': b"-- Checking for module 'yaml-0.1'\n"}
+[1.765063] (doe_simulation) StdoutLine: {'line': b'--   Found yaml-0.1, version 0.2.5\n'}
+[1.803442] (-) TimerEvent: {}
+[1.837864] (doe_simulation) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.864713] (doe_simulation) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[1.903585] (-) TimerEvent: {}
+[1.926038] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[1.926981] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[1.927537] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[1.928125] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[1.928573] (doe_simulation) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.928808] (doe_simulation) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.943412] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-common5> component [testing]\n'}
+[1.944234] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-common5-testing -- found version 5.7.0\n'}
+[1.944579] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-testing\n'}
+[1.946247] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.946685] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.1\n'}
+[1.948543] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-gui8 -- found version 8.3.0\n'}
+[1.948684] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-gui8\n'}
+[1.968925] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[1.969043] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.969679] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[1.969798] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[1.970445] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.4.0\n'}
+[1.971039] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.1\n'}
+[1.971204] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-rendering8\n'}
+[1.971576] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.971671] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[1.972027] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[1.972199] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-math7> component [eigen3]\n'}
+[1.973012] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-math7-eigen3 -- found version 7.5.1\n'}
+[1.973107] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7-eigen3\n'}
+[1.975150] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[1.975393] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[1.975685] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[1.975933] (doe_simulation) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.976072] (doe_simulation) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.987356] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-common5> component [graphics]\n'}
+[1.987647] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[1.987816] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-common5> component [geospatial]\n'}
+[1.988430] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-common5-geospatial -- found version 5.7.0\n'}
+[1.988770] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-geospatial\n'}
+[1.989561] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.990342] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[1.992395] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[1.992816] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[1.993384] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[1.993880] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [all]\n'}
+[1.994363] (doe_simulation) StdoutLine: {'line': b'-- Looking for all libraries of gz-plugin2 -- found version 2.0.3\n'}
+[1.995324] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[1.997286] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[2.003255] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.1\n'}
+[2.003649] (-) TimerEvent: {}
+[2.025413] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-physics7 -- found version 7.4.0\n'}
+[2.025562] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7\n'}
+[2.025748] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[2.026542] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[2.026630] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[2.026671] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[2.027630] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [heightmap]\n'}
+[2.027881] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-physics7-heightmap -- found version 7.4.0\n'}
+[2.028072] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-heightmap\n'}
+[2.028332] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[2.028708] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [mesh]\n'}
+[2.029296] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-physics7-mesh -- found version 7.4.0\n'}
+[2.029385] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-mesh\n'}
+[2.029441] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[2.029905] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [sdf]\n'}
+[2.030396] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-physics7-sdf -- found version 7.4.0\n'}
+[2.030479] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-sdf\n'}
+[2.030637] (doe_simulation) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.5.0\n'}
+[2.031667] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.1\n'}
+[2.031749] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8\n'}
+[2.046610] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[2.046793] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[2.046961] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.4.0\n'}
+[2.047209] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.1\n'}
+[2.047404] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.1\n'}
+[2.047690] (doe_simulation) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.5.0\n'}
+[2.048433] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [air_pressure]\n'}
+[2.048988] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8-air_pressure -- found version 8.2.1\n'}
+[2.049076] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-air_pressure\n'}
+[2.049622] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [air_speed]\n'}
+[2.049785] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8-air_speed -- found version 8.2.1\n'}
+[2.049917] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-air_speed\n'}
+[2.050500] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [altimeter]\n'}
+[2.050769] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8-altimeter -- found version 8.2.1\n'}
+[2.050848] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-altimeter\n'}
+[2.051163] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [imu]\n'}
+[2.051492] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8-imu -- found version 8.2.1\n'}
+[2.051598] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-imu\n'}
+[2.052192] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [force_torque]\n'}
+[2.052590] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8-force_torque -- found version 8.2.1\n'}
+[2.052680] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-force_torque\n'}
+[2.053236] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [logical_camera]\n'}
+[2.053446] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8-logical_camera -- found version 8.2.1\n'}
+[2.053615] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-logical_camera\n'}
+[2.054005] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [magnetometer]\n'}
+[2.054199] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8-magnetometer -- found version 8.2.1\n'}
+[2.054305] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-magnetometer\n'}
+[2.054735] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [navsat]\n'}
+[2.055168] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8-navsat -- found version 8.2.1\n'}
+[2.055276] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-navsat\n'}
+[2.055657] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [dvl]\n'}
+[2.056189] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8-dvl -- found version 8.2.1\n'}
+[2.056323] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-dvl\n'}
+[2.056507] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.1\n'}
+[2.056622] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8\n'}
+[2.071452] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[2.071723] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[2.071925] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.4.0\n'}
+[2.072325] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.1\n'}
+[2.072550] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.1\n'}
+[2.072847] (doe_simulation) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.5.0\n'}
+[2.072970] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rendering]\n'}
+[2.073551] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8-rendering -- found version 8.2.1\n'}
+[2.073655] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-rendering\n'}
+[2.074782] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rendering]\n'}
+[2.074908] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [lidar]\n'}
+[2.074999] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8-lidar -- found version 8.2.1\n'}
+[2.075214] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-lidar\n'}
+[2.075516] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.1\n'}
+[2.076125] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [gpu_lidar]\n'}
+[2.076572] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8-gpu_lidar -- found version 8.2.1\n'}
+[2.076793] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-gpu_lidar\n'}
+[2.076974] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.1\n'}
+[2.077650] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [camera]\n'}
+[2.077952] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8-camera -- found version 8.2.1\n'}
+[2.078103] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-camera\n'}
+[2.078329] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.1\n'}
+[2.078889] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [boundingbox_camera]\n'}
+[2.079526] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8-boundingbox_camera -- found version 8.2.1\n'}
+[2.079659] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-boundingbox_camera\n'}
+[2.080089] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [segmentation_camera]\n'}
+[2.080502] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8-segmentation_camera -- found version 8.2.1\n'}
+[2.080643] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-segmentation_camera\n'}
+[2.080996] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [depth_camera]\n'}
+[2.081489] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8-depth_camera -- found version 8.2.1\n'}
+[2.081644] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-depth_camera\n'}
+[2.081819] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.1\n'}
+[2.082712] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rgbd_camera]\n'}
+[2.083135] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8-rgbd_camera -- found version 8.2.1\n'}
+[2.083329] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-rgbd_camera\n'}
+[2.083556] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.1\n'}
+[2.084139] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [thermal_camera]\n'}
+[2.084523] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8-thermal_camera -- found version 8.2.1\n'}
+[2.084666] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-thermal_camera\n'}
+[2.084850] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.1\n'}
+[2.085319] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [wide_angle_camera]\n'}
+[2.085689] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8-wide_angle_camera -- found version 8.2.1\n'}
+[2.085836] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-wide_angle_camera\n'}
+[2.086623] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.1\n'}
+[2.086767] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[2.087042] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[2.102337] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sim8 - found\n'}
+[2.102451] (doe_simulation) StdoutLine: {'line': b'\n'}
+[2.103747] (-) TimerEvent: {}
+[2.180791] (doe_simulation) StdoutLine: {'line': b'-- Configuring done (2.2s)\n'}
+[2.203932] (-) TimerEvent: {}
+[2.246411] (doe_simulation) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.248046] (doe_simulation) StdoutLine: {'line': b'-- Build files have been written to: /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation\n'}
+[2.304114] (-) TimerEvent: {}
+[2.319781] (doe_simulation) StdoutLine: {'line': b'[100%] Built target thruster_driver_plugin\n'}
+[2.337738] (doe_simulation) CommandEnded: {'returncode': 0}
+[2.393909] (doe_simulation) JobProgress: {'identifier': 'doe_simulation', 'progress': 'install'}
+[2.404230] (-) TimerEvent: {}
+[2.412236] (doe_simulation) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation'], 'cwd': '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/lib/doe_simulation:', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/dorson/Documents/github/Doe/src/doe_simulation', 'LANGUAGE': 'en_CA:en', 'USER': 'dorson', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/dorson', 'OLDPWD': '/home/dorson/Documents/github/Doe/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2292', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/dorson/Documents/github/Doe/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'dorson', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dorson', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/dorson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/dorson-AORUS-5-SE:@/tmp/.ICE-unix/2260,unix/dorson-AORUS-5-SE:/tmp/.ICE-unix/2260', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/af85838f_0457_4174_9e14_b443d3006ee4', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.127', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'RCUTILS_COLORIZED_OUTPUT': '1', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.427025] (doe_simulation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.427219] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/environment/library_path.sh\n'}
+[2.427323] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/environment/library_path.dsv\n'}
+[2.427689] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/lib/doe_simulation/libthruster_driver_plugin.so\n'}
+[2.427859] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation//launch\n'}
+[2.428140] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation//launch/gazebo_launch.py\n'}
+[2.428315] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/worlds\n'}
+[2.428404] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/worlds/cube.world\n'}
+[2.428478] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/worlds/competition.world\n'}
+[2.428549] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/worlds/thruster_test.world\n'}
+[2.428622] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models\n'}
+[2.428691] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/gate\n'}
+[2.428757] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/gate/model.sdf\n'}
+[2.428823] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/gate/model.config\n'}
+[2.428886] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/gate/meshes\n'}
+[2.429019] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/gate/meshes/horCylinderRed.dae\n'}
+[2.429101] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/gate/meshes/vertCylinder.dae\n'}
+[2.429172] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/gate/meshes/horCylinderBlack.dae\n'}
+[2.429297] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/gate/meshes/centrePanel.dae\n'}
+[2.429364] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/gate/meshes/banner.dae\n'}
+[2.429430] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/triton_auv\n'}
+[2.429496] (doe_simulation) StdoutLine: {'line': b'-- Installing: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/triton_auv/model.sdf\n'}
+[2.429564] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/triton_auv/model.config\n'}
+[2.429631] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/triton_frame\n'}
+[2.429694] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/triton_frame/model.sdf\n'}
+[2.429781] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/triton_frame/model.config\n'}
+[2.429848] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/triton_frame/meshes\n'}
+[2.429912] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/triton_frame/meshes/triton_frame.STL\n'}
+[2.429978] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/triton_frame/meshes/triton_frame.dae\n'}
+[2.430105] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/steelhead.sdf\n'}
+[2.430180] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/cube_thruster\n'}
+[2.430245] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/cube_thruster/model.sdf\n'}
+[2.430308] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/cube_thruster/model.config\n'}
+[2.430366] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/triton_thruster\n'}
+[2.430418] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/triton_thruster/model.sdf\n'}
+[2.430477] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/triton_thruster/model.config\n'}
+[2.430530] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/triton_thruster/meshes\n'}
+[2.430584] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/triton_thruster/meshes/triton_thruster.dae\n'}
+[2.430641] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/triton_thruster/meshes/triton_thruster.STL\n'}
+[2.430735] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/cube_auv\n'}
+[2.430792] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/cube_auv/model.sdf\n'}
+[2.430849] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/cube_auv/model.config\n'}
+[2.430904] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/cube_auv/model.urdf\n'}
+[2.430959] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/ament_index/resource_index/package_run_dependencies/doe_simulation\n'}
+[2.431016] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/ament_index/resource_index/parent_prefix_path/doe_simulation\n'}
+[2.431071] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/environment/ament_prefix_path.sh\n'}
+[2.431124] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/environment/ament_prefix_path.dsv\n'}
+[2.431175] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/environment/path.sh\n'}
+[2.431227] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/environment/path.dsv\n'}
+[2.431278] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/local_setup.bash\n'}
+[2.431329] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/local_setup.sh\n'}
+[2.431381] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/local_setup.zsh\n'}
+[2.431433] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/local_setup.dsv\n'}
+[2.431539] (doe_simulation) StdoutLine: {'line': b'-- Installing: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/package.dsv\n'}
+[2.431591] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/ament_index/resource_index/packages/doe_simulation\n'}
+[2.431642] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.431696] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/cmake/doe_simulationConfig.cmake\n'}
+[2.431749] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/cmake/doe_simulationConfig-version.cmake\n'}
+[2.431803] (doe_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/package.xml\n'}
+[2.432344] (doe_simulation) CommandEnded: {'returncode': 0}
+[2.503572] (doe_simulation) JobEnded: {'identifier': 'doe_simulation', 'rc': 0}
+[2.504499] (-) TimerEvent: {}
+[2.504609] (-) EventReactorShutdown: {}

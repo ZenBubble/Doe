@@ -1,0 +1,18 @@
+[0.015s] Invoking command in '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation -- -j20 -l20
+[0.108s] [31mCMake Error at CMakeLists.txt:1 (ucmake_minimum_required):
+[0.109s]   Unknown CMake command "ucmake_minimum_required".
+[0.109s] 
+[0.109s] [0m
+[0.109s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.110s]   No cmake_minimum_required command is present.  A line of code such as
+[0.110s] 
+[0.110s]     cmake_minimum_required(VERSION 3.28)
+[0.110s] 
+[0.110s]   should be added at the top of the file.  The version specified may be lower
+[0.111s]   if you wish to support older CMake versions for this project.  For more
+[0.111s]   information run "cmake --help-policy CMP0000".
+[0.111s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.111s] [0m
+[0.111s] -- Configuring incomplete, errors occurred!
+[0.125s] gmake: *** [Makefile:289: cmake_check_build_system] Error 1
+[0.129s] Invoked command in '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation -- -j20 -l20

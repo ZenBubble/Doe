@@ -1,0 +1,50 @@
+[0.016s] Invoking command in '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation -- -j20 -l20
+[0.143s] [ 50%] [32mBuilding CXX object CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o[0m
+[3.161s] In file included from [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:1[m[K:
+[3.161s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:38:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kgz::physics[m[K’ has not been declared
+[3.161s]    38 |         virtual void Load(gz::[01;31m[Kphysics[m[K::ModelPtr _model, sdf::ElementPtr _sdf);
+[3.161s]       |                               [01;31m[K^~~~~~~[m[K
+[3.161s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:38:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K_model[m[K’
+[3.161s]    38 |         virtual void Load(gz::physics::ModelPtr [01;31m[K_model[m[K, sdf::ElementPtr _sdf);
+[3.161s]       |                                                 [01;31m[K^~~~~~[m[K
+[3.183s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:71:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kevent[m[K’ does not name a type
+[3.183s]    71 |         [01;31m[Kevent[m[K::ConnectionPtr updateConnection_;
+[3.183s]       |         [01;31m[K^~~~~[m[K
+[3.189s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:73:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kphysics[m[K’ was not declared in this scope
+[3.189s]    73 |         std::vector<[01;31m[Kphysics[m[K::LinkPtr> thruster;
+[3.189s]       |                     [01;31m[K^~~~~~~[m[K
+[3.189s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:73:37:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.189s]    73 |         std::vector<physics::LinkPtr[01;31m[K>[m[K thruster;
+[3.190s]       |                                     [01;31m[K^[m[K
+[3.190s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:73:37:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[3.190s] In file included from [01m[K/opt/ros/jazzy/opt/gz_plugin_vendor/include/gz/plugin2/gz/plugin/Register.hh:22[m[K,
+[3.190s]                  from [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:7[m[K:
+[3.190s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:[m[K In constructor ‘[01m[Kdoe_simulation::gz::plugin::{anonymous}::ExecuteWhenLoadingLibrary0::[01;32m[KExecuteWhenLoadingLibrary0[m[K()[m[K’:
+[3.190s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:83:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[3.190s]    83 |     [01;31m[KGZ_ADD_PLUGIN[m[K(ThrusterDriver)
+[3.190s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[3.190s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:83:5:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[3.190s]    83 |     [01;31m[KGZ_ADD_PLUGIN[m[K(ThrusterDriver)
+[3.190s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[3.191s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:[m[K At global scope:
+[3.191s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:12:10:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KLoad[m[K’ declared void
+[3.191s]    12 |     void [01;31m[KThrusterDriver[m[K::Load(physics::ModelPtr _model, sdf::ElementPtr _sdf)
+[3.191s]       |          [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.191s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:12:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kphysics[m[K’ has not been declared
+[3.191s]    12 |     void ThrusterDriver::Load([01;31m[Kphysics[m[K::ModelPtr _model, sdf::ElementPtr _sdf)
+[3.191s]       |                               [01;31m[K^~~~~~~[m[K
+[3.191s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:12:73:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K_sdf[m[K’
+[3.191s]    12 | id ThrusterDriver::Load(physics::ModelPtr _model, sdf::ElementPtr [01;31m[K_sdf[m[K)
+[3.191s]       |                                                                   [01;31m[K^~~~[m[K
+[3.191s] 
+[3.194s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:[m[K In member function ‘[01m[Kvoid doe_simulation::ThrusterDriver::[01;32m[KApplyForce[m[K()[m[K’:
+[3.194s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:99:27:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[unsigned int][m[K’ for array subscript
+[3.194s]    99 |             this->thruster[01;31m[K[[m[Ki]->AddLinkForce(ignition::math::Vector3d(0, 0, this->thrust_values[i]));
+[3.194s]       |                           [01;31m[K^[m[K
+[3.194s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:99:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kignition[m[K’ has not been declared
+[3.194s]    99 |             this->thruster[i]->AddLinkForce([01;31m[Kignition[m[K::math::Vector3d(0, 0, this->thrust_values[i]));
+[3.194s]       |                                             [01;31m[K^~~~~~~~[m[K
+[4.309s] gmake[2]: *** [CMakeFiles/thruster_driver_plugin.dir/build.make:76: CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o] Error 1
+[4.309s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thruster_driver_plugin.dir/all] Error 2
+[4.309s] gmake: *** [Makefile:166: all] Error 2
+[4.311s] Invoked command in '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation -- -j20 -l20

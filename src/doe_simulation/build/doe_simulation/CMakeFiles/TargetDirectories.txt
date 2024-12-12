@@ -1,7 +1,8 @@
 /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation/CMakeFiles/uninstall.dir
 /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation/CMakeFiles/doe_simulation_uninstall.dir
 /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation/CMakeFiles/thruster_driver_plugin.dir
-/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation/CMakeFiles/cpp_executable.dir
+/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation/CMakeFiles/package.dir
+/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation/CMakeFiles/package_source.dir
 /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation/CMakeFiles/test.dir
 /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation/CMakeFiles/edit_cache.dir
 /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation/CMakeFiles/rebuild_cache.dir

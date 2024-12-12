@@ -1,0 +1,76 @@
+[0.009s] Invoking command in '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation -- -j20 -l20
+[0.106s] [ 50%] [32mBuilding CXX object CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o[0m
+[2.206s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void doe_simulation::ThrusterDriver::[01;32m[KConfigure[m[K(const gz::sim::v8::Entity&, const std::shared_ptr<const sdf::v14::Element>&, gz::sim::v8::EntityComponentManager&, gz::sim::v8::EventManager&)[m[K’:
+[2.206s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:7:148:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_eventMgr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.206s]     7 | Element> &_sdf, EntityComponentManager &_ecm, [01;35m[KEventManager &_eventMgr[m[K) {
+[2.206s]       |                                               [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[2.206s] 
+[2.206s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void doe_simulation::ThrusterDriver::[01;32m[KUpdate[m[K(const gz::sim::v8::UpdateInfo&, gz::sim::v8::EntityComponentManager&)[m[K’:
+[2.207s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:18:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_info[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.207s]    18 | void ThrusterDriver::Update([01;35m[Kconst UpdateInfo &_info[m[K, EntityComponentManager &_ecm) {
+[2.207s]       |                             [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[3.598s] [100%] [32m[1mLinking CXX shared library libthruster_driver_plugin.so[0m
+[3.998s] [100%] Built target thruster_driver_plugin
+[4.009s] Invoked command in '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation -- -j20 -l20
+[4.059s] Invoking command in '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation
+[4.070s] -- Install configuration: ""
+[4.070s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/environment/library_path.sh
+[4.070s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/environment/library_path.dsv
+[4.070s] -- Installing: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/lib/doe_simulation/libthruster_driver_plugin.so
+[4.071s] -- Set non-toolchain portion of runtime path of "/home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/lib/doe_simulation/libthruster_driver_plugin.so" to ""
+[4.072s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation//launch
+[4.072s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation//launch/gazebo_launch.py
+[4.072s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/worlds
+[4.072s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/worlds/cube.world
+[4.072s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/worlds/competition.world
+[4.072s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/worlds/thruster_test.world
+[4.072s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models
+[4.072s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/gate
+[4.072s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/gate/model.sdf
+[4.072s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/gate/model.config
+[4.072s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/gate/meshes
+[4.072s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/gate/meshes/horCylinderRed.dae
+[4.072s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/gate/meshes/vertCylinder.dae
+[4.072s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/gate/meshes/horCylinderBlack.dae
+[4.072s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/gate/meshes/centrePanel.dae
+[4.072s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/gate/meshes/banner.dae
+[4.072s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/triton_auv
+[4.072s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/triton_auv/model.sdf
+[4.073s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/triton_auv/model.config
+[4.073s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/triton_frame
+[4.073s] -- Installing: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/triton_frame/model.sdf
+[4.073s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/triton_frame/model.config
+[4.073s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/triton_frame/meshes
+[4.073s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/triton_frame/meshes/triton_frame.STL
+[4.073s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/triton_frame/meshes/triton_frame.dae
+[4.073s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/steelhead.sdf
+[4.073s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/cube_thruster
+[4.073s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/cube_thruster/model.sdf
+[4.073s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/cube_thruster/model.config
+[4.073s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/triton_thruster
+[4.073s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/triton_thruster/model.sdf
+[4.073s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/triton_thruster/model.config
+[4.073s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/triton_thruster/meshes
+[4.073s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/triton_thruster/meshes/triton_thruster.dae
+[4.073s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/triton_thruster/meshes/triton_thruster.STL
+[4.073s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/cube_auv
+[4.073s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/cube_auv/model.sdf
+[4.073s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/cube_auv/model.config
+[4.074s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/gazebo/models/cube_auv/model.urdf
+[4.074s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/ament_index/resource_index/package_run_dependencies/doe_simulation
+[4.074s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/ament_index/resource_index/parent_prefix_path/doe_simulation
+[4.074s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/environment/ament_prefix_path.sh
+[4.074s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/environment/ament_prefix_path.dsv
+[4.074s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/environment/path.sh
+[4.074s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/environment/path.dsv
+[4.074s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/local_setup.bash
+[4.074s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/local_setup.sh
+[4.074s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/local_setup.zsh
+[4.074s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/local_setup.dsv
+[4.074s] -- Installing: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/package.dsv
+[4.074s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/ament_index/resource_index/packages/doe_simulation
+[4.074s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/cmake/ament_cmake_export_libraries-extras.cmake
+[4.074s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/cmake/doe_simulationConfig.cmake
+[4.074s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/cmake/doe_simulationConfig-version.cmake
+[4.074s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/share/doe_simulation/package.xml
+[4.076s] Invoked command in '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation

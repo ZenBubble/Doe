@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="doe_control.xmllint"
+  tests="2"
+  errors="0"
+  failures="0"
+  time="0.328"
+>
+  <testcase
+    name="package.xml"
+    classname="doe_control.xmllint"/>
+  <testcase
+    name="install/doe_control/share/doe_control/package.xml"
+    classname="doe_control.xmllint"/>
+  <system-out>Checked files:
+* package.xml
+* install/doe_control/share/doe_control/package.xml</system-out>
+</testsuite>

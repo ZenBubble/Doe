@@ -1,0 +1,504 @@
+[0.000000] (-) TimerEvent: {}
+[0.000447] (doe_control) JobQueued: {'identifier': 'doe_control', 'dependencies': OrderedDict({'doe_control': '/home/dorson/Documents/github/Doe/src/doe_control/install/doe_control'})}
+[0.000481] (doe_control) JobStarted: {'identifier': 'doe_control'}
+[0.027235] (doe_control) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/dorson/Documents/github/Doe/src/doe_simulation', 'LANGUAGE': 'en_CA:en', 'USER': 'dorson', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/dorson', 'OLDPWD': '/home/dorson/Documents/github/Doe/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2301', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/dorson/Documents/github/Doe/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'dorson', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dorson', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/dorson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/dorson-AORUS-5-SE:@/tmp/.ICE-unix/2257,unix/dorson-AORUS-5-SE:/tmp/.ICE-unix/2257', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9d237324_e028_4989_8504_30cc26c1f102', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.210', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/dorson/Documents/github/Doe/src/doe_control/install/doe_control:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'RCUTILS_COLORIZED_OUTPUT': '1', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/dorson/Documents/github/Doe/src/doe_control/install/doe_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.035270] (doe_control) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/CTestConfiguration.ini\n'}
+[0.035655] (doe_control) StdoutLine: {'line': b'Parse Config file:/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/CTestConfiguration.ini\n'}
+[0.035799] (doe_control) StdoutLine: {'line': b'   Site: dorson-AORUS-5-SE\n'}
+[0.035931] (doe_control) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.036133] (doe_control) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.036266] (doe_control) StdoutLine: {'line': b'Create new tag: 20241204-0226 - Experimental\n'}
+[0.036393] (doe_control) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/CTestConfiguration.ini\n'}
+[0.036520] (doe_control) StdoutLine: {'line': b'Parse Config file:/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/CTestConfiguration.ini\n'}
+[0.036647] (doe_control) StdoutLine: {'line': b'Test project /home/dorson/Documents/github/Doe/src/doe_control/build/doe_control\n'}
+[0.036775] (doe_control) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.037073] (doe_control) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.037228] (doe_control) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.037358] (doe_control) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.037483] (doe_control) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.037612] (doe_control) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.037742] (doe_control) StdoutLine: {'line': b'test 1\n'}
+[0.037871] (doe_control) StdoutLine: {'line': b'    Start 1: cppcheck\n'}
+[0.038014] (doe_control) StdoutLine: {'line': b'\n'}
+[0.038158] (doe_control) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/cppcheck.xunit.xml" "--package-name" "doe_control" "--output-file" "/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/jazzy/bin/ament_cppcheck" "--xunit-file" "/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/cppcheck.xunit.xml" "--include_dirs" "/home/dorson/Documents/github/Doe/src/doe_control/include"\n'}
+[0.038304] (doe_control) StdoutLine: {'line': b'1: Working Directory: /home/dorson/Documents/github/Doe/src/doe_control\n'}
+[0.038435] (doe_control) StdoutLine: {'line': b'1: Test timeout computed to be: 300\n'}
+[0.093287] (doe_control) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/dorson/Documents/github/Doe/src/doe_control':\n"}
+[0.093440] (doe_control) StdoutLine: {'line': b'1:  - /opt/ros/jazzy/bin/ament_cppcheck --xunit-file /home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/cppcheck.xunit.xml --include_dirs /home/dorson/Documents/github/Doe/src/doe_control/include\n'}
+[0.100010] (-) TimerEvent: {}
+[0.161761] (doe_control) StdoutLine: {'line': b'1: cppcheck 2.13.0 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.\n'}
+[0.169778] (doe_control) StdoutLine: {'line': b'1: -- run_test.py: return code 0\n'}
+[0.169920] (doe_control) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/cppcheck.xunit.xml'\n"}
+[0.176507] (doe_control) StdoutLine: {'line': b'1/6 Test #1: cppcheck .........................   Passed    0.14 sec\n'}
+[0.176650] (doe_control) StdoutLine: {'line': b'test 2\n'}
+[0.176723] (doe_control) StdoutLine: {'line': b'    Start 2: flake8\n'}
+[0.176790] (doe_control) StdoutLine: {'line': b'\n'}
+[0.176857] (doe_control) StdoutLine: {'line': b'2: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/flake8.xunit.xml" "--package-name" "doe_control" "--output-file" "/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/ament_flake8/flake8.txt" "--command" "/opt/ros/jazzy/bin/ament_flake8" "--xunit-file" "/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/flake8.xunit.xml"\n'}
+[0.176933] (doe_control) StdoutLine: {'line': b'2: Working Directory: /home/dorson/Documents/github/Doe/src/doe_control\n'}
+[0.177117] (doe_control) StdoutLine: {'line': b'2: Test timeout computed to be: 60\n'}
+[0.200181] (-) TimerEvent: {}
+[0.216770] (doe_control) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/dorson/Documents/github/Doe/src/doe_control':\n"}
+[0.216874] (doe_control) StdoutLine: {'line': b'2:  - /opt/ros/jazzy/bin/ament_flake8 --xunit-file /home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/flake8.xunit.xml\n'}
+[0.300265] (-) TimerEvent: {}
+[0.400533] (-) TimerEvent: {}
+[0.439371] (doe_control) StdoutLine: {'line': b'2: \n'}
+[0.439513] (doe_control) StdoutLine: {'line': b'2: 2 files checked\n'}
+[0.439563] (doe_control) StdoutLine: {'line': b'2: No problems found\n'}
+[0.439608] (doe_control) StdoutLine: {'line': b'2: \n'}
+[0.439648] (doe_control) StdoutLine: {'line': b'2: Checked files:\n'}
+[0.439687] (doe_control) StdoutLine: {'line': b'2: \n'}
+[0.439725] (doe_control) StdoutLine: {'line': b'2: * ./install/_local_setup_util_ps1.py\n'}
+[0.439764] (doe_control) StdoutLine: {'line': b'2: * ./install/_local_setup_util_sh.py\n'}
+[0.456994] (doe_control) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[0.457139] (doe_control) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/flake8.xunit.xml'\n"}
+[0.463653] (doe_control) StdoutLine: {'line': b'2/6 Test #2: flake8 ...........................   Passed    0.29 sec\n'}
+[0.463772] (doe_control) StdoutLine: {'line': b'test 3\n'}
+[0.463834] (doe_control) StdoutLine: {'line': b'    Start 3: lint_cmake\n'}
+[0.463882] (doe_control) StdoutLine: {'line': b'\n'}
+[0.463923] (doe_control) StdoutLine: {'line': b'3: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/lint_cmake.xunit.xml" "--package-name" "doe_control" "--output-file" "/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/lint_cmake.xunit.xml"\n'}
+[0.463984] (doe_control) StdoutLine: {'line': b'3: Working Directory: /home/dorson/Documents/github/Doe/src/doe_control\n'}
+[0.464032] (doe_control) StdoutLine: {'line': b'3: Test timeout computed to be: 60\n'}
+[0.500646] (-) TimerEvent: {}
+[0.505893] (doe_control) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/dorson/Documents/github/Doe/src/doe_control':\n"}
+[0.506015] (doe_control) StdoutLine: {'line': b'3:  - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/lint_cmake.xunit.xml\n'}
+[0.565944] (doe_control) StdoutLine: {'line': b'3: \n'}
+[0.566075] (doe_control) StdoutLine: {'line': b'3: No problems found\n'}
+[0.573656] (doe_control) StdoutLine: {'line': b'3: -- run_test.py: return code 0\n'}
+[0.573785] (doe_control) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/lint_cmake.xunit.xml'\n"}
+[0.579907] (doe_control) StdoutLine: {'line': b'3/6 Test #3: lint_cmake .......................   Passed    0.12 sec\n'}
+[0.580005] (doe_control) StdoutLine: {'line': b'test 4\n'}
+[0.580051] (doe_control) StdoutLine: {'line': b'    Start 4: pep257\n'}
+[0.580094] (doe_control) StdoutLine: {'line': b'\n'}
+[0.580135] (doe_control) StdoutLine: {'line': b'4: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/pep257.xunit.xml" "--package-name" "doe_control" "--output-file" "/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/ament_pep257/pep257.txt" "--command" "/opt/ros/jazzy/bin/ament_pep257" "--xunit-file" "/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/pep257.xunit.xml"\n'}
+[0.580181] (doe_control) StdoutLine: {'line': b'4: Working Directory: /home/dorson/Documents/github/Doe/src/doe_control\n'}
+[0.580219] (doe_control) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[0.600829] (-) TimerEvent: {}
+[0.628842] (doe_control) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/dorson/Documents/github/Doe/src/doe_control':\n"}
+[0.629049] (doe_control) StdoutLine: {'line': b'4:  - /opt/ros/jazzy/bin/ament_pep257 --xunit-file /home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/pep257.xunit.xml\n'}
+[0.700938] (-) TimerEvent: {}
+[0.740189] (doe_control) StdoutLine: {'line': b'4: checking ./install/_local_setup_util_ps1.py\n'}
+[0.740324] (doe_control) StdoutLine: {'line': b'4: checking ./install/_local_setup_util_sh.py\n'}
+[0.740371] (doe_control) StdoutLine: {'line': b'4: No problems found\n'}
+[0.751271] (doe_control) StdoutLine: {'line': b'4: -- run_test.py: return code 0\n'}
+[0.751376] (doe_control) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/pep257.xunit.xml'\n"}
+[0.757520] (doe_control) StdoutLine: {'line': b'4/6 Test #4: pep257 ...........................   Passed    0.18 sec\n'}
+[0.757616] (doe_control) StdoutLine: {'line': b'test 5\n'}
+[0.757660] (doe_control) StdoutLine: {'line': b'    Start 5: uncrustify\n'}
+[0.757701] (doe_control) StdoutLine: {'line': b'\n'}
+[0.757743] (doe_control) StdoutLine: {'line': b'5: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/uncrustify.xunit.xml" "--package-name" "doe_control" "--output-file" "/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/jazzy/bin/ament_uncrustify" "--xunit-file" "/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/uncrustify.xunit.xml"\n'}
+[0.757786] (doe_control) StdoutLine: {'line': b'5: Working Directory: /home/dorson/Documents/github/Doe/src/doe_control\n'}
+[0.757824] (doe_control) StdoutLine: {'line': b'5: Test timeout computed to be: 60\n'}
+[0.799401] (doe_control) StdoutLine: {'line': b"5: -- run_test.py: invoking following command in '/home/dorson/Documents/github/Doe/src/doe_control':\n"}
+[0.799523] (doe_control) StdoutLine: {'line': b'5:  - /opt/ros/jazzy/bin/ament_uncrustify --xunit-file /home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/uncrustify.xunit.xml\n'}
+[0.801113] (-) TimerEvent: {}
+[0.883811] (doe_control) StdoutLine: {'line': b"5: Code style divergence in file 'include/doe_control/thrust_publisher.hpp':\n"}
+[0.884088] (doe_control) StdoutLine: {'line': b'5: \n'}
+[0.884936] (doe_control) StdoutLine: {'line': b'5: --- include/doe_control/thrust_publisher.hpp\n'}
+[0.885101] (doe_control) StdoutLine: {'line': b'5: +++ include/doe_control/thrust_publisher.hpp.uncrustify\n'}
+[0.885202] (doe_control) StdoutLine: {'line': b'5: @@ -17,2 +17,2 @@\n'}
+[0.885297] (doe_control) StdoutLine: {'line': b'5: -    class ThrustPublisher: public rclcpp::Node\n'}
+[0.885389] (doe_control) StdoutLine: {'line': b'5: -    {\n'}
+[0.885477] (doe_control) StdoutLine: {'line': b'5: +class ThrustPublisher : public rclcpp::Node\n'}
+[0.885566] (doe_control) StdoutLine: {'line': b'5: +{\n'}
+[0.885654] (doe_control) StdoutLine: {'line': b'5: @@ -20,2 +20 @@\n'}
+[0.885740] (doe_control) StdoutLine: {'line': b'5: -    public:\n'}
+[0.885826] (doe_control) StdoutLine: {'line': b'5: -\n'}
+[0.885912] (doe_control) StdoutLine: {'line': b'5: +public:\n'}
+[0.886005] (doe_control) StdoutLine: {'line': b'5: @@ -29 +28 @@\n'}
+[0.886093] (doe_control) StdoutLine: {'line': b'5: -        explicit ThrustPublisher(const rclcpp::NodeOptions & options);\n'}
+[0.886179] (doe_control) StdoutLine: {'line': b'5: +  explicit ThrustPublisher(const rclcpp::NodeOptions & options);\n'}
+[0.886262] (doe_control) StdoutLine: {'line': b'5: @@ -31,2 +30 @@\n'}
+[0.886345] (doe_control) StdoutLine: {'line': b'5: -    private:\n'}
+[0.886430] (doe_control) StdoutLine: {'line': b'5: -\n'}
+[0.886513] (doe_control) StdoutLine: {'line': b'5: +private:\n'}
+[0.886594] (doe_control) StdoutLine: {'line': b'5: @@ -43 +41 @@\n'}
+[0.886675] (doe_control) StdoutLine: {'line': b'5: -        void wrenchCallback(const geometry_msgs::msg::Wrench::SharedPtr msg) const;\n'}
+[0.886984] (doe_control) StdoutLine: {'line': b'5: +  void wrenchCallback(const geometry_msgs::msg::Wrench::SharedPtr msg) const;\n'}
+[0.887086] (doe_control) StdoutLine: {'line': b'5: @@ -51 +49 @@\n'}
+[0.887177] (doe_control) StdoutLine: {'line': b'5: -        std::vector<double> cross(std::vector<double> r,std::vector<double> F);\n'}
+[0.887268] (doe_control) StdoutLine: {'line': b'5: +  std::vector<double> cross(std::vector<double> r, std::vector<double> F);\n'}
+[0.887356] (doe_control) StdoutLine: {'line': b'5: @@ -58 +56 @@\n'}
+[0.887442] (doe_control) StdoutLine: {'line': b'5: -        std::vector<std::vector<double>> createAllocMat();\n'}
+[0.887536] (doe_control) StdoutLine: {'line': b'5: +  std::vector<std::vector<double>> createAllocMat();\n'}
+[0.887620] (doe_control) StdoutLine: {'line': b'5: @@ -67 +65 @@\n'}
+[0.887704] (doe_control) StdoutLine: {'line': b'5: -        uint32_t forceToLevel(double force) const;\n'}
+[0.887787] (doe_control) StdoutLine: {'line': b'5: +  uint32_t forceToLevel(double force) const;\n'}
+[0.887871] (doe_control) StdoutLine: {'line': b'5: @@ -69,2 +67,2 @@\n'}
+[0.887954] (doe_control) StdoutLine: {'line': b'5: -        rclcpp::Publisher<std_msgs::msg::Float64MultiArray>::SharedPtr forces_pub_;\n'}
+[0.888049] (doe_control) StdoutLine: {'line': b'5: -        rclcpp::Publisher<std_msgs::msg::UInt32>::SharedPtr signals_pub_;\n'}
+[0.888137] (doe_control) StdoutLine: {'line': b'5: +  rclcpp::Publisher<std_msgs::msg::Float64MultiArray>::SharedPtr forces_pub_;\n'}
+[0.888220] (doe_control) StdoutLine: {'line': b'5: +  rclcpp::Publisher<std_msgs::msg::UInt32>::SharedPtr signals_pub_;\n'}
+[0.888308] (doe_control) StdoutLine: {'line': b'5: @@ -72 +70 @@\n'}
+[0.888390] (doe_control) StdoutLine: {'line': b'5: -        rclcpp::Subscription<geometry_msgs::msg::Wrench>::SharedPtr forces_sub_;\n'}
+[0.888477] (doe_control) StdoutLine: {'line': b'5: +  rclcpp::Subscription<geometry_msgs::msg::Wrench>::SharedPtr forces_sub_;\n'}
+[0.888564] (doe_control) StdoutLine: {'line': b'5: @@ -74 +72 @@\n'}
+[0.888652] (doe_control) StdoutLine: {'line': b'5: -        cv::Mat pinv_alloc_;\n'}
+[0.888743] (doe_control) StdoutLine: {'line': b'5: +  cv::Mat pinv_alloc_;\n'}
+[0.888835] (doe_control) StdoutLine: {'line': b'5: @@ -76,12 +74,12 @@\n'}
+[0.888925] (doe_control) StdoutLine: {'line': b'5: -        int num_thrusters_ = 0;\n'}
+[0.889020] (doe_control) StdoutLine: {'line': b'5: -        int bits_per_thruster_ = 0;\n'}
+[0.889115] (doe_control) StdoutLine: {'line': b'5: -        int encode_levels_ = 0;\n'}
+[0.889205] (doe_control) StdoutLine: {'line': b'5: -        double max_fwd_ = 0;\n'}
+[0.889294] (doe_control) StdoutLine: {'line': b'5: -        double max_rev_ = 0;\n'}
+[0.889383] (doe_control) StdoutLine: {'line': b'5: -        std::vector<double> x_lens_;\n'}
+[0.889468] (doe_control) StdoutLine: {'line': b'5: -        std::vector<double> y_lens_;\n'}
+[0.889558] (doe_control) StdoutLine: {'line': b'5: -        std::vector<double> z_lens_;\n'}
+[0.889645] (doe_control) StdoutLine: {'line': b'5: -        std::vector<double> x_contribs_;\n'}
+[0.889733] (doe_control) StdoutLine: {'line': b'5: -        std::vector<double> y_contribs_;\n'}
+[0.889819] (doe_control) StdoutLine: {'line': b'5: -        std::vector<double> z_contribs_;\n'}
+[0.889906] (doe_control) StdoutLine: {'line': b'5: -    };\n'}
+[0.890004] (doe_control) StdoutLine: {'line': b'5: +  int num_thrusters_ = 0;\n'}
+[0.890096] (doe_control) StdoutLine: {'line': b'5: +  int bits_per_thruster_ = 0;\n'}
+[0.890185] (doe_control) StdoutLine: {'line': b'5: +  int encode_levels_ = 0;\n'}
+[0.890270] (doe_control) StdoutLine: {'line': b'5: +  double max_fwd_ = 0;\n'}
+[0.890357] (doe_control) StdoutLine: {'line': b'5: +  double max_rev_ = 0;\n'}
+[0.890441] (doe_control) StdoutLine: {'line': b'5: +  std::vector<double> x_lens_;\n'}
+[0.890524] (doe_control) StdoutLine: {'line': b'5: +  std::vector<double> y_lens_;\n'}
+[0.890605] (doe_control) StdoutLine: {'line': b'5: +  std::vector<double> z_lens_;\n'}
+[0.890684] (doe_control) StdoutLine: {'line': b'5: +  std::vector<double> x_contribs_;\n'}
+[0.890770] (doe_control) StdoutLine: {'line': b'5: +  std::vector<double> y_contribs_;\n'}
+[0.890850] (doe_control) StdoutLine: {'line': b'5: +  std::vector<double> z_contribs_;\n'}
+[0.890929] (doe_control) StdoutLine: {'line': b'5: +};\n'}
+[0.891015] (doe_control) StdoutLine: {'line': b'5: \n'}
+[0.891098] (doe_control) StdoutLine: {'line': b"5: Code style divergence in file 'src/thrust_publisher.cpp':\n"}
+[0.891181] (doe_control) StdoutLine: {'line': b'5: \n'}
+[0.891260] (doe_control) StdoutLine: {'line': b'5: --- src/thrust_publisher.cpp\n'}
+[0.891340] (doe_control) StdoutLine: {'line': b'5: +++ src/thrust_publisher.cpp.uncrustify\n'}
+[0.891421] (doe_control) StdoutLine: {'line': b'5: @@ -7,2 +7,2 @@\n'}
+[0.891501] (doe_control) StdoutLine: {'line': b'5: -    ThrustPublisher::ThrustPublisher(const rclcpp::NodeOptions & options) :\n'}
+[0.891583] (doe_control) StdoutLine: {'line': b'5: -    Node ("thrust_publisher", options),\n'}
+[0.891662] (doe_control) StdoutLine: {'line': b'5: +ThrustPublisher::ThrustPublisher(const rclcpp::NodeOptions & options)\n'}
+[0.891742] (doe_control) StdoutLine: {'line': b'5: +:Node ("thrust_publisher", options),\n'}
+[0.891813] (doe_control) StdoutLine: {'line': b'5: @@ -10,3 +10,3 @@\n'}
+[0.891887] (doe_control) StdoutLine: {'line': b'5: -        x_lens_ (SUPPORTED_THRUSTERS, 0),\n'}
+[0.891959] (doe_control) StdoutLine: {'line': b'5: -        y_lens_ (SUPPORTED_THRUSTERS, 0),\n'}
+[0.892043] (doe_control) StdoutLine: {'line': b'5: -        z_lens_ (SUPPORTED_THRUSTERS, 0),\n'}
+[0.892120] (doe_control) StdoutLine: {'line': b'5: +  x_lens_ (SUPPORTED_THRUSTERS, 0),\n'}
+[0.892192] (doe_control) StdoutLine: {'line': b'5: +  y_lens_ (SUPPORTED_THRUSTERS, 0),\n'}
+[0.892265] (doe_control) StdoutLine: {'line': b'5: +  z_lens_ (SUPPORTED_THRUSTERS, 0),\n'}
+[0.892337] (doe_control) StdoutLine: {'line': b'5: @@ -14,9 +14,9 @@\n'}
+[0.892410] (doe_control) StdoutLine: {'line': b'5: -        x_contribs_ (SUPPORTED_THRUSTERS, 0),\n'}
+[0.892484] (doe_control) StdoutLine: {'line': b'5: -        y_contribs_ (SUPPORTED_THRUSTERS, 0),\n'}
+[0.892556] (doe_control) StdoutLine: {'line': b'5: -        z_contribs_ (SUPPORTED_THRUSTERS, 0)\n'}
+[0.892629] (doe_control) StdoutLine: {'line': b'5: -    {\n'}
+[0.892698] (doe_control) StdoutLine: {'line': b'5: -        this->declare_parameter<int>("num_thrusters", num_thrusters_);\n'}
+[0.892769] (doe_control) StdoutLine: {'line': b'5: -        if (num_thrusters_ > SUPPORTED_THRUSTERS)\n'}
+[0.892838] (doe_control) StdoutLine: {'line': b'5: -        {\n'}
+[0.892907] (doe_control) StdoutLine: {'line': b'5: -            RCLCPP_ERROR(this->get_logger(), "Number of thrusters is greater than supported thruster count");\n'}
+[0.892981] (doe_control) StdoutLine: {'line': b'5: -        }\n'}
+[0.893053] (doe_control) StdoutLine: {'line': b'5: +  x_contribs_ (SUPPORTED_THRUSTERS, 0),\n'}
+[0.893121] (doe_control) StdoutLine: {'line': b'5: +  y_contribs_ (SUPPORTED_THRUSTERS, 0),\n'}
+[0.893190] (doe_control) StdoutLine: {'line': b'5: +  z_contribs_ (SUPPORTED_THRUSTERS, 0)\n'}
+[0.893256] (doe_control) StdoutLine: {'line': b'5: +{\n'}
+[0.893324] (doe_control) StdoutLine: {'line': b'5: +  this->declare_parameter<int>("num_thrusters", num_thrusters_);\n'}
+[0.893390] (doe_control) StdoutLine: {'line': b'5: +  if (num_thrusters_ > SUPPORTED_THRUSTERS) {\n'}
+[0.893461] (doe_control) StdoutLine: {'line': b'5: +    RCLCPP_ERROR(this->get_logger(),\n'}
+[0.893529] (doe_control) StdoutLine: {'line': b'5: +        "Number of thrusters is greater than supported thruster count");\n'}
+[0.893598] (doe_control) StdoutLine: {'line': b'5: +  }\n'}
+[0.893668] (doe_control) StdoutLine: {'line': b'5: @@ -24,2 +24,2 @@\n'}
+[0.893735] (doe_control) StdoutLine: {'line': b'5: -        this->declare_parameter<int>("bits_per_thruster", bits_per_thruster_);\n'}
+[0.893805] (doe_control) StdoutLine: {'line': b'5: -        this->get_parameter("bits_per_thruster", bits_per_thruster_);\n'}
+[0.893873] (doe_control) StdoutLine: {'line': b'5: +  this->declare_parameter<int>("bits_per_thruster", bits_per_thruster_);\n'}
+[0.893944] (doe_control) StdoutLine: {'line': b'5: +  this->get_parameter("bits_per_thruster", bits_per_thruster_);\n'}
+[0.894021] (doe_control) StdoutLine: {'line': b'5: @@ -27,6 +27,6 @@\n'}
+[0.894091] (doe_control) StdoutLine: {'line': b'5: -        this->declare_parameter<double>("max_fwd", max_fwd_);\n'}
+[0.894159] (doe_control) StdoutLine: {'line': b'5: -        this->get_parameter("max_fwd", max_fwd_);\n'}
+[0.894230] (doe_control) StdoutLine: {'line': b'5: -        max_fwd_ *= 9.807; // kgf to N\n'}
+[0.894297] (doe_control) StdoutLine: {'line': b'5: -        this->declare_parameter<double>("max_rev", max_rev_);\n'}
+[0.894356] (doe_control) StdoutLine: {'line': b'5: -        max_rev_ *= 9.807; // kgf to N\n'}
+[0.894411] (doe_control) StdoutLine: {'line': b'5: -        this->get_parameter("max_rev", max_rev_);\n'}
+[0.894466] (doe_control) StdoutLine: {'line': b'5: +  this->declare_parameter<double>("max_fwd", max_fwd_);\n'}
+[0.894522] (doe_control) StdoutLine: {'line': b'5: +  this->get_parameter("max_fwd", max_fwd_);\n'}
+[0.894578] (doe_control) StdoutLine: {'line': b'5: +  max_fwd_ *= 9.807;       // kgf to N\n'}
+[0.894633] (doe_control) StdoutLine: {'line': b'5: +  this->declare_parameter<double>("max_rev", max_rev_);\n'}
+[0.894690] (doe_control) StdoutLine: {'line': b'5: +  max_rev_ *= 9.807;       // kgf to N\n'}
+[0.894749] (doe_control) StdoutLine: {'line': b'5: +  this->get_parameter("max_rev", max_rev_);\n'}
+[0.894803] (doe_control) StdoutLine: {'line': b'5: @@ -34 +34 @@\n'}
+[0.894858] (doe_control) StdoutLine: {'line': b'5: -        encode_levels_ = pow(2,bits_per_thruster_);\n'}
+[0.894913] (doe_control) StdoutLine: {'line': b'5: +  encode_levels_ = pow(2, bits_per_thruster_);\n'}
+[0.894972] (doe_control) StdoutLine: {'line': b'5: @@ -36 +36,2 @@\n'}
+[0.895033] (doe_control) StdoutLine: {'line': b'5: -        std::string names[SUPPORTED_THRUSTERS] = {"thruster1", "thruster2", "thruster3", "thruster4", "thruster5", "thruster6", "thruster8", "thruster9", "thruster10"};\n'}
+[0.895091] (doe_control) StdoutLine: {'line': b'5: +  std::string names[SUPPORTED_THRUSTERS] = {"thruster1", "thruster2", "thruster3", "thruster4",\n'}
+[0.895150] (doe_control) StdoutLine: {'line': b'5: +    "thruster5", "thruster6", "thruster8", "thruster9", "thruster10"};\n'}
+[0.895207] (doe_control) StdoutLine: {'line': b'5: @@ -38,8 +39,7 @@\n'}
+[0.895263] (doe_control) StdoutLine: {'line': b'5: -        for (int i = 0; i < SUPPORTED_THRUSTERS; i++)\n'}
+[0.895319] (doe_control) StdoutLine: {'line': b'5: -        {\n'}
+[0.895373] (doe_control) StdoutLine: {'line': b'5: -            this->declare_parameter(names[i]+".contrib.x", x_contribs_[i]);\n'}
+[0.895428] (doe_control) StdoutLine: {'line': b'5: -            this->declare_parameter(names[i]+".contrib.y", y_contribs_[i]);\n'}
+[0.895484] (doe_control) StdoutLine: {'line': b'5: -            this->declare_parameter(names[i]+".contrib.z", z_contribs_[i]);\n'}
+[0.895540] (doe_control) StdoutLine: {'line': b'5: -            this->declare_parameter(names[i]+".lx", x_lens_[i]);\n'}
+[0.895594] (doe_control) StdoutLine: {'line': b'5: -            this->declare_parameter(names[i]+".ly", y_lens_[i]);\n'}
+[0.895648] (doe_control) StdoutLine: {'line': b'5: -            this->declare_parameter(names[i]+".lz", z_lens_[i]);\n'}
+[0.895704] (doe_control) StdoutLine: {'line': b'5: +  for (int i = 0; i < SUPPORTED_THRUSTERS; i++) {\n'}
+[0.895760] (doe_control) StdoutLine: {'line': b'5: +    this->declare_parameter(names[i] + ".contrib.x", x_contribs_[i]);\n'}
+[0.895818] (doe_control) StdoutLine: {'line': b'5: +    this->declare_parameter(names[i] + ".contrib.y", y_contribs_[i]);\n'}
+[0.895875] (doe_control) StdoutLine: {'line': b'5: +    this->declare_parameter(names[i] + ".contrib.z", z_contribs_[i]);\n'}
+[0.895934] (doe_control) StdoutLine: {'line': b'5: +    this->declare_parameter(names[i] + ".lx", x_lens_[i]);\n'}
+[0.896003] (doe_control) StdoutLine: {'line': b'5: +    this->declare_parameter(names[i] + ".ly", y_lens_[i]);\n'}
+[0.896063] (doe_control) StdoutLine: {'line': b'5: +    this->declare_parameter(names[i] + ".lz", z_lens_[i]);\n'}
+[0.896121] (doe_control) StdoutLine: {'line': b'5: @@ -47,8 +47,8 @@\n'}
+[0.896179] (doe_control) StdoutLine: {'line': b'5: -            this->get_parameter(names[i]+".contrib.x", x_contribs_[i]);\n'}
+[0.896236] (doe_control) StdoutLine: {'line': b'5: -            this->get_parameter(names[i]+".contrib.y", y_contribs_[i]);\n'}
+[0.896287] (doe_control) StdoutLine: {'line': b'5: -            this->get_parameter(names[i]+".contrib.z", z_contribs_[i]);\n'}
+[0.896336] (doe_control) StdoutLine: {'line': b'5: -            this->get_parameter(names[i]+".lx", x_lens_[i]);\n'}
+[0.896386] (doe_control) StdoutLine: {'line': b'5: -            this->get_parameter(names[i]+".ly", y_lens_[i]);\n'}
+[0.896436] (doe_control) StdoutLine: {'line': b'5: -            this->get_parameter(names[i]+".lz", z_lens_[i]);\n'}
+[0.896483] (doe_control) StdoutLine: {'line': b'5: -        }\n'}
+[0.896533] (doe_control) StdoutLine: {'line': b'5: -        std::vector<std::vector<double>> alloc_vec =  createAllocMat();\n'}
+[0.896582] (doe_control) StdoutLine: {'line': b'5: +    this->get_parameter(names[i] + ".contrib.x", x_contribs_[i]);\n'}
+[0.896632] (doe_control) StdoutLine: {'line': b'5: +    this->get_parameter(names[i] + ".contrib.y", y_contribs_[i]);\n'}
+[0.896681] (doe_control) StdoutLine: {'line': b'5: +    this->get_parameter(names[i] + ".contrib.z", z_contribs_[i]);\n'}
+[0.896730] (doe_control) StdoutLine: {'line': b'5: +    this->get_parameter(names[i] + ".lx", x_lens_[i]);\n'}
+[0.896778] (doe_control) StdoutLine: {'line': b'5: +    this->get_parameter(names[i] + ".ly", y_lens_[i]);\n'}
+[0.896827] (doe_control) StdoutLine: {'line': b'5: +    this->get_parameter(names[i] + ".lz", z_lens_[i]);\n'}
+[0.896875] (doe_control) StdoutLine: {'line': b'5: +  }\n'}
+[0.896924] (doe_control) StdoutLine: {'line': b'5: +  std::vector<std::vector<double>> alloc_vec = createAllocMat();\n'}
+[0.896976] (doe_control) StdoutLine: {'line': b'5: @@ -56,4 +56,6 @@\n'}
+[0.897029] (doe_control) StdoutLine: {'line': b'5: -        cv::Mat alloc_mat (alloc_vec.size(), alloc_vec[0].size(), CV_64FC1);\n'}
+[0.897078] (doe_control) StdoutLine: {'line': b'5: -        for (int i = 0; i < alloc_mat.rows; i++)\n'}
+[0.897126] (doe_control) StdoutLine: {'line': b'5: -            for (int j = 0; j < alloc_mat.cols; j++)\n'}
+[0.897176] (doe_control) StdoutLine: {'line': b'5: -                alloc_mat.at<double>(i,j) = alloc_vec[i][j];\n'}
+[0.897224] (doe_control) StdoutLine: {'line': b'5: +  cv::Mat alloc_mat (alloc_vec.size(), alloc_vec[0].size(), CV_64FC1);\n'}
+[0.897273] (doe_control) StdoutLine: {'line': b'5: +  for (int i = 0; i < alloc_mat.rows; i++) {\n'}
+[0.897322] (doe_control) StdoutLine: {'line': b'5: +    for (int j = 0; j < alloc_mat.cols; j++) {\n'}
+[0.897369] (doe_control) StdoutLine: {'line': b'5: +      alloc_mat.at<double>(i, j) = alloc_vec[i][j];\n'}
+[0.897418] (doe_control) StdoutLine: {'line': b'5: +    }\n'}
+[0.897467] (doe_control) StdoutLine: {'line': b'5: +  }\n'}
+[0.897516] (doe_control) StdoutLine: {'line': b'5: @@ -64 +66 @@\n'}
+[0.897564] (doe_control) StdoutLine: {'line': b'5: -        cv::invert(alloc_mat, pinv_alloc_, cv::DECOMP_SVD);\n'}
+[0.897612] (doe_control) StdoutLine: {'line': b'5: +  cv::invert(alloc_mat, pinv_alloc_, cv::DECOMP_SVD);\n'}
+[0.897661] (doe_control) StdoutLine: {'line': b'5: @@ -66 +68 @@\n'}
+[0.897710] (doe_control) StdoutLine: {'line': b'5: -        forces_pub_ = this->create_publisher<std_msgs::msg::Float64MultiArray>("output_forces", 10);\n'}
+[0.897760] (doe_control) StdoutLine: {'line': b'5: +  forces_pub_ = this->create_publisher<std_msgs::msg::Float64MultiArray>("output_forces", 10);\n'}
+[0.897808] (doe_control) StdoutLine: {'line': b'5: @@ -68 +70 @@\n'}
+[0.897855] (doe_control) StdoutLine: {'line': b'5: -        signals_pub_ = this->create_publisher<std_msgs::msg::UInt32>("signals", 10);\n'}
+[0.897905] (doe_control) StdoutLine: {'line': b'5: +  signals_pub_ = this->create_publisher<std_msgs::msg::UInt32>("signals", 10);\n'}
+[0.897952] (doe_control) StdoutLine: {'line': b'5: @@ -70 +72,2 @@\n'}
+[0.898010] (doe_control) StdoutLine: {'line': b'5: -        forces_sub_ = this->create_subscription<geometry_msgs::msg::Wrench>("input_forces", 10, std::bind(&ThrustPublisher::wrenchCallback, this, _1));\n'}
+[0.898061] (doe_control) StdoutLine: {'line': b'5: +  forces_sub_ = this->create_subscription<geometry_msgs::msg::Wrench>("input_forces", 10,\n'}
+[0.898110] (doe_control) StdoutLine: {'line': b'5: +      std::bind(&ThrustPublisher::wrenchCallback, this, _1));\n'}
+[0.898158] (doe_control) StdoutLine: {'line': b'5: @@ -72 +75 @@\n'}
+[0.898206] (doe_control) StdoutLine: {'line': b'5: -        RCLCPP_INFO(this->get_logger(), "Thrust Allocator succesfully started!");\n'}
+[0.898254] (doe_control) StdoutLine: {'line': b'5: +  RCLCPP_INFO(this->get_logger(), "Thrust Allocator succesfully started!");\n'}
+[0.898634] (doe_control) StdoutLine: {'line': b'5: @@ -74 +77 @@\n'}
+[0.898700] (doe_control) StdoutLine: {'line': b'5: -    }\n'}
+[0.898738] (doe_control) StdoutLine: {'line': b'5: +}\n'}
+[0.898777] (doe_control) StdoutLine: {'line': b'5: @@ -77,7 +80,7 @@\n'}
+[0.898814] (doe_control) StdoutLine: {'line': b'5: -    void ThrustPublisher::wrenchCallback(const geometry_msgs::msg::Wrench::SharedPtr msg) const\n'}
+[0.898851] (doe_control) StdoutLine: {'line': b'5: -    {\n'}
+[0.898888] (doe_control) StdoutLine: {'line': b'5: -        double tau_arr[6] =\n'}
+[0.898925] (doe_control) StdoutLine: {'line': b'5: -        {\n'}
+[0.898962] (doe_control) StdoutLine: {'line': b'5: -            msg->force.x, msg->force.y, msg->force.z,\n'}
+[0.899005] (doe_control) StdoutLine: {'line': b'5: -            msg->torque.x, msg->torque.y, msg->torque.z,\n'}
+[0.899043] (doe_control) StdoutLine: {'line': b'5: -        };\n'}
+[0.899078] (doe_control) StdoutLine: {'line': b'5: +void ThrustPublisher::wrenchCallback(const geometry_msgs::msg::Wrench::SharedPtr msg) const\n'}
+[0.899115] (doe_control) StdoutLine: {'line': b'5: +{\n'}
+[0.899150] (doe_control) StdoutLine: {'line': b'5: +  double tau_arr[6] =\n'}
+[0.899186] (doe_control) StdoutLine: {'line': b'5: +  {\n'}
+[0.899222] (doe_control) StdoutLine: {'line': b'5: +    msg->force.x, msg->force.y, msg->force.z,\n'}
+[0.899257] (doe_control) StdoutLine: {'line': b'5: +    msg->torque.x, msg->torque.y, msg->torque.z,\n'}
+[0.899294] (doe_control) StdoutLine: {'line': b'5: +  };\n'}
+[0.899331] (doe_control) StdoutLine: {'line': b'5: @@ -85,3 +88,4 @@\n'}
+[0.899367] (doe_control) StdoutLine: {'line': b'5: -        cv::Mat tau_mat (6, 1, CV_64F);\n'}
+[0.899403] (doe_control) StdoutLine: {'line': b'5: -        for (int i = 0; i < 6; i++)\n'}
+[0.899440] (doe_control) StdoutLine: {'line': b'5: -            tau_mat.at<double>(i, 0) = tau_arr[i];\n'}
+[0.899476] (doe_control) StdoutLine: {'line': b'5: +  cv::Mat tau_mat (6, 1, CV_64F);\n'}
+[0.899512] (doe_control) StdoutLine: {'line': b'5: +  for (int i = 0; i < 6; i++) {\n'}
+[0.899548] (doe_control) StdoutLine: {'line': b'5: +    tau_mat.at<double>(i, 0) = tau_arr[i];\n'}
+[0.899587] (doe_control) StdoutLine: {'line': b'5: +  }\n'}
+[0.899624] (doe_control) StdoutLine: {'line': b'5: @@ -89 +93 @@\n'}
+[0.899659] (doe_control) StdoutLine: {'line': b'5: -        cv::Mat thrust_mat =  pinv_alloc_*tau_mat;\n'}
+[0.899696] (doe_control) StdoutLine: {'line': b'5: +  cv::Mat thrust_mat = pinv_alloc_ * tau_mat;\n'}
+[0.899732] (doe_control) StdoutLine: {'line': b'5: @@ -91,6 +95,5 @@\n'}
+[0.899769] (doe_control) StdoutLine: {'line': b'5: -        std::vector<double> thrust;\n'}
+[0.899805] (doe_control) StdoutLine: {'line': b'5: -        uint32_t signal = 0;\n'}
+[0.899843] (doe_control) StdoutLine: {'line': b'5: -        for (int i = 0; i < num_thrusters_ ; i++)\n'}
+[0.899878] (doe_control) StdoutLine: {'line': b'5: -        {\n'}
+[0.899914] (doe_control) StdoutLine: {'line': b'5: -            double thruster_thrust = thrust_mat.at<double>(i,0);\n'}
+[0.899949] (doe_control) StdoutLine: {'line': b'5: -            thrust.push_back(thruster_thrust);\n'}
+[0.899989] (doe_control) StdoutLine: {'line': b'5: +  std::vector<double> thrust;\n'}
+[0.900323] (doe_control) StdoutLine: {'line': b'5: +  uint32_t signal = 0;\n'}
+[0.900366] (doe_control) StdoutLine: {'line': b'5: +  for (int i = 0; i < num_thrusters_ ; i++) {\n'}
+[0.900403] (doe_control) StdoutLine: {'line': b'5: +    double thruster_thrust = thrust_mat.at<double>(i, 0);\n'}
+[0.900436] (doe_control) StdoutLine: {'line': b'5: +    thrust.push_back(thruster_thrust);\n'}
+[0.900469] (doe_control) StdoutLine: {'line': b'5: @@ -98,2 +101,2 @@\n'}
+[0.900503] (doe_control) StdoutLine: {'line': b'5: -            uint32_t t_level = forceToLevel(thruster_thrust);\n'}
+[0.900536] (doe_control) StdoutLine: {'line': b'5: -            uint32_t t_bits = t_level << (bits_per_thruster_ * i);\n'}
+[0.900570] (doe_control) StdoutLine: {'line': b'5: +    uint32_t t_level = forceToLevel(thruster_thrust);\n'}
+[0.900602] (doe_control) StdoutLine: {'line': b'5: +    uint32_t t_bits = t_level << (bits_per_thruster_ * i);\n'}
+[0.900633] (doe_control) StdoutLine: {'line': b'5: @@ -101,2 +104,2 @@\n'}
+[0.900666] (doe_control) StdoutLine: {'line': b'5: -            signal |= t_bits;\n'}
+[0.900698] (doe_control) StdoutLine: {'line': b'5: -        }\n'}
+[0.900731] (doe_control) StdoutLine: {'line': b'5: +    signal |= t_bits;\n'}
+[0.900763] (doe_control) StdoutLine: {'line': b'5: +  }\n'}
+[0.900795] (doe_control) StdoutLine: {'line': b'5: @@ -105 +108 @@\n'}
+[0.900826] (doe_control) StdoutLine: {'line': b'5: -        signal |= 0b10101010000000000000000000000000;\n'}
+[0.900858] (doe_control) StdoutLine: {'line': b'5: +  signal |= 0b10101010000000000000000000000000;\n'}
+[0.900891] (doe_control) StdoutLine: {'line': b'5: @@ -108,6 +111,31 @@\n'}
+[0.900922] (doe_control) StdoutLine: {'line': b'5: -        auto forces_msg = std_msgs::msg::Float64MultiArray();\n'}
+[0.900954] (doe_control) StdoutLine: {'line': b'5: -        forces_msg.data = thrust;\n'}
+[0.900996] (doe_control) StdoutLine: {'line': b'5: -        forces_pub_->publish(forces_msg);\n'}
+[0.901036] (doe_control) StdoutLine: {'line': b'5: -        auto signal_msg = std_msgs::msg::UInt32();\n'}
+[0.901071] (doe_control) StdoutLine: {'line': b'5: -        signal_msg.data = signal;\n'}
+[0.901104] (doe_control) StdoutLine: {'line': b'5: -        signals_pub_->publish(signal_msg);\n'}
+[0.901133] (-) TimerEvent: {}
+[0.901185] (doe_control) StdoutLine: {'line': b'5: +  auto forces_msg = std_msgs::msg::Float64MultiArray();\n'}
+[0.901225] (doe_control) StdoutLine: {'line': b'5: +  forces_msg.data = thrust;\n'}
+[0.901259] (doe_control) StdoutLine: {'line': b'5: +  forces_pub_->publish(forces_msg);\n'}
+[0.901290] (doe_control) StdoutLine: {'line': b'5: +  auto signal_msg = std_msgs::msg::UInt32();\n'}
+[0.901323] (doe_control) StdoutLine: {'line': b'5: +  signal_msg.data = signal;\n'}
+[0.901354] (doe_control) StdoutLine: {'line': b'5: +  signals_pub_->publish(signal_msg);\n'}
+[0.901387] (doe_control) StdoutLine: {'line': b'5: +}\n'}
+[0.901419] (doe_control) StdoutLine: {'line': b'5: +\n'}
+[0.901451] (doe_control) StdoutLine: {'line': b'5: +std::vector<double> ThrustPublisher::cross(std::vector<double> r, std::vector<double> F)\n'}
+[0.901484] (doe_control) StdoutLine: {'line': b'5: +{\n'}
+[0.901514] (doe_control) StdoutLine: {'line': b'5: +  std::vector<double> tau;\n'}
+[0.901545] (doe_control) StdoutLine: {'line': b'5: +  tau.push_back(r[1] * F[2] - r[2] * F[1]);\n'}
+[0.901579] (doe_control) StdoutLine: {'line': b'5: +  tau.push_back(r[2] * F[0] - r[0] * F[2]);\n'}
+[0.901612] (doe_control) StdoutLine: {'line': b'5: +  tau.push_back(r[0] * F[1] - r[1] * F[0]);\n'}
+[0.901646] (doe_control) StdoutLine: {'line': b'5: +  return tau;\n'}
+[0.901680] (doe_control) StdoutLine: {'line': b'5: +}\n'}
+[0.901712] (doe_control) StdoutLine: {'line': b'5: +\n'}
+[0.901744] (doe_control) StdoutLine: {'line': b'5: +std::vector<std::vector<double>> ThrustPublisher::createAllocMat()\n'}
+[0.901775] (doe_control) StdoutLine: {'line': b'5: +{\n'}
+[0.901807] (doe_control) StdoutLine: {'line': b'5: +  std::vector<std::vector<double>> alloc_mat;\n'}
+[0.901839] (doe_control) StdoutLine: {'line': b'5: +  for (int i = 0; i < num_thrusters_; i++) {\n'}
+[0.901877] (doe_control) StdoutLine: {'line': b'5: +    std::vector<double> F = {x_contribs_[i], y_contribs_[i], z_contribs_[i]};\n'}
+[0.901908] (doe_control) StdoutLine: {'line': b'5: +    std::vector<double> r = {x_lens_[i], y_lens_[i], z_lens_[i]};\n'}
+[0.901939] (doe_control) StdoutLine: {'line': b'5: +    std::vector<double> tau = cross(r, F);\n'}
+[0.901974] (doe_control) StdoutLine: {'line': b'5: +    F.insert(F.end(), tau.begin(), tau.end());\n'}
+[0.902011] (doe_control) StdoutLine: {'line': b'5: +    alloc_mat.push_back(F);\n'}
+[0.902043] (doe_control) StdoutLine: {'line': b'5: +  }\n'}
+[0.902075] (doe_control) StdoutLine: {'line': b'5: +  std::vector<std::vector<double>> alloc_mat_trans(6, std::vector<double>(num_thrusters_));\n'}
+[0.902107] (doe_control) StdoutLine: {'line': b'5: +  for(int i = 0; i < num_thrusters_; ++i) {\n'}
+[0.902139] (doe_control) StdoutLine: {'line': b'5: +    for(int j = 0; j < 6; ++j) {\n'}
+[0.902170] (doe_control) StdoutLine: {'line': b'5: +      alloc_mat_trans[j][i] = alloc_mat[i][j];\n'}
+[0.902202] (doe_control) StdoutLine: {'line': b'5: @@ -114,0 +143,3 @@\n'}
+[0.902233] (doe_control) StdoutLine: {'line': b'5: +  }\n'}
+[0.902263] (doe_control) StdoutLine: {'line': b'5: +  return alloc_mat_trans;\n'}
+[0.902294] (doe_control) StdoutLine: {'line': b'5: +}\n'}
+[0.902324] (doe_control) StdoutLine: {'line': b'5: @@ -116,7 +147,17 @@\n'}
+[0.902355] (doe_control) StdoutLine: {'line': b'5: -    std::vector<double> ThrustPublisher::cross(std::vector<double> r,std::vector<double> F){\n'}
+[0.902387] (doe_control) StdoutLine: {'line': b'5: -        std::vector<double> tau;\n'}
+[0.902418] (doe_control) StdoutLine: {'line': b'5: -        tau.push_back(r[1]*F[2] - r[2]*F[1]);\n'}
+[0.902450] (doe_control) StdoutLine: {'line': b'5: -        tau.push_back(r[2]*F[0] - r[0]*F[2]);\n'}
+[0.902482] (doe_control) StdoutLine: {'line': b'5: -        tau.push_back(r[0]*F[1] - r[1]*F[0]);\n'}
+[0.902513] (doe_control) StdoutLine: {'line': b'5: -        return tau;\n'}
+[0.902547] (doe_control) StdoutLine: {'line': b'5: -    }\n'}
+[0.902580] (doe_control) StdoutLine: {'line': b'5: +uint32_t ThrustPublisher::forceToLevel(double force) const\n'}
+[0.902619] (doe_control) StdoutLine: {'line': b'5: +{\n'}
+[0.902653] (doe_control) StdoutLine: {'line': b'5: +  uint32_t t_level;\n'}
+[0.902686] (doe_control) StdoutLine: {'line': b'5: +  if (force < 0.1 && force > -0.1) {\n'}
+[0.902719] (doe_control) StdoutLine: {'line': b'5: +    force = 0;\n'}
+[0.902749] (doe_control) StdoutLine: {'line': b'5: +  }\n'}
+[0.902781] (doe_control) StdoutLine: {'line': b'5: +  if (force >= 0) {\n'}
+[0.902814] (doe_control) StdoutLine: {'line': b'5: +            // levels 0 to 15 (0 is no force)\n'}
+[0.902845] (doe_control) StdoutLine: {'line': b'5: +    t_level = (uint32_t) (std::ceil(std::min(force,\n'}
+[0.902892] (doe_control) StdoutLine: {'line': b'5: +        max_fwd_) / max_fwd_ * (encode_levels_ / 2 - 1)));\n'}
+[0.902923] (doe_control) StdoutLine: {'line': b'5: +        // turn to levels 16 to 31\n'}
+[0.902956] (doe_control) StdoutLine: {'line': b'5: +    t_level += encode_levels_ / 2;\n'}
+[0.902994] (doe_control) StdoutLine: {'line': b'5: +  } else {\n'}
+[0.903026] (doe_control) StdoutLine: {'line': b'5: +            // levels 0 to 16 (0 is max rev, 16 is no force)\n'}
+[0.903062] (doe_control) StdoutLine: {'line': b'5: +    t_level = (uint32_t) (16 - std::ceil(std::max(force,\n'}
+[0.903095] (doe_control) StdoutLine: {'line': b'5: +        -max_rev_) / -max_rev_ * (encode_levels_ / 2)));\n'}
+[0.903126] (doe_control) StdoutLine: {'line': b'5: +  }\n'}
+[0.903159] (doe_control) StdoutLine: {'line': b'5: @@ -124,42 +165,3 @@\n'}
+[0.903190] (doe_control) StdoutLine: {'line': b'5: -    std::vector<std::vector<double>> ThrustPublisher::createAllocMat(){\n'}
+[0.903221] (doe_control) StdoutLine: {'line': b'5: -        std::vector<std::vector<double>> alloc_mat;\n'}
+[0.903252] (doe_control) StdoutLine: {'line': b'5: -        for (int i = 0; i < num_thrusters_; i++){\n'}
+[0.903282] (doe_control) StdoutLine: {'line': b'5: -            std::vector<double> F = {x_contribs_[i], y_contribs_[i], z_contribs_[i]};\n'}
+[0.903316] (doe_control) StdoutLine: {'line': b'5: -            std::vector<double> r = {x_lens_[i], y_lens_[i], z_lens_[i]};\n'}
+[0.903348] (doe_control) StdoutLine: {'line': b'5: -            std::vector<double> tau = cross(r, F);\n'}
+[0.903380] (doe_control) StdoutLine: {'line': b'5: -            F.insert(F.end(), tau.begin(), tau.end());\n'}
+[0.903411] (doe_control) StdoutLine: {'line': b'5: -            alloc_mat.push_back(F);\n'}
+[0.903442] (doe_control) StdoutLine: {'line': b'5: -        }\n'}
+[0.903472] (doe_control) StdoutLine: {'line': b'5: -        std::vector<std::vector<double>> alloc_mat_trans(6, std::vector<double>(num_thrusters_));\n'}
+[0.903503] (doe_control) StdoutLine: {'line': b'5: -        for(int i = 0; i < num_thrusters_; ++i){\n'}
+[0.903534] (doe_control) StdoutLine: {'line': b'5: -            for(int j = 0; j < 6; ++j){\n'}
+[0.903566] (doe_control) StdoutLine: {'line': b'5: -                alloc_mat_trans[j][i]=alloc_mat[i][j];\n'}
+[0.903597] (doe_control) StdoutLine: {'line': b'5: -            }\n'}
+[0.903628] (doe_control) StdoutLine: {'line': b'5: -        }\n'}
+[0.903658] (doe_control) StdoutLine: {'line': b'5: -        return alloc_mat_trans;\n'}
+[0.903689] (doe_control) StdoutLine: {'line': b'5: -    }\n'}
+[0.903721] (doe_control) StdoutLine: {'line': b'5: -\n'}
+[0.903752] (doe_control) StdoutLine: {'line': b'5: -    uint32_t ThrustPublisher::forceToLevel(double force) const{\n'}
+[0.903783] (doe_control) StdoutLine: {'line': b'5: -        uint32_t t_level;\n'}
+[0.903814] (doe_control) StdoutLine: {'line': b'5: -        if (force < 0.1 && force > -0.1)\n'}
+[0.903845] (doe_control) StdoutLine: {'line': b'5: -        {\n'}
+[0.903877] (doe_control) StdoutLine: {'line': b'5: -            force = 0;\n'}
+[0.903910] (doe_control) StdoutLine: {'line': b'5: -        }\n'}
+[0.903942] (doe_control) StdoutLine: {'line': b'5: -        if (force >= 0)\n'}
+[0.903978] (doe_control) StdoutLine: {'line': b'5: -        {\n'}
+[0.904011] (doe_control) StdoutLine: {'line': b'5: -            // levels 0 to 15 (0 is no force)\n'}
+[0.904044] (doe_control) StdoutLine: {'line': b'5: -            t_level = (uint32_t) (std::ceil(std::min(force, max_fwd_) / max_fwd_ * (encode_levels_/2 - 1)));\n'}
+[0.904076] (doe_control) StdoutLine: {'line': b'5: -        // turn to levels 16 to 31\n'}
+[0.904106] (doe_control) StdoutLine: {'line': b'5: -        t_level += encode_levels_ / 2;\n'}
+[0.904136] (doe_control) StdoutLine: {'line': b'5: -        }\n'}
+[0.904168] (doe_control) StdoutLine: {'line': b'5: -        else\n'}
+[0.904199] (doe_control) StdoutLine: {'line': b'5: -        {\n'}
+[0.904230] (doe_control) StdoutLine: {'line': b'5: -            // levels 0 to 16 (0 is max rev, 16 is no force)\n'}
+[0.904261] (doe_control) StdoutLine: {'line': b'5: -        t_level = (uint32_t) (16 - std::ceil(std::max(force, -max_rev_) / -max_rev_ * (encode_levels_/2)));\n'}
+[0.904293] (doe_control) StdoutLine: {'line': b'5: -        }\n'}
+[0.904324] (doe_control) StdoutLine: {'line': b'5: -\n'}
+[0.904356] (doe_control) StdoutLine: {'line': b'5: -        t_level &= ((uint32_t)pow(2, bits_per_thruster_) - 1);\n'}
+[0.904387] (doe_control) StdoutLine: {'line': b'5: -        return t_level;\n'}
+[0.904418] (doe_control) StdoutLine: {'line': b'5: -    }\n'}
+[0.904448] (doe_control) StdoutLine: {'line': b'5: -\n'}
+[0.904480] (doe_control) StdoutLine: {'line': b'5: -\n'}
+[0.904510] (doe_control) StdoutLine: {'line': b'5: +  t_level &= ((uint32_t)pow(2, bits_per_thruster_) - 1);\n'}
+[0.904542] (doe_control) StdoutLine: {'line': b'5: +  return t_level;\n'}
+[0.904574] (doe_control) StdoutLine: {'line': b'5: +}\n'}
+[0.904606] (doe_control) StdoutLine: {'line': b'5: @@ -177 +179,2 @@\n'}
+[0.904638] (doe_control) StdoutLine: {'line': b'5: -  } catch (rclcpp::exceptions::RCLError const&){} // during testing sometimes throws error\n'}
+[0.904669] (doe_control) StdoutLine: {'line': b'5: +  } catch (rclcpp::exceptions::RCLError const &) {\n'}
+[0.904700] (doe_control) StdoutLine: {'line': b'5: +  }                                               // during testing sometimes throws error\n'}
+[0.904734] (doe_control) StdoutLine: {'line': b'5: @@ -180 +182,0 @@\n'}
+[0.904765] (doe_control) StdoutLine: {'line': b'5: -\n'}
+[0.904796] (doe_control) StdoutLine: {'line': b'5: \n'}
+[0.904828] (doe_control) StdoutLine: {'line': b'5: 2 files with code style divergence\n'}
+[0.904860] (doe_control) StdoutLine: {'line': b'5: -- run_test.py: return code 1\n'}
+[0.904891] (doe_control) StdoutLine: {'line': b"5: -- run_test.py: verify result file '/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/uncrustify.xunit.xml'\n"}
+[0.907733] (doe_control) StdoutLine: {'line': b'5/6 Test #5: uncrustify .......................***Failed    0.15 sec\n'}
+[0.907823] (doe_control) StdoutLine: {'line': b'test 6\n'}
+[0.907865] (doe_control) StdoutLine: {'line': b'    Start 6: xmllint\n'}
+[0.907902] (doe_control) StdoutLine: {'line': b'\n'}
+[0.907940] (doe_control) StdoutLine: {'line': b'6: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/xmllint.xunit.xml" "--package-name" "doe_control" "--output-file" "/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/xmllint.xunit.xml"\n'}
+[0.907991] (doe_control) StdoutLine: {'line': b'6: Working Directory: /home/dorson/Documents/github/Doe/src/doe_control\n'}
+[0.908025] (doe_control) StdoutLine: {'line': b'6: Test timeout computed to be: 60\n'}
+[0.949403] (doe_control) StdoutLine: {'line': b"6: -- run_test.py: invoking following command in '/home/dorson/Documents/github/Doe/src/doe_control':\n"}
+[0.949512] (doe_control) StdoutLine: {'line': b'6:  - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/xmllint.xunit.xml\n'}
+[1.001251] (-) TimerEvent: {}
+[1.101493] (-) TimerEvent: {}
+[1.201891] (-) TimerEvent: {}
+[1.302404] (-) TimerEvent: {}
+[1.328793] (doe_control) StdoutLine: {'line': b"6: File 'package.xml' is valid\n"}
+[1.329147] (doe_control) StdoutLine: {'line': b'6: \n'}
+[1.329281] (doe_control) StdoutLine: {'line': b"6: File 'install/doe_control/share/doe_control/package.xml' is valid\n"}
+[1.329405] (doe_control) StdoutLine: {'line': b'6: \n'}
+[1.329509] (doe_control) StdoutLine: {'line': b'6: No problems found\n'}
+[1.347019] (doe_control) StdoutLine: {'line': b'6: -- run_test.py: return code 0\n'}
+[1.347109] (doe_control) StdoutLine: {'line': b"6: -- run_test.py: verify result file '/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/xmllint.xunit.xml'\n"}
+[1.353700] (doe_control) StdoutLine: {'line': b'6/6 Test #6: xmllint ..........................   Passed    0.45 sec\n'}
+[1.353855] (doe_control) StdoutLine: {'line': b'\n'}
+[1.353902] (doe_control) StdoutLine: {'line': b'83% tests passed\x1b[0;0m, \x1b[0;31m1 tests failed\x1b[0;0m out of 6\n'}
+[1.353941] (doe_control) StdoutLine: {'line': b'\n'}
+[1.353986] (doe_control) StdoutLine: {'line': b'Label Time Summary:\n'}
+[1.354026] (doe_control) StdoutLine: {'line': b'cppcheck      =   0.14 sec*proc (1 test)\n'}
+[1.354064] (doe_control) StdoutLine: {'line': b'flake8        =   0.29 sec*proc (1 test)\n'}
+[1.354100] (doe_control) StdoutLine: {'line': b'lint_cmake    =   0.12 sec*proc (1 test)\n'}
+[1.354141] (doe_control) StdoutLine: {'line': b'linter        =   1.32 sec*proc (6 tests)\n'}
+[1.354182] (doe_control) StdoutLine: {'line': b'pep257        =   0.18 sec*proc (1 test)\n'}
+[1.354222] (doe_control) StdoutLine: {'line': b'uncrustify    =   0.15 sec*proc (1 test)\n'}
+[1.354260] (doe_control) StdoutLine: {'line': b'xmllint       =   0.45 sec*proc (1 test)\n'}
+[1.354292] (doe_control) StdoutLine: {'line': b'\n'}
+[1.354331] (doe_control) StdoutLine: {'line': b'Total Test time (real) =   1.32 sec\n'}
+[1.354364] (doe_control) StdoutLine: {'line': b'\n'}
+[1.354396] (doe_control) StdoutLine: {'line': b'The following tests FAILED:\n'}
+[1.354428] (doe_control) StdoutLine: {'line': b'\t\x1b[0;31m  5 - uncrustify (Failed)\x1b[0;0m\n'}
+[1.357231] (doe_control) StderrLine: {'line': b'Errors while running CTest\n'}
+[1.357323] (doe_control) StderrLine: {'line': b'Output from these tests are in: /home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/Testing/Temporary/LastTest.log\n'}
+[1.357370] (doe_control) StderrLine: {'line': b'Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.\n'}
+[1.358821] (doe_control) CommandEnded: {'returncode': 8}
+[1.359043] (doe_control) TestFailure: {'identifier': 'doe_control'}
+[1.359059] (doe_control) JobEnded: {'identifier': 'doe_control', 'rc': 0}
+[1.359425] (-) EventReactorShutdown: {}

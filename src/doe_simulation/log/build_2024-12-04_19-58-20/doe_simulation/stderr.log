@@ -1,0 +1,22 @@
+[31mCMake Error at /opt/ros/jazzy/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/GzPackaging.cmake:152 (add_custom_target):
+  add_custom_target cannot create target "uninstall" because another target
+  with the same name already exists.  The existing target is a custom target
+  created in source directory
+  "/home/dorson/Documents/github/Doe/src/doe_simulation".  See documentation
+  for policy CMP0002 for more details.
+Call Stack (most recent call first):
+  /opt/ros/jazzy/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/GzConfigureProject.cmake:193 (_gz_setup_packages)
+  CMakeLists.txt:34 (gz_configure_project)
+
+[0m
+[31mCMake Error at CMakeLists.txt:40 (set_property):
+  set_property could not find TARGET thruster_driver_plugin.  Perhaps it has
+  not yet been created.
+
+[0m
+[31mCMake Error at CMakeLists.txt:41 (target_link_libraries):
+  Cannot specify link libraries for target "thruster_driver_plugin" which is
+  not built by this project.
+
+[0m
+gmake: *** [Makefile:289: cmake_check_build_system] Error 1

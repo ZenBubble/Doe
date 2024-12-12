@@ -1,0 +1,21 @@
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void doe_simulation::ThrusterDriver::[01;32m[KConfigure[m[K(const gz::sim::v8::Entity&, const std::shared_ptr<const sdf::v14::Element>&, gz::sim::v8::EntityComponentManager&, gz::sim::v8::EventManager&)[m[K’:
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:38:38:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KGetName[m[K’ in ‘[01m[K_entity[m[K’, which is of non-class type ‘[01m[Kconst gz::sim::v8::Entity[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’}
+   38 |     std::string model_name = _entity.[01;31m[KGetName[m[K();
+      |                                      [01;31m[K^~~~~~~[m[K
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:43:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass doe_simulation::ThrusterDriver[m[K’ has no member named ‘[01m[Kthruster[m[K’
+   43 |         this->[01;31m[Kthruster[m[K.push_back(_model->GetLink(thruster_name));
+      |               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:43:40:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgz::sim::v8::Model[m[K’
+   43 |         this->thruster.push_back(_model[01;31m[K->[m[KGetLink(thruster_name));
+      |                                        [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:9[m[K,
+                 from [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:1[m[K:
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:45:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass doe_simulation::ThrusterDriver[m[K’ has no member named ‘[01m[Kthruster[m[K’
+   45 |         RCLCPP_INFO(this->node->get_logger(), this->[01;31m[Kthruster[m[K[i-1]->GetName());
+      |                                                     [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/thruster_driver_plugin.dir/build.make:76: CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thruster_driver_plugin.dir/all] Error 2
+gmake: *** [Makefile:166: all] Error 2

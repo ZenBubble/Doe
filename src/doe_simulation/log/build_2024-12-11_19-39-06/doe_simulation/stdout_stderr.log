@@ -1,0 +1,17 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o[0m
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:[m[K In member function ‘[01m[Kvoid doe_simulation::ThrusterDriver::[01;32m[KGetRosNamespace[m[K(const std::shared_ptr<const sdf::v14::Element>&)[m[K’:
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:37:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kros_sdf[m[K’ was not declared in this scope
+   37 |         _namespace = [01;31m[Kros_sdf[m[K->Get<std::string>("namespace");
+      |                      [01;31m[K^~~~~~~[m[K
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:37:46:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   37 |         _namespace = ros_sdf->Get<std::string[01;31m[K>[m[K("namespace");
+      |                                              [01;31m[K^[m[K
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:46:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kros_sdf[m[K’ was not declared in this scope
+   46 |         topic = [01;31m[Kros_sdf[m[K->Get<std::string>("remapping");
+      |                 [01;31m[K^~~~~~~[m[K
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:46:41:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   46 |         topic = ros_sdf->Get<std::string[01;31m[K>[m[K("remapping");
+      |                                         [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/thruster_driver_plugin.dir/build.make:76: CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thruster_driver_plugin.dir/all] Error 2
+gmake: *** [Makefile:166: all] Error 2

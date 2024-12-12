@@ -51,21 +51,21 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libthruster_driver_plugin.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libthruster_driver_plugin.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/doe_simulation/libthruster_driver_plugin.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/doe_simulation/libthruster_driver_plugin.so")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libthruster_driver_plugin.so"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/doe_simulation/libthruster_driver_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation/libthruster_driver_plugin.so")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libthruster_driver_plugin.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libthruster_driver_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/doe_simulation" TYPE SHARED_LIBRARY FILES "/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation/libthruster_driver_plugin.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/doe_simulation/libthruster_driver_plugin.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/doe_simulation/libthruster_driver_plugin.so")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libthruster_driver_plugin.so"
-         OLD_RPATH "/opt/ros/jazzy/lib:"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/doe_simulation/libthruster_driver_plugin.so"
+         OLD_RPATH "/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libthruster_driver_plugin.so")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/doe_simulation/libthruster_driver_plugin.so")
     endif()
   endif()
 endif()
@@ -74,10 +74,11 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doe_simulation/" TYPE DIRECTORY FILES
-    "/home/dorson/Documents/github/Doe/src/doe_simulation/config"
-    "/home/dorson/Documents/github/Doe/src/doe_simulation/launch"
-    )
+  include("/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation/CMakeFiles/thruster_driver_plugin.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doe_simulation/" TYPE DIRECTORY FILES "/home/dorson/Documents/github/Doe/src/doe_simulation/launch")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

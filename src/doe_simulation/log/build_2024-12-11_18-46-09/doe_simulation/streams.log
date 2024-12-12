@@ -1,0 +1,14 @@
+[0.009s] Invoking command in '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation -- -j20 -l20
+[0.103s] [ 50%] [32mBuilding CXX object CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o[0m
+[2.172s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void doe_simulation::ThrusterDriver::[01;32m[KConfigure[m[K(const gz::sim::v8::Entity&, const std::shared_ptr<const sdf::v14::Element>&, gz::sim::v8::EntityComponentManager&, gz::sim::v8::EventManager&)[m[K’:
+[2.172s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:21:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass doe_simulation::ThrusterDriver[m[K’ has no member named ‘[01m[Kros[m[K’
+[2.172s]    21 |     this->[01;31m[Kros[m[K = "ros";
+[2.172s]       |           [01;31m[K^~~[m[K
+[2.176s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:22:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ was not declared in this scope; did you mean ‘[01m[Kcos[m[K’?
+[2.176s]    22 |     sdf::ElementPtr ros_namespace = _sdf->GetElement([01;31m[Kros[m[K);
+[2.176s]       |                                                      [01;31m[K^~~[m[K
+[2.176s]       |                                                      [32m[Kcos[m[K
+[3.040s] gmake[2]: *** [CMakeFiles/thruster_driver_plugin.dir/build.make:76: CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o] Error 1
+[3.040s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thruster_driver_plugin.dir/all] Error 2
+[3.040s] gmake: *** [Makefile:166: all] Error 2
+[3.042s] Invoked command in '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation -- -j20 -l20

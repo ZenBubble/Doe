@@ -1,0 +1,34 @@
+[0.009s] Invoking command in '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation -- -j20 -l20
+[0.089s] [ 50%] [32mBuilding CXX object CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o[0m
+[2.169s] In file included from [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:1[m[K:
+[2.169s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:42:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo[m[K’ was not declared in this scope
+[2.169s]    42 |         std::vector<[01;31m[Kgazebo[m[K::physics::LinkPtr> thruster;
+[2.170s]       |                     [01;31m[K^~~~~~[m[K
+[2.170s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:42:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.170s]    42 |         std::vector<gazebo::physics::LinkPtr[01;31m[K>[m[K thruster;
+[2.170s]       |                                             [01;31m[K^[m[K
+[2.170s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:42:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[2.171s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.171s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[2.171s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[2.171s]                  from [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:9[m[K:
+[2.171s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void doe_simulation::ThrusterDriver::[01;32m[KConfigure[m[K(const gz::sim::v8::Entity&, const std::shared_ptr<const sdf::v14::Element>&, gz::sim::v8::EntityComponentManager&, gz::sim::v8::EventManager&)[m[K’:
+[2.171s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:29:72:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst char*[m[K’
+[2.171s]    29 | PP_INFO(node->get_logger(), [01;31m[K"Listening on " + this->topic_name + "\n"[m[K);
+[2.171s]       |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[2.171s]       |                                                                [01;31m[K|[m[K
+[2.171s]       |                                                                [01;31m[Kstd::__cxx11::basic_string<char>[m[K
+[2.171s] 
+[2.171s] In file included from [01m[K/opt/ros/jazzy/include/rmw/rmw/types.h:28[m[K,
+[2.171s]                  from [01m[K/opt/ros/jazzy/include/rcl/rcl/types.h:20[m[K,
+[2.171s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/exceptions/exceptions.hpp:23[m[K,
+[2.171s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/exceptions.hpp:18[m[K,
+[2.171s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter.hpp:25[m[K,
+[2.171s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:25[m[K:
+[2.171s] [01m[K/opt/ros/jazzy/include/rcutils/rcutils/logging.h:473:16:[m[K [01;36m[Knote: [m[K  initializing argument 4 of ‘[01m[Kvoid[01;32m[K rcutils_log_internal[m[K(const rcutils_log_location_t*, int, const char*, const char*, ...)[m[K’
+[2.171s]   473 |   [01;36m[Kconst char * format[m[K,
+[2.172s]       |   [01;36m[K~~~~~~~~~~~~~^~~~~~[m[K
+[3.047s] gmake[2]: *** [CMakeFiles/thruster_driver_plugin.dir/build.make:76: CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o] Error 1
+[3.047s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thruster_driver_plugin.dir/all] Error 2
+[3.047s] gmake: *** [Makefile:166: all] Error 2
+[3.049s] Invoked command in '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation -- -j20 -l20

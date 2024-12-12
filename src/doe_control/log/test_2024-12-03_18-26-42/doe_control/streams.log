@@ -1,0 +1,485 @@
+[0.028s] Invoking command in '/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control': AMENT_PREFIX_PATH=/home/dorson/Documents/github/Doe/src/doe_control/install/doe_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dorson/Documents/github/Doe/src/doe_control/install/doe_control:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.035s] UpdateCTestConfiguration  from :/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/CTestConfiguration.ini
+[0.035s] Parse Config file:/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/CTestConfiguration.ini
+[0.035s]    Site: dorson-AORUS-5-SE
+[0.036s]    Build name: (empty)
+[0.036s]  Add coverage exclude regular expressions.
+[0.036s] Create new tag: 20241204-0226 - Experimental
+[0.036s] UpdateCTestConfiguration  from :/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/CTestConfiguration.ini
+[0.036s] Parse Config file:/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/CTestConfiguration.ini
+[0.036s] Test project /home/dorson/Documents/github/Doe/src/doe_control/build/doe_control
+[0.037s] Constructing a list of tests
+[0.037s] Done constructing a list of tests
+[0.037s] Updating test list for fixtures
+[0.037s] Added 0 tests to meet fixture requirements
+[0.037s] Checking test dependency graph...
+[0.037s] Checking test dependency graph end
+[0.037s] test 1
+[0.037s]     Start 1: cppcheck
+[0.038s] 
+[0.038s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/cppcheck.xunit.xml" "--package-name" "doe_control" "--output-file" "/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/jazzy/bin/ament_cppcheck" "--xunit-file" "/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/cppcheck.xunit.xml" "--include_dirs" "/home/dorson/Documents/github/Doe/src/doe_control/include"
+[0.038s] 1: Working Directory: /home/dorson/Documents/github/Doe/src/doe_control
+[0.038s] 1: Test timeout computed to be: 300
+[0.093s] 1: -- run_test.py: invoking following command in '/home/dorson/Documents/github/Doe/src/doe_control':
+[0.093s] 1:  - /opt/ros/jazzy/bin/ament_cppcheck --xunit-file /home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/cppcheck.xunit.xml --include_dirs /home/dorson/Documents/github/Doe/src/doe_control/include
+[0.161s] 1: cppcheck 2.13.0 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[0.169s] 1: -- run_test.py: return code 0
+[0.170s] 1: -- run_test.py: verify result file '/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/cppcheck.xunit.xml'
+[0.176s] 1/6 Test #1: cppcheck .........................   Passed    0.14 sec
+[0.176s] test 2
+[0.176s]     Start 2: flake8
+[0.176s] 
+[0.176s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/flake8.xunit.xml" "--package-name" "doe_control" "--output-file" "/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/ament_flake8/flake8.txt" "--command" "/opt/ros/jazzy/bin/ament_flake8" "--xunit-file" "/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/flake8.xunit.xml"
+[0.177s] 2: Working Directory: /home/dorson/Documents/github/Doe/src/doe_control
+[0.177s] 2: Test timeout computed to be: 60
+[0.216s] 2: -- run_test.py: invoking following command in '/home/dorson/Documents/github/Doe/src/doe_control':
+[0.216s] 2:  - /opt/ros/jazzy/bin/ament_flake8 --xunit-file /home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/flake8.xunit.xml
+[0.439s] 2: 
+[0.439s] 2: 2 files checked
+[0.439s] 2: No problems found
+[0.439s] 2: 
+[0.439s] 2: Checked files:
+[0.439s] 2: 
+[0.439s] 2: * ./install/_local_setup_util_ps1.py
+[0.439s] 2: * ./install/_local_setup_util_sh.py
+[0.457s] 2: -- run_test.py: return code 0
+[0.457s] 2: -- run_test.py: verify result file '/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/flake8.xunit.xml'
+[0.463s] 2/6 Test #2: flake8 ...........................   Passed    0.29 sec
+[0.463s] test 3
+[0.463s]     Start 3: lint_cmake
+[0.463s] 
+[0.463s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/lint_cmake.xunit.xml" "--package-name" "doe_control" "--output-file" "/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/lint_cmake.xunit.xml"
+[0.464s] 3: Working Directory: /home/dorson/Documents/github/Doe/src/doe_control
+[0.464s] 3: Test timeout computed to be: 60
+[0.506s] 3: -- run_test.py: invoking following command in '/home/dorson/Documents/github/Doe/src/doe_control':
+[0.506s] 3:  - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/lint_cmake.xunit.xml
+[0.566s] 3: 
+[0.566s] 3: No problems found
+[0.573s] 3: -- run_test.py: return code 0
+[0.573s] 3: -- run_test.py: verify result file '/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/lint_cmake.xunit.xml'
+[0.579s] 3/6 Test #3: lint_cmake .......................   Passed    0.12 sec
+[0.580s] test 4
+[0.580s]     Start 4: pep257
+[0.580s] 
+[0.580s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/pep257.xunit.xml" "--package-name" "doe_control" "--output-file" "/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/ament_pep257/pep257.txt" "--command" "/opt/ros/jazzy/bin/ament_pep257" "--xunit-file" "/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/pep257.xunit.xml"
+[0.580s] 4: Working Directory: /home/dorson/Documents/github/Doe/src/doe_control
+[0.580s] 4: Test timeout computed to be: 60
+[0.628s] 4: -- run_test.py: invoking following command in '/home/dorson/Documents/github/Doe/src/doe_control':
+[0.629s] 4:  - /opt/ros/jazzy/bin/ament_pep257 --xunit-file /home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/pep257.xunit.xml
+[0.740s] 4: checking ./install/_local_setup_util_ps1.py
+[0.740s] 4: checking ./install/_local_setup_util_sh.py
+[0.740s] 4: No problems found
+[0.751s] 4: -- run_test.py: return code 0
+[0.751s] 4: -- run_test.py: verify result file '/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/pep257.xunit.xml'
+[0.757s] 4/6 Test #4: pep257 ...........................   Passed    0.18 sec
+[0.757s] test 5
+[0.757s]     Start 5: uncrustify
+[0.757s] 
+[0.757s] 5: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/uncrustify.xunit.xml" "--package-name" "doe_control" "--output-file" "/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/jazzy/bin/ament_uncrustify" "--xunit-file" "/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/uncrustify.xunit.xml"
+[0.757s] 5: Working Directory: /home/dorson/Documents/github/Doe/src/doe_control
+[0.757s] 5: Test timeout computed to be: 60
+[0.799s] 5: -- run_test.py: invoking following command in '/home/dorson/Documents/github/Doe/src/doe_control':
+[0.799s] 5:  - /opt/ros/jazzy/bin/ament_uncrustify --xunit-file /home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/uncrustify.xunit.xml
+[0.884s] 5: Code style divergence in file 'include/doe_control/thrust_publisher.hpp':
+[0.884s] 5: 
+[0.885s] 5: --- include/doe_control/thrust_publisher.hpp
+[0.885s] 5: +++ include/doe_control/thrust_publisher.hpp.uncrustify
+[0.885s] 5: @@ -17,2 +17,2 @@
+[0.885s] 5: -    class ThrustPublisher: public rclcpp::Node
+[0.885s] 5: -    {
+[0.885s] 5: +class ThrustPublisher : public rclcpp::Node
+[0.885s] 5: +{
+[0.885s] 5: @@ -20,2 +20 @@
+[0.885s] 5: -    public:
+[0.885s] 5: -
+[0.885s] 5: +public:
+[0.886s] 5: @@ -29 +28 @@
+[0.886s] 5: -        explicit ThrustPublisher(const rclcpp::NodeOptions & options);
+[0.886s] 5: +  explicit ThrustPublisher(const rclcpp::NodeOptions & options);
+[0.886s] 5: @@ -31,2 +30 @@
+[0.886s] 5: -    private:
+[0.886s] 5: -
+[0.886s] 5: +private:
+[0.886s] 5: @@ -43 +41 @@
+[0.886s] 5: -        void wrenchCallback(const geometry_msgs::msg::Wrench::SharedPtr msg) const;
+[0.887s] 5: +  void wrenchCallback(const geometry_msgs::msg::Wrench::SharedPtr msg) const;
+[0.887s] 5: @@ -51 +49 @@
+[0.887s] 5: -        std::vector<double> cross(std::vector<double> r,std::vector<double> F);
+[0.887s] 5: +  std::vector<double> cross(std::vector<double> r, std::vector<double> F);
+[0.887s] 5: @@ -58 +56 @@
+[0.887s] 5: -        std::vector<std::vector<double>> createAllocMat();
+[0.887s] 5: +  std::vector<std::vector<double>> createAllocMat();
+[0.887s] 5: @@ -67 +65 @@
+[0.887s] 5: -        uint32_t forceToLevel(double force) const;
+[0.887s] 5: +  uint32_t forceToLevel(double force) const;
+[0.887s] 5: @@ -69,2 +67,2 @@
+[0.888s] 5: -        rclcpp::Publisher<std_msgs::msg::Float64MultiArray>::SharedPtr forces_pub_;
+[0.888s] 5: -        rclcpp::Publisher<std_msgs::msg::UInt32>::SharedPtr signals_pub_;
+[0.888s] 5: +  rclcpp::Publisher<std_msgs::msg::Float64MultiArray>::SharedPtr forces_pub_;
+[0.888s] 5: +  rclcpp::Publisher<std_msgs::msg::UInt32>::SharedPtr signals_pub_;
+[0.888s] 5: @@ -72 +70 @@
+[0.888s] 5: -        rclcpp::Subscription<geometry_msgs::msg::Wrench>::SharedPtr forces_sub_;
+[0.888s] 5: +  rclcpp::Subscription<geometry_msgs::msg::Wrench>::SharedPtr forces_sub_;
+[0.888s] 5: @@ -74 +72 @@
+[0.888s] 5: -        cv::Mat pinv_alloc_;
+[0.888s] 5: +  cv::Mat pinv_alloc_;
+[0.888s] 5: @@ -76,12 +74,12 @@
+[0.889s] 5: -        int num_thrusters_ = 0;
+[0.889s] 5: -        int bits_per_thruster_ = 0;
+[0.889s] 5: -        int encode_levels_ = 0;
+[0.889s] 5: -        double max_fwd_ = 0;
+[0.889s] 5: -        double max_rev_ = 0;
+[0.889s] 5: -        std::vector<double> x_lens_;
+[0.889s] 5: -        std::vector<double> y_lens_;
+[0.889s] 5: -        std::vector<double> z_lens_;
+[0.889s] 5: -        std::vector<double> x_contribs_;
+[0.889s] 5: -        std::vector<double> y_contribs_;
+[0.889s] 5: -        std::vector<double> z_contribs_;
+[0.889s] 5: -    };
+[0.890s] 5: +  int num_thrusters_ = 0;
+[0.890s] 5: +  int bits_per_thruster_ = 0;
+[0.890s] 5: +  int encode_levels_ = 0;
+[0.890s] 5: +  double max_fwd_ = 0;
+[0.890s] 5: +  double max_rev_ = 0;
+[0.890s] 5: +  std::vector<double> x_lens_;
+[0.890s] 5: +  std::vector<double> y_lens_;
+[0.890s] 5: +  std::vector<double> z_lens_;
+[0.890s] 5: +  std::vector<double> x_contribs_;
+[0.890s] 5: +  std::vector<double> y_contribs_;
+[0.890s] 5: +  std::vector<double> z_contribs_;
+[0.891s] 5: +};
+[0.891s] 5: 
+[0.891s] 5: Code style divergence in file 'src/thrust_publisher.cpp':
+[0.891s] 5: 
+[0.891s] 5: --- src/thrust_publisher.cpp
+[0.891s] 5: +++ src/thrust_publisher.cpp.uncrustify
+[0.891s] 5: @@ -7,2 +7,2 @@
+[0.891s] 5: -    ThrustPublisher::ThrustPublisher(const rclcpp::NodeOptions & options) :
+[0.891s] 5: -    Node ("thrust_publisher", options),
+[0.891s] 5: +ThrustPublisher::ThrustPublisher(const rclcpp::NodeOptions & options)
+[0.891s] 5: +:Node ("thrust_publisher", options),
+[0.891s] 5: @@ -10,3 +10,3 @@
+[0.891s] 5: -        x_lens_ (SUPPORTED_THRUSTERS, 0),
+[0.892s] 5: -        y_lens_ (SUPPORTED_THRUSTERS, 0),
+[0.892s] 5: -        z_lens_ (SUPPORTED_THRUSTERS, 0),
+[0.892s] 5: +  x_lens_ (SUPPORTED_THRUSTERS, 0),
+[0.892s] 5: +  y_lens_ (SUPPORTED_THRUSTERS, 0),
+[0.892s] 5: +  z_lens_ (SUPPORTED_THRUSTERS, 0),
+[0.892s] 5: @@ -14,9 +14,9 @@
+[0.892s] 5: -        x_contribs_ (SUPPORTED_THRUSTERS, 0),
+[0.892s] 5: -        y_contribs_ (SUPPORTED_THRUSTERS, 0),
+[0.892s] 5: -        z_contribs_ (SUPPORTED_THRUSTERS, 0)
+[0.892s] 5: -    {
+[0.892s] 5: -        this->declare_parameter<int>("num_thrusters", num_thrusters_);
+[0.892s] 5: -        if (num_thrusters_ > SUPPORTED_THRUSTERS)
+[0.892s] 5: -        {
+[0.892s] 5: -            RCLCPP_ERROR(this->get_logger(), "Number of thrusters is greater than supported thruster count");
+[0.893s] 5: -        }
+[0.893s] 5: +  x_contribs_ (SUPPORTED_THRUSTERS, 0),
+[0.893s] 5: +  y_contribs_ (SUPPORTED_THRUSTERS, 0),
+[0.893s] 5: +  z_contribs_ (SUPPORTED_THRUSTERS, 0)
+[0.893s] 5: +{
+[0.893s] 5: +  this->declare_parameter<int>("num_thrusters", num_thrusters_);
+[0.893s] 5: +  if (num_thrusters_ > SUPPORTED_THRUSTERS) {
+[0.893s] 5: +    RCLCPP_ERROR(this->get_logger(),
+[0.893s] 5: +        "Number of thrusters is greater than supported thruster count");
+[0.893s] 5: +  }
+[0.893s] 5: @@ -24,2 +24,2 @@
+[0.893s] 5: -        this->declare_parameter<int>("bits_per_thruster", bits_per_thruster_);
+[0.893s] 5: -        this->get_parameter("bits_per_thruster", bits_per_thruster_);
+[0.893s] 5: +  this->declare_parameter<int>("bits_per_thruster", bits_per_thruster_);
+[0.894s] 5: +  this->get_parameter("bits_per_thruster", bits_per_thruster_);
+[0.894s] 5: @@ -27,6 +27,6 @@
+[0.894s] 5: -        this->declare_parameter<double>("max_fwd", max_fwd_);
+[0.894s] 5: -        this->get_parameter("max_fwd", max_fwd_);
+[0.894s] 5: -        max_fwd_ *= 9.807; // kgf to N
+[0.894s] 5: -        this->declare_parameter<double>("max_rev", max_rev_);
+[0.894s] 5: -        max_rev_ *= 9.807; // kgf to N
+[0.894s] 5: -        this->get_parameter("max_rev", max_rev_);
+[0.894s] 5: +  this->declare_parameter<double>("max_fwd", max_fwd_);
+[0.894s] 5: +  this->get_parameter("max_fwd", max_fwd_);
+[0.894s] 5: +  max_fwd_ *= 9.807;       // kgf to N
+[0.894s] 5: +  this->declare_parameter<double>("max_rev", max_rev_);
+[0.894s] 5: +  max_rev_ *= 9.807;       // kgf to N
+[0.894s] 5: +  this->get_parameter("max_rev", max_rev_);
+[0.894s] 5: @@ -34 +34 @@
+[0.894s] 5: -        encode_levels_ = pow(2,bits_per_thruster_);
+[0.894s] 5: +  encode_levels_ = pow(2, bits_per_thruster_);
+[0.895s] 5: @@ -36 +36,2 @@
+[0.895s] 5: -        std::string names[SUPPORTED_THRUSTERS] = {"thruster1", "thruster2", "thruster3", "thruster4", "thruster5", "thruster6", "thruster8", "thruster9", "thruster10"};
+[0.895s] 5: +  std::string names[SUPPORTED_THRUSTERS] = {"thruster1", "thruster2", "thruster3", "thruster4",
+[0.895s] 5: +    "thruster5", "thruster6", "thruster8", "thruster9", "thruster10"};
+[0.895s] 5: @@ -38,8 +39,7 @@
+[0.895s] 5: -        for (int i = 0; i < SUPPORTED_THRUSTERS; i++)
+[0.895s] 5: -        {
+[0.895s] 5: -            this->declare_parameter(names[i]+".contrib.x", x_contribs_[i]);
+[0.895s] 5: -            this->declare_parameter(names[i]+".contrib.y", y_contribs_[i]);
+[0.895s] 5: -            this->declare_parameter(names[i]+".contrib.z", z_contribs_[i]);
+[0.895s] 5: -            this->declare_parameter(names[i]+".lx", x_lens_[i]);
+[0.895s] 5: -            this->declare_parameter(names[i]+".ly", y_lens_[i]);
+[0.895s] 5: -            this->declare_parameter(names[i]+".lz", z_lens_[i]);
+[0.895s] 5: +  for (int i = 0; i < SUPPORTED_THRUSTERS; i++) {
+[0.895s] 5: +    this->declare_parameter(names[i] + ".contrib.x", x_contribs_[i]);
+[0.895s] 5: +    this->declare_parameter(names[i] + ".contrib.y", y_contribs_[i]);
+[0.895s] 5: +    this->declare_parameter(names[i] + ".contrib.z", z_contribs_[i]);
+[0.896s] 5: +    this->declare_parameter(names[i] + ".lx", x_lens_[i]);
+[0.896s] 5: +    this->declare_parameter(names[i] + ".ly", y_lens_[i]);
+[0.896s] 5: +    this->declare_parameter(names[i] + ".lz", z_lens_[i]);
+[0.896s] 5: @@ -47,8 +47,8 @@
+[0.896s] 5: -            this->get_parameter(names[i]+".contrib.x", x_contribs_[i]);
+[0.896s] 5: -            this->get_parameter(names[i]+".contrib.y", y_contribs_[i]);
+[0.896s] 5: -            this->get_parameter(names[i]+".contrib.z", z_contribs_[i]);
+[0.896s] 5: -            this->get_parameter(names[i]+".lx", x_lens_[i]);
+[0.896s] 5: -            this->get_parameter(names[i]+".ly", y_lens_[i]);
+[0.896s] 5: -            this->get_parameter(names[i]+".lz", z_lens_[i]);
+[0.896s] 5: -        }
+[0.896s] 5: -        std::vector<std::vector<double>> alloc_vec =  createAllocMat();
+[0.896s] 5: +    this->get_parameter(names[i] + ".contrib.x", x_contribs_[i]);
+[0.896s] 5: +    this->get_parameter(names[i] + ".contrib.y", y_contribs_[i]);
+[0.896s] 5: +    this->get_parameter(names[i] + ".contrib.z", z_contribs_[i]);
+[0.896s] 5: +    this->get_parameter(names[i] + ".lx", x_lens_[i]);
+[0.896s] 5: +    this->get_parameter(names[i] + ".ly", y_lens_[i]);
+[0.896s] 5: +    this->get_parameter(names[i] + ".lz", z_lens_[i]);
+[0.896s] 5: +  }
+[0.896s] 5: +  std::vector<std::vector<double>> alloc_vec = createAllocMat();
+[0.897s] 5: @@ -56,4 +56,6 @@
+[0.897s] 5: -        cv::Mat alloc_mat (alloc_vec.size(), alloc_vec[0].size(), CV_64FC1);
+[0.897s] 5: -        for (int i = 0; i < alloc_mat.rows; i++)
+[0.897s] 5: -            for (int j = 0; j < alloc_mat.cols; j++)
+[0.897s] 5: -                alloc_mat.at<double>(i,j) = alloc_vec[i][j];
+[0.897s] 5: +  cv::Mat alloc_mat (alloc_vec.size(), alloc_vec[0].size(), CV_64FC1);
+[0.897s] 5: +  for (int i = 0; i < alloc_mat.rows; i++) {
+[0.897s] 5: +    for (int j = 0; j < alloc_mat.cols; j++) {
+[0.897s] 5: +      alloc_mat.at<double>(i, j) = alloc_vec[i][j];
+[0.897s] 5: +    }
+[0.897s] 5: +  }
+[0.897s] 5: @@ -64 +66 @@
+[0.897s] 5: -        cv::invert(alloc_mat, pinv_alloc_, cv::DECOMP_SVD);
+[0.897s] 5: +  cv::invert(alloc_mat, pinv_alloc_, cv::DECOMP_SVD);
+[0.897s] 5: @@ -66 +68 @@
+[0.897s] 5: -        forces_pub_ = this->create_publisher<std_msgs::msg::Float64MultiArray>("output_forces", 10);
+[0.897s] 5: +  forces_pub_ = this->create_publisher<std_msgs::msg::Float64MultiArray>("output_forces", 10);
+[0.897s] 5: @@ -68 +70 @@
+[0.897s] 5: -        signals_pub_ = this->create_publisher<std_msgs::msg::UInt32>("signals", 10);
+[0.897s] 5: +  signals_pub_ = this->create_publisher<std_msgs::msg::UInt32>("signals", 10);
+[0.898s] 5: @@ -70 +72,2 @@
+[0.898s] 5: -        forces_sub_ = this->create_subscription<geometry_msgs::msg::Wrench>("input_forces", 10, std::bind(&ThrustPublisher::wrenchCallback, this, _1));
+[0.898s] 5: +  forces_sub_ = this->create_subscription<geometry_msgs::msg::Wrench>("input_forces", 10,
+[0.898s] 5: +      std::bind(&ThrustPublisher::wrenchCallback, this, _1));
+[0.898s] 5: @@ -72 +75 @@
+[0.898s] 5: -        RCLCPP_INFO(this->get_logger(), "Thrust Allocator succesfully started!");
+[0.898s] 5: +  RCLCPP_INFO(this->get_logger(), "Thrust Allocator succesfully started!");
+[0.898s] 5: @@ -74 +77 @@
+[0.898s] 5: -    }
+[0.898s] 5: +}
+[0.898s] 5: @@ -77,7 +80,7 @@
+[0.898s] 5: -    void ThrustPublisher::wrenchCallback(const geometry_msgs::msg::Wrench::SharedPtr msg) const
+[0.898s] 5: -    {
+[0.898s] 5: -        double tau_arr[6] =
+[0.898s] 5: -        {
+[0.899s] 5: -            msg->force.x, msg->force.y, msg->force.z,
+[0.899s] 5: -            msg->torque.x, msg->torque.y, msg->torque.z,
+[0.899s] 5: -        };
+[0.899s] 5: +void ThrustPublisher::wrenchCallback(const geometry_msgs::msg::Wrench::SharedPtr msg) const
+[0.899s] 5: +{
+[0.899s] 5: +  double tau_arr[6] =
+[0.899s] 5: +  {
+[0.899s] 5: +    msg->force.x, msg->force.y, msg->force.z,
+[0.899s] 5: +    msg->torque.x, msg->torque.y, msg->torque.z,
+[0.899s] 5: +  };
+[0.899s] 5: @@ -85,3 +88,4 @@
+[0.899s] 5: -        cv::Mat tau_mat (6, 1, CV_64F);
+[0.899s] 5: -        for (int i = 0; i < 6; i++)
+[0.899s] 5: -            tau_mat.at<double>(i, 0) = tau_arr[i];
+[0.899s] 5: +  cv::Mat tau_mat (6, 1, CV_64F);
+[0.899s] 5: +  for (int i = 0; i < 6; i++) {
+[0.899s] 5: +    tau_mat.at<double>(i, 0) = tau_arr[i];
+[0.899s] 5: +  }
+[0.899s] 5: @@ -89 +93 @@
+[0.899s] 5: -        cv::Mat thrust_mat =  pinv_alloc_*tau_mat;
+[0.899s] 5: +  cv::Mat thrust_mat = pinv_alloc_ * tau_mat;
+[0.899s] 5: @@ -91,6 +95,5 @@
+[0.899s] 5: -        std::vector<double> thrust;
+[0.899s] 5: -        uint32_t signal = 0;
+[0.899s] 5: -        for (int i = 0; i < num_thrusters_ ; i++)
+[0.899s] 5: -        {
+[0.899s] 5: -            double thruster_thrust = thrust_mat.at<double>(i,0);
+[0.899s] 5: -            thrust.push_back(thruster_thrust);
+[0.900s] 5: +  std::vector<double> thrust;
+[0.900s] 5: +  uint32_t signal = 0;
+[0.900s] 5: +  for (int i = 0; i < num_thrusters_ ; i++) {
+[0.900s] 5: +    double thruster_thrust = thrust_mat.at<double>(i, 0);
+[0.900s] 5: +    thrust.push_back(thruster_thrust);
+[0.900s] 5: @@ -98,2 +101,2 @@
+[0.900s] 5: -            uint32_t t_level = forceToLevel(thruster_thrust);
+[0.900s] 5: -            uint32_t t_bits = t_level << (bits_per_thruster_ * i);
+[0.900s] 5: +    uint32_t t_level = forceToLevel(thruster_thrust);
+[0.900s] 5: +    uint32_t t_bits = t_level << (bits_per_thruster_ * i);
+[0.900s] 5: @@ -101,2 +104,2 @@
+[0.900s] 5: -            signal |= t_bits;
+[0.900s] 5: -        }
+[0.900s] 5: +    signal |= t_bits;
+[0.900s] 5: +  }
+[0.900s] 5: @@ -105 +108 @@
+[0.900s] 5: -        signal |= 0b10101010000000000000000000000000;
+[0.900s] 5: +  signal |= 0b10101010000000000000000000000000;
+[0.900s] 5: @@ -108,6 +111,31 @@
+[0.900s] 5: -        auto forces_msg = std_msgs::msg::Float64MultiArray();
+[0.901s] 5: -        forces_msg.data = thrust;
+[0.901s] 5: -        forces_pub_->publish(forces_msg);
+[0.901s] 5: -        auto signal_msg = std_msgs::msg::UInt32();
+[0.901s] 5: -        signal_msg.data = signal;
+[0.901s] 5: -        signals_pub_->publish(signal_msg);
+[0.901s] 5: +  auto forces_msg = std_msgs::msg::Float64MultiArray();
+[0.901s] 5: +  forces_msg.data = thrust;
+[0.901s] 5: +  forces_pub_->publish(forces_msg);
+[0.901s] 5: +  auto signal_msg = std_msgs::msg::UInt32();
+[0.901s] 5: +  signal_msg.data = signal;
+[0.901s] 5: +  signals_pub_->publish(signal_msg);
+[0.901s] 5: +}
+[0.901s] 5: +
+[0.901s] 5: +std::vector<double> ThrustPublisher::cross(std::vector<double> r, std::vector<double> F)
+[0.901s] 5: +{
+[0.901s] 5: +  std::vector<double> tau;
+[0.901s] 5: +  tau.push_back(r[1] * F[2] - r[2] * F[1]);
+[0.901s] 5: +  tau.push_back(r[2] * F[0] - r[0] * F[2]);
+[0.901s] 5: +  tau.push_back(r[0] * F[1] - r[1] * F[0]);
+[0.901s] 5: +  return tau;
+[0.901s] 5: +}
+[0.901s] 5: +
+[0.901s] 5: +std::vector<std::vector<double>> ThrustPublisher::createAllocMat()
+[0.901s] 5: +{
+[0.901s] 5: +  std::vector<std::vector<double>> alloc_mat;
+[0.901s] 5: +  for (int i = 0; i < num_thrusters_; i++) {
+[0.901s] 5: +    std::vector<double> F = {x_contribs_[i], y_contribs_[i], z_contribs_[i]};
+[0.901s] 5: +    std::vector<double> r = {x_lens_[i], y_lens_[i], z_lens_[i]};
+[0.901s] 5: +    std::vector<double> tau = cross(r, F);
+[0.902s] 5: +    F.insert(F.end(), tau.begin(), tau.end());
+[0.902s] 5: +    alloc_mat.push_back(F);
+[0.902s] 5: +  }
+[0.902s] 5: +  std::vector<std::vector<double>> alloc_mat_trans(6, std::vector<double>(num_thrusters_));
+[0.902s] 5: +  for(int i = 0; i < num_thrusters_; ++i) {
+[0.902s] 5: +    for(int j = 0; j < 6; ++j) {
+[0.902s] 5: +      alloc_mat_trans[j][i] = alloc_mat[i][j];
+[0.902s] 5: @@ -114,0 +143,3 @@
+[0.902s] 5: +  }
+[0.902s] 5: +  return alloc_mat_trans;
+[0.902s] 5: +}
+[0.902s] 5: @@ -116,7 +147,17 @@
+[0.902s] 5: -    std::vector<double> ThrustPublisher::cross(std::vector<double> r,std::vector<double> F){
+[0.902s] 5: -        std::vector<double> tau;
+[0.902s] 5: -        tau.push_back(r[1]*F[2] - r[2]*F[1]);
+[0.902s] 5: -        tau.push_back(r[2]*F[0] - r[0]*F[2]);
+[0.902s] 5: -        tau.push_back(r[0]*F[1] - r[1]*F[0]);
+[0.902s] 5: -        return tau;
+[0.902s] 5: -    }
+[0.902s] 5: +uint32_t ThrustPublisher::forceToLevel(double force) const
+[0.902s] 5: +{
+[0.902s] 5: +  uint32_t t_level;
+[0.902s] 5: +  if (force < 0.1 && force > -0.1) {
+[0.902s] 5: +    force = 0;
+[0.902s] 5: +  }
+[0.902s] 5: +  if (force >= 0) {
+[0.902s] 5: +            // levels 0 to 15 (0 is no force)
+[0.902s] 5: +    t_level = (uint32_t) (std::ceil(std::min(force,
+[0.902s] 5: +        max_fwd_) / max_fwd_ * (encode_levels_ / 2 - 1)));
+[0.902s] 5: +        // turn to levels 16 to 31
+[0.902s] 5: +    t_level += encode_levels_ / 2;
+[0.903s] 5: +  } else {
+[0.903s] 5: +            // levels 0 to 16 (0 is max rev, 16 is no force)
+[0.903s] 5: +    t_level = (uint32_t) (16 - std::ceil(std::max(force,
+[0.903s] 5: +        -max_rev_) / -max_rev_ * (encode_levels_ / 2)));
+[0.903s] 5: +  }
+[0.903s] 5: @@ -124,42 +165,3 @@
+[0.903s] 5: -    std::vector<std::vector<double>> ThrustPublisher::createAllocMat(){
+[0.903s] 5: -        std::vector<std::vector<double>> alloc_mat;
+[0.903s] 5: -        for (int i = 0; i < num_thrusters_; i++){
+[0.903s] 5: -            std::vector<double> F = {x_contribs_[i], y_contribs_[i], z_contribs_[i]};
+[0.903s] 5: -            std::vector<double> r = {x_lens_[i], y_lens_[i], z_lens_[i]};
+[0.903s] 5: -            std::vector<double> tau = cross(r, F);
+[0.903s] 5: -            F.insert(F.end(), tau.begin(), tau.end());
+[0.903s] 5: -            alloc_mat.push_back(F);
+[0.903s] 5: -        }
+[0.903s] 5: -        std::vector<std::vector<double>> alloc_mat_trans(6, std::vector<double>(num_thrusters_));
+[0.903s] 5: -        for(int i = 0; i < num_thrusters_; ++i){
+[0.903s] 5: -            for(int j = 0; j < 6; ++j){
+[0.903s] 5: -                alloc_mat_trans[j][i]=alloc_mat[i][j];
+[0.903s] 5: -            }
+[0.903s] 5: -        }
+[0.903s] 5: -        return alloc_mat_trans;
+[0.903s] 5: -    }
+[0.903s] 5: -
+[0.903s] 5: -    uint32_t ThrustPublisher::forceToLevel(double force) const{
+[0.903s] 5: -        uint32_t t_level;
+[0.903s] 5: -        if (force < 0.1 && force > -0.1)
+[0.903s] 5: -        {
+[0.903s] 5: -            force = 0;
+[0.903s] 5: -        }
+[0.903s] 5: -        if (force >= 0)
+[0.904s] 5: -        {
+[0.904s] 5: -            // levels 0 to 15 (0 is no force)
+[0.904s] 5: -            t_level = (uint32_t) (std::ceil(std::min(force, max_fwd_) / max_fwd_ * (encode_levels_/2 - 1)));
+[0.904s] 5: -        // turn to levels 16 to 31
+[0.904s] 5: -        t_level += encode_levels_ / 2;
+[0.904s] 5: -        }
+[0.904s] 5: -        else
+[0.904s] 5: -        {
+[0.904s] 5: -            // levels 0 to 16 (0 is max rev, 16 is no force)
+[0.904s] 5: -        t_level = (uint32_t) (16 - std::ceil(std::max(force, -max_rev_) / -max_rev_ * (encode_levels_/2)));
+[0.904s] 5: -        }
+[0.904s] 5: -
+[0.904s] 5: -        t_level &= ((uint32_t)pow(2, bits_per_thruster_) - 1);
+[0.904s] 5: -        return t_level;
+[0.904s] 5: -    }
+[0.904s] 5: -
+[0.904s] 5: -
+[0.904s] 5: +  t_level &= ((uint32_t)pow(2, bits_per_thruster_) - 1);
+[0.904s] 5: +  return t_level;
+[0.904s] 5: +}
+[0.904s] 5: @@ -177 +179,2 @@
+[0.904s] 5: -  } catch (rclcpp::exceptions::RCLError const&){} // during testing sometimes throws error
+[0.904s] 5: +  } catch (rclcpp::exceptions::RCLError const &) {
+[0.904s] 5: +  }                                               // during testing sometimes throws error
+[0.904s] 5: @@ -180 +182,0 @@
+[0.904s] 5: -
+[0.904s] 5: 
+[0.904s] 5: 2 files with code style divergence
+[0.904s] 5: -- run_test.py: return code 1
+[0.904s] 5: -- run_test.py: verify result file '/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/uncrustify.xunit.xml'
+[0.907s] 5/6 Test #5: uncrustify .......................***Failed    0.15 sec
+[0.907s] test 6
+[0.907s]     Start 6: xmllint
+[0.907s] 
+[0.907s] 6: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/xmllint.xunit.xml" "--package-name" "doe_control" "--output-file" "/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/xmllint.xunit.xml"
+[0.908s] 6: Working Directory: /home/dorson/Documents/github/Doe/src/doe_control
+[0.908s] 6: Test timeout computed to be: 60
+[0.949s] 6: -- run_test.py: invoking following command in '/home/dorson/Documents/github/Doe/src/doe_control':
+[0.949s] 6:  - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/xmllint.xunit.xml
+[1.329s] 6: File 'package.xml' is valid
+[1.329s] 6: 
+[1.329s] 6: File 'install/doe_control/share/doe_control/package.xml' is valid
+[1.329s] 6: 
+[1.329s] 6: No problems found
+[1.347s] 6: -- run_test.py: return code 0
+[1.347s] 6: -- run_test.py: verify result file '/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/test_results/doe_control/xmllint.xunit.xml'
+[1.353s] 6/6 Test #6: xmllint ..........................   Passed    0.45 sec
+[1.353s] 
+[1.353s] 83% tests passed[0;0m, [0;31m1 tests failed[0;0m out of 6
+[1.353s] 
+[1.354s] Label Time Summary:
+[1.354s] cppcheck      =   0.14 sec*proc (1 test)
+[1.354s] flake8        =   0.29 sec*proc (1 test)
+[1.354s] lint_cmake    =   0.12 sec*proc (1 test)
+[1.354s] linter        =   1.32 sec*proc (6 tests)
+[1.354s] pep257        =   0.18 sec*proc (1 test)
+[1.354s] uncrustify    =   0.15 sec*proc (1 test)
+[1.354s] xmllint       =   0.45 sec*proc (1 test)
+[1.354s] 
+[1.354s] Total Test time (real) =   1.32 sec
+[1.354s] 
+[1.354s] The following tests FAILED:
+[1.354s] 	[0;31m  5 - uncrustify (Failed)[0;0m
+[1.357s] Errors while running CTest
+[1.357s] Output from these tests are in: /home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/Testing/Temporary/LastTest.log
+[1.357s] Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+[1.358s] Invoked command in '/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control' returned '8': AMENT_PREFIX_PATH=/home/dorson/Documents/github/Doe/src/doe_control/install/doe_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dorson/Documents/github/Doe/src/doe_control/install/doe_control:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

@@ -1,0 +1,12 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o[0m
+In file included from [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:1[m[K:
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:42:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo[m[K’ was not declared in this scope
+   42 |         std::vector<[01;31m[Kgazebo[m[K::physics::LinkPtr> thruster;
+      |                     [01;31m[K^~~~~~[m[K
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:42:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   42 |         std::vector<gazebo::physics::LinkPtr[01;31m[K>[m[K thruster;
+      |                                             [01;31m[K^[m[K
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:42:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+gmake[2]: *** [CMakeFiles/thruster_driver_plugin.dir/build.make:76: CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thruster_driver_plugin.dir/all] Error 2
+gmake: *** [Makefile:166: all] Error 2

@@ -1,0 +1,44 @@
+[0.010s] Invoking command in '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation -- -j20 -l20
+[0.031s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.199s] -- Found ros_gz: 1.0.7 (/opt/ros/jazzy/share/ros_gz/cmake)
+[0.199s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.219s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.225s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.233s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.242s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.285s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.285s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.340s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.391s] -- Found rclcpp_components: 28.1.5 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[0.410s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.432s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.449s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.471s] -- doe_simulation version ..
+[0.471s] -- Operating system is Linux
+[0.477s] -- Found CPack generators: DEB
+[0.489s] [31mCMake Error at /opt/ros/jazzy/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/GzPackaging.cmake:152 (add_custom_target):
+[0.490s]   add_custom_target cannot create target "uninstall" because another target
+[0.490s]   with the same name already exists.  The existing target is a custom target
+[0.490s]   created in source directory
+[0.490s]   "/home/dorson/Documents/github/Doe/src/doe_simulation".  See documentation
+[0.490s]   for policy CMP0002 for more details.
+[0.490s] Call Stack (most recent call first):
+[0.490s]   /opt/ros/jazzy/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/GzConfigureProject.cmake:193 (_gz_setup_packages)
+[0.490s]   CMakeLists.txt:34 (gz_configure_project)
+[0.490s] 
+[0.490s] [0m
+[0.490s] -- Looking for gz-plugin2 -- found version 2.0.3
+[0.491s] -- Searching for dependencies of gz-plugin2
+[0.491s] -- Looking for gz-utils2 -- found version 2.2.0
+[0.491s] -- Searching for dependencies of gz-utils2
+[0.491s] -- Searching for <gz-utils2> component [cli]
+[0.491s] -- Looking for gz-utils2-cli -- found version 2.2.0
+[0.491s] -- Searching for dependencies of gz-utils2-cli
+[0.492s] -- Searching for <gz-plugin2> component [register]
+[0.492s] -- Looking for gz-plugin2-register -- found version 2.0.3
+[0.492s] -- Searching for dependencies of gz-plugin2-register
+[0.493s] -- Looking for gz-plugin2 - found
+[0.493s] 
+[0.571s] -- Configuring incomplete, errors occurred!
+[0.578s] gmake: *** [Makefile:289: cmake_check_build_system] Error 1
+[0.580s] Invoked command in '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation -- -j20 -l20

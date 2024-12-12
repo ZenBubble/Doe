@@ -1,0 +1,16 @@
+/home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/lib/doe_control/thrust_publisher
+/home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/ament_index/resource_index/package_run_dependencies/doe_control
+/home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/ament_index/resource_index/parent_prefix_path/doe_control
+/home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/environment/ament_prefix_path.sh
+/home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/environment/ament_prefix_path.dsv
+/home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/environment/path.sh
+/home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/environment/path.dsv
+/home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/local_setup.bash
+/home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/local_setup.sh
+/home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/local_setup.zsh
+/home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/local_setup.dsv
+/home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/package.dsv
+/home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/ament_index/resource_index/packages/doe_control
+/home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/cmake/doe_controlConfig.cmake
+/home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/cmake/doe_controlConfig-version.cmake
+/home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/package.xml

@@ -1,0 +1,45 @@
+[0.010s] Invoking command in '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation -- -j20 -l20
+[0.032s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.205s] -- Found ros_gz: 1.0.7 (/opt/ros/jazzy/share/ros_gz/cmake)
+[0.205s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.227s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.233s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.240s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.249s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.290s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.291s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.346s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.394s] -- Found rclcpp_components: 28.1.5 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[0.413s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.434s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.452s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.476s] -- Looking for gz-plugin2 -- found version 2.0.3
+[0.476s] -- Searching for dependencies of gz-plugin2
+[0.476s] -- Looking for gz-utils2 -- found version 2.2.0
+[0.476s] -- Searching for dependencies of gz-utils2
+[0.476s] -- Searching for <gz-utils2> component [cli]
+[0.477s] -- Looking for gz-utils2-cli -- found version 2.2.0
+[0.477s] -- Searching for dependencies of gz-utils2-cli
+[0.477s] -- Searching for <gz-plugin2> component [register]
+[0.477s] -- Looking for gz-plugin2-register -- found version 2.0.3
+[0.478s] -- Searching for dependencies of gz-plugin2-register
+[0.478s] -- Looking for gz-plugin2 - found
+[0.478s] 
+[0.576s] -- Configuring done (0.5s)
+[0.634s] [31mCMake Error at CMakeLists.txt:46 (target_link_libraries):
+[0.634s]   Target "thruster_driver_plugin" links to:
+[0.634s] 
+[0.634s]     gz-common::gz-common
+[0.634s] 
+[0.634s]   but the target was not found.  Possible reasons include:
+[0.634s] 
+[0.634s]     * There is a typo in the target name.
+[0.634s]     * A find_package call is missing for an IMPORTED target.
+[0.634s]     * An ALIAS target is missing.
+[0.634s] 
+[0.634s] 
+[0.634s] [0m
+[0.634s] -- Generating done (0.0s)
+[0.635s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.644s] gmake: *** [Makefile:289: cmake_check_build_system] Error 1
+[0.646s] Invoked command in '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation -- -j20 -l20

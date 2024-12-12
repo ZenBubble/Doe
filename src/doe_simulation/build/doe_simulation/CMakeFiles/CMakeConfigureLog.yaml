@@ -527,3 +527,47 @@ events:
       
       
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/usr/share/cmake-3.28/Modules/FindProtobuf.cmake:541 (find_package)"
+      - "/opt/ros/jazzy/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/FindGzProtobuf.cmake:34 (find_package)"
+      - "/opt/ros/jazzy/opt/gz_transport_vendor/lib/cmake/gz-transport13/gz-transport13-config.cmake:92 (find_package)"
+      - "/opt/ros/jazzy/opt/gz_sim_vendor/lib/cmake/gz-sim8/gz-sim8-config.cmake:94 (find_package)"
+      - "/opt/ros/jazzy/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/GzFindPackage.cmake:243 (find_package)"
+      - "CMakeLists.txt:34 (gz_find_package)"
+    directories:
+      source: "/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation/CMakeFiles/CMakeScratch/TryCompile-r2WsS6"
+      binary: "/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation/CMakeFiles/CMakeScratch/TryCompile-r2WsS6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/opt/ros/jazzy/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation/CMakeFiles/CMakeScratch/TryCompile-r2WsS6'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_66102/fast
+        gmake[1]: Entering directory '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation/CMakeFiles/CMakeScratch/TryCompile-r2WsS6'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_66102.dir/build.make CMakeFiles/cmTC_66102.dir/build
+        gmake[2]: Entering directory '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation/CMakeFiles/CMakeScratch/TryCompile-r2WsS6'
+        Building C object CMakeFiles/cmTC_66102.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu17 -o CMakeFiles/cmTC_66102.dir/src.c.o -c /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation/CMakeFiles/CMakeScratch/TryCompile-r2WsS6/src.c
+        Linking C executable cmTC_66102
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66102.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_66102.dir/src.c.o -o cmTC_66102 
+        gmake[2]: Leaving directory '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation/CMakeFiles/CMakeScratch/TryCompile-r2WsS6'
+        gmake[1]: Leaving directory '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation/CMakeFiles/CMakeScratch/TryCompile-r2WsS6'
+        
+      exitCode: 0
+...

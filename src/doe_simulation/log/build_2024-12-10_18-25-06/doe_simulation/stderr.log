@@ -1,0 +1,12 @@
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void doe_simulation::ThrusterDriver::[01;32m[KConfigure[m[K(const gz::sim::v8::Entity&, const std::shared_ptr<const sdf::v14::Element>&, gz::sim::v8::EntityComponentManager&, gz::sim::v8::EventManager&)[m[K’:
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:7:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_entity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    7 | void ThrusterDriver::Configure([01;35m[Kconst Entity &_entity[m[K, const std::shared_ptr<const sdf::Element> &_sdf, EntityComponentManager &_ecm, EventManager &_eventMgr) {
+      |                                [01;35m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:7:128:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_ecm[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    7 | ared_ptr<const sdf::Element> &_sdf, [01;35m[KEntityComponentManager &_ecm[m[K, EventManager &_eventMgr) {
+      |                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:7:148:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_eventMgr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    7 | Element> &_sdf, EntityComponentManager &_ecm, [01;35m[KEventManager &_eventMgr[m[K) {
+      |                                               [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~[m[K
+

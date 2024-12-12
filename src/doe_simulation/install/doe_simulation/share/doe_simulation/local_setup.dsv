@@ -1,2 +1,3 @@
 source;share/doe_simulation/environment/ament_prefix_path.sh
+source;share/doe_simulation/environment/library_path.sh
 source;share/doe_simulation/environment/path.sh

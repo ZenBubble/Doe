@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="doe_control.lint_cmake"
+  tests="3"
+  errors="0"
+  failures="0"
+  time="0.002"
+>
+  <testcase
+    name="CMakeLists.txt"
+    classname="doe_control.lint_cmake"/>
+  <testcase
+    name="install/doe_control/share/doe_control/cmake/doe_controlConfig-version.cmake"
+    classname="doe_control.lint_cmake"/>
+  <testcase
+    name="install/doe_control/share/doe_control/cmake/doe_controlConfig.cmake"
+    classname="doe_control.lint_cmake"/>
+  <system-out>Checked files:
+* CMakeLists.txt
+* install/doe_control/share/doe_control/cmake/doe_controlConfig-version.cmake
+* install/doe_control/share/doe_control/cmake/doe_controlConfig.cmake</system-out>
+</testsuite>

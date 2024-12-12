@@ -1,0 +1,25 @@
+[0.009s] Invoking command in '/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dorson/Documents/github/Doe/src/doe_control/build/doe_control -- -j20 -l20
+[0.036s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.206s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.225s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.230s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.238s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.246s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.287s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.288s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.333s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.376s] -- Found rclcpp_components: 28.1.5 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[0.395s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.415s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.432s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.452s] -- Found tf2: 0.36.4 (/opt/ros/jazzy/share/tf2/cmake)
+[0.455s] -- Configuring incomplete, errors occurred!
+[0.455s] [31mCMake Error at /opt/ros/jazzy/share/rclcpp_components/cmake/rclcpp_components_register_nodes.cmake:29 (message):
+[0.455s]   rclcpp_components_register_nodes() first argument 'triton_controls' is not
+[0.455s]   a target
+[0.455s] Call Stack (most recent call first):
+[0.455s]   CMakeLists.txt:56 (rclcpp_components_register_nodes)
+[0.455s] 
+[0.455s] [0m
+[0.459s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.461s] Invoked command in '/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dorson/Documents/github/Doe/src/doe_control/build/doe_control -- -j20 -l20

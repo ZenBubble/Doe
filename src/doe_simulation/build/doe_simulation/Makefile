@@ -65,6 +65,26 @@ CMAKE_BINARY_DIR = /home/dorson/Documents/github/Doe/src/doe_simulation/build/do
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target package
+package: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool..."
+	/usr/bin/cpack --config ./CPackConfig.cmake
+.PHONY : package
+
+# Special rule for the target package
+package/fast: package
+.PHONY : package/fast
+
+# Special rule for the target package_source
+package_source:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
+	/usr/bin/cpack --config ./CPackSourceConfig.cmake /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation/CPackSourceConfig.cmake
+.PHONY : package_source
+
+# Special rule for the target package_source
+package_source/fast: package_source
+.PHONY : package_source/fast
+
 # Special rule for the target test
 test:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running tests..."
@@ -210,26 +230,12 @@ thruster_driver_plugin/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/thruster_driver_plugin.dir/build.make CMakeFiles/thruster_driver_plugin.dir/build
 .PHONY : thruster_driver_plugin/fast
 
-#=============================================================================
-# Target rules for targets named cpp_executable
-
-# Build rule for target.
-cpp_executable: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cpp_executable
-.PHONY : cpp_executable
-
-# fast build rule for target.
-cpp_executable/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_executable.dir/build.make CMakeFiles/cpp_executable.dir/build
-.PHONY : cpp_executable/fast
-
 src/thruster_driver_plugin.o: src/thruster_driver_plugin.cpp.o
 .PHONY : src/thruster_driver_plugin.o
 
 # target to build an object file
 src/thruster_driver_plugin.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/thruster_driver_plugin.dir/build.make CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_executable.dir/build.make CMakeFiles/cpp_executable.dir/src/thruster_driver_plugin.cpp.o
 .PHONY : src/thruster_driver_plugin.cpp.o
 
 src/thruster_driver_plugin.i: src/thruster_driver_plugin.cpp.i
@@ -238,7 +244,6 @@ src/thruster_driver_plugin.i: src/thruster_driver_plugin.cpp.i
 # target to preprocess a source file
 src/thruster_driver_plugin.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/thruster_driver_plugin.dir/build.make CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_executable.dir/build.make CMakeFiles/cpp_executable.dir/src/thruster_driver_plugin.cpp.i
 .PHONY : src/thruster_driver_plugin.cpp.i
 
 src/thruster_driver_plugin.s: src/thruster_driver_plugin.cpp.s
@@ -247,7 +252,6 @@ src/thruster_driver_plugin.s: src/thruster_driver_plugin.cpp.s
 # target to generate assembly for a file
 src/thruster_driver_plugin.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/thruster_driver_plugin.dir/build.make CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_executable.dir/build.make CMakeFiles/cpp_executable.dir/src/thruster_driver_plugin.cpp.s
 .PHONY : src/thruster_driver_plugin.cpp.s
 
 # Help Target
@@ -261,11 +265,12 @@ help:
 	@echo "... install/local"
 	@echo "... install/strip"
 	@echo "... list_install_components"
+	@echo "... package"
+	@echo "... package_source"
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... doe_simulation_uninstall"
 	@echo "... uninstall"
-	@echo "... cpp_executable"
 	@echo "... thruster_driver_plugin"
 	@echo "... src/thruster_driver_plugin.o"
 	@echo "... src/thruster_driver_plugin.i"

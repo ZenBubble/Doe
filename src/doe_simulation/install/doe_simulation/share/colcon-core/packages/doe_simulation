@@ -1,1 +1,1 @@
-geometry_msgs:nav_msgs:rclcpp:rclcpp_components:ros_gz:sensor_msgs:std_msgs
+geometry_msgs:gz-cmake3:nav_msgs:rclcpp:rclcpp_components:ros_gz:sensor_msgs:std_msgs

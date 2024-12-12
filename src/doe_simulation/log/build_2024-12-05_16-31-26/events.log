@@ -1,0 +1,384 @@
+[0.000000] (-) TimerEvent: {}
+[0.000213] (doe_simulation) JobQueued: {'identifier': 'doe_simulation', 'dependencies': OrderedDict()}
+[0.000300] (doe_simulation) JobStarted: {'identifier': 'doe_simulation'}
+[0.015763] (doe_simulation) JobProgress: {'identifier': 'doe_simulation', 'progress': 'cmake'}
+[0.018950] (doe_simulation) JobProgress: {'identifier': 'doe_simulation', 'progress': 'build'}
+[0.019036] (doe_simulation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation', '--', '-j20', '-l20'], 'cwd': '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/dorson/Documents/github/Doe/src/doe_simulation', 'LANGUAGE': 'en_CA:en', 'USER': 'dorson', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/dorson', 'OLDPWD': '/home/dorson/Documents/github/Doe/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2256', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/dorson/Documents/github/Doe/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'dorson', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dorson', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/dorson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/dorson-AORUS-5-SE:@/tmp/.ICE-unix/2170,unix/dorson-AORUS-5-SE:/tmp/.ICE-unix/2170', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/83777752_ef5a_4dc7_be80_5315a300a1cc', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.145', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'RCUTILS_COLORIZED_OUTPUT': '1', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.068716] (doe_simulation) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099275] (-) TimerEvent: {}
+[0.199703] (-) TimerEvent: {}
+[0.300242] (-) TimerEvent: {}
+[0.388211] (doe_simulation) StdoutLine: {'line': b'-- Found ros_gz: 1.0.7 (/opt/ros/jazzy/share/ros_gz/cmake)\n'}
+[0.388512] (doe_simulation) StdoutLine: {'line': b'-- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.400400] (-) TimerEvent: {}
+[0.417085] (doe_simulation) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.425584] (doe_simulation) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.436619] (doe_simulation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.449491] (doe_simulation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500644] (-) TimerEvent: {}
+[0.510488] (doe_simulation) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.511766] (doe_simulation) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.595453] (doe_simulation) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.600927] (-) TimerEvent: {}
+[0.681062] (doe_simulation) StdoutLine: {'line': b'-- Found rclcpp_components: 28.1.5 (/opt/ros/jazzy/share/rclcpp_components/cmake)\n'}
+[0.701141] (-) TimerEvent: {}
+[0.707931] (doe_simulation) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.738537] (doe_simulation) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[0.762606] (doe_simulation) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[0.794219] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[0.794623] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[0.794964] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[0.795161] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[0.795590] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-utils2> component [cli]\n'}
+[0.795944] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-utils2-cli -- found version 2.2.0\n'}
+[0.796137] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2-cli\n'}
+[0.796721] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [register]\n'}
+[0.797229] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-plugin2-register -- found version 2.0.3\n'}
+[0.797483] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-register\n'}
+[0.797895] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-plugin2 - found\n'}
+[0.798044] (doe_simulation) StdoutLine: {'line': b'\n'}
+[0.798836] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sim8 -- found version 8.7.0\n'}
+[0.799140] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sim8\n'}
+[0.799342] (doe_simulation) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.5.0\n'}
+[0.799517] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of sdformat14\n'}
+[0.801221] (-) TimerEvent: {}
+[0.805435] (doe_simulation) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[0.825187] (doe_simulation) StdoutLine: {'line': b'--   Found tinyxml2, version 10.0.0\n'}
+[0.879375] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[0.879813] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[0.880319] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[0.882272] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[0.884334] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[0.884591] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[0.885030] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[0.885427] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [loader]\n'}
+[0.885918] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-plugin2-loader -- found version 2.0.3\n'}
+[0.886297] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-loader\n'}
+[0.886970] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [register]\n'}
+[0.888076] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.4.0\n'}
+[0.888473] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13\n'}
+[0.901402] (-) TimerEvent: {}
+[0.948095] (doe_simulation) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[0.954996] (doe_simulation) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[0.977932] (doe_simulation) StdoutLine: {'line': b'--   Found libzmq, version 4.3.5\n'}
+[1.001543] (-) TimerEvent: {}
+[1.059304] (doe_simulation) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.085380] (doe_simulation) StdoutLine: {'line': b'--   Found uuid, version 2.39.3\n'}
+[1.101794] (-) TimerEvent: {}
+[1.151096] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[1.151996] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.1\n'}
+[1.152367] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-msgs10\n'}
+[1.184368] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[1.184951] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.202093] (-) TimerEvent: {}
+[1.302589] (-) TimerEvent: {}
+[1.403076] (-) TimerEvent: {}
+[1.432469] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-transport13> component [log]\n'}
+[1.433238] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-transport13-log -- found version 13.4.0\n'}
+[1.433722] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13-log\n'}
+[1.434494] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-transport13> component [parameters]\n'}
+[1.435079] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-transport13-parameters -- found version 13.4.0\n'}
+[1.435543] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13-parameters\n'}
+[1.437019] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.1\n'}
+[1.437614] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[1.438084] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[1.438450] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[1.438775] (doe_simulation) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.439047] (doe_simulation) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.452442] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-common5> component [av]\n'}
+[1.452901] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-common5-av -- found version 5.7.0\n'}
+[1.453286] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-av\n'}
+[1.462614] (doe_simulation) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[1.490396] (doe_simulation) StdoutLine: {'line': b'--   Found libswscale, version 7.5.100\n'}
+[1.503247] (-) TimerEvent: {}
+[1.562702] (doe_simulation) StdoutLine: {'line': b"-- Checking for module 'libavdevice >= 56.4.100'\n"}
+[1.587779] (doe_simulation) StdoutLine: {'line': b'--   Found libavdevice, version 60.3.100\n'}
+[1.603404] (-) TimerEvent: {}
+[1.677356] (doe_simulation) StdoutLine: {'line': b"-- Checking for module 'libavformat'\n"}
+[1.702932] (doe_simulation) StdoutLine: {'line': b'--   Found libavformat, version 60.16.100\n'}
+[1.703470] (-) TimerEvent: {}
+[1.777553] (doe_simulation) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[1.803501] (doe_simulation) StdoutLine: {'line': b'--   Found libavcodec, version 60.31.102\n'}
+[1.803742] (-) TimerEvent: {}
+[1.880046] (doe_simulation) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[1.903959] (-) TimerEvent: {}
+[1.909290] (doe_simulation) StdoutLine: {'line': b'--   Found libavutil, version 58.29.100\n'}
+[1.972803] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[1.973425] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-common5-events -- found version 5.7.0\n'}
+[1.973686] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-events\n'}
+[1.974380] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.975206] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-common5> component [graphics]\n'}
+[1.976238] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-common5-graphics -- found version 5.7.0\n'}
+[1.976671] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-graphics\n'}
+[1.977092] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.981589] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-common5> component [io]\n'}
+[1.982338] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-common5-io -- found version 5.7.0\n'}
+[1.982822] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-io\n'}
+[1.983601] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-common5> component [profiler]\n'}
+[1.984358] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-common5-profiler -- found version 5.7.0\n'}
+[1.984761] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-profiler\n'}
+[1.986353] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-fuel_tools9 -- found version 9.1.0\n'}
+[1.986731] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-fuel_tools9\n'}
+[2.004176] (-) TimerEvent: {}
+[2.062170] (doe_simulation) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[2.087777] (doe_simulation) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[2.104368] (-) TimerEvent: {}
+[2.176874] (doe_simulation) StdoutLine: {'line': b"-- Checking for module 'yaml-0.1'\n"}
+[2.200499] (doe_simulation) StdoutLine: {'line': b'--   Found yaml-0.1, version 0.2.5\n'}
+[2.204561] (-) TimerEvent: {}
+[2.266744] (doe_simulation) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[2.294825] (doe_simulation) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[2.304760] (-) TimerEvent: {}
+[2.355597] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[2.356385] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[2.356780] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[2.357471] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[2.357879] (doe_simulation) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[2.358021] (doe_simulation) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[2.372535] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-common5> component [testing]\n'}
+[2.373351] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-common5-testing -- found version 5.7.0\n'}
+[2.373618] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-testing\n'}
+[2.375738] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[2.376456] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.1\n'}
+[2.378189] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-gui8 -- found version 8.3.0\n'}
+[2.378606] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-gui8\n'}
+[2.404952] (-) TimerEvent: {}
+[2.423922] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[2.424648] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[2.425402] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[2.426029] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[2.426935] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.4.0\n'}
+[2.427685] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.1\n'}
+[2.427926] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-rendering8\n'}
+[2.428766] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[2.429050] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[2.429738] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[2.429988] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-math7> component [eigen3]\n'}
+[2.430741] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-math7-eigen3 -- found version 7.5.1\n'}
+[2.431246] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7-eigen3\n'}
+[2.433982] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[2.434402] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[2.434796] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[2.435212] (doe_simulation) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[2.435430] (doe_simulation) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[2.449215] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-common5> component [graphics]\n'}
+[2.449443] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[2.449554] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-common5> component [geospatial]\n'}
+[2.450162] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-common5-geospatial -- found version 5.7.0\n'}
+[2.450542] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-geospatial\n'}
+[2.451048] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[2.451775] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[2.453490] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[2.453906] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[2.454332] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[2.454746] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [all]\n'}
+[2.455198] (doe_simulation) StdoutLine: {'line': b'-- Looking for all libraries of gz-plugin2 -- found version 2.0.3\n'}
+[2.456153] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[2.457744] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[2.463554] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.1\n'}
+[2.488621] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-physics7 -- found version 7.4.0\n'}
+[2.488808] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7\n'}
+[2.489359] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[2.489864] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[2.490493] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[2.490954] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[2.492661] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [heightmap]\n'}
+[2.493332] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-physics7-heightmap -- found version 7.4.0\n'}
+[2.493533] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-heightmap\n'}
+[2.494131] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[2.494850] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [mesh]\n'}
+[2.495369] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-physics7-mesh -- found version 7.4.0\n'}
+[2.495618] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-mesh\n'}
+[2.496182] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[2.496915] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [sdf]\n'}
+[2.497486] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-physics7-sdf -- found version 7.4.0\n'}
+[2.497795] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-sdf\n'}
+[2.498104] (doe_simulation) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.5.0\n'}
+[2.499575] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.1\n'}
+[2.499882] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8\n'}
+[2.505133] (-) TimerEvent: {}
+[2.521937] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[2.522331] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[2.522652] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.4.0\n'}
+[2.523190] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.1\n'}
+[2.523443] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.1\n'}
+[2.523751] (doe_simulation) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.5.0\n'}
+[2.524377] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [air_pressure]\n'}
+[2.524755] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8-air_pressure -- found version 8.2.1\n'}
+[2.524917] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-air_pressure\n'}
+[2.525562] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [air_speed]\n'}
+[2.525929] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8-air_speed -- found version 8.2.1\n'}
+[2.526258] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-air_speed\n'}
+[2.527060] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [altimeter]\n'}
+[2.527530] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8-altimeter -- found version 8.2.1\n'}
+[2.527666] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-altimeter\n'}
+[2.528479] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [imu]\n'}
+[2.528974] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8-imu -- found version 8.2.1\n'}
+[2.529096] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-imu\n'}
+[2.529983] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [force_torque]\n'}
+[2.530485] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8-force_torque -- found version 8.2.1\n'}
+[2.530863] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-force_torque\n'}
+[2.531580] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [logical_camera]\n'}
+[2.532299] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8-logical_camera -- found version 8.2.1\n'}
+[2.532689] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-logical_camera\n'}
+[2.533219] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [magnetometer]\n'}
+[2.533908] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8-magnetometer -- found version 8.2.1\n'}
+[2.534321] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-magnetometer\n'}
+[2.534949] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [navsat]\n'}
+[2.535519] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8-navsat -- found version 8.2.1\n'}
+[2.535915] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-navsat\n'}
+[2.536590] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [dvl]\n'}
+[2.537425] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8-dvl -- found version 8.2.1\n'}
+[2.537635] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-dvl\n'}
+[2.538006] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.1\n'}
+[2.538404] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8\n'}
+[2.570557] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[2.571190] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[2.571776] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.4.0\n'}
+[2.572407] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.1\n'}
+[2.572927] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.1\n'}
+[2.573597] (doe_simulation) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.5.0\n'}
+[2.573944] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rendering]\n'}
+[2.574367] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8-rendering -- found version 8.2.1\n'}
+[2.574714] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-rendering\n'}
+[2.576448] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rendering]\n'}
+[2.576661] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [lidar]\n'}
+[2.577126] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8-lidar -- found version 8.2.1\n'}
+[2.577485] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-lidar\n'}
+[2.577937] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.1\n'}
+[2.578909] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [gpu_lidar]\n'}
+[2.579569] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8-gpu_lidar -- found version 8.2.1\n'}
+[2.580001] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-gpu_lidar\n'}
+[2.580358] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.1\n'}
+[2.581269] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [camera]\n'}
+[2.581947] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8-camera -- found version 8.2.1\n'}
+[2.582334] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-camera\n'}
+[2.582911] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.1\n'}
+[2.583932] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [boundingbox_camera]\n'}
+[2.584594] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8-boundingbox_camera -- found version 8.2.1\n'}
+[2.584915] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-boundingbox_camera\n'}
+[2.585727] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [segmentation_camera]\n'}
+[2.586341] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8-segmentation_camera -- found version 8.2.1\n'}
+[2.586650] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-segmentation_camera\n'}
+[2.587596] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [depth_camera]\n'}
+[2.588215] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8-depth_camera -- found version 8.2.1\n'}
+[2.588516] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-depth_camera\n'}
+[2.589114] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.1\n'}
+[2.590134] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rgbd_camera]\n'}
+[2.590759] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8-rgbd_camera -- found version 8.2.1\n'}
+[2.591147] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-rgbd_camera\n'}
+[2.591612] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.1\n'}
+[2.592595] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [thermal_camera]\n'}
+[2.593200] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8-thermal_camera -- found version 8.2.1\n'}
+[2.593514] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-thermal_camera\n'}
+[2.594103] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.1\n'}
+[2.595109] (doe_simulation) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [wide_angle_camera]\n'}
+[2.595665] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sensors8-wide_angle_camera -- found version 8.2.1\n'}
+[2.596069] (doe_simulation) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-wide_angle_camera\n'}
+[2.597694] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.1\n'}
+[2.598413] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[2.599037] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[2.605342] (-) TimerEvent: {}
+[2.627595] (doe_simulation) StdoutLine: {'line': b'-- Looking for gz-sim8 - found\n'}
+[2.627765] (doe_simulation) StdoutLine: {'line': b'\n'}
+[2.705519] (-) TimerEvent: {}
+[2.760673] (doe_simulation) StdoutLine: {'line': b'-- Configuring done (2.7s)\n'}
+[2.805708] (-) TimerEvent: {}
+[2.857401] (doe_simulation) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[2.859746] (doe_simulation) StdoutLine: {'line': b'-- Build files have been written to: /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation\n'}
+[2.905911] (-) TimerEvent: {}
+[2.934963] (doe_simulation) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o\x1b[0m\n'}
+[3.006041] (-) TimerEvent: {}
+[3.106294] (-) TimerEvent: {}
+[3.206682] (-) TimerEvent: {}
+[3.307059] (-) TimerEvent: {}
+[3.407434] (-) TimerEvent: {}
+[3.507811] (-) TimerEvent: {}
+[3.608118] (-) TimerEvent: {}
+[3.708508] (-) TimerEvent: {}
+[3.808915] (-) TimerEvent: {}
+[3.909362] (-) TimerEvent: {}
+[4.009700] (-) TimerEvent: {}
+[4.110083] (-) TimerEvent: {}
+[4.210507] (-) TimerEvent: {}
+[4.310959] (-) TimerEvent: {}
+[4.411374] (-) TimerEvent: {}
+[4.511765] (-) TimerEvent: {}
+[4.612142] (-) TimerEvent: {}
+[4.712410] (-) TimerEvent: {}
+[4.812691] (-) TimerEvent: {}
+[4.913026] (-) TimerEvent: {}
+[5.013367] (-) TimerEvent: {}
+[5.113721] (-) TimerEvent: {}
+[5.214068] (-) TimerEvent: {}
+[5.314408] (-) TimerEvent: {}
+[5.414750] (-) TimerEvent: {}
+[5.515101] (-) TimerEvent: {}
+[5.615451] (-) TimerEvent: {}
+[5.715800] (-) TimerEvent: {}
+[5.816181] (-) TimerEvent: {}
+[5.916540] (-) TimerEvent: {}
+[6.016908] (-) TimerEvent: {}
+[6.074244] (doe_simulation) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[6.074732] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:38:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kphysics\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[6.074819] (doe_simulation) StderrLine: {'line': b'   38 |         virtual void Load(\x1b[01;31m\x1b[Kphysics\x1b[m\x1b[K::ModelPtr _model, sdf::ElementPtr _sdf);\n'}
+[6.074886] (doe_simulation) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[6.074965] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:38:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K_model\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.075039] (doe_simulation) StderrLine: {'line': b'   38 |         virtual void Load(physics::ModelPtr \x1b[01;31m\x1b[K_model\x1b[m\x1b[K, sdf::ElementPtr _sdf);\n'}
+[6.075099] (doe_simulation) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[6.095927] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:71:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kevent\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[6.096096] (doe_simulation) StderrLine: {'line': b'   71 |         \x1b[01;31m\x1b[Kevent\x1b[m\x1b[K::ConnectionPtr updateConnection_;\n'}
+[6.096158] (doe_simulation) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.102594] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:73:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kphysics\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.102733] (doe_simulation) StderrLine: {'line': b'   73 |         std::vector<\x1b[01;31m\x1b[Kphysics\x1b[m\x1b[K::LinkPtr> thruster;\n'}
+[6.102796] (doe_simulation) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[6.102851] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:73:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.103109] (doe_simulation) StderrLine: {'line': b'   73 |         std::vector<physics::LinkPtr\x1b[01;31m\x1b[K>\x1b[m\x1b[K thruster;\n'}
+[6.103195] (doe_simulation) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.103253] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:73:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[6.103311] (doe_simulation) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/opt/gz_plugin_vendor/include/gz/plugin2/gz/plugin/Register.hh:22\x1b[m\x1b[K,\n'}
+[6.103364] (doe_simulation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:7\x1b[m\x1b[K:\n'}
+[6.103418] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kdoe_simulation::gz::plugin::{anonymous}::ExecuteWhenLoadingLibrary0::\x1b[01;32m\x1b[KExecuteWhenLoadingLibrary0\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.103471] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:83:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[6.103522] (doe_simulation) StderrLine: {'line': b'   83 |     \x1b[01;31m\x1b[KGZ_ADD_PLUGIN\x1b[m\x1b[K(ThrusterDriver)\n'}
+[6.103573] (doe_simulation) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.103622] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:83:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[6.103672] (doe_simulation) StderrLine: {'line': b'   83 |     \x1b[01;31m\x1b[KGZ_ADD_PLUGIN\x1b[m\x1b[K(ThrusterDriver)\n'}
+[6.103729] (doe_simulation) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.104299] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:\x1b[m\x1b[K At global scope:\n'}
+[6.104424] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:12:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kvariable or field \xe2\x80\x98\x1b[01m\x1b[KLoad\x1b[m\x1b[K\xe2\x80\x99 declared void\n'}
+[6.104493] (doe_simulation) StderrLine: {'line': b'   12 |     void \x1b[01;31m\x1b[KThrusterDriver\x1b[m\x1b[K::Load(physics::ModelPtr _model, sdf::ElementPtr _sdf)\n'}
+[6.104549] (doe_simulation) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.104603] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:12:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kphysics\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[6.104657] (doe_simulation) StderrLine: {'line': b'   12 |     void ThrusterDriver::Load(\x1b[01;31m\x1b[Kphysics\x1b[m\x1b[K::ModelPtr _model, sdf::ElementPtr _sdf)\n'}
+[6.104710] (doe_simulation) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[6.104762] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:12:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K_sdf\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.104817] (doe_simulation) StderrLine: {'line': b'   12 | id ThrusterDriver::Load(physics::ModelPtr _model, sdf::ElementPtr \x1b[01;31m\x1b[K_sdf\x1b[m\x1b[K)\n'}
+[6.104866] (doe_simulation) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.104926] (doe_simulation) StderrLine: {'line': b'\n'}
+[6.106854] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid doe_simulation::ThrusterDriver::\x1b[01;32m\x1b[KApplyForce\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.106991] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:99:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid types \xe2\x80\x98\x1b[01m\x1b[Kint[unsigned int]\x1b[m\x1b[K\xe2\x80\x99 for array subscript\n'}
+[6.107054] (doe_simulation) StderrLine: {'line': b'   99 |             this->thruster\x1b[01;31m\x1b[K[\x1b[m\x1b[Ki]->AddLinkForce(ignition::math::Vector3d(0, 0, this->thrust_values[i]));\n'}
+[6.107109] (doe_simulation) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.107159] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:99:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kignition\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[6.107207] (doe_simulation) StderrLine: {'line': b'   99 |             this->thruster[i]->AddLinkForce(\x1b[01;31m\x1b[Kignition\x1b[m\x1b[K::math::Vector3d(0, 0, this->thrust_values[i]));\n'}
+[6.107253] (doe_simulation) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.117062] (-) TimerEvent: {}
+[6.217369] (-) TimerEvent: {}
+[6.317725] (-) TimerEvent: {}
+[6.418101] (-) TimerEvent: {}
+[6.518453] (-) TimerEvent: {}
+[6.618798] (-) TimerEvent: {}
+[6.719174] (-) TimerEvent: {}
+[6.819464] (-) TimerEvent: {}
+[6.919807] (-) TimerEvent: {}
+[7.020173] (-) TimerEvent: {}
+[7.120529] (-) TimerEvent: {}
+[7.220873] (-) TimerEvent: {}
+[7.264216] (doe_simulation) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/thruster_driver_plugin.dir/build.make:76: CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o] Error 1\n'}
+[7.264549] (doe_simulation) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thruster_driver_plugin.dir/all] Error 2\n'}
+[7.264804] (doe_simulation) StderrLine: {'line': b'gmake: *** [Makefile:166: all] Error 2\n'}
+[7.267567] (doe_simulation) CommandEnded: {'returncode': 2}
+[7.314885] (doe_simulation) JobEnded: {'identifier': 'doe_simulation', 'rc': 2}
+[7.320993] (-) TimerEvent: {}
+[7.325554] (-) EventReactorShutdown: {}

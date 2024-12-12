@@ -417,11 +417,136 @@ CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o
  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__struct.h
  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__type_support.h
  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/get_type_description.h
+ /opt/ros/jazzy/opt/gz_common_vendor/include/gz/common5/gz/common/CSVStreams.hh
+ /opt/ros/jazzy/opt/gz_common_vendor/include/gz/common5/gz/common/Console.hh
+ /opt/ros/jazzy/opt/gz_common_vendor/include/gz/common5/gz/common/DataFrame.hh
+ /opt/ros/jazzy/opt/gz_common_vendor/include/gz/common5/gz/common/Event.hh
+ /opt/ros/jazzy/opt/gz_common_vendor/include/gz/common5/gz/common/Export.hh
+ /opt/ros/jazzy/opt/gz_common_vendor/include/gz/common5/gz/common/Filesystem.hh
+ /opt/ros/jazzy/opt/gz_common_vendor/include/gz/common5/gz/common/IOBase.hh
+ /opt/ros/jazzy/opt/gz_common_vendor/include/gz/common5/gz/common/Mesh.hh
+ /opt/ros/jazzy/opt/gz_common_vendor/include/gz/common5/gz/common/SingletonT.hh
+ /opt/ros/jazzy/opt/gz_common_vendor/include/gz/common5/gz/common/SystemPaths.hh
+ /opt/ros/jazzy/opt/gz_common_vendor/include/gz/common5/gz/common/URI.hh
+ /opt/ros/jazzy/opt/gz_common_vendor/include/gz/common5/gz/common/Util.hh
+ /opt/ros/jazzy/opt/gz_common_vendor/include/gz/common5/gz/common/config.hh
+ /opt/ros/jazzy/opt/gz_common_vendor/include/gz/common5/gz/common/detail/Export.hh
+ /opt/ros/jazzy/opt/gz_common_vendor/include/gz/common5/gz/common/events/Export.hh
+ /opt/ros/jazzy/opt/gz_common_vendor/include/gz/common5/gz/common/events/Types.hh
+ /opt/ros/jazzy/opt/gz_common_vendor/include/gz/common5/gz/common/events/detail/Export.hh
+ /opt/ros/jazzy/opt/gz_common_vendor/include/gz/common5/gz/common/graphics/Export.hh
+ /opt/ros/jazzy/opt/gz_common_vendor/include/gz/common5/gz/common/graphics/Types.hh
+ /opt/ros/jazzy/opt/gz_common_vendor/include/gz/common5/gz/common/graphics/detail/Export.hh
+ /opt/ros/jazzy/opt/gz_common_vendor/include/gz/common5/gz/common/io/Export.hh
+ /opt/ros/jazzy/opt/gz_common_vendor/include/gz/common5/gz/common/io/detail/Export.hh
+ /opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/Angle.hh
+ /opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/Color.hh
+ /opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/Export.hh
+ /opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/Helpers.hh
+ /opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/Inertial.hh
+ /opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/MassMatrix3.hh
+ /opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/Material.hh
+ /opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/MaterialType.hh
+ /opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/Matrix3.hh
+ /opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/Matrix6.hh
+ /opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/Pose3.hh
+ /opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/Quaternion.hh
+ /opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/SphericalCoordinates.hh
+ /opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/TimeVaryingVolumetricGrid.hh
+ /opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/TimeVaryingVolumetricGridLookupField.hh
+ /opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/Vector2.hh
+ /opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/Vector3.hh
+ /opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/VolumetricGridLookupField.hh
+ /opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/config.hh
+ /opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/detail/AxisIndex.hh
+ /opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/detail/Export.hh
+ /opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/detail/InterpolationPoint.hh
+ /opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/graph/Edge.hh
+ /opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/graph/Graph.hh
+ /opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/graph/Vertex.hh
+ /opt/ros/jazzy/opt/gz_msgs_vendor/include/gz/msgs10/gz/msgs/Export.hh
+ /opt/ros/jazzy/opt/gz_msgs_vendor/include/gz/msgs10/gz/msgs/detail/Export.hh
+ /opt/ros/jazzy/opt/gz_msgs_vendor/include/gz/msgs10/gz/msgs/details/entity.pb.h
+ /opt/ros/jazzy/opt/gz_msgs_vendor/include/gz/msgs10/gz/msgs/details/header.pb.h
+ /opt/ros/jazzy/opt/gz_msgs_vendor/include/gz/msgs10/gz/msgs/details/log_playback_stats.pb.h
+ /opt/ros/jazzy/opt/gz_msgs_vendor/include/gz/msgs10/gz/msgs/details/parameter_declaration.pb.h
+ /opt/ros/jazzy/opt/gz_msgs_vendor/include/gz/msgs10/gz/msgs/details/parameter_declarations.pb.h
+ /opt/ros/jazzy/opt/gz_msgs_vendor/include/gz/msgs10/gz/msgs/details/serialized.pb.h
+ /opt/ros/jazzy/opt/gz_msgs_vendor/include/gz/msgs10/gz/msgs/details/serialized_map.pb.h
+ /opt/ros/jazzy/opt/gz_msgs_vendor/include/gz/msgs10/gz/msgs/details/time.pb.h
+ /opt/ros/jazzy/opt/gz_msgs_vendor/include/gz/msgs10/gz/msgs/details/world_stats.pb.h
+ /opt/ros/jazzy/opt/gz_msgs_vendor/include/gz/msgs10/gz/msgs/entity.pb.h
+ /opt/ros/jazzy/opt/gz_msgs_vendor/include/gz/msgs10/gz/msgs/header.pb.h
+ /opt/ros/jazzy/opt/gz_msgs_vendor/include/gz/msgs10/gz/msgs/log_playback_stats.pb.h
+ /opt/ros/jazzy/opt/gz_msgs_vendor/include/gz/msgs10/gz/msgs/parameter_declaration.pb.h
+ /opt/ros/jazzy/opt/gz_msgs_vendor/include/gz/msgs10/gz/msgs/parameter_declarations.pb.h
+ /opt/ros/jazzy/opt/gz_msgs_vendor/include/gz/msgs10/gz/msgs/serialized.pb.h
+ /opt/ros/jazzy/opt/gz_msgs_vendor/include/gz/msgs10/gz/msgs/serialized_map.pb.h
+ /opt/ros/jazzy/opt/gz_msgs_vendor/include/gz/msgs10/gz/msgs/time.pb.h
+ /opt/ros/jazzy/opt/gz_msgs_vendor/include/gz/msgs10/gz/msgs/world_stats.pb.h
+ /opt/ros/jazzy/opt/gz_plugin_vendor/include/gz/plugin2/gz/plugin/EnablePluginFromThis.hh
+ /opt/ros/jazzy/opt/gz_plugin_vendor/include/gz/plugin2/gz/plugin/Export.hh
+ /opt/ros/jazzy/opt/gz_plugin_vendor/include/gz/plugin2/gz/plugin/Info.hh
+ /opt/ros/jazzy/opt/gz_plugin_vendor/include/gz/plugin2/gz/plugin/Plugin.hh
+ /opt/ros/jazzy/opt/gz_plugin_vendor/include/gz/plugin2/gz/plugin/PluginPtr.hh
+ /opt/ros/jazzy/opt/gz_plugin_vendor/include/gz/plugin2/gz/plugin/Register.hh
+ /opt/ros/jazzy/opt/gz_plugin_vendor/include/gz/plugin2/gz/plugin/detail/Common.hh
+ /opt/ros/jazzy/opt/gz_plugin_vendor/include/gz/plugin2/gz/plugin/detail/Export.hh
+ /opt/ros/jazzy/opt/gz_plugin_vendor/include/gz/plugin2/gz/plugin/detail/Plugin.hh
+ /opt/ros/jazzy/opt/gz_plugin_vendor/include/gz/plugin2/gz/plugin/detail/PluginPtr.hh
+ /opt/ros/jazzy/opt/gz_plugin_vendor/include/gz/plugin2/gz/plugin/detail/Register.hh
+ /opt/ros/jazzy/opt/gz_plugin_vendor/include/gz/plugin2/gz/plugin/detail/utility.hh
+ /opt/ros/jazzy/opt/gz_plugin_vendor/include/gz/plugin2/gz/plugin/utility.hh
+ /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/Entity.hh
+ /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/EntityComponentManager.hh
+ /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/EventManager.hh
+ /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/Export.hh
+ /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/Model.hh
+ /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/System.hh
+ /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/Types.hh
+ /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/Util.hh
+ /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/components/Component.hh
+ /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/components/Environment.hh
+ /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/components/Factory.hh
+ /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/config.hh
+ /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/detail/BaseView.hh
+ /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/detail/EntityComponentManager.hh
+ /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/detail/Export.hh
+ /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/detail/View.hh
+ /opt/ros/jazzy/opt/gz_transport_vendor/include/gz/transport13/gz/transport/config.hh
+ /opt/ros/jazzy/opt/gz_transport_vendor/include/gz/transport13/gz/transport/parameters/Export.hh
+ /opt/ros/jazzy/opt/gz_transport_vendor/include/gz/transport13/gz/transport/parameters/Interface.hh
+ /opt/ros/jazzy/opt/gz_transport_vendor/include/gz/transport13/gz/transport/parameters/Registry.hh
+ /opt/ros/jazzy/opt/gz_transport_vendor/include/gz/transport13/gz/transport/parameters/detail/Export.hh
+ /opt/ros/jazzy/opt/gz_transport_vendor/include/gz/transport13/gz/transport/parameters/result.hh
+ /opt/ros/jazzy/opt/gz_utils_vendor/include/gz/utils2/gz/utils/Export.hh
+ /opt/ros/jazzy/opt/gz_utils_vendor/include/gz/utils2/gz/utils/ImplPtr.hh
+ /opt/ros/jazzy/opt/gz_utils_vendor/include/gz/utils2/gz/utils/NeverDestroyed.hh
+ /opt/ros/jazzy/opt/gz_utils_vendor/include/gz/utils2/gz/utils/SuppressWarning.hh
+ /opt/ros/jazzy/opt/gz_utils_vendor/include/gz/utils2/gz/utils/detail/DefaultOps.hh
+ /opt/ros/jazzy/opt/gz_utils_vendor/include/gz/utils2/gz/utils/detail/Export.hh
+ /opt/ros/jazzy/opt/gz_utils_vendor/include/gz/utils2/gz/utils/detail/ImplPtr.hh
+ /opt/ros/jazzy/opt/gz_utils_vendor/include/gz/utils2/gz/utils/detail/SuppressWarning.hh
+ /opt/ros/jazzy/opt/sdformat_vendor/include/gz/sdformat14/sdf/Console.hh
+ /opt/ros/jazzy/opt/sdformat_vendor/include/gz/sdformat14/sdf/CustomInertiaCalcProperties.hh
+ /opt/ros/jazzy/opt/sdformat_vendor/include/gz/sdformat14/sdf/Element.hh
+ /opt/ros/jazzy/opt/sdformat_vendor/include/gz/sdformat14/sdf/Error.hh
+ /opt/ros/jazzy/opt/sdformat_vendor/include/gz/sdformat14/sdf/Export.hh
+ /opt/ros/jazzy/opt/sdformat_vendor/include/gz/sdformat14/sdf/Mesh.hh
+ /opt/ros/jazzy/opt/sdformat_vendor/include/gz/sdformat14/sdf/Param.hh
+ /opt/ros/jazzy/opt/sdformat_vendor/include/gz/sdformat14/sdf/PrintConfig.hh
+ /opt/ros/jazzy/opt/sdformat_vendor/include/gz/sdformat14/sdf/Types.hh
+ /opt/ros/jazzy/opt/sdformat_vendor/include/gz/sdformat14/sdf/config.hh
+ /opt/ros/jazzy/opt/sdformat_vendor/include/gz/sdformat14/sdf/detail/Export.hh
+ /opt/ros/jazzy/opt/sdformat_vendor/include/gz/sdformat14/sdf/sdf_config.h
+ /opt/ros/jazzy/opt/sdformat_vendor/include/gz/sdformat14/sdf/system_util.hh
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
  /usr/include/assert.h
+ /usr/include/byteswap.h
  /usr/include/c++/13/algorithm
+ /usr/include/c++/13/any
  /usr/include/c++/13/array
  /usr/include/c++/13/atomic
  /usr/include/c++/13/backward/auto_ptr.h
@@ -453,6 +578,7 @@ CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o
  /usr/include/c++/13/bits/exception.h
  /usr/include/c++/13/bits/exception_defines.h
  /usr/include/c++/13/bits/exception_ptr.h
+ /usr/include/c++/13/bits/fstream.tcc
  /usr/include/c++/13/bits/functexcept.h
  /usr/include/c++/13/bits/functional_hash.h
  /usr/include/c++/13/bits/hash_bytes.h
@@ -538,6 +664,7 @@ CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o
  /usr/include/c++/13/cctype
  /usr/include/c++/13/cerrno
  /usr/include/c++/13/chrono
+ /usr/include/c++/13/climits
  /usr/include/c++/13/clocale
  /usr/include/c++/13/cmath
  /usr/include/c++/13/codecvt
@@ -564,6 +691,7 @@ CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o
  /usr/include/c++/13/ext/numeric_traits.h
  /usr/include/c++/13/ext/string_conversions.h
  /usr/include/c++/13/ext/type_traits.h
+ /usr/include/c++/13/fstream
  /usr/include/c++/13/functional
  /usr/include/c++/13/future
  /usr/include/c++/13/initializer_list
@@ -626,9 +754,63 @@ CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o
  /usr/include/errno.h
  /usr/include/features-time64.h
  /usr/include/features.h
+ /usr/include/google/protobuf/any.h
+ /usr/include/google/protobuf/arena.h
+ /usr/include/google/protobuf/arena_impl.h
+ /usr/include/google/protobuf/arenastring.h
+ /usr/include/google/protobuf/arenaz_sampler.h
+ /usr/include/google/protobuf/descriptor.h
+ /usr/include/google/protobuf/endian.h
+ /usr/include/google/protobuf/explicitly_constructed.h
+ /usr/include/google/protobuf/extension_set.h
+ /usr/include/google/protobuf/generated_enum_reflection.h
+ /usr/include/google/protobuf/generated_enum_util.h
+ /usr/include/google/protobuf/generated_message_reflection.h
+ /usr/include/google/protobuf/generated_message_util.h
+ /usr/include/google/protobuf/has_bits.h
+ /usr/include/google/protobuf/implicit_weak_message.h
+ /usr/include/google/protobuf/inlined_string_field.h
+ /usr/include/google/protobuf/io/coded_stream.h
+ /usr/include/google/protobuf/io/zero_copy_stream.h
+ /usr/include/google/protobuf/io/zero_copy_stream_impl_lite.h
+ /usr/include/google/protobuf/map.h
+ /usr/include/google/protobuf/map_entry.h
+ /usr/include/google/protobuf/map_entry_lite.h
+ /usr/include/google/protobuf/map_field.h
+ /usr/include/google/protobuf/map_field_inl.h
+ /usr/include/google/protobuf/map_field_lite.h
+ /usr/include/google/protobuf/map_type_handler.h
+ /usr/include/google/protobuf/message.h
+ /usr/include/google/protobuf/message_lite.h
+ /usr/include/google/protobuf/metadata_lite.h
+ /usr/include/google/protobuf/parse_context.h
+ /usr/include/google/protobuf/port.h
+ /usr/include/google/protobuf/port_def.inc
+ /usr/include/google/protobuf/port_undef.inc
+ /usr/include/google/protobuf/reflection_ops.h
+ /usr/include/google/protobuf/repeated_field.h
+ /usr/include/google/protobuf/repeated_ptr_field.h
+ /usr/include/google/protobuf/stubs/callback.h
+ /usr/include/google/protobuf/stubs/casts.h
+ /usr/include/google/protobuf/stubs/common.h
+ /usr/include/google/protobuf/stubs/hash.h
+ /usr/include/google/protobuf/stubs/logging.h
+ /usr/include/google/protobuf/stubs/macros.h
+ /usr/include/google/protobuf/stubs/mutex.h
+ /usr/include/google/protobuf/stubs/once.h
+ /usr/include/google/protobuf/stubs/platform_macros.h
+ /usr/include/google/protobuf/stubs/port.h
+ /usr/include/google/protobuf/stubs/status.h
+ /usr/include/google/protobuf/stubs/stl_util.h
+ /usr/include/google/protobuf/stubs/stringpiece.h
+ /usr/include/google/protobuf/stubs/strutil.h
+ /usr/include/google/protobuf/unknown_field_set.h
+ /usr/include/google/protobuf/wire_format_lite.h
  /usr/include/libintl.h
+ /usr/include/limits.h
  /usr/include/linux/close_range.h
  /usr/include/linux/errno.h
+ /usr/include/linux/limits.h
  /usr/include/locale.h
  /usr/include/math.h
  /usr/include/pthread.h
@@ -663,12 +845,15 @@ CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h
  /usr/include/x86_64-linux-gnu/bits/locale.h
  /usr/include/x86_64-linux-gnu/bits/long-double.h
  /usr/include/x86_64-linux-gnu/bits/math-vector.h
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h
  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h
+ /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
  /usr/include/x86_64-linux-gnu/bits/posix_opt.h
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
@@ -735,15 +920,19 @@ CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o
  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h
  /usr/include/x86_64-linux-gnu/bits/typesizes.h
  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h
+ /usr/include/x86_64-linux-gnu/bits/uio_lim.h
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/x86_64-linux-gnu/bits/wchar.h
  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h
  /usr/include/x86_64-linux-gnu/bits/wordsize.h
+ /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h
+ /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h
+ /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h
@@ -762,9 +951,11 @@ CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o
  /usr/include/x86_64-linux-gnu/sys/single_threaded.h
  /usr/include/x86_64-linux-gnu/sys/types.h
  /usr/include/x86_64-linux-gnu/sys/ucontext.h
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdalign.h
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
 

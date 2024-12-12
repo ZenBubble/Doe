@@ -1,0 +1,358 @@
+<?xml version="1.0" ?>
+<sdf version='1.11'>
+<world name="underwater_world">
+    <scene>
+      <!-- For turquoise ambient -->
+      <ambient>0.0 1.0 1.0</ambient>
+      <background>0.0 0.7 0.8</background>
+    </scene>
+
+    <physics name="1ms" type="ode">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+    </physics>
+    <!-- <plugin
+      filename="gz-sim-physics-system"
+      name="gz::sim::systems::Physics">
+    </plugin>
+    <plugin
+      filename="gz-sim-user-commands-system"
+      name="gz::sim::systems::UserCommands">
+    </plugin>
+    <plugin
+      filename="gz-sim-scene-broadcaster-system"
+      name="gz::sim::systems::SceneBroadcaster">
+    </plugin>
+    <plugin
+      filename="gz-sim-buoyancy-system"
+      name="gz::sim::systems::Buoyancy">
+      <uniform_fluid_density>200</uniform_fluid_density>
+    </plugin> -->
+
+    <light type="directional" name="sun">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>0.5 0.5 0.5 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+<!-- <plugin -->
+ <!-- filename="gz-sim-hydrodynamics-system" -->
+ <!-- name="gz::sim::systems::Hydrodynamics"> -->
+  <model name='steelhead_urdf'>
+        <!-- Useful params for controls simplifications-->
+        <scalingBuoyancy>0.93</scalingBuoyancy>
+        <scalingDamping>1.0</scalingDamping>
+        <scalingAddedMass>0.01</scalingAddedMass>
+
+        <!-- Added mass: see p.28 in Berg2012 -->
+        <added_mass>
+          5.579266667 0           0           0         0           0
+          0           15.09083333 0           0         0           0
+          0           0           30.55093333 0         0           0
+          0           0           0           7.2955698 0           0
+          0           0           0           0         15.51297973 0
+          0           0           0           0         0           16.14743877
+        </added_mass>
+        <!-- Linear damping: see p.31 in Berg2012 -->
+        <linear_damping>
+            -0.2229119791 -1.105547605 -0.2472084207 -0.02229119791 -0.1105547605 -0.02472084207
+        </linear_damping>
+        <!-- Non-linear damping: see p.30 in Berg2012 -->
+        <quadratic_damping>
+            -59.75066625 -71.13459739 -67.099009 -5.975066625 -7.113459739 -6.7099009
+        </quadratic_damping>
+    <!-- <fluid_density>1000</fluid_density> -->
+    <pose>0 0 5 -1.5708 0 0</pose>
+    <link name='base_link'>
+    <hydrodynamics>
+        <!-- <fluid_density>50</fluid_density> -->
+        <!-- Useful params for controls simplifications-->
+        <scalingBuoyancy>0.93</scalingBuoyancy>
+        <scalingDamping>1.0</scalingDamping>
+        <scalingAddedMass>0.01</scalingAddedMass>
+
+        <!-- Added mass: see p.28 in Berg2012 -->
+        <added_mass>
+          5.579266667 0           0           0         0           0
+          0           15.09083333 0           0         0           0
+          0           0           30.55093333 0         0           0
+          0           0           0           7.2955698 0           0
+          0           0           0           0         15.51297973 0
+          0           0           0           0         0           16.14743877
+        </added_mass>
+        <!-- Linear damping: see p.31 in Berg2012 -->
+        <linear_damping>
+            -0.2229119791 -1.105547605 -0.2472084207 -0.02229119791 -0.1105547605 -0.02472084207
+        </linear_damping>
+        <!-- Non-linear damping: see p.30 in Berg2012 -->
+        <quadratic_damping>
+            -59.75066625 -71.13459739 -67.099009 -5.975066625 -7.113459739 -6.7099009
+        </quadratic_damping>
+        <!-- Useful params for controls simplifications-->
+        <scalingBuoyancy>0.93</scalingBuoyancy>
+        <scalingDamping>1.0</scalingDamping>
+        <scalingAddedMass>0.01</scalingAddedMass>
+
+        <!-- Added mass: see p.28 in Berg2012 -->
+        <added_mass>
+          5.579266667 0           0           0         0           0
+          0           15.09083333 0           0         0           0
+          0           0           30.55093333 0         0           0
+          0           0           0           7.2955698 0           0
+          0           0           0           0         15.51297973 0
+          0           0           0           0         0           16.14743877
+        </added_mass>
+        <!-- Linear damping: see p.31 in Berg2012 -->
+        <linear_damping>
+            -0.2229119791 -1.105547605 -0.2472084207 -0.02229119791 -0.1105547605 -0.02472084207
+        </linear_damping>
+        <!-- Non-linear damping: see p.30 in Berg2012 -->
+        <quadratic_damping>
+            -59.75066625 -71.13459739 -67.099009 -5.975066625 -7.113459739 -6.7099009
+        </quadratic_damping>
+        <!-- Useful params for controls simplifications-->
+        <scalingBuoyancy>0.93</scalingBuoyancy>
+        <scalingDamping>1.0</scalingDamping>
+        <scalingAddedMass>0.01</scalingAddedMass>
+
+        <!-- Added mass: see p.28 in Berg2012 -->
+        <added_mass>
+          5.579266667 0           0           0         0           0
+          0           15.09083333 0           0         0           0
+          0           0           30.55093333 0         0           0
+          0           0           0           7.2955698 0           0
+          0           0           0           0         15.51297973 0
+          0           0           0           0         0           16.14743877
+        </added_mass>
+        <!-- Linear damping: see p.31 in Berg2012 -->
+        <linear_damping>
+            -0.2229119791 -1.105547605 -0.2472084207 -0.02229119791 -0.1105547605 -0.02472084207
+        </linear_damping>
+        <!-- Non-linear damping: see p.30 in Berg2012 -->
+        <quadratic_damping>
+            -59.75066625 -71.13459739 -67.099009 -5.975066625 -7.113459739 -6.7099009
+        </quadratic_damping>
+    </hydrodynamics>
+      <inertial>
+        <!-- <pose>0.0038393809785038252 0.044324365367989609 5 0 0 0</pose> -->
+        <pose>0.0038393809785038252 0.044324365367989609 -0.010251360654948369 0 0 0</pose>
+        <mass>12.391770026056509</mass>
+        <inertia>
+          <ixx>0.14218236334067291</ixx>
+          <ixy>-0.0001543187389148994</ixy>
+          <ixz>0.00048548090696102282</ixz>
+          <iyy>0.24542613078813311</iyy>
+          <iyz>-0.0032337892178579439</iyz>
+          <izz>0.19093421792927209</izz>
+        </inertia>
+      </inertial>
+      <collision name='base_link_collision'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://meshes/base_link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__thruster-1_link_collision_1'>
+        <pose>0.00026684981318999998 -0.084748516609537999 -0.21943183650998399 3.14159265358979 0 -0.0105672952385601</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://meshes/thruster-1_link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__thruster-2_link_collision_2'>
+        <pose>-0.21050310939622099 0.0038660719271790202 0.33236816349001802 3.14159265358979 0 0.78506667355730497</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://meshes/thruster-2_link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__thruster-3_link_collision_3'>
+        <pose>0.21327640201040399 0.0037255933195410201 0.33236816349001902 3.14159265358979 0 -0.78572965323759303</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://meshes/thruster-3_link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__thruster-6_link_collision_4'>
+        <pose>0.0063667000000000003 -0.0044999999999999997 -0.35743000000000003 -3.1415853071795872 -4.2351647362715017e-22 1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://meshes/thruster-6_link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__thruster_4_link_collision_5'>
+        <pose>0.32840000000000003 0.00096400999999999995 -0.070169999999999996 -1.5708 -5.5511151231257827e-17 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://meshes/thruster_4_link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__thruster_5_link_collision_6'>
+        <pose>-0.32565 0 -0.071134000000000003 1.5708 -5.5511151231257827e-17 1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://meshes/thruster_5_link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='base_link_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://meshes/base_link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.941176474 0.941176474 0.941176474 1</diffuse>
+          <ambient>0.941176474 0.941176474 0.941176474 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__thruster-1_link_visual_1'>
+        <pose>0.00026684981318999998 -0.084748516609537999 -0.21943183650998399 3.14159265358979 0 -0.0105672952385601</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://meshes/thruster-1_link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.990196109 1 1 1</diffuse>
+          <ambient>0.990196109 1 1 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__thruster-2_link_visual_2'>
+        <pose>-0.21050310939622099 0.0038660719271790202 0.33236816349001802 3.14159265358979 0 0.78506667355730497</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://meshes/thruster-2_link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.990196109 1 1 1</diffuse>
+          <ambient>0.990196109 1 1 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__thruster-3_link_visual_3'>
+        <pose>0.21327640201040399 0.0037255933195410201 0.33236816349001902 3.14159265358979 0 -0.78572965323759303</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://meshes/thruster-3_link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.990196109 1 1 1</diffuse>
+          <ambient>0.990196109 1 1 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__thruster-6_link_visual_4'>
+        <pose>0.0063667000000000003 -0.0044999999999999997 -0.35743000000000003 -3.1415853071795872 -4.2351647362715017e-22 1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://meshes/thruster-6_link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.990199983 1 1 1</diffuse>
+          <ambient>0.990199983 1 1 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__thruster_4_link_visual_5'>
+        <pose>0.32840000000000003 0.00096400999999999995 -0.070169999999999996 -1.5708 -5.5511151231257827e-17 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://meshes/thruster_4_link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.990199983 1 1 1</diffuse>
+          <ambient>0.990199983 1 1 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__thruster_5_link_visual_6'>
+        <pose>-0.32565 0 -0.071134000000000003 1.5708 -5.5511151231257827e-17 1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://meshes/thruster_5_link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.990199983 1 1 1</diffuse>
+          <ambient>0.990199983 1 1 1</ambient>
+        </material>
+      </visual>
+    </link>
+    <frame name='thruster-1_joint' attached_to='base_link'>
+      <pose>0.00026684981318999998 -0.084748516609537999 -0.21943183650998399 3.14159265358979 0 -0.0105672952385601</pose>
+    </frame>
+    <frame name='thruster-1_link' attached_to='thruster-1_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='thruster-2_joint' attached_to='base_link'>
+      <pose>-0.21050310939622099 0.0038660719271790202 0.33236816349001802 3.14159265358979 0 0.78506667355730497</pose>
+    </frame>
+    <frame name='thruster-2_link' attached_to='thruster-2_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='thruster-3_joint' attached_to='base_link'>
+      <pose>0.21327640201040399 0.0037255933195410201 0.33236816349001902 3.14159265358979 0 -0.78572965323759303</pose>
+    </frame>
+    <frame name='thruster-3_link' attached_to='thruster-3_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='thruster-6_joint' attached_to='base_link'>
+      <pose>0.0063667000000000003 -0.0044999999999999997 -0.35743000000000003 -3.1415853071795872 -4.2351647362715017e-22 1.5708</pose>
+    </frame>
+    <frame name='thruster-6_link' attached_to='thruster-6_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='thruster_4_joint' attached_to='base_link'>
+      <pose>0.32840000000000003 0.00096400999999999995 -0.070169999999999996 -1.5708 -5.5511151231257827e-17 -1.5708</pose>
+    </frame>
+    <frame name='thruster_4_link' attached_to='thruster_4_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='thruster_5_joint' attached_to='base_link'>
+      <pose>-0.32565 0 -0.071134000000000003 1.5708 -5.5511151231257827e-17 1.5708</pose>
+    </frame>
+    <frame name='thruster_5_link' attached_to='thruster_5_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+        <plugin
+      filename="gz-sim-hydrodynamics-system"
+      name="gz::sim::systems::Hydrodynamics">
+    <link_name>base_link</link_name>
+<!-- link name='base_link' -->
+      <!-- <fluid_density>1000</fluid_density> -->
+    </plugin>
+  </model>
+<!-- </plugin> -->
+</world>
+</sdf>

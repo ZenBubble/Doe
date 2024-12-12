@@ -1,0 +1,131 @@
+[0.008s] Invoking command in '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation -- -j20 -l20
+[0.074s] [ 50%] [32mBuilding CXX object CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o[0m
+[2.267s] In file included from [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:1[m[K:
+[2.267s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:31:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo[m[K’ does not name a type
+[2.267s]    31 |         [01;31m[Kgazebo[m[K::event::ConnectionPtr updateConnection_;
+[2.267s]       |         [01;31m[K^~~~~~[m[K
+[2.271s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:33:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo[m[K’ was not declared in this scope
+[2.271s]    33 |         std::vector<[01;31m[Kgazebo[m[K::physics::LinkPtr> thruster;
+[2.271s]       |                     [01;31m[K^~~~~~[m[K
+[2.271s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:33:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.271s]    33 |         std::vector<gazebo::physics::LinkPtr[01;31m[K>[m[K thruster;
+[2.271s]       |                                             [01;31m[K^[m[K
+[2.271s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:33:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[2.276s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void doe_simulation::ThrusterDriver::[01;32m[KUpdate[m[K(const gz::sim::v8::UpdateInfo&, gz::sim::v8::EntityComponentManager&)[m[K’:
+[2.276s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:26:13:[m[K [01;31m[Kerror: [m[K‘[01m[K_sdf[m[K’ was not declared in this scope; did you mean ‘[01m[Ksdf[m[K’?
+[2.276s]    26 |         if ([01;31m[K_sdf[m[K->HasElement("thruster_count"))
+[2.276s]       |             [01;31m[K^~~~[m[K
+[2.276s]       |             [32m[Ksdf[m[K
+[2.276s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:28:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass doe_simulation::ThrusterDriver[m[K’ has no member named ‘[01m[Kthruster_count[m[K’
+[2.276s]    28 |             this->[01;31m[Kthruster_count[m[K = _sdf->Get<unsigned int>("thruster_count");
+[2.277s]       |                   [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.277s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:28:46:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kunsigned[m[K’
+[2.277s]    28 |             this->thruster_count = _sdf->Get<[01;31m[Kunsigned[m[K int>("thruster_count");
+[2.277s]       |                                              [01;31m[K^~~~~~~~[m[K
+[2.280s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:36:41:[m[K [01;31m[Kerror: [m[K‘[01m[K_sdf[m[K’ was not declared in this scope; did you mean ‘[01m[Ksdf[m[K’?
+[2.280s]    36 |         sdf::ElementPtr ros_namespace = [01;31m[K_sdf[m[K->GetElement("ros");
+[2.280s]       |                                         [01;31m[K^~~~[m[K
+[2.280s]       |                                         [32m[Ksdf[m[K
+[2.280s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:37:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass doe_simulation::ThrusterDriver[m[K’ has no member named ‘[01m[KGetRosNamespace[m[K’
+[2.280s]    37 |         this->[01;31m[KGetRosNamespace[m[K(ros_namespace);
+[2.281s]       |               [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.281s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:39:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass doe_simulation::ThrusterDriver[m[K’ has no member named ‘[01m[Kthruster_count[m[K’
+[2.281s]    39 |         this->thrust_values = std::vector<double>(this->[01;31m[Kthruster_count[m[K, 0);
+[2.281s]       |                                                         [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.281s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:43:56:[m[K [01;31m[Kerror: [m[K‘[01m[KGetForceCmd[m[K’ is not a member of ‘[01m[Kdoe_simulation::ThrusterDriver[m[K’
+[2.281s]    43 |                             std::bind(&ThrusterDriver::[01;31m[KGetForceCmd[m[K, this, _1));
+[2.281s]       |                                                        [01;31m[K^~~~~~~~~~~[m[K
+[2.281s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:43:75:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+[2.281s]    43 |                     std::bind(&ThrusterDriver::GetForceCmd, this, [01;31m[K_1[m[K));
+[2.281s]       |                                                                   [01;31m[K^~[m[K
+[2.281s]       |                                                                   [32m[Kstd::placeholders::_1[m[K
+[2.281s] In file included from [01m[K/usr/include/google/protobuf/map.h:41[m[K,
+[2.281s]                  from [01m[K/usr/include/google/protobuf/message.h:126[m[K,
+[2.281s]                  from [01m[K/opt/ros/jazzy/opt/gz_msgs_vendor/include/gz/msgs10/gz/msgs/details/serialized.pb.h:29[m[K,
+[2.281s]                  from [01m[K/opt/ros/jazzy/opt/gz_msgs_vendor/include/gz/msgs10/gz/msgs/serialized.pb.h:12[m[K,
+[2.281s]                  from [01m[K/opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/EntityComponentManager.hh:20[m[K,
+[2.281s]                  from [01m[K/opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/Model.hh:27[m[K,
+[2.281s]                  from [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:4[m[K:
+[2.281s] [01m[K/usr/include/c++/13/functional:294:48:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+[2.281s]   294 |     _GLIBCXX_PLACEHOLDER const _Placeholder<1> [01;36m[K_1[m[K;
+[2.281s]       |                                                [01;36m[K^~[m[K
+[2.282s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.282s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[2.282s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[2.282s]                  from [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:9[m[K:
+[2.282s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:45:76:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst char*[m[K’
+[2.282s]    45 | PP_INFO(node->get_logger(), [01;31m[K"Listening on " + this->topic_name + "\n"[m[K);
+[2.282s]       |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[2.282s]       |                                                                [01;31m[K|[m[K
+[2.282s]       |                                                                [01;31m[Kstd::__cxx11::basic_string<char>[m[K
+[2.282s] 
+[2.282s] In file included from [01m[K/opt/ros/jazzy/include/rmw/rmw/types.h:28[m[K,
+[2.282s]                  from [01m[K/opt/ros/jazzy/include/rcl/rcl/types.h:20[m[K,
+[2.282s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/exceptions/exceptions.hpp:23[m[K,
+[2.282s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/exceptions.hpp:18[m[K,
+[2.282s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter.hpp:25[m[K,
+[2.282s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:25[m[K:
+[2.282s] [01m[K/opt/ros/jazzy/include/rcutils/rcutils/logging.h:473:16:[m[K [01;36m[Knote: [m[K  initializing argument 4 of ‘[01m[Kvoid[01;32m[K rcutils_log_internal[m[K(const rcutils_log_location_t*, int, const char*, const char*, ...)[m[K’
+[2.282s]   473 |   [01;36m[Kconst char * format[m[K,
+[2.282s]       |   [01;36m[K~~~~~~~~~~~~~^~~~~~[m[K
+[2.286s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:47:34:[m[K [01;31m[Kerror: [m[K‘[01m[K_model[m[K’ was not declared in this scope; did you mean ‘[01m[Kmodfl[m[K’?
+[2.286s]    47 |         std::string model_name = [01;31m[K_model[m[K->GetName();
+[2.286s]       |                                  [01;31m[K^~~~~~[m[K
+[2.286s]       |                                  [32m[Kmodfl[m[K
+[2.292s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:49:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kthruster_count[m[K’ was not declared in this scope
+[2.292s]    49 |         for (unsigned int i = 1; i <= [01;31m[Kthruster_count[m[K; i++)
+[2.292s]       |                                       [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.292s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:52:28:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpush_back[m[K’ in ‘[01m[K((doe_simulation::ThrusterDriver*)this)->doe_simulation::ThrusterDriver::thruster[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[2.292s]    52 |             this->thruster.[01;31m[Kpush_back[m[K(_model->GetLink(thruster_name));
+[2.292s]       |                            [01;31m[K^~~~~~~~~[m[K
+[2.292s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:54:65:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[unsigned int][m[K’ for array subscript
+[2.292s]    54 |         RCLCPP_INFO(this->node->get_logger(), this->thruster[01;31m[K[[m[Ki-1]->GetName());
+[2.292s]       |                                                             [01;31m[K^[m[K
+[2.292s] 
+[2.293s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:57:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass doe_simulation::ThrusterDriver[m[K’ has no member named ‘[01m[KupdateConnection_[m[K’
+[2.293s]    57 |         this->[01;31m[KupdateConnection_[m[K = gazebo::event::Events::ConnectWorldUpdateBegin(
+[2.293s]       |               [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.293s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:57:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo[m[K’ has not been declared
+[2.293s]    57 |         this->updateConnection_ = [01;31m[Kgazebo[m[K::event::Events::ConnectWorldUpdateBegin(
+[2.293s]       |                                   [01;31m[K^~~~~~[m[K
+[2.293s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:58:64:[m[K [01;31m[Kerror: [m[K‘[01m[KApplyForce[m[K’ is not a member of ‘[01m[Kdoe_simulation::ThrusterDriver[m[K’
+[2.293s]    58 |                                  std::bind(&ThrusterDriver::[01;31m[KApplyForce[m[K, this));
+[2.293s]       |                                                             [01;31m[K^~~~~~~~~~[m[K
+[2.293s] 
+[2.293s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:61:67:[m[K [01;31m[Kerror: [m[K‘[01m[KSpinNode[m[K’ is not a member of ‘[01m[Kdoe_simulation::ThrusterDriver[m[K’
+[2.293s]    61 |   this->spinThread = std::thread(std::bind(&ThrusterDriver::[01;31m[KSpinNode[m[K, this));
+[2.293s]       |                                                             [01;31m[K^~~~~~~~[m[K
+[2.293s] 
+[2.293s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:20:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_info[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.293s]    20 | void ThrusterDriver::Update([01;35m[Kconst UpdateInfo &_info[m[K, EntityComponentManager &_ecm) {
+[2.293s]       |                             [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[2.293s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:20:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_ecm[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.293s]    20 | Driver::Update(const UpdateInfo &_info, [01;35m[KEntityComponentManager &_ecm[m[K) {
+[2.293s]       |                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[2.293s] 
+[2.293s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:[m[K At global scope:
+[2.293s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:69:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid doe_simulation::ThrusterDriver::[01;32m[KGetForceCmd[m[K(std_msgs::msg::Float64MultiArray_<std::allocator<void> >::SharedPtr)[m[K’
+[2.293s]    69 | void [01;31m[KThrusterDriver[m[K::GetForceCmd(const std_msgs::msg::Float64MultiArray::SharedPtr joint_cmd)
+[2.293s]       |      [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.293s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:69:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid doe_simulation::ThrusterDriver::[01;32m[KGetForceCmd[m[K(std_msgs::msg::Float64MultiArray_<std::allocator<void> >::SharedPtr)[m[K’
+[2.293s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:19:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass doe_simulation::ThrusterDriver[m[K’ defined here
+[2.293s]    19 |     class [01;36m[KThrusterDriver[m[K: public System, public ISystemConfigure, public ISystemUpdate
+[2.294s]       |           [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.294s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:84:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid doe_simulation::ThrusterDriver::[01;32m[KApplyForce[m[K()[m[K’
+[2.294s]    84 | void [01;31m[KThrusterDriver[m[K::ApplyForce()
+[2.294s]       |      [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.294s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:84:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid doe_simulation::ThrusterDriver::[01;32m[KApplyForce[m[K()[m[K’
+[2.294s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:19:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass doe_simulation::ThrusterDriver[m[K’ defined here
+[2.294s]    19 |     class [01;36m[KThrusterDriver[m[K: public System, public ISystemConfigure, public ISystemUpdate
+[2.294s]       |           [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.294s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:93:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid doe_simulation::ThrusterDriver::[01;32m[KSpinNode[m[K()[m[K’
+[2.294s]    93 | void [01;31m[KThrusterDriver[m[K::SpinNode()
+[2.294s]       |      [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.294s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:93:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid doe_simulation::ThrusterDriver::[01;32m[KSpinNode[m[K()[m[K’
+[2.294s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:19:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass doe_simulation::ThrusterDriver[m[K’ defined here
+[2.294s]    19 |     class [01;36m[KThrusterDriver[m[K: public System, public ISystemConfigure, public ISystemUpdate
+[2.294s]       |           [01;36m[K^~~~~~~~~~~~~~[m[K
+[3.223s] gmake[2]: *** [CMakeFiles/thruster_driver_plugin.dir/build.make:76: CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o] Error 1
+[3.223s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thruster_driver_plugin.dir/all] Error 2
+[3.224s] gmake: *** [Makefile:166: all] Error 2
+[3.225s] Invoked command in '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation -- -j20 -l20
