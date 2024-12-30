@@ -1,0 +1,11 @@
+[31mCMake Error at CMakeLists.txt:43 (set_property):
+  set_property could not find TARGET ThrusterDriver.  Perhaps it has not yet
+  been created.
+
+[0m
+[31mCMake Error at CMakeLists.txt:44 (target_link_libraries):
+  Cannot specify link libraries for target "ThrusterDriver" which is not
+  built by this project.
+
+[0m
+gmake: *** [Makefile:289: cmake_check_build_system] Error 1

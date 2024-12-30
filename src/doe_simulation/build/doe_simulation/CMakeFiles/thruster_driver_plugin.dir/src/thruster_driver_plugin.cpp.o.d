@@ -346,20 +346,21 @@ CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o: \
  /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/detail/View.hh \
  /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/detail/BaseView.hh \
  /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/detail/EntityComponentManager.hh \
- /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/Util.hh \
- /opt/ros/jazzy/opt/gz_msgs_vendor/include/gz/msgs10/gz/msgs/entity.pb.h \
- /opt/ros/jazzy/opt/gz_msgs_vendor/include/gz/msgs10/gz/msgs/details/entity.pb.h \
- /opt/ros/jazzy/opt/gz_common_vendor/include/gz/common5/gz/common/Mesh.hh \
- /opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/Vector2.hh \
- /opt/ros/jazzy/opt/gz_common_vendor/include/gz/common5/gz/common/graphics/Types.hh \
- /opt/ros/jazzy/opt/gz_common_vendor/include/gz/common5/gz/common/graphics/Export.hh \
- /opt/ros/jazzy/opt/gz_common_vendor/include/gz/common5/gz/common/graphics/detail/Export.hh \
- /opt/ros/jazzy/opt/sdformat_vendor/include/gz/sdformat14/sdf/Mesh.hh \
+ /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/Link.hh \
  /opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/Inertial.hh \
  /opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/MassMatrix3.hh \
  /opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/Material.hh \
  /opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/MaterialType.hh \
+ /opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/Vector2.hh \
  /opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/Matrix6.hh \
+ /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/Util.hh \
+ /opt/ros/jazzy/opt/gz_msgs_vendor/include/gz/msgs10/gz/msgs/entity.pb.h \
+ /opt/ros/jazzy/opt/gz_msgs_vendor/include/gz/msgs10/gz/msgs/details/entity.pb.h \
+ /opt/ros/jazzy/opt/gz_common_vendor/include/gz/common5/gz/common/Mesh.hh \
+ /opt/ros/jazzy/opt/gz_common_vendor/include/gz/common5/gz/common/graphics/Types.hh \
+ /opt/ros/jazzy/opt/gz_common_vendor/include/gz/common5/gz/common/graphics/Export.hh \
+ /opt/ros/jazzy/opt/gz_common_vendor/include/gz/common5/gz/common/graphics/detail/Export.hh \
+ /opt/ros/jazzy/opt/sdformat_vendor/include/gz/sdformat14/sdf/Mesh.hh \
  /opt/ros/jazzy/opt/sdformat_vendor/include/gz/sdformat14/sdf/CustomInertiaCalcProperties.hh \
  /opt/ros/jazzy/opt/sdformat_vendor/include/gz/sdformat14/sdf/Element.hh \
  /usr/include/c++/13/any \

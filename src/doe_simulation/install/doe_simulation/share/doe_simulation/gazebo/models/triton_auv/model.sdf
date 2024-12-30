@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <sdf version='1.7'>
-  <model name='triton_auv'>
+  <model name='doe_auv'>
     <!-- 
 
       Triton AUV components
@@ -226,13 +226,10 @@
 
     <!-- Thrust Vectors -->
     <plugin name="doe_simulation::ThrusterDriver" filename="libthruster_driver_plugin.so">
-      <!-- <thruster_count>6</thruster_count>
-      <ros>
-        <namespace>/triton/controls</namespace>
-        <remapping>output_forces</remapping>
-      </ros> -->
+      <thruster_count>6</thruster_count>
+      <namespace>/doe/doe_simulation</namespace>
+      <remapping>output_forces</remapping>
     </plugin>
-
 
     <static>0</static>
     <allow_auto_disable>1</allow_auto_disable>

@@ -1,0 +1,35 @@
+In file included from [01m[K/opt/ros/jazzy/opt/gz_plugin_vendor/include/gz/plugin2/gz/plugin/Register.hh:22[m[K,
+                 from [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:8[m[K,
+                 from [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:1[m[K:
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:[m[K In constructor ‘[01m[Kgz::plugin::{anonymous}::ExecuteWhenLoadingLibrary0::[01;32m[KExecuteWhenLoadingLibrary0[m[K()[m[K’:
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:113:64:[m[K [01;31m[Kerror: [m[K‘[01m[KThrusterDriver[m[K’ was not declared in this scope; did you mean ‘[01m[Kdoe_simulation::ThrusterDriver[m[K’?
+  113 | ADD_PLUGIN(doe_simulation::ThrusterDriver, gz::sim::System, [01;31m[KThrusterDriver[m[K::ISystemUpdate, ThrusterDriver::ISystemConfigure)
+      |                                                             [01;31m[K^~~~~~~~~~~~~~[m[K
+
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:20:11:[m[K [01;36m[Knote: [m[K‘[01m[Kdoe_simulation::ThrusterDriver[m[K’ declared here
+   20 |     class [01;36m[KThrusterDriver[m[K: public System, public ISystemConfigure, public ISystemUpdate
+      |           [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:113:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+  113 | [01;31m[KGZ_ADD_PLUGIN[m[K(doe_simulation::ThrusterDriver, gz::sim::System, ThrusterDriver::ISystemUpdate, ThrusterDriver::ISystemConfigure)
+      | [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:113:1:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  113 | [01;31m[KGZ_ADD_PLUGIN[m[K(doe_simulation::ThrusterDriver, gz::sim::System, ThrusterDriver::ISystemUpdate, ThrusterDriver::ISystemConfigure)
+      | [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:[m[K In constructor ‘[01m[Kgz::plugin::{anonymous}::ExecuteWhenLoadingLibrary1::[01;32m[KExecuteWhenLoadingLibrary1[m[K()[m[K’:
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:115:21:[m[K [01;31m[Kerror: [m[K‘[01m[KThrusterDriver[m[K’ was not declared in this scope; did you mean ‘[01m[Kdoe_simulation::ThrusterDriver[m[K’?
+  115 | GZ_ADD_PLUGIN_ALIAS([01;31m[KThrusterDriver[m[K, "gz::sim::systems::ThrusterDriver")
+      |                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:20:11:[m[K [01;36m[Knote: [m[K‘[01m[Kdoe_simulation::ThrusterDriver[m[K’ declared here
+   20 |     class [01;36m[KThrusterDriver[m[K: public System, public ISystemConfigure, public ISystemUpdate
+      |           [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:115:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  115 | [01;31m[KGZ_ADD_PLUGIN_ALIAS[m[K(ThrusterDriver, "gz::sim::systems::ThrusterDriver")
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:115:37:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  115 | GZ_ADD_PLUGIN_ALIAS(ThrusterDriver, [01;31m[K"gz::sim::systems::ThrusterDriver"[m[K)
+      |                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                     [01;31m[K|[m[K
+      |                                     [01;31m[Kconst char*[m[K
+gmake[2]: *** [CMakeFiles/thruster_driver_plugin.dir/build.make:76: CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thruster_driver_plugin.dir/all] Error 2
+gmake: *** [Makefile:166: all] Error 2

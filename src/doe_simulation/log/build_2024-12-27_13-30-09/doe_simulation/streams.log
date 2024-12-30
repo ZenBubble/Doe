@@ -1,0 +1,31 @@
+[0.010s] Invoking command in '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation -- -j20 -l20
+[0.076s] [ 50%] [32mBuilding CXX object CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o[0m
+[1.983s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:7:1:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KThrusterDriver[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.983s]     7 | [01;31m[KThrusterDriver[m[K() : node{rclcpp::Node::make_shared("thruster_driver")} {}
+[1.983s]       | [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.984s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:[m[K In function ‘[01m[Kint[01;32m[K ThrusterDriver[m[K()[m[K’:
+[1.984s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:7:20:[m[K [01;31m[Kerror: [m[Konly constructors take member initializers
+[1.984s]     7 | ThrusterDriver() : [01;31m[Knode[m[K{rclcpp::Node::make_shared("thruster_driver")} {}
+[1.984s]       |                    [01;31m[K^~~~[m[K
+[1.984s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:7:72:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[1.984s]     7 | hrusterDriver() : node{rclcpp::Node::make_shared("thruster_driver")} {[01;35m[K}[m[K
+[1.984s]       |                                                                       [01;35m[K^[m[K
+[1.984s] 
+[1.984s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:[m[K At global scope:
+[1.984s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:9:1:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[K~ doe_simulation::ThrusterDriver[m[K’ as non-member
+[1.984s]     9 | [01;31m[K~ThrusterDriver[m[K() {}
+[1.984s]       | [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.994s] In file included from [01m[K/opt/ros/jazzy/opt/gz_plugin_vendor/include/gz/plugin2/gz/plugin/Register.hh:22[m[K,
+[1.994s]                  from [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:8[m[K,
+[1.994s]                  from [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:1[m[K:
+[1.994s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:[m[K In constructor ‘[01m[Kgz::plugin::{anonymous}::ExecuteWhenLoadingLibrary1::[01;32m[KExecuteWhenLoadingLibrary1[m[K()[m[K’:
+[1.994s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:113:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.994s]   113 | [01;31m[KGZ_ADD_PLUGIN_ALIAS[m[K(ThrusterDriver, "gz::sim::systems::ThrusterDriver")
+[1.994s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.994s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:113:1:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[1.994s]   113 | [01;31m[KGZ_ADD_PLUGIN_ALIAS[m[K(ThrusterDriver, "gz::sim::systems::ThrusterDriver")
+[1.994s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.440s] gmake[2]: *** [CMakeFiles/thruster_driver_plugin.dir/build.make:76: CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o] Error 1
+[3.440s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thruster_driver_plugin.dir/all] Error 2
+[3.440s] gmake: *** [Makefile:166: all] Error 2
+[3.442s] Invoked command in '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation -- -j20 -l20

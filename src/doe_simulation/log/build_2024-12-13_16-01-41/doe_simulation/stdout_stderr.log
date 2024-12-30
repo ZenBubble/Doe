@@ -1,0 +1,8 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o[0m
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void doe_simulation::ThrusterDriver::[01;32m[KUpdate[m[K(const gz::sim::v8::UpdateInfo&, gz::sim::v8::EntityComponentManager&)[m[K’:
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:59:27:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KAddLinkForce[m[K’ in ‘[01m[K((doe_simulation::ThrusterDriver*)this)->doe_simulation::ThrusterDriver::thruster.std::vector<long unsigned int>::operator[](((std::vector<long unsigned int>::size_type)i))[m[K’, which is of non-class type ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<long unsigned int>, long unsigned int>::value_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’}
+   59 |         this->thruster[i].[01;31m[KAddLinkForce[m[K(math::Vector3d(0, 0, this->thrust_values[i]));
+      |                           [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/thruster_driver_plugin.dir/build.make:76: CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thruster_driver_plugin.dir/all] Error 2
+gmake: *** [Makefile:166: all] Error 2

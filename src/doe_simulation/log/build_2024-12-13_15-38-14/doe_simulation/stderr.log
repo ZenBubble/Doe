@@ -1,0 +1,17 @@
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void doe_simulation::ThrusterDriver::[01;32m[KConfigure[m[K(const gz::sim::v8::Entity&, const std::shared_ptr<const sdf::v14::Element>&, gz::sim::v8::EntityComponentManager&, gz::sim::v8::EventManager&)[m[K’:
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:48:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass doe_simulation::ThrusterDriver[m[K’ has no member named ‘[01m[KupdateConnection_[m[K’
+   48 |     this->[01;31m[KupdateConnection_[m[K = gazebo::event::Events::ConnectWorldUpdateBegin(
+      |           [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:48:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo[m[K’ has not been declared
+   48 |     this->updateConnection_ = [01;31m[Kgazebo[m[K::event::Events::ConnectWorldUpdateBegin(
+      |                               [01;31m[K^~~~~~[m[K
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:[m[K In member function ‘[01m[Kvoid doe_simulation::ThrusterDriver::[01;32m[KApplyForce[m[K()[m[K’:
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:107:30:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  107 |             this->thruster[i][01;31m[K->[m[KAddLinkForce(ignition::math::Vector3d(0, 0, this->thrust_values[i]));
+      |                              [01;31m[K^~[m[K
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:107:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kignition[m[K’ has not been declared
+  107 |             this->thruster[i]->AddLinkForce([01;31m[Kignition[m[K::math::Vector3d(0, 0, this->thrust_values[i]));
+      |                                             [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/thruster_driver_plugin.dir/build.make:76: CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thruster_driver_plugin.dir/all] Error 2
+gmake: *** [Makefile:166: all] Error 2

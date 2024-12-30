@@ -1,0 +1,20 @@
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:[m[K In constructor ‘[01m[Kdoe_simulation::ThrusterDriver::[01;32m[KThrusterDriver[m[K()[m[K’:
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:8:52:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K([m[K’ token
+    8 |     ThrusterDriver::ThrusterDriver() : rclcpp::init[01;31m[K([m[K0, nullptr),node{rclcpp::Node::make_shared("thruster_driver")} {}
+      |                                                    [01;31m[K^[m[K
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:8:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K([m[K’ token
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:[m[K At global scope:
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:8:53:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before numeric constant
+    8 |     ThrusterDriver::ThrusterDriver() : rclcpp::init([01;31m[K0[m[K, nullptr),node{rclcpp::Node::make_shared("thruster_driver")} {}
+      |                                                     [01;31m[K^[m[K
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:8:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before numeric constant
+    8 |     ThrusterDriver::ThrusterDriver() : rclcpp::init[34m[K([m[K[01;31m[K0[m[K, nullptr),node{rclcpp::Node::make_shared("thruster_driver")} {}
+      |                                                    [34m[K~[m[K[01;31m[K^[m[K
+      |                                                     [32m[K)[m[K
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:8:116:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+    8 | :init(0, nullptr),node{rclcpp::Node::make_shared("thruster_driver")} [01;31m[K{[m[K}
+      |                                                                      [01;31m[K^[m[K
+
+gmake[2]: *** [CMakeFiles/thruster_driver_plugin.dir/build.make:76: CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thruster_driver_plugin.dir/all] Error 2
+gmake: *** [Makefile:166: all] Error 2

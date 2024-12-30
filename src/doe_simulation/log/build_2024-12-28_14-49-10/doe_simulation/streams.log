@@ -1,0 +1,28 @@
+[0.012s] Invoking command in '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation -- -j20 -l20
+[0.093s] [ 50%] [32mBuilding CXX object CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o[0m
+[2.021s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:8:17:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+[2.021s]     8 |     rclcpp::init[01;31m[K([m[K0, nullptr);
+[2.021s]       |                 [01;31m[K^[m[K
+[2.021s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:14:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kvirtual[m[K’ outside class declaration
+[2.021s]    14 |       [01;31m[Kvirtual[m[K bool initialize(SimpleControllerIO* io) override
+[2.021s]       |       [01;31m[K^~~~~~~[m[K
+[2.028s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:14:31:[m[K [01;31m[Kerror: [m[K‘[01m[KSimpleControllerIO[m[K’ was not declared in this scope
+[2.028s]    14 |       virtual bool initialize([01;31m[KSimpleControllerIO[m[K* io) override
+[2.028s]       |                               [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.028s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:14:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kio[m[K’ was not declared in this scope; did you mean ‘[01m[Kgoogle::protobuf::io[m[K’?
+[2.028s]    14 |       virtual bool initialize(SimpleControllerIO* [01;31m[Kio[m[K) override
+[2.028s]       |                                                   [01;31m[K^~[m[K
+[2.029s]       |                                                   [32m[Kgoogle::protobuf::io[m[K
+[2.029s] In file included from [01m[K/opt/ros/jazzy/opt/gz_msgs_vendor/include/gz/msgs10/gz/msgs/details/serialized.pb.h:23[m[K,
+[2.029s]                  from [01m[K/opt/ros/jazzy/opt/gz_msgs_vendor/include/gz/msgs10/gz/msgs/serialized.pb.h:12[m[K,
+[2.029s]                  from [01m[K/opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/EntityComponentManager.hh:20[m[K,
+[2.029s]                  from [01m[K/opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/Model.hh:27[m[K,
+[2.029s]                  from [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:4[m[K,
+[2.029s]                  from [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:1[m[K:
+[2.029s] [01m[K/usr/include/google/protobuf/io/coded_stream.h:153:11:[m[K [01;36m[Knote: [m[K‘[01m[Kgoogle::protobuf::io[m[K’ declared here
+[2.029s]   153 | namespace [01;36m[Kio[m[K {
+[2.029s]       |           [01;36m[K^~[m[K
+[3.540s] gmake[2]: *** [CMakeFiles/thruster_driver_plugin.dir/build.make:76: CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o] Error 1
+[3.541s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thruster_driver_plugin.dir/all] Error 2
+[3.541s] gmake: *** [Makefile:166: all] Error 2
+[3.545s] Invoked command in '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation -- -j20 -l20

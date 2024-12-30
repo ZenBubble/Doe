@@ -501,6 +501,7 @@ CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o
  /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/EntityComponentManager.hh
  /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/EventManager.hh
  /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/Export.hh
+ /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/Link.hh
  /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/Model.hh
  /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/System.hh
  /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/Types.hh

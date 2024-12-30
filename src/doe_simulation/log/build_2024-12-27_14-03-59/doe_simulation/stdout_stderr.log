@@ -1,0 +1,24 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o[0m
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:[m[K In constructor ‘[01m[Kdoe_simulation::ThrusterDriver::[01;32m[KThrusterDriver[m[K()[m[K’:
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:7:36:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kdoe_simulation::ThrusterDriver[m[K’ does not have any field named ‘[01m[Krobot_namespace_[m[K’
+    7 | ThrusterDriver::ThrusterDriver() : [01;31m[Krobot_namespace_[m[K{""},
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:8:3:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kdoe_simulation::ThrusterDriver[m[K’ does not have any field named ‘[01m[Klast_sim_time_[m[K’
+    8 |   [01;31m[Klast_sim_time_[m[K{0},
+      |   [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:9:3:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kdoe_simulation::ThrusterDriver[m[K’ does not have any field named ‘[01m[Klast_update_time_[m[K’
+    9 |   [01;31m[Klast_update_time_[m[K{0},
+      |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:10:3:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kdoe_simulation::ThrusterDriver[m[K’ does not have any field named ‘[01m[Kupdate_period_ms_[m[K’
+   10 |   [01;31m[Kupdate_period_ms_[m[K{8}
+      |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void doe_simulation::ThrusterDriver::[01;32m[KConfigure[m[K(const gz::sim::v8::Entity&, const std::shared_ptr<const sdf::v14::Element>&, gz::sim::v8::EntityComponentManager&, gz::sim::v8::EventManager&)[m[K’:
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:31:26:[m[K [01;31m[Kerror: [m[K‘[01m[KGet[m[K’ is not a member of ‘[01m[Krclcpp::Node[m[K’
+   31 |     node = rclcpp::Node::[01;31m[KGet[m[K(sdf);
+      |                          [01;31m[K^~~[m[K
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:31:33:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   31 |     node = rclcpp::Node::Get(sdf[01;31m[K)[m[K;
+      |                                 [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/thruster_driver_plugin.dir/build.make:76: CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thruster_driver_plugin.dir/all] Error 2
+gmake: *** [Makefile:166: all] Error 2
