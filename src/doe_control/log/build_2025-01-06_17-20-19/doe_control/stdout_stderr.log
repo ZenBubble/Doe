@@ -1,0 +1,36 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/thrust_publisher.dir/src/thrust_publisher.cpp.o[0m
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/dorson/Documents/github/Doe/src/doe_control/include/doe_control/thrust_publisher.hpp:9[m[K,
+                 from [01m[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:1[m[K:
+[01m[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:[m[K In constructor ‘[01m[Kdoe_control::ThrustPublisher::[01;32m[KThrustPublisher[m[K(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:61:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kcv::Mat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   61 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"Allocation Matrix:\n%s"[m[K, alloc_mat);
+      |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:61:63:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   61 |       RCLCPP_INFO(this->get_logger(), "Allocation Matrix:\n[01;36m[K%s[m[K", alloc_mat);
+      |                                                            [01;36m[K~^[m[K
+      |                                                             [01;36m[K|[m[K
+      |                                                             [01;36m[Kchar*[m[K
+
+[100%] [32m[1mLinking CXX executable thrust_publisher[0m
+[100%] Built target thrust_publisher
+-- Install configuration: ""
+-- Installing: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/lib/doe_control/thrust_publisher
+-- Set non-toolchain portion of runtime path of "/home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/lib/doe_control/thrust_publisher" to ""
+-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/ament_index/resource_index/package_run_dependencies/doe_control
+-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/ament_index/resource_index/parent_prefix_path/doe_control
+-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/environment/ament_prefix_path.sh
+-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/environment/path.sh
+-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/environment/path.dsv
+-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/local_setup.bash
+-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/local_setup.sh
+-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/local_setup.zsh
+-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/local_setup.dsv
+-- Installing: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/package.dsv
+-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/ament_index/resource_index/packages/doe_control
+-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/cmake/doe_controlConfig.cmake
+-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/cmake/doe_controlConfig-version.cmake
+-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/package.xml

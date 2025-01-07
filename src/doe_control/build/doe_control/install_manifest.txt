@@ -1,4 +1,6 @@
 /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/lib/doe_control/thrust_publisher
+/home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control//launch/thrust_publisher_launch.py
+/home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control//config/thruster_config.yaml
 /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/ament_index/resource_index/package_run_dependencies/doe_control
 /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/ament_index/resource_index/parent_prefix_path/doe_control
 /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/environment/ament_prefix_path.sh

@@ -1,12 +1,11 @@
 <?xml version="1.0"?>
-<sdf version="1.7">
+<sdf version="1.11">
   <world name="default">
     <include>
-      <uri>model://cube_auv</uri>
-    </include>
-    <!-- A ground plane -->
-    <include>
-      <uri>model://ground_plane</uri>
+      <uri>model://models/cube_auv</uri>
+      <pose>
+        0 0 0 0 0 0
+      </pose>
     </include>
     <grid>0</grid>
   </world>

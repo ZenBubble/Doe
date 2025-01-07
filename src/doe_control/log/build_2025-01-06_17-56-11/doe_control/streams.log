@@ -1,0 +1,25 @@
+[0.038s] Invoking command in '/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dorson/Documents/github/Doe/src/doe_control/build/doe_control -- -j20 -l20
+[0.195s] [ 50%] [32mBuilding CXX object CMakeFiles/thrust_publisher.dir/src/thrust_publisher.cpp.o[0m
+[17.187s] [100%] [32m[1mLinking CXX executable thrust_publisher[0m
+[17.858s] [100%] Built target thrust_publisher
+[17.881s] Invoked command in '/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dorson/Documents/github/Doe/src/doe_control/build/doe_control -- -j20 -l20
+[17.978s] Invoking command in '/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dorson/Documents/github/Doe/src/doe_control/build/doe_control
+[17.994s] -- Install configuration: ""
+[17.994s] -- Installing: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/lib/doe_control/thrust_publisher
+[18.006s] -- Set non-toolchain portion of runtime path of "/home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/lib/doe_control/thrust_publisher" to ""
+[18.006s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/ament_index/resource_index/package_run_dependencies/doe_control
+[18.006s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/ament_index/resource_index/parent_prefix_path/doe_control
+[18.007s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/environment/ament_prefix_path.sh
+[18.007s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/environment/ament_prefix_path.dsv
+[18.007s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/environment/path.sh
+[18.007s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/environment/path.dsv
+[18.007s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/local_setup.bash
+[18.007s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/local_setup.sh
+[18.008s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/local_setup.zsh
+[18.008s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/local_setup.dsv
+[18.008s] -- Installing: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/package.dsv
+[18.008s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/ament_index/resource_index/packages/doe_control
+[18.008s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/cmake/doe_controlConfig.cmake
+[18.008s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/cmake/doe_controlConfig-version.cmake
+[18.008s] -- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/package.xml
+[18.010s] Invoked command in '/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dorson/Documents/github/Doe/src/doe_control/build/doe_control

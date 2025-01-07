@@ -76,7 +76,7 @@ namespace doe_simulation {
         }
         else
         {
-            _namespace = "doe/doe_simulation";
+            _namespace = "doe/control";
         }
 
         if (_sdf->HasElement("remapping"))
@@ -85,7 +85,7 @@ namespace doe_simulation {
         }
         else
         {
-            topic = "thruster_values";
+            topic = "output_forces";
         }
 
         this->topic_name = _namespace + "/" + topic;

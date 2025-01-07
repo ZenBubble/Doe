@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <sdf version='1.7'>
-  <model name='doe_auv'>
+  <model name='triton_auv'>
     <!-- 
 
       Triton AUV components

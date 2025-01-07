@@ -7,11 +7,10 @@ from launch.actions import ExecuteProcess, DeclareLaunchArgument, SetEnvironment
 from launch.substitutions import LaunchConfiguration, EnvironmentVariable
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.conditions import UnlessCondition
+from ros_gz_sim.actions import GzServer
 
 
 def generate_launch_description():
-
-    ld = LaunchDescription()
 
     world_arg = DeclareLaunchArgument(
             'world',
@@ -19,46 +18,25 @@ def generate_launch_description():
             description='Gazebo world file'
     )
 
-    headless_arg = DeclareLaunchArgument(
-            'headless',
-            default_value='false',
-            description="Set to 'true' to run gazebo headless"
-    )
-
     # We need to add the models and worlds directories to env so gazebo can find them
     doe_simulation_dir = get_package_share_directory('doe_simulation')
+    print(doe_simulation_dir)
 
     gmp = 'GZ_SIM_RESOURCE_PATH'
     add_model_path = SetEnvironmentVariable(
         name=gmp, 
         value=[
             EnvironmentVariable(gmp), 
-            os.pathsep + os.path.join(doe_simulation_dir, 'gazebo')
+            os.pathsep + os.path.join(doe_simulation_dir, 'gazebo', 'worlds')
         ]
     )
 
-    gazebo_server = IncludeLaunchDescription(
-        launch_description_source=PythonLaunchDescriptionSource(
-            os.path.join(get_package_share_directory('gazebo_ros'), 
-            'launch', 'gzserver.launch.py')
+    ld = LaunchDescription([
+        GzServer(
+            world_sdf_file=['worlds/', LaunchConfiguration('world')]
         ),
-        launch_arguments={
-            'world': ['worlds/', LaunchConfiguration('world')],
-            'verbose': 'true'
-            }.items()
-    )
-
-    gazebo_client = IncludeLaunchDescription(
-        launch_description_source=PythonLaunchDescriptionSource(
-            os.path.join(get_package_share_directory('gazebo_ros'), 
-            'launch', 'gzclient.launch.py')
-        ),
-        condition=UnlessCondition(LaunchConfiguration('headless')),
-    )
+    ]) 
 
     ld.add_action(world_arg)
-    ld.add_action(headless_arg)
     ld.add_action(add_model_path)
-    ld.add_action(gazebo_server)
-    ld.add_action(gazebo_client)
     return ld

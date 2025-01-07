@@ -1,0 +1,8 @@
+[01m[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:[m[K In constructor ‘[01m[Kdoe_control::ThrustPublisher::[01;32m[KThrustPublisher[m[K(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:36:167:[m[K [01;31m[Kerror: [m[Ktoo many initializers for ‘[01m[Kstd::string [6][m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char> [6][m[K’}
+   36 | r4", "thruster5", "thruster6", "thruster8", "thruster9", "thruster10"[01;31m[K}[m[K;
+      |                                                                      [01;31m[K^[m[K
+
+gmake[2]: *** [CMakeFiles/thrust_publisher.dir/build.make:76: CMakeFiles/thrust_publisher.dir/src/thrust_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thrust_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

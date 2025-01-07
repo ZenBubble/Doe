@@ -1,0 +1,218 @@
+[0.000000] (-) TimerEvent: {}
+[0.001296] (doe_control) JobQueued: {'identifier': 'doe_control', 'dependencies': OrderedDict()}
+[0.001549] (doe_control) JobStarted: {'identifier': 'doe_control'}
+[0.026776] (doe_control) JobProgress: {'identifier': 'doe_control', 'progress': 'cmake'}
+[0.028366] (doe_control) JobProgress: {'identifier': 'doe_control', 'progress': 'build'}
+[0.030207] (doe_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control', '--', '-j20', '-l20'], 'cwd': '/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/lib/doe_simulation:', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/dorson/Documents/github/Doe/src/doe_simulation:', 'LANGUAGE': 'en_CA:en', 'USER': 'dorson', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/dorson', 'OLDPWD': '/home/dorson/Documents/github/Doe/src/doe_control/install', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2283', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/dorson/Documents/github/Doe/src/doe_control/install:/home/dorson/Documents/github/Doe/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'dorson', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dorson', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/dorson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/dorson-AORUS-5-SE:@/tmp/.ICE-unix/2252,unix/dorson-AORUS-5-SE:/tmp/.ICE-unix/2252', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/05b587d0_4c15_4088_9381_00bcca4b3b04', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.204', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/dorson/Documents/github/Doe/src/doe_control/install/doe_control:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'RCUTILS_COLORIZED_OUTPUT': '1', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/dorson/Documents/github/Doe/src/doe_control/install/doe_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099547] (-) TimerEvent: {}
+[0.200125] (-) TimerEvent: {}
+[0.210275] (doe_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/thrust_publisher.dir/src/thrust_publisher.cpp.o\x1b[0m\n'}
+[0.300360] (-) TimerEvent: {}
+[0.400895] (-) TimerEvent: {}
+[0.501449] (-) TimerEvent: {}
+[0.601926] (-) TimerEvent: {}
+[0.702476] (-) TimerEvent: {}
+[0.803100] (-) TimerEvent: {}
+[0.903605] (-) TimerEvent: {}
+[1.004003] (-) TimerEvent: {}
+[1.104495] (-) TimerEvent: {}
+[1.205098] (-) TimerEvent: {}
+[1.305748] (-) TimerEvent: {}
+[1.406182] (-) TimerEvent: {}
+[1.506691] (-) TimerEvent: {}
+[1.607183] (-) TimerEvent: {}
+[1.707674] (-) TimerEvent: {}
+[1.808151] (-) TimerEvent: {}
+[1.908661] (-) TimerEvent: {}
+[2.009138] (-) TimerEvent: {}
+[2.109637] (-) TimerEvent: {}
+[2.210061] (-) TimerEvent: {}
+[2.310469] (-) TimerEvent: {}
+[2.411069] (-) TimerEvent: {}
+[2.511491] (-) TimerEvent: {}
+[2.611948] (-) TimerEvent: {}
+[2.712441] (-) TimerEvent: {}
+[2.812861] (-) TimerEvent: {}
+[2.913289] (-) TimerEvent: {}
+[3.013672] (-) TimerEvent: {}
+[3.114183] (-) TimerEvent: {}
+[3.214676] (-) TimerEvent: {}
+[3.315146] (-) TimerEvent: {}
+[3.415667] (-) TimerEvent: {}
+[3.516141] (-) TimerEvent: {}
+[3.616552] (-) TimerEvent: {}
+[3.717012] (-) TimerEvent: {}
+[3.817510] (-) TimerEvent: {}
+[3.918002] (-) TimerEvent: {}
+[4.018474] (-) TimerEvent: {}
+[4.118978] (-) TimerEvent: {}
+[4.219557] (-) TimerEvent: {}
+[4.320043] (-) TimerEvent: {}
+[4.420618] (-) TimerEvent: {}
+[4.521561] (-) TimerEvent: {}
+[4.622044] (-) TimerEvent: {}
+[4.722566] (-) TimerEvent: {}
+[4.823099] (-) TimerEvent: {}
+[4.923710] (-) TimerEvent: {}
+[5.024192] (-) TimerEvent: {}
+[5.124678] (-) TimerEvent: {}
+[5.225147] (-) TimerEvent: {}
+[5.325638] (-) TimerEvent: {}
+[5.426111] (-) TimerEvent: {}
+[5.526666] (-) TimerEvent: {}
+[5.627153] (-) TimerEvent: {}
+[5.727687] (-) TimerEvent: {}
+[5.828207] (-) TimerEvent: {}
+[5.928671] (-) TimerEvent: {}
+[6.029128] (-) TimerEvent: {}
+[6.129639] (-) TimerEvent: {}
+[6.230071] (-) TimerEvent: {}
+[6.330649] (-) TimerEvent: {}
+[6.431056] (-) TimerEvent: {}
+[6.531596] (-) TimerEvent: {}
+[6.631959] (-) TimerEvent: {}
+[6.732403] (-) TimerEvent: {}
+[6.832834] (-) TimerEvent: {}
+[6.933334] (-) TimerEvent: {}
+[7.033833] (-) TimerEvent: {}
+[7.134318] (-) TimerEvent: {}
+[7.234819] (-) TimerEvent: {}
+[7.335289] (-) TimerEvent: {}
+[7.435750] (-) TimerEvent: {}
+[7.536326] (-) TimerEvent: {}
+[7.636923] (-) TimerEvent: {}
+[7.737512] (-) TimerEvent: {}
+[7.837997] (-) TimerEvent: {}
+[7.938929] (-) TimerEvent: {}
+[8.039481] (-) TimerEvent: {}
+[8.140001] (-) TimerEvent: {}
+[8.240488] (-) TimerEvent: {}
+[8.340999] (-) TimerEvent: {}
+[8.441524] (-) TimerEvent: {}
+[8.541981] (-) TimerEvent: {}
+[8.642483] (-) TimerEvent: {}
+[8.743022] (-) TimerEvent: {}
+[8.843583] (-) TimerEvent: {}
+[8.944050] (-) TimerEvent: {}
+[9.044545] (-) TimerEvent: {}
+[9.145008] (-) TimerEvent: {}
+[9.245456] (-) TimerEvent: {}
+[9.345858] (-) TimerEvent: {}
+[9.446359] (-) TimerEvent: {}
+[9.546840] (-) TimerEvent: {}
+[9.647327] (-) TimerEvent: {}
+[9.747800] (-) TimerEvent: {}
+[9.848301] (-) TimerEvent: {}
+[9.948801] (-) TimerEvent: {}
+[10.049322] (-) TimerEvent: {}
+[10.149746] (-) TimerEvent: {}
+[10.250498] (-) TimerEvent: {}
+[10.351012] (-) TimerEvent: {}
+[10.451563] (-) TimerEvent: {}
+[10.552019] (-) TimerEvent: {}
+[10.652570] (-) TimerEvent: {}
+[10.753066] (-) TimerEvent: {}
+[10.853593] (-) TimerEvent: {}
+[10.954058] (-) TimerEvent: {}
+[11.054514] (-) TimerEvent: {}
+[11.155127] (-) TimerEvent: {}
+[11.255548] (-) TimerEvent: {}
+[11.356062] (-) TimerEvent: {}
+[11.456440] (-) TimerEvent: {}
+[11.556905] (-) TimerEvent: {}
+[11.657259] (-) TimerEvent: {}
+[11.757719] (-) TimerEvent: {}
+[11.858124] (-) TimerEvent: {}
+[11.958646] (-) TimerEvent: {}
+[12.059138] (-) TimerEvent: {}
+[12.159583] (-) TimerEvent: {}
+[12.260028] (-) TimerEvent: {}
+[12.360509] (-) TimerEvent: {}
+[12.460912] (-) TimerEvent: {}
+[12.561349] (-) TimerEvent: {}
+[12.661806] (-) TimerEvent: {}
+[12.762234] (-) TimerEvent: {}
+[12.862694] (-) TimerEvent: {}
+[12.963149] (-) TimerEvent: {}
+[13.063632] (-) TimerEvent: {}
+[13.164092] (-) TimerEvent: {}
+[13.264488] (-) TimerEvent: {}
+[13.364936] (-) TimerEvent: {}
+[13.465437] (-) TimerEvent: {}
+[13.565847] (-) TimerEvent: {}
+[13.666415] (-) TimerEvent: {}
+[13.766905] (-) TimerEvent: {}
+[13.867381] (-) TimerEvent: {}
+[13.967844] (-) TimerEvent: {}
+[14.068354] (-) TimerEvent: {}
+[14.168839] (-) TimerEvent: {}
+[14.269244] (-) TimerEvent: {}
+[14.369610] (-) TimerEvent: {}
+[14.470119] (-) TimerEvent: {}
+[14.570621] (-) TimerEvent: {}
+[14.671020] (-) TimerEvent: {}
+[14.771407] (-) TimerEvent: {}
+[14.871855] (-) TimerEvent: {}
+[14.972318] (-) TimerEvent: {}
+[15.072793] (-) TimerEvent: {}
+[15.173210] (-) TimerEvent: {}
+[15.273707] (-) TimerEvent: {}
+[15.374071] (-) TimerEvent: {}
+[15.474570] (-) TimerEvent: {}
+[15.575038] (-) TimerEvent: {}
+[15.675431] (-) TimerEvent: {}
+[15.775826] (-) TimerEvent: {}
+[15.876270] (-) TimerEvent: {}
+[15.976759] (-) TimerEvent: {}
+[16.077130] (-) TimerEvent: {}
+[16.177623] (-) TimerEvent: {}
+[16.278211] (-) TimerEvent: {}
+[16.378666] (-) TimerEvent: {}
+[16.479197] (-) TimerEvent: {}
+[16.579657] (-) TimerEvent: {}
+[16.680121] (-) TimerEvent: {}
+[16.780589] (-) TimerEvent: {}
+[16.881063] (-) TimerEvent: {}
+[16.981635] (-) TimerEvent: {}
+[17.082114] (-) TimerEvent: {}
+[17.182561] (-) TimerEvent: {}
+[17.282947] (-) TimerEvent: {}
+[17.383431] (-) TimerEvent: {}
+[17.484039] (-) TimerEvent: {}
+[17.584517] (-) TimerEvent: {}
+[17.684962] (-) TimerEvent: {}
+[17.785433] (-) TimerEvent: {}
+[17.834631] (doe_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable thrust_publisher\x1b[0m\n'}
+[17.885569] (-) TimerEvent: {}
+[17.985995] (-) TimerEvent: {}
+[18.086432] (-) TimerEvent: {}
+[18.186914] (-) TimerEvent: {}
+[18.287419] (-) TimerEvent: {}
+[18.387838] (-) TimerEvent: {}
+[18.475383] (doe_control) StdoutLine: {'line': b'[100%] Built target thrust_publisher\n'}
+[18.488080] (-) TimerEvent: {}
+[18.495806] (doe_control) CommandEnded: {'returncode': 0}
+[18.546803] (doe_control) JobProgress: {'identifier': 'doe_control', 'progress': 'install'}
+[18.564517] (doe_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control'], 'cwd': '/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/lib/doe_simulation:', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/dorson/Documents/github/Doe/src/doe_simulation:', 'LANGUAGE': 'en_CA:en', 'USER': 'dorson', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/dorson', 'OLDPWD': '/home/dorson/Documents/github/Doe/src/doe_control/install', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2283', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/dorson/Documents/github/Doe/src/doe_control/install:/home/dorson/Documents/github/Doe/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'dorson', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dorson', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/dorson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/dorson-AORUS-5-SE:@/tmp/.ICE-unix/2252,unix/dorson-AORUS-5-SE:/tmp/.ICE-unix/2252', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/05b587d0_4c15_4088_9381_00bcca4b3b04', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.204', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/dorson/Documents/github/Doe/src/doe_control/install/doe_control:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'RCUTILS_COLORIZED_OUTPUT': '1', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/dorson/Documents/github/Doe/src/doe_control/install/doe_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[18.583439] (doe_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.583832] (doe_control) StdoutLine: {'line': b'-- Installing: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/lib/doe_control/thrust_publisher\n'}
+[18.588245] (-) TimerEvent: {}
+[18.593266] (doe_control) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/lib/doe_control/thrust_publisher" to ""\n'}
+[18.593676] (doe_control) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/ament_index/resource_index/package_run_dependencies/doe_control\n'}
+[18.595384] (doe_control) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/ament_index/resource_index/parent_prefix_path/doe_control\n'}
+[18.595743] (doe_control) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/environment/ament_prefix_path.sh\n'}
+[18.595976] (doe_control) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/environment/ament_prefix_path.dsv\n'}
+[18.596209] (doe_control) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/environment/path.sh\n'}
+[18.596475] (doe_control) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/environment/path.dsv\n'}
+[18.596734] (doe_control) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/local_setup.bash\n'}
+[18.596982] (doe_control) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/local_setup.sh\n'}
+[18.597244] (doe_control) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/local_setup.zsh\n'}
+[18.597532] (doe_control) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/local_setup.dsv\n'}
+[18.598345] (doe_control) StdoutLine: {'line': b'-- Installing: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/package.dsv\n'}
+[18.598801] (doe_control) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/ament_index/resource_index/packages/doe_control\n'}
+[18.598941] (doe_control) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/cmake/doe_controlConfig.cmake\n'}
+[18.599068] (doe_control) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/cmake/doe_controlConfig-version.cmake\n'}
+[18.599278] (doe_control) StdoutLine: {'line': b'-- Up-to-date: /home/dorson/Documents/github/Doe/src/doe_control/install/doe_control/share/doe_control/package.xml\n'}
+[18.600038] (doe_control) CommandEnded: {'returncode': 0}
+[18.683256] (doe_control) JobEnded: {'identifier': 'doe_control', 'rc': 0}
+[18.684671] (-) EventReactorShutdown: {}

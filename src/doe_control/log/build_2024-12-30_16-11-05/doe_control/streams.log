@@ -1,0 +1,17 @@
+[0.013s] Invoking command in '/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dorson/Documents/github/Doe/src/doe_control/build/doe_control -- -j20 -l20
+[0.086s] [ 50%] [32mBuilding CXX object CMakeFiles/thrust_publisher.dir/src/thrust_publisher.cpp.o[0m
+[2.135s] [01m[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:[m[K In member function ‘[01m[Kvoid doe_control::ThrustPublisher::[01;32m[KwrenchCallback[m[K(geometry_msgs::msg::Wrench_<std::allocator<void> >::SharedPtr) const[m[K’:
+[2.135s] [01m[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:95:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kthrust_mat[m[K’ was not declared in this scope; did you mean ‘[01m[Kthrust[m[K’?
+[2.135s]    95 |             double thruster_thrust = [01;31m[Kthrust_mat[m[K.at<double>(i,0);
+[2.135s]       |                                      [01;31m[K^~~~~~~~~~[m[K
+[2.135s]       |                                      [32m[Kthrust[m[K
+[2.135s] [01m[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:95:52:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+[2.135s]    95 |             double thruster_thrust = thrust_mat.at<[01;31m[Kdouble[m[K>(i,0);
+[2.135s]       |                                                    [01;31m[K^~~~~~[m[K
+[2.135s] [01m[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:79:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktau_arr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.135s]    79 |         double [01;35m[Ktau_arr[m[K[6] =
+[2.135s]       |                [01;35m[K^~~~~~~[m[K
+[4.230s] gmake[2]: *** [CMakeFiles/thrust_publisher.dir/build.make:76: CMakeFiles/thrust_publisher.dir/src/thrust_publisher.cpp.o] Error 1
+[4.230s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thrust_publisher.dir/all] Error 2
+[4.230s] gmake: *** [Makefile:146: all] Error 2
+[4.233s] Invoked command in '/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dorson/Documents/github/Doe/src/doe_control/build/doe_control -- -j20 -l20

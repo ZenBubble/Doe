@@ -31,37 +31,37 @@
         </link>
 
         <include>
-            <uri>model://cube_thruster</uri>
+            <uri>model://models/cube_thruster</uri>
             <pose>-0.5 -0.5 0 0 1.5707 2.35619</pose>
             <name>thruster1</name>
         </include>
 
         <include>
-            <uri>model://cube_thruster</uri>
+            <uri>model://models/cube_thruster</uri>
             <pose>-0.5 0.5 0 0 -1.5707 0.785398</pose>
             <name>thruster2</name>
         </include>
 
         <include>
-            <uri>model://cube_thruster</uri>
+            <uri>model://models/cube_thruster</uri>
             <pose>0.5 0.5 0 0 1.5707 -0.785398</pose>
             <name>thruster3</name>
         </include>
 
         <include>
-            <uri>model://cube_thruster</uri>
+            <uri>model://models/cube_thruster</uri>
             <pose>0.5 -0.5 0 0 -1.5707 -2.35619</pose>
             <name>thruster4</name>
         </include>
 
         <include>
-            <uri>model://cube_thruster</uri>
+            <uri>model://models/cube_thruster</uri>
             <pose>0 -0.5 0 3.1415 3.1415 0</pose>
             <name>thruster5</name>
         </include>
 
         <include>
-            <uri>model://cube_thruster</uri>
+            <uri>model://models/cube_thruster</uri>
             <pose>0 0.5 0 3.1415 3.1415 3.1415</pose>
             <name>thruster6</name>
         </include>
@@ -97,10 +97,10 @@
         </joint>
 
         <!-- Thrust Vectors -->
-        <plugin name="thruster_array" filename="libthruster_driver_plugin.so">
+        <plugin name="doe_simulation::ThrusterDriver" filename="libthruster_driver_plugin.so">
             <thruster_count>6</thruster_count>
             <ros>
-                <namespace>/triton/controls</namespace>
+                <namespace>/doe/controls</namespace>
                 <remapping>output_forces</remapping>
             </ros>
         </plugin>

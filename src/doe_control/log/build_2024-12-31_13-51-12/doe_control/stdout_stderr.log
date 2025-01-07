@@ -1,0 +1,13 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/thrust_publisher.dir/src/thrust_publisher.cpp.o[0m
+[01m[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:[m[K In constructor ‘[01m[Kdoe_control::ThrustPublisher::[01;32m[KThrustPublisher[m[K(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:70:12:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvirtual const char* cv::Exception::[01;32m[Kwhat[m[K() const[m[K’
+   70 |  [01;31m[Kstd::cerr << e.what[m[K << std::endl; // output exception message
+      |  [01;31m[K~~~~~~~~~~^~~~~~~~~[m[K
+In file included from [01m[K/home/dorson/Documents/github/Doe/src/doe_control/include/doe_control/thrust_publisher.hpp:8[m[K,
+                 from [01m[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:1[m[K:
+[01m[K/usr/local/include/opencv4/opencv2/core.hpp:136:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  136 |     virtual const char *[01;36m[Kwhat[m[K() const CV_NOEXCEPT CV_OVERRIDE;
+      |                         [01;36m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/thrust_publisher.dir/build.make:76: CMakeFiles/thrust_publisher.dir/src/thrust_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thrust_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -16,6 +16,9 @@ namespace doe_control
         z_contribs_ (SUPPORTED_THRUSTERS, 0)
     {
         this->declare_parameter<int>("num_thrusters", num_thrusters_);
+
+        this->get_parameter("num_thrusters", num_thrusters_);
+        
         if (num_thrusters_ > SUPPORTED_THRUSTERS)
         {
             RCLCPP_ERROR(this->get_logger(), "Number of thrusters is greater than supported thruster count");
@@ -58,7 +61,12 @@ namespace doe_control
             for (int j = 0; j < alloc_mat.cols; j++)
                 alloc_mat.at<double>(i,j) = alloc_vec[i][j];
 
-        // RCLCPP_INFO(this->get_logger(), "Allocation Matrix:\n%s", alloc_mat);
+        //RCLCPP_INFO(this->get_logger(), alloc_mat);
+
+        if (alloc_mat.empty()) {
+            RCLCPP_ERROR(this->get_logger(), "Allocation matrix is empty! Likely because zero thrusters are configured in config");
+            return;
+        }
 
 
         cv::invert(alloc_mat, pinv_alloc_, cv::DECOMP_SVD);

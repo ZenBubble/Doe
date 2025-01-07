@@ -67,6 +67,13 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doe_control/" TYPE DIRECTORY FILES
+    "/home/dorson/Documents/github/Doe/src/doe_control/launch"
+    "/home/dorson/Documents/github/Doe/src/doe_control/config"
+    )
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/doe_control")
 endif()
 

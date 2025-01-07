@@ -1,0 +1,24 @@
+[0.565s] Invoking command in '/home/dorson/Documents/github/Doe/src/doe_teleop': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dorson/Documents/github/Doe/src/doe_teleop/build/doe_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dorson/Documents/github/Doe/src/doe_teleop/install/doe_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/doe_teleop build --build-base /home/dorson/Documents/github/Doe/src/doe_teleop/build/doe_teleop/build install --record /home/dorson/Documents/github/Doe/src/doe_teleop/build/doe_teleop/install.log --single-version-externally-managed install_data
+[0.754s] running egg_info
+[0.766s] writing build/doe_teleop/doe_teleop.egg-info/PKG-INFO
+[0.766s] writing dependency_links to build/doe_teleop/doe_teleop.egg-info/dependency_links.txt
+[0.767s] writing entry points to build/doe_teleop/doe_teleop.egg-info/entry_points.txt
+[0.767s] writing requirements to build/doe_teleop/doe_teleop.egg-info/requires.txt
+[0.767s] writing top-level names to build/doe_teleop/doe_teleop.egg-info/top_level.txt
+[0.793s] reading manifest file 'build/doe_teleop/doe_teleop.egg-info/SOURCES.txt'
+[0.793s] writing manifest file 'build/doe_teleop/doe_teleop.egg-info/SOURCES.txt'
+[0.793s] running build
+[0.793s] running build_py
+[0.793s] copying doe_teleop/keyboard_teleop.py -> /home/dorson/Documents/github/Doe/src/doe_teleop/build/doe_teleop/build/lib/doe_teleop
+[0.793s] running install
+[0.798s] running install_lib
+[0.812s] copying /home/dorson/Documents/github/Doe/src/doe_teleop/build/doe_teleop/build/lib/doe_teleop/keyboard_teleop.py -> /home/dorson/Documents/github/Doe/src/doe_teleop/install/doe_teleop/lib/python3.12/site-packages/doe_teleop
+[0.812s] byte-compiling /home/dorson/Documents/github/Doe/src/doe_teleop/install/doe_teleop/lib/python3.12/site-packages/doe_teleop/keyboard_teleop.py to keyboard_teleop.cpython-312.pyc
+[0.813s] running install_data
+[0.813s] running install_egg_info
+[0.827s] removing '/home/dorson/Documents/github/Doe/src/doe_teleop/install/doe_teleop/lib/python3.12/site-packages/doe_teleop-0.0.0-py3.12.egg-info' (and everything under it)
+[0.827s] Copying build/doe_teleop/doe_teleop.egg-info to /home/dorson/Documents/github/Doe/src/doe_teleop/install/doe_teleop/lib/python3.12/site-packages/doe_teleop-0.0.0-py3.12.egg-info
+[0.828s] running install_scripts
+[0.921s] Installing keyboard_teleop script to /home/dorson/Documents/github/Doe/src/doe_teleop/install/doe_teleop/lib/doe_teleop
+[0.921s] writing list of installed files to '/home/dorson/Documents/github/Doe/src/doe_teleop/build/doe_teleop/install.log'
+[0.943s] Invoked command in '/home/dorson/Documents/github/Doe/src/doe_teleop' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dorson/Documents/github/Doe/src/doe_teleop/build/doe_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dorson/Documents/github/Doe/src/doe_teleop/install/doe_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/doe_teleop build --build-base /home/dorson/Documents/github/Doe/src/doe_teleop/build/doe_teleop/build install --record /home/dorson/Documents/github/Doe/src/doe_teleop/build/doe_teleop/install.log --single-version-externally-managed install_data

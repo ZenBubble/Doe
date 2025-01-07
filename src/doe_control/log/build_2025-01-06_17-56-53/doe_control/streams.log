@@ -1,0 +1,11 @@
+[0.039s] Invoking command in '/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dorson/Documents/github/Doe/src/doe_control/build/doe_control -- -j20 -l20
+[0.198s] [ 50%] [32mBuilding CXX object CMakeFiles/thrust_publisher.dir/src/thrust_publisher.cpp.o[0m
+[4.644s] [01m[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:[m[K In constructor ‘[01m[Kdoe_control::ThrustPublisher::[01;32m[KThrustPublisher[m[K(const rclcpp::NodeOptions&)[m[K’:
+[4.644s] [01m[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:36:167:[m[K [01;31m[Kerror: [m[Ktoo many initializers for ‘[01m[Kstd::string [6][m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char> [6][m[K’}
+[4.645s]    36 | r4", "thruster5", "thruster6", "thruster8", "thruster9", "thruster10"[01;31m[K}[m[K;
+[4.645s]       |                                                                      [01;31m[K^[m[K
+[4.645s] 
+[9.019s] gmake[2]: *** [CMakeFiles/thrust_publisher.dir/build.make:76: CMakeFiles/thrust_publisher.dir/src/thrust_publisher.cpp.o] Error 1
+[9.019s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thrust_publisher.dir/all] Error 2
+[9.020s] gmake: *** [Makefile:146: all] Error 2
+[9.028s] Invoked command in '/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dorson/Documents/github/Doe/src/doe_control/build/doe_control -- -j20 -l20

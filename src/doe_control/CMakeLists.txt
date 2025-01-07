@@ -36,10 +36,14 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 # Do this for every node
 add_executable(thrust_publisher src/thrust_publisher.cpp)
 
-
-
 install(TARGETS thrust_publisher
   DESTINATION lib/${PROJECT_NAME}
+)
+
+install(DIRECTORY
+  launch
+  config
+  DESTINATION share/${PROJECT_NAME}/
 )
 
 ament_target_dependencies(
