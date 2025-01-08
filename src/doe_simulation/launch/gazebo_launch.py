@@ -11,6 +11,7 @@ from ros_gz_sim.actions import GzServer
 
 
 def generate_launch_description():
+    pkg_ros_gz_sim = get_package_share_directory('ros_gz_sim')
 
     world_arg = DeclareLaunchArgument(
             'world',
@@ -18,25 +19,30 @@ def generate_launch_description():
             description='Gazebo world file'
     )
 
+    gazebo_launch = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            os.path.join(pkg_ros_gz_sim, 'launch', 'gz_sim.launch.py')
+        ),
+        launch_arguments={
+            'gz_args': ['worlds/', LaunchConfiguration('world')]
+            }.items()
+    )
+
     # We need to add the models and worlds directories to env so gazebo can find them
     doe_simulation_dir = get_package_share_directory('doe_simulation')
-    print(doe_simulation_dir)
 
     gmp = 'GZ_SIM_RESOURCE_PATH'
-    add_model_path = SetEnvironmentVariable(
+    add_world_path = SetEnvironmentVariable(
         name=gmp, 
         value=[
             EnvironmentVariable(gmp), 
             os.pathsep + os.path.join(doe_simulation_dir, 'gazebo', 'worlds')
         ]
     )
-
-    ld = LaunchDescription([
-        GzServer(
-            world_sdf_file=['worlds/', LaunchConfiguration('world')]
-        ),
-    ]) 
+    
+    ld = LaunchDescription() 
 
     ld.add_action(world_arg)
-    ld.add_action(add_model_path)
+    ld.add_action(add_world_path)
+    ld.add_action(gazebo_launch)
     return ld

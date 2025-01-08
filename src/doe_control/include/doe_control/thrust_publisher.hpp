@@ -91,5 +91,5 @@ namespace doe_control
 RCLCPP_COMPONENTS_REGISTER_NODE(doe_control::ThrustPublisher)
 
 
-#define SUPPORTED_THRUSTERS 10
+#define SUPPORTED_THRUSTERS 6
 #endif // DOE_CONTROL__THRUST_PUBLISHER

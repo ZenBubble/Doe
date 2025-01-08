@@ -67,7 +67,7 @@ namespace doe_simulation {
         }
     }
 
-    void ThrusterDriver::GetRosNamespace(const std::shared_ptr<const sdf::Element> &_sdf) // why does this exist? flexibility for setting topic name sure but just do in code
+    void ThrusterDriver::GetRosNamespace(const std::shared_ptr<const sdf::Element> &_sdf) // why does this exist? flexibility for setting topic name sure but rarely need to change
     {
         std::string _namespace;
         std::string topic;

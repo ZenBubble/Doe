@@ -1,4 +1,5 @@
 #include "doe_control/thrust_publisher.hpp"
+// THIS REQUIRES THE USE OF THE CONFIG FILE AND THE APPROPRIATE LAUNCHFILE
 
 using std::placeholders::_1;
 
@@ -36,7 +37,7 @@ namespace doe_control
 
         encode_levels_ = pow(2,bits_per_thruster_);
 
-        std::string names[SUPPORTED_THRUSTERS] = {"thruster1", "thruster2", "thruster3", "thruster4", "thruster5", "thruster6", "thruster8", "thruster9", "thruster10"};
+        std::string names[SUPPORTED_THRUSTERS] = {"thruster1", "thruster2", "thruster3", "thruster4", "thruster5", "thruster6"};
 
         for (int i = 0; i < SUPPORTED_THRUSTERS; i++)
         {
@@ -62,10 +63,9 @@ namespace doe_control
                 alloc_mat.at<double>(i,j) = alloc_vec[i][j];
 
         if (alloc_mat.empty()) {
-            RCLCPP_ERROR(this->get_logger(), "Allocation matrix is empty! Likely because zero thrusters are configured in config");
+            RCLCPP_ERROR(this->get_logger(), "Allocation matrix is empty! Ensure you are running launch package with appropiate config file");
             return;
         }
-
 
         cv::invert(alloc_mat, pinv_alloc_, cv::DECOMP_SVD);
 
@@ -94,11 +94,9 @@ namespace doe_control
             tau_mat.at<double>(i, 0) = tau_arr[i];
         }
 
+        cv::Mat thrust_mat =  pinv_alloc_*tau_mat;
 
-        cv::Mat thrust_mat =  tau_mat; // this used to multiply by pinv mat, which was always zero, thus the thrust array was alwauys zero. why?
-
-        // RCLCPP_INFO(this->get_logger(), "Allocation Matrix:");
-        // std::cout << thrust_mat << std::endl;
+        std::cout<<thrust_mat<<std::endl;
 
         std::vector<double> thrust;
         uint32_t signal = 0;

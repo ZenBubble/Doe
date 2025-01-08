@@ -5,35 +5,35 @@
     bits_per_thruster: 5
     max_fwd: 3.71 # kgf 
     max_rev: 2.92 # kgf 
-    t1:
+    thruster1:
       contrib: 
         x: -0.7071
         y: 0.7071
       lx: -0.5
       ly: -0.5
-    t2:
+    thruster2:
       contrib: 
         x: -0.7071
         y: -0.7071
       lx: -0.5
       ly: 0.5
-    t3:
+    thruster3:
       contrib:
         x: 0.7071
         y: -0.7071
       lx: 0.5
       ly: 0.5
-    t4:
+    thruster4:
       contrib: 
         x: 0.7071
         y: 0.7071
       lx: 0.5
       ly: -0.5
-    t5:
+    thruster5:
       contrib:
         z: 1.0
       ly: -0.5
-    t6:
+    thruster6:
       contrib:
         z: 1.0
       ly: 0.5
