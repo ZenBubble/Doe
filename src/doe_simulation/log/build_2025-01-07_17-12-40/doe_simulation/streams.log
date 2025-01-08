@@ -1,0 +1,20 @@
+[0.044s] Invoking command in '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation -- -j20 -l20
+[0.260s] [ 50%] [32mBuilding CXX object CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o[0m
+[5.369s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void doe_simulation::ThrusterDriver::[01;32m[KConfigure[m[K(const gz::sim::v8::Entity&, const std::shared_ptr<const sdf::v14::Element>&, gz::sim::v8::EntityComponentManager&, gz::sim::v8::EventManager&)[m[K’:
+[5.369s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:53:34:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kgz::sim::v8::Model::Models()[m[K’
+[5.369s]    53 |         thrusters = [01;31m[K_model.Models()[m[K
+[5.369s]       |                     [01;31m[K~~~~~~~~~~~~~^~[m[K
+[5.370s] In file included from [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:4[m[K,
+[5.370s]                  from [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:1[m[K:
+[5.370s] [01m[K/opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/Model.hh:163:40:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<long unsigned int> gz::sim::v8::Model::[01;32m[KModels[m[K(const gz::sim::v8::EntityComponentManager&) const[m[K’
+[5.370s]   163 |       public: std::vector<sim::Entity> [01;36m[KModels[m[K(
+[5.370s]       |                                        [01;36m[K^~~~~~[m[K
+[5.370s] [01m[K/opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/Model.hh:163:40:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[5.370s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void doe_simulation::ThrusterDriver::[01;32m[KPreUpdate[m[K(const gz::sim::v8::UpdateInfo&, gz::sim::v8::EntityComponentManager&)[m[K’:
+[5.371s] [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:64:59:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kgz::sim::v8::Entity[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} to non-scalar type ‘[01m[Kgz::sim::v8::Link[m[K’ requested
+[5.371s]    64 |             Link thruster = [01;31m[KModel(thrusters[i]).LinkByName(_ecm, "thruster")[m[K;
+[5.371s]       |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[8.864s] gmake[2]: *** [CMakeFiles/thruster_driver_plugin.dir/build.make:76: CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o] Error 1
+[8.864s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thruster_driver_plugin.dir/all] Error 2
+[8.865s] gmake: *** [Makefile:166: all] Error 2
+[8.868s] Invoked command in '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation -- -j20 -l20

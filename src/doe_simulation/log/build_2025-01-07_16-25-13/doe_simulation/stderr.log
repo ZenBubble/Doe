@@ -1,0 +1,8 @@
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void doe_simulation::ThrusterDriver::[01;32m[KPreUpdate[m[K(const gz::sim::v8::UpdateInfo&, gz::sim::v8::EntityComponentManager&)[m[K’:
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:62:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gz::sim::v8::Link[m[K’ has no member named ‘[01m[Kentity[m[K’; did you mean ‘[01m[KEntity[m[K’?
+   62 |             std::cout<<std::to_string(thruster.[01;31m[Kentity[m[K().Name(_ecm))<<std::endl;
+      |                                                [01;31m[K^~~~~~[m[K
+      |                                                [32m[KEntity[m[K
+gmake[2]: *** [CMakeFiles/thruster_driver_plugin.dir/build.make:76: CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thruster_driver_plugin.dir/all] Error 2
+gmake: *** [Makefile:166: all] Error 2

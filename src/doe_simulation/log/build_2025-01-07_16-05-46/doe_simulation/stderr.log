@@ -1,0 +1,80 @@
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void doe_simulation::ThrusterDriver::[01;32m[KPreUpdate[m[K(const gz::sim::v8::UpdateInfo&, gz::sim::v8::EntityComponentManager&)[m[K’:
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:62:38:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kto_string(std::optional<std::__cxx11::basic_string<char> >)[m[K’
+   62 |             std::cout<<[01;31m[Kstd::to_string(thruster.Name(_ecm))[m[K<<std::endl;
+      |                        [01;31m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:10[m[K,
+                 from [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:1[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter.hpp:289:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::[01;32m[Kto_string[m[K(const rclcpp::Parameter&)[m[K’
+  289 | [01;36m[Kto_string[m[K(const rclcpp::Parameter & param);
+      | [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter.hpp:289:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::optional<std::__cxx11::basic_string<char> >[m[K’ to ‘[01m[Kconst rclcpp::Parameter&[m[K’
+  289 | to_string([01;36m[Kconst rclcpp::Parameter & param[m[K);
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter.hpp:294:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::[01;32m[Kto_string[m[K(const vector<rclcpp::Parameter>&)[m[K’
+  294 | [01;36m[Kto_string[m[K(const std::vector<rclcpp::Parameter> & parameters);
+      | [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter.hpp:294:50:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::optional<std::__cxx11::basic_string<char> >[m[K’ to ‘[01m[Kconst std::vector<rclcpp::Parameter>&[m[K’
+  294 | to_string([01;36m[Kconst std::vector<rclcpp::Parameter> & parameters[m[K);
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/13/string:54[m[K,
+                 from [01m[K/opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/Model.hh:21[m[K,
+                 from [01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:4[m[K:
+[01m[K/usr/include/c++/13/bits/basic_string.h:4162:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::[01;32m[Kto_string[m[K(int)[m[K’
+ 4162 |   [01;36m[Kto_string[m[K(int __val)
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/basic_string.h:4162:17:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::optional<std::__cxx11::basic_string<char> >[m[K’ to ‘[01m[Kint[m[K’
+ 4162 |   to_string([01;36m[Kint __val[m[K)
+      |             [01;36m[K~~~~^~~~~[m[K
+[01m[K/usr/include/c++/13/bits/basic_string.h:4177:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::[01;32m[Kto_string[m[K(unsigned int)[m[K’
+ 4177 |   [01;36m[Kto_string[m[K(unsigned __val)
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/basic_string.h:4177:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::optional<std::__cxx11::basic_string<char> >[m[K’ to ‘[01m[Kunsigned int[m[K’
+ 4177 |   to_string([01;36m[Kunsigned __val[m[K)
+      |             [01;36m[K~~~~~~~~~^~~~~[m[K
+[01m[K/usr/include/c++/13/bits/basic_string.h:4189:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::[01;32m[Kto_string[m[K(long int)[m[K’
+ 4189 |   [01;36m[Kto_string[m[K(long __val)
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/basic_string.h:4189:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::optional<std::__cxx11::basic_string<char> >[m[K’ to ‘[01m[Klong int[m[K’
+ 4189 |   to_string([01;36m[Klong __val[m[K)
+      |             [01;36m[K~~~~~^~~~~[m[K
+[01m[K/usr/include/c++/13/bits/basic_string.h:4204:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::[01;32m[Kto_string[m[K(long unsigned int)[m[K’
+ 4204 |   [01;36m[Kto_string[m[K(unsigned long __val)
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/basic_string.h:4204:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::optional<std::__cxx11::basic_string<char> >[m[K’ to ‘[01m[Klong unsigned int[m[K’
+ 4204 |   to_string([01;36m[Kunsigned long __val[m[K)
+      |             [01;36m[K~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/usr/include/c++/13/bits/basic_string.h:4216:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::[01;32m[Kto_string[m[K(long long int)[m[K’
+ 4216 |   [01;36m[Kto_string[m[K(long long __val)
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/basic_string.h:4216:23:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::optional<std::__cxx11::basic_string<char> >[m[K’ to ‘[01m[Klong long int[m[K’
+ 4216 |   to_string([01;36m[Klong long __val[m[K)
+      |             [01;36m[K~~~~~~~~~~^~~~~[m[K
+[01m[K/usr/include/c++/13/bits/basic_string.h:4229:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::[01;32m[Kto_string[m[K(long long unsigned int)[m[K’
+ 4229 |   [01;36m[Kto_string[m[K(unsigned long long __val)
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/basic_string.h:4229:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::optional<std::__cxx11::basic_string<char> >[m[K’ to ‘[01m[Klong long unsigned int[m[K’
+ 4229 |   to_string([01;36m[Kunsigned long long __val[m[K)
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/usr/include/c++/13/bits/basic_string.h:4241:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::[01;32m[Kto_string[m[K(float)[m[K’
+ 4241 |   [01;36m[Kto_string[m[K(float __val)
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/basic_string.h:4241:19:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::optional<std::__cxx11::basic_string<char> >[m[K’ to ‘[01m[Kfloat[m[K’
+ 4241 |   to_string([01;36m[Kfloat __val[m[K)
+      |             [01;36m[K~~~~~~^~~~~[m[K
+[01m[K/usr/include/c++/13/bits/basic_string.h:4251:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::[01;32m[Kto_string[m[K(double)[m[K’
+ 4251 |   [01;36m[Kto_string[m[K(double __val)
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/basic_string.h:4251:20:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::optional<std::__cxx11::basic_string<char> >[m[K’ to ‘[01m[Kdouble[m[K’
+ 4251 |   to_string([01;36m[Kdouble __val[m[K)
+      |             [01;36m[K~~~~~~~^~~~~[m[K
+[01m[K/usr/include/c++/13/bits/basic_string.h:4261:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::[01;32m[Kto_string[m[K(long double)[m[K’
+ 4261 |   [01;36m[Kto_string[m[K(long double __val)
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/basic_string.h:4261:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::optional<std::__cxx11::basic_string<char> >[m[K’ to ‘[01m[Klong double[m[K’
+ 4261 |   to_string([01;36m[Klong double __val[m[K)
+      |             [01;36m[K~~~~~~~~~~~~^~~~~[m[K
+gmake[2]: *** [CMakeFiles/thruster_driver_plugin.dir/build.make:76: CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thruster_driver_plugin.dir/all] Error 2
+gmake: *** [Makefile:166: all] Error 2

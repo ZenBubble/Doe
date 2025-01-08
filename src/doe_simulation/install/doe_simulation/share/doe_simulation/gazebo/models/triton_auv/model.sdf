@@ -227,8 +227,6 @@
     <!-- Thrust Vectors -->
     <plugin name="doe_simulation::ThrusterDriver" filename="libthruster_driver_plugin.so">
       <thruster_count>6</thruster_count>
-      <namespace>/doe/doe_simulation</namespace>
-      <remapping>output_forces</remapping>
     </plugin>
 
     <static>0</static>

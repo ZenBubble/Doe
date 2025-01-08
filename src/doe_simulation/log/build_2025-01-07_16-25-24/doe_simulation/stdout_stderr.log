@@ -1,0 +1,8 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o[0m
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void doe_simulation::ThrusterDriver::[01;32m[KPreUpdate[m[K(const gz::sim::v8::UpdateInfo&, gz::sim::v8::EntityComponentManager&)[m[K’:
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:62:57:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KName[m[K’ in ‘[01m[Kthruster.gz::sim::v8::Link::Entity()[m[K’, which is of non-class type ‘[01m[Kgz::sim::v8::Entity[m[K’ {aka ‘[01m[Klong unsigned int[m[K’}
+   62 |             std::cout<<std::to_string(thruster.Entity().[01;31m[KName[m[K(_ecm))<<std::endl;
+      |                                                         [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/thruster_driver_plugin.dir/build.make:76: CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thruster_driver_plugin.dir/all] Error 2
+gmake: *** [Makefile:166: all] Error 2

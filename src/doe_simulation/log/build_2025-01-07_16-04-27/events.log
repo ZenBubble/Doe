@@ -1,0 +1,428 @@
+[0.000000] (-) TimerEvent: {}
+[0.001114] (doe_simulation) JobQueued: {'identifier': 'doe_simulation', 'dependencies': OrderedDict()}
+[0.001302] (doe_simulation) JobStarted: {'identifier': 'doe_simulation'}
+[0.021086] (doe_simulation) JobProgress: {'identifier': 'doe_simulation', 'progress': 'cmake'}
+[0.024562] (doe_simulation) JobProgress: {'identifier': 'doe_simulation', 'progress': 'build'}
+[0.024660] (doe_simulation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation', '--', '-j20', '-l20'], 'cwd': '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/lib/doe_simulation:', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/dorson/Documents/github/Doe/src/doe_simulation:', 'LANGUAGE': 'en_CA:en', 'USER': 'dorson', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/dorson', 'OLDPWD': '/home/dorson/Documents/github/Doe/src/doe_simulation/models', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2283', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/dorson/Documents/github/Doe/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'dorson', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dorson', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/dorson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/dorson-AORUS-5-SE:@/tmp/.ICE-unix/2252,unix/dorson-AORUS-5-SE:/tmp/.ICE-unix/2252', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/634334eb_98f8_4cd9_9aef_f5583ce048d4', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.204', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'RCUTILS_COLORIZED_OUTPUT': '1', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099298] (-) TimerEvent: {}
+[0.199866] (-) TimerEvent: {}
+[0.238061] (doe_simulation) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o\x1b[0m\n'}
+[0.300026] (-) TimerEvent: {}
+[0.400514] (-) TimerEvent: {}
+[0.501029] (-) TimerEvent: {}
+[0.601592] (-) TimerEvent: {}
+[0.702309] (-) TimerEvent: {}
+[0.802893] (-) TimerEvent: {}
+[0.903810] (-) TimerEvent: {}
+[1.004359] (-) TimerEvent: {}
+[1.104966] (-) TimerEvent: {}
+[1.205462] (-) TimerEvent: {}
+[1.305860] (-) TimerEvent: {}
+[1.406252] (-) TimerEvent: {}
+[1.506778] (-) TimerEvent: {}
+[1.607172] (-) TimerEvent: {}
+[1.707663] (-) TimerEvent: {}
+[1.808197] (-) TimerEvent: {}
+[1.908748] (-) TimerEvent: {}
+[2.009316] (-) TimerEvent: {}
+[2.109933] (-) TimerEvent: {}
+[2.210384] (-) TimerEvent: {}
+[2.310898] (-) TimerEvent: {}
+[2.411407] (-) TimerEvent: {}
+[2.511898] (-) TimerEvent: {}
+[2.612383] (-) TimerEvent: {}
+[2.712898] (-) TimerEvent: {}
+[2.813371] (-) TimerEvent: {}
+[2.913873] (-) TimerEvent: {}
+[3.014353] (-) TimerEvent: {}
+[3.114816] (-) TimerEvent: {}
+[3.215252] (-) TimerEvent: {}
+[3.315724] (-) TimerEvent: {}
+[3.416188] (-) TimerEvent: {}
+[3.516646] (-) TimerEvent: {}
+[3.617130] (-) TimerEvent: {}
+[3.717592] (-) TimerEvent: {}
+[3.818078] (-) TimerEvent: {}
+[3.918551] (-) TimerEvent: {}
+[4.019009] (-) TimerEvent: {}
+[4.119461] (-) TimerEvent: {}
+[4.219911] (-) TimerEvent: {}
+[4.320349] (-) TimerEvent: {}
+[4.420809] (-) TimerEvent: {}
+[4.521252] (-) TimerEvent: {}
+[4.621607] (-) TimerEvent: {}
+[4.721937] (-) TimerEvent: {}
+[4.822303] (-) TimerEvent: {}
+[4.922743] (-) TimerEvent: {}
+[5.023123] (-) TimerEvent: {}
+[5.123594] (-) TimerEvent: {}
+[5.224055] (-) TimerEvent: {}
+[5.324496] (-) TimerEvent: {}
+[5.424946] (-) TimerEvent: {}
+[5.525304] (-) TimerEvent: {}
+[5.625779] (-) TimerEvent: {}
+[5.726129] (-) TimerEvent: {}
+[5.826462] (-) TimerEvent: {}
+[5.916498] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void doe_simulation::ThrusterDriver::\x1b[01;32m\x1b[KPreUpdate\x1b[m\x1b[K(const gz::sim::v8::UpdateInfo&, gz::sim::v8::EntityComponentManager&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.918329] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:62:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator<<\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kstd::ostream\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[5.918738] (doe_simulation) StderrLine: {'line': b'   62 |             \x1b[32m\x1b[Kstd::cout\x1b[m\x1b[K\x1b[01;31m\x1b[K<<\x1b[m\x1b[K\x1b[34m\x1b[Kthruster.Name(_ecm)\x1b[m\x1b[K<<std::endl;\n'}
+[5.919829] (doe_simulation) StderrLine: {'line': b'      |             \x1b[32m\x1b[K~~~~~~~~~\x1b[m\x1b[K\x1b[01;31m\x1b[K^~\x1b[m\x1b[K\x1b[34m\x1b[K~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.920137] (doe_simulation) StderrLine: {'line': b'      |                  \x1b[32m\x1b[K|\x1b[m\x1b[K                  \x1b[34m\x1b[K|\x1b[m\x1b[K\n'}
+[5.920298] (doe_simulation) StderrLine: {'line': b'      |                  \x1b[32m\x1b[K|\x1b[m\x1b[K                  \x1b[34m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\n'}
+[5.920455] (doe_simulation) StderrLine: {'line': b'      |                  \x1b[32m\x1b[Kstd::ostream {aka std::basic_ostream<char>}\x1b[m\x1b[K\n'}
+[5.920616] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:62:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Koperator<<(int, int)\x1b[m\x1b[K\xe2\x80\x99 (built-in)\n'}
+[5.920795] (doe_simulation) StderrLine: {'line': b'   62 |             \x1b[01;36m\x1b[Kstd::cout<<thruster.Name(_ecm)\x1b[m\x1b[K<<std::endl;\n'}
+[5.920963] (doe_simulation) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.921125] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:62:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 2 from \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.921292] (doe_simulation) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/Helpers.hh:24\x1b[m\x1b[K,\n'}
+[5.921453] (doe_simulation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/Quaternion.hh:20\x1b[m\x1b[K,\n'}
+[5.921612] (doe_simulation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/Pose3.hh:20\x1b[m\x1b[K,\n'}
+[5.921808] (doe_simulation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/Model.hh:24\x1b[m\x1b[K,\n'}
+[5.921980] (doe_simulation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:4\x1b[m\x1b[K,\n'}
+[5.922143] (doe_simulation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.922303] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:110:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(__ostream_type& (*)(__ostream_type&)) \x1b[35m\x1b[K[with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.922489] (doe_simulation) StderrLine: {'line': b'  110 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(__ostream_type& (*__pf)(__ostream_type&))\n'}
+[5.922668] (doe_simulation) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.922845] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:110:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&)\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>& (*)(std::basic_ostream<char>&)\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[5.923032] (doe_simulation) StderrLine: {'line': b'  110 |       operator<<(\x1b[01;36m\x1b[K__ostream_type& (*__pf)(__ostream_type&)\x1b[m\x1b[K)\n'}
+[5.923189] (doe_simulation) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.923364] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:119:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(__ios_type& (*)(__ios_type&)) \x1b[35m\x1b[K[with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>; __ios_type = std::basic_ios<char>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.923530] (doe_simulation) StderrLine: {'line': b'  119 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(__ios_type& (*__pf)(__ios_type&))\n'}
+[5.923690] (doe_simulation) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.924050] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:119:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&)\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ios<char>& (*)(std::basic_ios<char>&)\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[5.924377] (doe_simulation) StderrLine: {'line': b'  119 |       operator<<(\x1b[01;36m\x1b[K__ios_type& (*__pf)(__ios_type&)\x1b[m\x1b[K)\n'}
+[5.924489] (doe_simulation) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.924586] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:129:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(std::ios_base& (*)(std::ios_base&)) \x1b[35m\x1b[K[with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.924691] (doe_simulation) StderrLine: {'line': b'  129 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(ios_base& (*__pf) (ios_base&))\n'}
+[5.924799] (doe_simulation) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.924893] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:129:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::ios_base& (*)(std::ios_base&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.924993] (doe_simulation) StderrLine: {'line': b'  129 |       operator<<(\x1b[01;36m\x1b[Kios_base& (*__pf) (ios_base&)\x1b[m\x1b[K)\n'}
+[5.925083] (doe_simulation) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.925172] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:168:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(long int) \x1b[35m\x1b[K[with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.925267] (doe_simulation) StderrLine: {'line': b'  168 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(long __n)\n'}
+[5.925353] (doe_simulation) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.925442] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:168:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.925532] (doe_simulation) StderrLine: {'line': b'  168 |       operator<<(\x1b[01;36m\x1b[Klong __n\x1b[m\x1b[K)\n'}
+[5.925621] (doe_simulation) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~^~~\x1b[m\x1b[K\n'}
+[5.925711] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:172:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(long unsigned int) \x1b[35m\x1b[K[with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.925815] (doe_simulation) StderrLine: {'line': b'  172 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(unsigned long __n)\n'}
+[5.925908] (doe_simulation) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.926000] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:172:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.926090] (doe_simulation) StderrLine: {'line': b'  172 |       operator<<(\x1b[01;36m\x1b[Kunsigned long __n\x1b[m\x1b[K)\n'}
+[5.926180] (doe_simulation) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.926266] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:176:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(bool) \x1b[35m\x1b[K[with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.926361] (doe_simulation) StderrLine: {'line': b'  176 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(bool __n)\n'}
+[5.926446] (-) TimerEvent: {}
+[5.926577] (doe_simulation) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.926690] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:176:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.926799] (doe_simulation) StderrLine: {'line': b'  176 |       operator<<(\x1b[01;36m\x1b[Kbool __n\x1b[m\x1b[K)\n'}
+[5.926892] (doe_simulation) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~^~~\x1b[m\x1b[K\n'}
+[5.926982] (doe_simulation) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/ostream:880\x1b[m\x1b[K:\n'}
+[5.927071] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/ostream.tcc:96:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_Ch, _Tr>& std::basic_ostream<_CharT, _Traits>::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(short int) \x1b[35m\x1b[K[with _CharT = char; _Traits = std::char_traits<char>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.927165] (doe_simulation) StderrLine: {'line': b'   96 |     \x1b[01;36m\x1b[Kbasic_ostream<_CharT, _Traits>\x1b[m\x1b[K::\n'}
+[5.927252] (doe_simulation) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.927342] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/ostream.tcc:97:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kshort int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.927431] (doe_simulation) StderrLine: {'line': b'   97 |     operator<<(\x1b[01;36m\x1b[Kshort __n\x1b[m\x1b[K)\n'}
+[5.927516] (doe_simulation) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.927603] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:183:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(short unsigned int) \x1b[35m\x1b[K[with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.927692] (doe_simulation) StderrLine: {'line': b'  183 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(unsigned short __n)\n'}
+[5.927794] (doe_simulation) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.927882] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:183:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kshort unsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.927968] (doe_simulation) StderrLine: {'line': b'  183 |       operator<<(\x1b[01;36m\x1b[Kunsigned short __n\x1b[m\x1b[K)\n'}
+[5.928063] (doe_simulation) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.928152] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/ostream.tcc:110:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_Ch, _Tr>& std::basic_ostream<_CharT, _Traits>::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(int) \x1b[35m\x1b[K[with _CharT = char; _Traits = std::char_traits<char>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.928247] (doe_simulation) StderrLine: {'line': b'  110 |     \x1b[01;36m\x1b[Kbasic_ostream<_CharT, _Traits>\x1b[m\x1b[K::\n'}
+[5.928335] (doe_simulation) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.928422] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/ostream.tcc:111:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.928510] (doe_simulation) StderrLine: {'line': b'  111 |     operator<<(\x1b[01;36m\x1b[Kint __n\x1b[m\x1b[K)\n'}
+[5.928598] (doe_simulation) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[5.928685] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:194:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(unsigned int) \x1b[35m\x1b[K[with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.928785] (doe_simulation) StderrLine: {'line': b'  194 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(unsigned int __n)\n'}
+[5.928873] (doe_simulation) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.928957] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:194:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.929046] (doe_simulation) StderrLine: {'line': b'  194 |       operator<<(\x1b[01;36m\x1b[Kunsigned int __n\x1b[m\x1b[K)\n'}
+[5.929138] (doe_simulation) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.929224] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:203:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(long long int) \x1b[35m\x1b[K[with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.929317] (doe_simulation) StderrLine: {'line': b'  203 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(long long __n)\n'}
+[5.929409] (doe_simulation) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.929497] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:203:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong long int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.929585] (doe_simulation) StderrLine: {'line': b'  203 |       operator<<(\x1b[01;36m\x1b[Klong long __n\x1b[m\x1b[K)\n'}
+[5.929672] (doe_simulation) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.929763] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:207:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(long long unsigned int) \x1b[35m\x1b[K[with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.929864] (doe_simulation) StderrLine: {'line': b'  207 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(unsigned long long __n)\n'}
+[5.929948] (doe_simulation) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.930031] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:207:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.930122] (doe_simulation) StderrLine: {'line': b'  207 |       operator<<(\x1b[01;36m\x1b[Kunsigned long long __n\x1b[m\x1b[K)\n'}
+[5.930220] (doe_simulation) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.930304] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:222:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(double) \x1b[35m\x1b[K[with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.930392] (doe_simulation) StderrLine: {'line': b'  222 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(double __f)\n'}
+[5.930480] (doe_simulation) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.930568] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:222:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.930656] (doe_simulation) StderrLine: {'line': b'  222 |       operator<<(\x1b[01;36m\x1b[Kdouble __f\x1b[m\x1b[K)\n'}
+[5.930753] (doe_simulation) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.930851] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:226:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(float) \x1b[35m\x1b[K[with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.930944] (doe_simulation) StderrLine: {'line': b'  226 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(float __f)\n'}
+[5.931030] (doe_simulation) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.931117] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:226:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.931202] (doe_simulation) StderrLine: {'line': b'  226 |       operator<<(\x1b[01;36m\x1b[Kfloat __f\x1b[m\x1b[K)\n'}
+[5.931285] (doe_simulation) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.931368] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:234:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(long double) \x1b[35m\x1b[K[with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.931464] (doe_simulation) StderrLine: {'line': b'  234 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(long double __f)\n'}
+[5.931554] (doe_simulation) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.931639] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:234:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong double\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.931728] (doe_simulation) StderrLine: {'line': b'  234 |       operator<<(\x1b[01;36m\x1b[Klong double __f\x1b[m\x1b[K)\n'}
+[5.931823] (doe_simulation) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.931908] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:292:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(const void*) \x1b[35m\x1b[K[with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.932000] (doe_simulation) StderrLine: {'line': b'  292 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(const void* __p)\n'}
+[5.932083] (doe_simulation) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.932166] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:292:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst void*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.932251] (doe_simulation) StderrLine: {'line': b'  292 |       operator<<(\x1b[01;36m\x1b[Kconst void* __p\x1b[m\x1b[K)\n'}
+[5.932336] (doe_simulation) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.932423] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:297:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(std::nullptr_t) \x1b[35m\x1b[K[with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>; std::nullptr_t = std::nullptr_t]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.932517] (doe_simulation) StderrLine: {'line': b'  297 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(nullptr_t)\n'}
+[5.932602] (doe_simulation) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.932685] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:297:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.932780] (doe_simulation) StderrLine: {'line': b'  297 |       operator<<(\x1b[01;36m\x1b[Knullptr_t\x1b[m\x1b[K)\n'}
+[5.932872] (doe_simulation) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.932958] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/ostream.tcc:124:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_Ch, _Tr>& std::basic_ostream<_CharT, _Traits>::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(__streambuf_type*) \x1b[35m\x1b[K[with _CharT = char; _Traits = std::char_traits<char>; __streambuf_type = std::basic_streambuf<char>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.933061] (doe_simulation) StderrLine: {'line': b'  124 |     \x1b[01;36m\x1b[Kbasic_ostream<_CharT, _Traits>\x1b[m\x1b[K::\n'}
+[5.933149] (doe_simulation) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.933240] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/ostream.tcc:125:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>::__streambuf_type*\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_streambuf<char>*\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[5.933338] (doe_simulation) StderrLine: {'line': b'  125 |     operator<<(\x1b[01;36m\x1b[K__streambuf_type* __sbin\x1b[m\x1b[K)\n'}
+[5.933425] (doe_simulation) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[5.933511] (doe_simulation) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/memory:80\x1b[m\x1b[K,\n'}
+[5.933596] (doe_simulation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/Model.hh:20\x1b[m\x1b[K:\n'}
+[5.933683] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:70:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Ch, class _Tr, class _Tp, __gnu_cxx::_Lock_policy _Lp> std::basic_ostream<_Ch, _Tr>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<_Ch, _Tr>&, const __shared_ptr<_Tp, _Lp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.933782] (doe_simulation) StderrLine: {'line': b'   70 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(std::basic_ostream<_Ch, _Tr>& __os,\n'}
+[5.933872] (doe_simulation) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.933958] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:70:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.934044] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:62:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__shared_ptr<_Tp, _Lp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.934136] (doe_simulation) StderrLine: {'line': b'   62 |             std::cout<<thruster.Name(_ecm\x1b[01;36m\x1b[K)\x1b[m\x1b[K<<std::endl;\n'}
+[5.934222] (doe_simulation) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[5.934308] (doe_simulation) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:47\x1b[m\x1b[K,\n'}
+[5.934390] (doe_simulation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/string:54\x1b[m\x1b[K,\n'}
+[5.934473] (doe_simulation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/Model.hh:21\x1b[m\x1b[K:\n'}
+[5.934557] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/string_view:761:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<_Ch, _Tr>&, basic_string_view<_CharT, _Traits>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.934648] (doe_simulation) StderrLine: {'line': b'  761 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os,\n'}
+[5.934734] (doe_simulation) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.934830] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/string_view:761:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.934918] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:62:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_string_view<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.935022] (doe_simulation) StderrLine: {'line': b'   62 |             std::cout<<thruster.Name(_ecm\x1b[01;36m\x1b[K)\x1b[m\x1b[K<<std::endl;\n'}
+[5.935106] (doe_simulation) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[5.935191] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:4032:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_Ch, _Tr>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<_Ch, _Tr>&, const __cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.935278] (doe_simulation) StderrLine: {'line': b' 4032 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os,\n'}
+[5.935365] (doe_simulation) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.935452] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:4032:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.935543] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:62:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.935633] (doe_simulation) StderrLine: {'line': b'   62 |             std::cout<<thruster.Name(_ecm\x1b[01;36m\x1b[K)\x1b[m\x1b[K<<std::endl;\n'}
+[5.935724] (doe_simulation) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[5.935824] (doe_simulation) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/bits/memory_resource.h:38\x1b[m\x1b[K,\n'}
+[5.935915] (doe_simulation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/string:58\x1b[m\x1b[K:\n'}
+[5.936001] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/cstddef:124:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IntegerType> constexpr std::__byte_op_t<_IntegerType> std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(byte, _IntegerType)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.936090] (doe_simulation) StderrLine: {'line': b'  124 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(byte __b, _IntegerType __shift) noexcept\n'}
+[5.936175] (doe_simulation) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.936260] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/cstddef:124:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.936345] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:62:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::cout\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd::ostream\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K\xe2\x80\x99}) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::byte\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.936436] (doe_simulation) StderrLine: {'line': b'   62 |             \x1b[01;36m\x1b[Kstd::cout\x1b[m\x1b[K<<thruster.Name(_ecm)<<std::endl;\n'}
+[5.936518] (doe_simulation) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~^~~~\x1b[m\x1b[K\n'}
+[5.936602] (doe_simulation) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/bits/ios_base.h:46\x1b[m\x1b[K,\n'}
+[5.936688] (doe_simulation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/ios:44\x1b[m\x1b[K,\n'}
+[5.936787] (doe_simulation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/ostream:40\x1b[m\x1b[K:\n'}
+[5.936880] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/system_error:339:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<_Ch, _Tr>&, const error_code&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.936971] (doe_simulation) StderrLine: {'line': b'  339 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)\n'}
+[5.937060] (doe_simulation) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.937147] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/system_error:339:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.937232] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:62:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kgz::sim::v8::Link::Name(const gz::sim::v8::EntityComponentManager&) const((*(const gz::sim::v8::EntityComponentManager*)(& _ecm)))\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_code&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.937333] (doe_simulation) StderrLine: {'line': b'   62 |             std::cout<<\x1b[01;36m\x1b[Kthruster.Name(_ecm)\x1b[m\x1b[K<<std::endl;\n'}
+[5.937421] (doe_simulation) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[5.937506] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:554:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<_Ch, _Tr>&, _CharT)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.937593] (doe_simulation) StderrLine: {'line': b'  554 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)\n'}
+[5.937682] (doe_simulation) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.937776] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:554:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.937868] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:62:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[K_CharT\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[5.937959] (doe_simulation) StderrLine: {'line': b'   62 |             std::cout<<thruster.Name(_ecm\x1b[01;36m\x1b[K)\x1b[m\x1b[K<<std::endl;\n'}
+[5.938048] (doe_simulation) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[5.938134] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:564:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<_Ch, _Tr>&, char)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.938222] (doe_simulation) StderrLine: {'line': b'  564 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __out, char __c)\n'}
+[5.938316] (doe_simulation) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.938407] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:564:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.938496] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:62:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kgz::sim::v8::Link::Name(const gz::sim::v8::EntityComponentManager&) const((*(const gz::sim::v8::EntityComponentManager*)(& _ecm)))\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.938597] (doe_simulation) StderrLine: {'line': b'   62 |             std::cout<<\x1b[01;36m\x1b[Kthruster.Name(_ecm)\x1b[m\x1b[K<<std::endl;\n'}
+[5.938686] (doe_simulation) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[5.938781] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:570:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<char, _Traits>&, char)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.938878] (doe_simulation) StderrLine: {'line': b'  570 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<char, _Traits>& __out, char __c)\n'}
+[5.938966] (doe_simulation) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.939052] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:570:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.939142] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:62:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kgz::sim::v8::Link::Name(const gz::sim::v8::EntityComponentManager&) const((*(const gz::sim::v8::EntityComponentManager*)(& _ecm)))\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.939238] (doe_simulation) StderrLine: {'line': b'   62 |             std::cout<<\x1b[01;36m\x1b[Kthruster.Name(_ecm)\x1b[m\x1b[K<<std::endl;\n'}
+[5.939327] (doe_simulation) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[5.939411] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:581:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<char, _Traits>&, signed char)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.939496] (doe_simulation) StderrLine: {'line': b'  581 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<char, _Traits>& __out, signed char __c)\n'}
+[5.939585] (doe_simulation) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.939671] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:581:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.939768] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:62:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kgz::sim::v8::Link::Name(const gz::sim::v8::EntityComponentManager&) const((*(const gz::sim::v8::EntityComponentManager*)(& _ecm)))\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Ksigned char\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.939879] (doe_simulation) StderrLine: {'line': b'   62 |             std::cout<<\x1b[01;36m\x1b[Kthruster.Name(_ecm)\x1b[m\x1b[K<<std::endl;\n'}
+[5.939967] (doe_simulation) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[5.940061] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:586:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<char, _Traits>&, unsigned char)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.940152] (doe_simulation) StderrLine: {'line': b'  586 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<char, _Traits>& __out, unsigned char __c)\n'}
+[5.940245] (doe_simulation) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.940335] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:586:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.940426] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:62:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kgz::sim::v8::Link::Name(const gz::sim::v8::EntityComponentManager&) const((*(const gz::sim::v8::EntityComponentManager*)(& _ecm)))\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kunsigned char\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.940524] (doe_simulation) StderrLine: {'line': b'   62 |             std::cout<<\x1b[01;36m\x1b[Kthruster.Name(_ecm)\x1b[m\x1b[K<<std::endl;\n'}
+[5.940619] (doe_simulation) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[5.940714] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:645:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<_Ch, _Tr>&, const _CharT*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.940818] (doe_simulation) StderrLine: {'line': b'  645 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)\n'}
+[5.940908] (doe_simulation) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.940995] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:645:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.941079] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:62:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst _CharT*\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.941176] (doe_simulation) StderrLine: {'line': b'   62 |             std::cout<<thruster.Name(_ecm\x1b[01;36m\x1b[K)\x1b[m\x1b[K<<std::endl;\n'}
+[5.941262] (doe_simulation) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[5.941347] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/ostream.tcc:307:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<_Ch, _Tr>&, const char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.941437] (doe_simulation) StderrLine: {'line': b'  307 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)\n'}
+[5.941524] (doe_simulation) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.941611] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/ostream.tcc:307:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.941697] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:62:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kgz::sim::v8::Link::Name(const gz::sim::v8::EntityComponentManager&) const((*(const gz::sim::v8::EntityComponentManager*)(& _ecm)))\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.941801] (doe_simulation) StderrLine: {'line': b'   62 |             std::cout<<\x1b[01;36m\x1b[Kthruster.Name(_ecm)\x1b[m\x1b[K<<std::endl;\n'}
+[5.941892] (doe_simulation) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[5.941979] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:662:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<char, _Traits>&, const char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.942065] (doe_simulation) StderrLine: {'line': b'  662 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<char, _Traits>& __out, const char* __s)\n'}
+[5.942150] (doe_simulation) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.942236] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:662:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.942325] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:62:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kgz::sim::v8::Link::Name(const gz::sim::v8::EntityComponentManager&) const((*(const gz::sim::v8::EntityComponentManager*)(& _ecm)))\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.942414] (doe_simulation) StderrLine: {'line': b'   62 |             std::cout<<\x1b[01;36m\x1b[Kthruster.Name(_ecm)\x1b[m\x1b[K<<std::endl;\n'}
+[5.942497] (doe_simulation) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[5.942584] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:675:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<char, _Traits>&, const signed char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.942672] (doe_simulation) StderrLine: {'line': b'  675 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<char, _Traits>& __out, const signed char* __s)\n'}
+[5.942764] (doe_simulation) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.942852] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:675:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.942940] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:62:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kgz::sim::v8::Link::Name(const gz::sim::v8::EntityComponentManager&) const((*(const gz::sim::v8::EntityComponentManager*)(& _ecm)))\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kconst signed char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.943034] (doe_simulation) StderrLine: {'line': b'   62 |             std::cout<<\x1b[01;36m\x1b[Kthruster.Name(_ecm)\x1b[m\x1b[K<<std::endl;\n'}
+[5.943124] (doe_simulation) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[5.943206] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:680:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<char, _Traits>&, const unsigned char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.943293] (doe_simulation) StderrLine: {'line': b'  680 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)\n'}
+[5.943381] (doe_simulation) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.943468] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:680:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.943551] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:62:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kgz::sim::v8::Link::Name(const gz::sim::v8::EntityComponentManager&) const((*(const gz::sim::v8::EntityComponentManager*)(& _ecm)))\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kconst unsigned char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.943652] (doe_simulation) StderrLine: {'line': b'   62 |             std::cout<<\x1b[01;36m\x1b[Kthruster.Name(_ecm)\x1b[m\x1b[K<<std::endl;\n'}
+[5.943737] (doe_simulation) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[5.943834] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:801:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Ostream, class _Tp> _Ostream&& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(_Ostream&&, const _Tp&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.943924] (doe_simulation) StderrLine: {'line': b'  801 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(_Ostream&& __os, const _Tp& __x)\n'}
+[5.944010] (doe_simulation) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.944096] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:801:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.944183] (doe_simulation) StderrLine: {'line': b'/usr/include/c++/13/ostream: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Ostream, class _Tp> _Ostream&& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(_Ostream&&, const _Tp&) \x1b[35m\x1b[K[with _Ostream = std::basic_ostream<char>&; _Tp = std::optional<std::__cxx11::basic_string<char> >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.944274] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:62:42:\x1b[m\x1b[K   required from here\n'}
+[5.944359] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:801:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.944449] (doe_simulation) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/opt/gz_common_vendor/include/gz/common5/gz/common/Util.hh:25\x1b[m\x1b[K,\n'}
+[5.944547] (doe_simulation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/opt/gz_common_vendor/include/gz/common5/gz/common/Console.hh:29\x1b[m\x1b[K,\n'}
+[5.944633] (doe_simulation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/EntityComponentManager.hh:35\x1b[m\x1b[K,\n'}
+[5.944720] (doe_simulation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/Model.hh:27\x1b[m\x1b[K:\n'}
+[5.944815] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/thread:97:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<_Ch, _Tr>&, thread::id)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.944902] (doe_simulation) StderrLine: {'line': b'   97 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __out, thread::id __id)\n'}
+[5.944987] (doe_simulation) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.945073] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/thread:97:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.945159] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:62:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kgz::sim::v8::Link::Name(const gz::sim::v8::EntityComponentManager&) const((*(const gz::sim::v8::EntityComponentManager*)(& _ecm)))\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::thread::id\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.945248] (doe_simulation) StderrLine: {'line': b'   62 |             std::cout<<\x1b[01;36m\x1b[Kthruster.Name(_ecm)\x1b[m\x1b[K<<std::endl;\n'}
+[5.945332] (doe_simulation) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[5.945416] (doe_simulation) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/opt/sdformat_vendor/include/gz/sdformat14/sdf/Param.hh:26\x1b[m\x1b[K,\n'}
+[5.945501] (doe_simulation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/opt/sdformat_vendor/include/gz/sdformat14/sdf/Element.hh:29\x1b[m\x1b[K,\n'}
+[5.945586] (doe_simulation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/opt/sdformat_vendor/include/gz/sdformat14/sdf/CustomInertiaCalcProperties.hh:26\x1b[m\x1b[K,\n'}
+[5.945671] (doe_simulation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/opt/sdformat_vendor/include/gz/sdformat14/sdf/Mesh.hh:26\x1b[m\x1b[K,\n'}
+[5.945760] (doe_simulation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/Util.hh:29\x1b[m\x1b[K,\n'}
+[5.945852] (doe_simulation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/include/doe_simulation/thruster_driver_plugin.hpp:6\x1b[m\x1b[K:\n'}
+[5.945942] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/iomanip:81:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<_Ch, _Tr>&, _Resetiosflags)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.946028] (doe_simulation) StderrLine: {'line': b'   81 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Resetiosflags __f)\n'}
+[5.946116] (doe_simulation) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.946202] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/iomanip:81:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.946295] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:62:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kgz::sim::v8::Link::Name(const gz::sim::v8::EntityComponentManager&) const((*(const gz::sim::v8::EntityComponentManager*)(& _ecm)))\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Resetiosflags\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.946388] (doe_simulation) StderrLine: {'line': b'   62 |             std::cout<<\x1b[01;36m\x1b[Kthruster.Name(_ecm)\x1b[m\x1b[K<<std::endl;\n'}
+[5.946473] (doe_simulation) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[5.946557] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/iomanip:111:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<_Ch, _Tr>&, _Setiosflags)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.946646] (doe_simulation) StderrLine: {'line': b'  111 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Setiosflags __f)\n'}
+[5.946727] (doe_simulation) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.946821] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/iomanip:111:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.946909] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:62:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kgz::sim::v8::Link::Name(const gz::sim::v8::EntityComponentManager&) const((*(const gz::sim::v8::EntityComponentManager*)(& _ecm)))\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Setiosflags\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.947004] (doe_simulation) StderrLine: {'line': b'   62 |             std::cout<<\x1b[01;36m\x1b[Kthruster.Name(_ecm)\x1b[m\x1b[K<<std::endl;\n'}
+[5.947088] (doe_simulation) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[5.947173] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/iomanip:145:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<_Ch, _Tr>&, _Setbase)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.947260] (doe_simulation) StderrLine: {'line': b'  145 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Setbase __f)\n'}
+[5.947345] (doe_simulation) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.947428] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/iomanip:145:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.947512] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:62:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kgz::sim::v8::Link::Name(const gz::sim::v8::EntityComponentManager&) const((*(const gz::sim::v8::EntityComponentManager*)(& _ecm)))\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Setbase\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.947605] (doe_simulation) StderrLine: {'line': b'   62 |             std::cout<<\x1b[01;36m\x1b[Kthruster.Name(_ecm)\x1b[m\x1b[K<<std::endl;\n'}
+[5.947691] (doe_simulation) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[5.947782] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/iomanip:180:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<_Ch, _Tr>&, _Setfill<_CharT>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.947871] (doe_simulation) StderrLine: {'line': b'  180 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Setfill<_CharT> __f)\n'}
+[5.947957] (doe_simulation) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.948039] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/iomanip:180:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.948126] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:62:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Setfill<_CharT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.948218] (doe_simulation) StderrLine: {'line': b'   62 |             std::cout<<thruster.Name(_ecm\x1b[01;36m\x1b[K)\x1b[m\x1b[K<<std::endl;\n'}
+[5.948304] (doe_simulation) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[5.948385] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/iomanip:210:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<_Ch, _Tr>&, _Setprecision)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.948471] (doe_simulation) StderrLine: {'line': b'  210 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Setprecision __f)\n'}
+[5.948560] (doe_simulation) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.948644] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/iomanip:210:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.948731] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:62:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kgz::sim::v8::Link::Name(const gz::sim::v8::EntityComponentManager&) const((*(const gz::sim::v8::EntityComponentManager*)(& _ecm)))\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Setprecision\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.948830] (doe_simulation) StderrLine: {'line': b'   62 |             std::cout<<\x1b[01;36m\x1b[Kthruster.Name(_ecm)\x1b[m\x1b[K<<std::endl;\n'}
+[5.948917] (doe_simulation) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[5.949004] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/iomanip:240:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<_Ch, _Tr>&, _Setw)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.949091] (doe_simulation) StderrLine: {'line': b'  240 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Setw __f)\n'}
+[5.949184] (doe_simulation) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.949272] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/iomanip:240:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.949358] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:62:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kgz::sim::v8::Link::Name(const gz::sim::v8::EntityComponentManager&) const((*(const gz::sim::v8::EntityComponentManager*)(& _ecm)))\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Setw\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.949452] (doe_simulation) StderrLine: {'line': b'   62 |             std::cout<<\x1b[01;36m\x1b[Kthruster.Name(_ecm)\x1b[m\x1b[K<<std::endl;\n'}
+[5.949536] (doe_simulation) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[5.949620] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/iomanip:313:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _MoneyT> std::basic_ostream<_Ch, _Tr>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<_Ch, _Tr>&, _Put_money<_MoneyT>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.949703] (doe_simulation) StderrLine: {'line': b'  313 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Put_money<_MoneyT> __f)\n'}
+[5.949798] (doe_simulation) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.949885] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/iomanip:313:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.949971] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:62:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Put_money<_MoneyT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.950059] (doe_simulation) StderrLine: {'line': b'   62 |             std::cout<<thruster.Name(_ecm\x1b[01;36m\x1b[K)\x1b[m\x1b[K<<std::endl;\n'}
+[5.950145] (doe_simulation) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[5.950228] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/iomanip:365:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<_Ch, _Tr>&, _Put_time<_CharT>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.950313] (doe_simulation) StderrLine: {'line': b'  365 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Put_time<_CharT> __f)\n'}
+[5.950395] (doe_simulation) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.950479] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/iomanip:365:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.950564] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:62:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Put_time<_CharT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.950652] (doe_simulation) StderrLine: {'line': b'   62 |             std::cout<<thruster.Name(_ecm\x1b[01;36m\x1b[K)\x1b[m\x1b[K<<std::endl;\n'}
+[5.950740] (doe_simulation) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.026667] (-) TimerEvent: {}
+[6.127109] (-) TimerEvent: {}
+[6.227477] (-) TimerEvent: {}
+[6.327892] (-) TimerEvent: {}
+[6.428350] (-) TimerEvent: {}
+[6.528903] (-) TimerEvent: {}
+[6.629264] (-) TimerEvent: {}
+[6.729712] (-) TimerEvent: {}
+[6.830105] (-) TimerEvent: {}
+[6.930449] (-) TimerEvent: {}
+[7.030869] (-) TimerEvent: {}
+[7.131230] (-) TimerEvent: {}
+[7.231629] (-) TimerEvent: {}
+[7.332163] (-) TimerEvent: {}
+[7.432557] (-) TimerEvent: {}
+[7.532967] (-) TimerEvent: {}
+[7.633488] (-) TimerEvent: {}
+[7.733856] (-) TimerEvent: {}
+[7.834280] (-) TimerEvent: {}
+[7.934832] (-) TimerEvent: {}
+[8.035335] (-) TimerEvent: {}
+[8.135844] (-) TimerEvent: {}
+[8.236259] (-) TimerEvent: {}
+[8.336810] (-) TimerEvent: {}
+[8.437234] (-) TimerEvent: {}
+[8.537734] (-) TimerEvent: {}
+[8.638138] (-) TimerEvent: {}
+[8.738628] (-) TimerEvent: {}
+[8.839114] (-) TimerEvent: {}
+[8.939508] (-) TimerEvent: {}
+[9.040112] (-) TimerEvent: {}
+[9.140614] (-) TimerEvent: {}
+[9.241070] (-) TimerEvent: {}
+[9.341446] (-) TimerEvent: {}
+[9.441858] (-) TimerEvent: {}
+[9.448736] (doe_simulation) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/thruster_driver_plugin.dir/build.make:76: CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o] Error 1\n'}
+[9.449009] (doe_simulation) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thruster_driver_plugin.dir/all] Error 2\n'}
+[9.449111] (doe_simulation) StderrLine: {'line': b'gmake: *** [Makefile:166: all] Error 2\n'}
+[9.451090] (doe_simulation) CommandEnded: {'returncode': 2}
+[9.525347] (doe_simulation) JobEnded: {'identifier': 'doe_simulation', 'rc': 2}
+[9.536333] (-) EventReactorShutdown: {}

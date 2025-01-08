@@ -1,0 +1,128 @@
+[0.000000] (-) TimerEvent: {}
+[0.000618] (doe_simulation) JobQueued: {'identifier': 'doe_simulation', 'dependencies': OrderedDict()}
+[0.000964] (doe_simulation) JobStarted: {'identifier': 'doe_simulation'}
+[0.037400] (doe_simulation) JobProgress: {'identifier': 'doe_simulation', 'progress': 'cmake'}
+[0.040507] (doe_simulation) JobProgress: {'identifier': 'doe_simulation', 'progress': 'build'}
+[0.043267] (doe_simulation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation', '--', '-j20', '-l20'], 'cwd': '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/lib/doe_simulation:', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/dorson/Documents/github/Doe/src/doe_simulation:', 'LANGUAGE': 'en_CA:en', 'USER': 'dorson', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/dorson', 'OLDPWD': '/home/dorson/Documents/github/Doe/src/doe_simulation/models', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2283', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/dorson/Documents/github/Doe/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'dorson', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dorson', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/dorson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/dorson-AORUS-5-SE:@/tmp/.ICE-unix/2252,unix/dorson-AORUS-5-SE:/tmp/.ICE-unix/2252', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/634334eb_98f8_4cd9_9aef_f5583ce048d4', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.204', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dorson/Documents/github/Doe/src/doe_simulation/build/doe_simulation', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'RCUTILS_COLORIZED_OUTPUT': '1', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.097520] (-) TimerEvent: {}
+[0.198254] (-) TimerEvent: {}
+[0.271227] (doe_simulation) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o\x1b[0m\n'}
+[0.298424] (-) TimerEvent: {}
+[0.399061] (-) TimerEvent: {}
+[0.499596] (-) TimerEvent: {}
+[0.600179] (-) TimerEvent: {}
+[0.700692] (-) TimerEvent: {}
+[0.801156] (-) TimerEvent: {}
+[0.901567] (-) TimerEvent: {}
+[1.002105] (-) TimerEvent: {}
+[1.102538] (-) TimerEvent: {}
+[1.203070] (-) TimerEvent: {}
+[1.303478] (-) TimerEvent: {}
+[1.404008] (-) TimerEvent: {}
+[1.504381] (-) TimerEvent: {}
+[1.604729] (-) TimerEvent: {}
+[1.705265] (-) TimerEvent: {}
+[1.805897] (-) TimerEvent: {}
+[1.906510] (-) TimerEvent: {}
+[2.006988] (-) TimerEvent: {}
+[2.107451] (-) TimerEvent: {}
+[2.207965] (-) TimerEvent: {}
+[2.308477] (-) TimerEvent: {}
+[2.408918] (-) TimerEvent: {}
+[2.509313] (-) TimerEvent: {}
+[2.609735] (-) TimerEvent: {}
+[2.710395] (-) TimerEvent: {}
+[2.810924] (-) TimerEvent: {}
+[2.911452] (-) TimerEvent: {}
+[3.012024] (-) TimerEvent: {}
+[3.112490] (-) TimerEvent: {}
+[3.212844] (-) TimerEvent: {}
+[3.313336] (-) TimerEvent: {}
+[3.413790] (-) TimerEvent: {}
+[3.514132] (-) TimerEvent: {}
+[3.614564] (-) TimerEvent: {}
+[3.715046] (-) TimerEvent: {}
+[3.815414] (-) TimerEvent: {}
+[3.915768] (-) TimerEvent: {}
+[4.016165] (-) TimerEvent: {}
+[4.116744] (-) TimerEvent: {}
+[4.217283] (-) TimerEvent: {}
+[4.317866] (-) TimerEvent: {}
+[4.418433] (-) TimerEvent: {}
+[4.518935] (-) TimerEvent: {}
+[4.619368] (-) TimerEvent: {}
+[4.719953] (-) TimerEvent: {}
+[4.820418] (-) TimerEvent: {}
+[4.920771] (-) TimerEvent: {}
+[5.021138] (-) TimerEvent: {}
+[5.121628] (-) TimerEvent: {}
+[5.222195] (-) TimerEvent: {}
+[5.322587] (-) TimerEvent: {}
+[5.423039] (-) TimerEvent: {}
+[5.523422] (-) TimerEvent: {}
+[5.623933] (-) TimerEvent: {}
+[5.724601] (-) TimerEvent: {}
+[5.825096] (-) TimerEvent: {}
+[5.925533] (-) TimerEvent: {}
+[6.026337] (-) TimerEvent: {}
+[6.126003] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void doe_simulation::ThrusterDriver::\x1b[01;32m\x1b[KPreUpdate\x1b[m\x1b[K(const gz::sim::v8::UpdateInfo&, gz::sim::v8::EntityComponentManager&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.126422] (-) TimerEvent: {}
+[6.126569] (doe_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:62:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass gz::sim::v8::Link\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kentity\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KEntity\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.126736] (doe_simulation) StderrLine: {'line': b'   62 |             std::cout<<std::to_string(thruster.\x1b[01;31m\x1b[Kentity\x1b[m\x1b[K.Name(_ecm))<<std::endl;\n'}
+[6.126847] (doe_simulation) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[6.127006] (doe_simulation) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[KEntity\x1b[m\x1b[K\n'}
+[6.226581] (-) TimerEvent: {}
+[6.327153] (-) TimerEvent: {}
+[6.427669] (-) TimerEvent: {}
+[6.528086] (-) TimerEvent: {}
+[6.628576] (-) TimerEvent: {}
+[6.728987] (-) TimerEvent: {}
+[6.829331] (-) TimerEvent: {}
+[6.929846] (-) TimerEvent: {}
+[7.030639] (-) TimerEvent: {}
+[7.130999] (-) TimerEvent: {}
+[7.231391] (-) TimerEvent: {}
+[7.332074] (-) TimerEvent: {}
+[7.432710] (-) TimerEvent: {}
+[7.533104] (-) TimerEvent: {}
+[7.633554] (-) TimerEvent: {}
+[7.734000] (-) TimerEvent: {}
+[7.834576] (-) TimerEvent: {}
+[7.935114] (-) TimerEvent: {}
+[8.036223] (-) TimerEvent: {}
+[8.136624] (-) TimerEvent: {}
+[8.236995] (-) TimerEvent: {}
+[8.337494] (-) TimerEvent: {}
+[8.437965] (-) TimerEvent: {}
+[8.538478] (-) TimerEvent: {}
+[8.639078] (-) TimerEvent: {}
+[8.739566] (-) TimerEvent: {}
+[8.840123] (-) TimerEvent: {}
+[8.940661] (-) TimerEvent: {}
+[9.041221] (-) TimerEvent: {}
+[9.141722] (-) TimerEvent: {}
+[9.242292] (-) TimerEvent: {}
+[9.342945] (-) TimerEvent: {}
+[9.443480] (-) TimerEvent: {}
+[9.544074] (-) TimerEvent: {}
+[9.644467] (-) TimerEvent: {}
+[9.744826] (-) TimerEvent: {}
+[9.845267] (-) TimerEvent: {}
+[9.945746] (-) TimerEvent: {}
+[10.046164] (-) TimerEvent: {}
+[10.146554] (-) TimerEvent: {}
+[10.246984] (-) TimerEvent: {}
+[10.347422] (-) TimerEvent: {}
+[10.447802] (-) TimerEvent: {}
+[10.548250] (-) TimerEvent: {}
+[10.648761] (-) TimerEvent: {}
+[10.749300] (-) TimerEvent: {}
+[10.849849] (-) TimerEvent: {}
+[10.950089] (doe_simulation) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/thruster_driver_plugin.dir/build.make:76: CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o] Error 1\n'}
+[10.950550] (-) TimerEvent: {}
+[10.951051] (doe_simulation) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thruster_driver_plugin.dir/all] Error 2\n'}
+[10.951743] (doe_simulation) StderrLine: {'line': b'gmake: *** [Makefile:166: all] Error 2\n'}
+[10.956943] (doe_simulation) CommandEnded: {'returncode': 2}
+[11.050922] (-) TimerEvent: {}
+[11.081022] (doe_simulation) JobEnded: {'identifier': 'doe_simulation', 'rc': 2}
+[11.091898] (-) EventReactorShutdown: {}

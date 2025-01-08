@@ -43,13 +43,14 @@ namespace doe_simulation {
 
         std::string model_name = _model.Name(_ecm);
 
+
         for (unsigned int i = 1; i <= thruster_count; i++)
         {
-            std::string thruster_name = model_name + "::thruster" + std::to_string(i) + "::thruster";
+            std::string thruster_name = model_name + "::thruster" + std::to_string(i);
             this->thrusters.push_back(_model.LinkByName(_ecm, thruster_name));
-
-            //RCLCPP_INFO(this->node->get_logger(), this->thruster[i-1].Name(_ecm));
         }
+        
+        thrusters = _model.Models(_ecm);
 
         /// @todo feels like there should be a way to pass rclcpp::spin directly to thread, this works the way it is though 
         this->spinThread = std::thread(std::bind(&ThrusterDriver::SpinNode, this));
@@ -60,12 +61,13 @@ namespace doe_simulation {
 
         for (unsigned int i = 0; i < thruster_count; i++)
         {   
-            Link thruster = Link(thrusters[i]);
-            thruster.AddWorldForce(_ecm, math::Vector3d(0, 0, this->thrust_values[i]));
+            auto model = Model(thrusters[i]);
+            Link thruster = Link(model.LinkByName(_ecm, "thruster"));
+            thruster.AddWorldForce(_ecm, math::Vector3d(0, 0, this->thrust_values[i])); // could add a position here for third arg to offset so its pushing from the back 
         }
     }
 
-    void ThrusterDriver::GetRosNamespace(const std::shared_ptr<const sdf::Element> &_sdf)
+    void ThrusterDriver::GetRosNamespace(const std::shared_ptr<const sdf::Element> &_sdf) // why does this exist? flexibility for setting topic name sure but just do in code
     {
         std::string _namespace;
         std::string topic;

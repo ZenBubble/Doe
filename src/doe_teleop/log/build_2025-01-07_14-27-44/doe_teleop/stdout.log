@@ -1,0 +1,21 @@
+running egg_info
+writing build/doe_teleop/doe_teleop.egg-info/PKG-INFO
+writing dependency_links to build/doe_teleop/doe_teleop.egg-info/dependency_links.txt
+writing entry points to build/doe_teleop/doe_teleop.egg-info/entry_points.txt
+writing requirements to build/doe_teleop/doe_teleop.egg-info/requires.txt
+writing top-level names to build/doe_teleop/doe_teleop.egg-info/top_level.txt
+reading manifest file 'build/doe_teleop/doe_teleop.egg-info/SOURCES.txt'
+writing manifest file 'build/doe_teleop/doe_teleop.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+creating /home/dorson/Documents/github/Doe/src/doe_teleop/install/doe_teleop/share/doe_teleop/launch
+copying launch/keyboard_teleop_launch.py -> /home/dorson/Documents/github/Doe/src/doe_teleop/install/doe_teleop/share/doe_teleop/launch
+running install_egg_info
+removing '/home/dorson/Documents/github/Doe/src/doe_teleop/install/doe_teleop/lib/python3.12/site-packages/doe_teleop-0.0.0-py3.12.egg-info' (and everything under it)
+Copying build/doe_teleop/doe_teleop.egg-info to /home/dorson/Documents/github/Doe/src/doe_teleop/install/doe_teleop/lib/python3.12/site-packages/doe_teleop-0.0.0-py3.12.egg-info
+running install_scripts
+Installing keyboard_teleop script to /home/dorson/Documents/github/Doe/src/doe_teleop/install/doe_teleop/lib/doe_teleop
+writing list of installed files to '/home/dorson/Documents/github/Doe/src/doe_teleop/build/doe_teleop/install.log'

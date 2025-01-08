@@ -18,7 +18,7 @@ namespace doe_control
         this->declare_parameter<int>("num_thrusters", num_thrusters_);
 
         this->get_parameter("num_thrusters", num_thrusters_);
-        
+
         if (num_thrusters_ > SUPPORTED_THRUSTERS)
         {
             RCLCPP_ERROR(this->get_logger(), "Number of thrusters is greater than supported thruster count");
@@ -61,8 +61,6 @@ namespace doe_control
             for (int j = 0; j < alloc_mat.cols; j++)
                 alloc_mat.at<double>(i,j) = alloc_vec[i][j];
 
-        //RCLCPP_INFO(this->get_logger(), alloc_mat);
-
         if (alloc_mat.empty()) {
             RCLCPP_ERROR(this->get_logger(), "Allocation matrix is empty! Likely because zero thrusters are configured in config");
             return;
@@ -91,10 +89,16 @@ namespace doe_control
         };
 
         cv::Mat tau_mat (6, 1, CV_64F);
-        for (int i = 0; i < 6; i++)
+        for (int i = 0; i < 6; i++) 
+        {
             tau_mat.at<double>(i, 0) = tau_arr[i];
+        }
 
-        cv::Mat thrust_mat =  pinv_alloc_*tau_mat;
+
+        cv::Mat thrust_mat =  tau_mat; // this used to multiply by pinv mat, which was always zero, thus the thrust array was alwauys zero. why?
+
+        // RCLCPP_INFO(this->get_logger(), "Allocation Matrix:");
+        // std::cout << thrust_mat << std::endl;
 
         std::vector<double> thrust;
         uint32_t signal = 0;
@@ -105,7 +109,7 @@ namespace doe_control
 
             uint32_t t_level = forceToLevel(thruster_thrust);
             uint32_t t_bits = t_level << (bits_per_thruster_ * i);
-            // std::cout << "thruster " << i << " " << thruster_thrust << " " << t_bits  << " " << (t_bits >> bits_per_thruster_ * i) << std::endl;
+            //std::cout << "thruster " << i << " " << thruster_thrust << " " << t_bits  << " " << (t_bits >> bits_per_thruster_ * i) << std::endl;
             signal |= t_bits;
         }
         // TEMP FIX: PLEASE CHANGE ME LATER
@@ -119,6 +123,10 @@ namespace doe_control
         auto signal_msg = std_msgs::msg::UInt32();
         signal_msg.data = signal;
         signals_pub_->publish(signal_msg);
+
+        // for (unsigned int i = 0; i < 6; i ++) { // debug if we are sending the right forces to gazebo
+        //     RCLCPP_INFO(this->get_logger(), std::to_string(forces_msg.data[i]).c_str());
+        // }
     }
 
     std::vector<double> ThrustPublisher::cross(std::vector<double> r,std::vector<double> F){

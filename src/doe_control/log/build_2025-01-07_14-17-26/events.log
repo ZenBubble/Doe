@@ -1,0 +1,418 @@
+[0.000000] (-) TimerEvent: {}
+[0.000828] (doe_control) JobQueued: {'identifier': 'doe_control', 'dependencies': OrderedDict()}
+[0.001369] (doe_control) JobStarted: {'identifier': 'doe_control'}
+[0.021914] (doe_control) JobProgress: {'identifier': 'doe_control', 'progress': 'cmake'}
+[0.023281] (doe_control) JobProgress: {'identifier': 'doe_control', 'progress': 'build'}
+[0.025039] (doe_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control', '--', '-j20', '-l20'], 'cwd': '/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/dorson/Documents/github/Doe/src/doe_simulation/install/doe_simulation/lib/doe_simulation:', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/dorson/Documents/github/Doe/src/doe_simulation:', 'LANGUAGE': 'en_CA:en', 'USER': 'dorson', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/dorson', 'OLDPWD': '/home/dorson/Documents/github/Doe/src/doe_control/install', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2283', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/dorson/Documents/github/Doe/src/doe_control/install:/home/dorson/Documents/github/Doe/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'dorson', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dorson', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/dorson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/dorson-AORUS-5-SE:@/tmp/.ICE-unix/2252,unix/dorson-AORUS-5-SE:/tmp/.ICE-unix/2252', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/05b587d0_4c15_4088_9381_00bcca4b3b04', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.204', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/dorson/Documents/github/Doe/src/doe_control/install/doe_control:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dorson/Documents/github/Doe/src/doe_control/build/doe_control', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'RCUTILS_COLORIZED_OUTPUT': '1', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/dorson/Documents/github/Doe/src/doe_control/install/doe_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099704] (-) TimerEvent: {}
+[0.145554] (doe_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/thrust_publisher.dir/src/thrust_publisher.cpp.o\x1b[0m\n'}
+[0.199996] (-) TimerEvent: {}
+[0.300556] (-) TimerEvent: {}
+[0.400994] (-) TimerEvent: {}
+[0.501544] (-) TimerEvent: {}
+[0.601956] (-) TimerEvent: {}
+[0.702498] (-) TimerEvent: {}
+[0.802961] (-) TimerEvent: {}
+[0.903552] (-) TimerEvent: {}
+[1.004127] (-) TimerEvent: {}
+[1.104647] (-) TimerEvent: {}
+[1.205096] (-) TimerEvent: {}
+[1.305695] (-) TimerEvent: {}
+[1.406240] (-) TimerEvent: {}
+[1.506826] (-) TimerEvent: {}
+[1.607410] (-) TimerEvent: {}
+[1.707987] (-) TimerEvent: {}
+[1.808540] (-) TimerEvent: {}
+[1.909131] (-) TimerEvent: {}
+[2.009676] (-) TimerEvent: {}
+[2.110231] (-) TimerEvent: {}
+[2.210861] (-) TimerEvent: {}
+[2.311418] (-) TimerEvent: {}
+[2.411963] (-) TimerEvent: {}
+[2.512490] (-) TimerEvent: {}
+[2.613002] (-) TimerEvent: {}
+[2.713503] (-) TimerEvent: {}
+[2.814029] (-) TimerEvent: {}
+[2.914534] (-) TimerEvent: {}
+[3.015204] (-) TimerEvent: {}
+[3.115680] (-) TimerEvent: {}
+[3.216189] (-) TimerEvent: {}
+[3.316644] (-) TimerEvent: {}
+[3.416997] (-) TimerEvent: {}
+[3.517347] (-) TimerEvent: {}
+[3.617800] (-) TimerEvent: {}
+[3.718135] (-) TimerEvent: {}
+[3.818569] (-) TimerEvent: {}
+[3.855785] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid doe_control::ThrustPublisher::\x1b[01;32m\x1b[KwrenchCallback\x1b[m\x1b[K(geometry_msgs::msg::Wrench_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.856125] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:122:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator<<\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kstd::ostream\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[3.856247] (doe_control) StderrLine: {'line': b'  122 |         \x1b[32m\x1b[Kstd::cout\x1b[m\x1b[K\x1b[01;31m\x1b[K<<\x1b[m\x1b[K\x1b[34m\x1b[Ksignal_msg\x1b[m\x1b[K<<std::endl;\n'}
+[3.856756] (doe_control) StderrLine: {'line': b'      |         \x1b[32m\x1b[K~~~~~~~~~\x1b[m\x1b[K\x1b[01;31m\x1b[K^~\x1b[m\x1b[K\x1b[34m\x1b[K~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.856858] (doe_control) StderrLine: {'line': b'      |              \x1b[32m\x1b[K|\x1b[m\x1b[K     \x1b[34m\x1b[K|\x1b[m\x1b[K\n'}
+[3.856954] (doe_control) StderrLine: {'line': b'      |              \x1b[32m\x1b[K|\x1b[m\x1b[K     \x1b[34m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\n'}
+[3.857049] (doe_control) StderrLine: {'line': b'      |              \x1b[32m\x1b[Kstd::ostream {aka std::basic_ostream<char>}\x1b[m\x1b[K\n'}
+[3.857142] (doe_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/istream:41\x1b[m\x1b[K,\n'}
+[3.857236] (doe_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/sstream:40\x1b[m\x1b[K,\n'}
+[3.857325] (doe_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/complex:45\x1b[m\x1b[K,\n'}
+[3.857418] (doe_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:47\x1b[m\x1b[K,\n'}
+[3.857510] (doe_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core.hpp:3418\x1b[m\x1b[K,\n'}
+[3.857603] (doe_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_control/include/doe_control/thrust_publisher.hpp:8\x1b[m\x1b[K,\n'}
+[3.857694] (doe_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:1\x1b[m\x1b[K:\n'}
+[3.859076] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:110:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(__ostream_type& (*)(__ostream_type&)) \x1b[35m\x1b[K[with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.859309] (doe_control) StderrLine: {'line': b'  110 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(__ostream_type& (*__pf)(__ostream_type&))\n'}
+[3.859415] (doe_control) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.859512] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:110:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&)\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>& (*)(std::basic_ostream<char>&)\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.859629] (doe_control) StderrLine: {'line': b'  110 |       operator<<(\x1b[01;36m\x1b[K__ostream_type& (*__pf)(__ostream_type&)\x1b[m\x1b[K)\n'}
+[3.859737] (doe_control) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.859843] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:119:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(__ios_type& (*)(__ios_type&)) \x1b[35m\x1b[K[with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>; __ios_type = std::basic_ios<char>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.859942] (doe_control) StderrLine: {'line': b'  119 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(__ios_type& (*__pf)(__ios_type&))\n'}
+[3.860036] (doe_control) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.860130] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:119:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&)\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ios<char>& (*)(std::basic_ios<char>&)\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.860237] (doe_control) StderrLine: {'line': b'  119 |       operator<<(\x1b[01;36m\x1b[K__ios_type& (*__pf)(__ios_type&)\x1b[m\x1b[K)\n'}
+[3.860335] (doe_control) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.860428] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:129:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(std::ios_base& (*)(std::ios_base&)) \x1b[35m\x1b[K[with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.860534] (doe_control) StderrLine: {'line': b'  129 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(ios_base& (*__pf) (ios_base&))\n'}
+[3.860627] (doe_control) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.860714] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:129:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::ios_base& (*)(std::ios_base&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.860839] (doe_control) StderrLine: {'line': b'  129 |       operator<<(\x1b[01;36m\x1b[Kios_base& (*__pf) (ios_base&)\x1b[m\x1b[K)\n'}
+[3.860931] (doe_control) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.861016] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:168:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(long int) \x1b[35m\x1b[K[with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.861109] (doe_control) StderrLine: {'line': b'  168 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(long __n)\n'}
+[3.861194] (doe_control) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.861282] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:168:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.861370] (doe_control) StderrLine: {'line': b'  168 |       operator<<(\x1b[01;36m\x1b[Klong __n\x1b[m\x1b[K)\n'}
+[3.861456] (doe_control) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~^~~\x1b[m\x1b[K\n'}
+[3.861543] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:172:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(long unsigned int) \x1b[35m\x1b[K[with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.861633] (doe_control) StderrLine: {'line': b'  172 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(unsigned long __n)\n'}
+[3.861720] (doe_control) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.861822] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:172:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.861915] (doe_control) StderrLine: {'line': b'  172 |       operator<<(\x1b[01;36m\x1b[Kunsigned long __n\x1b[m\x1b[K)\n'}
+[3.862002] (doe_control) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.862086] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:176:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(bool) \x1b[35m\x1b[K[with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.862177] (doe_control) StderrLine: {'line': b'  176 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(bool __n)\n'}
+[3.862262] (doe_control) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.862346] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:176:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.862432] (doe_control) StderrLine: {'line': b'  176 |       operator<<(\x1b[01;36m\x1b[Kbool __n\x1b[m\x1b[K)\n'}
+[3.862516] (doe_control) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~^~~\x1b[m\x1b[K\n'}
+[3.862601] (doe_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/ostream:880\x1b[m\x1b[K:\n'}
+[3.862684] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/ostream.tcc:96:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(short int) \x1b[35m\x1b[K[with _CharT = char; _Traits = std::char_traits<char>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.862792] (doe_control) StderrLine: {'line': b'   96 |     \x1b[01;36m\x1b[Kbasic_ostream<_CharT, _Traits>\x1b[m\x1b[K::\n'}
+[3.862883] (doe_control) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.862974] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/ostream.tcc:97:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kshort int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.863067] (doe_control) StderrLine: {'line': b'   97 |     operator<<(\x1b[01;36m\x1b[Kshort __n\x1b[m\x1b[K)\n'}
+[3.864796] (doe_control) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.865086] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:183:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(short unsigned int) \x1b[35m\x1b[K[with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.865222] (doe_control) StderrLine: {'line': b'  183 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(unsigned short __n)\n'}
+[3.865318] (doe_control) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.865426] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:183:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kshort unsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.865526] (doe_control) StderrLine: {'line': b'  183 |       operator<<(\x1b[01;36m\x1b[Kunsigned short __n\x1b[m\x1b[K)\n'}
+[3.865612] (doe_control) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.865699] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/ostream.tcc:110:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(int) \x1b[35m\x1b[K[with _CharT = char; _Traits = std::char_traits<char>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.865809] (doe_control) StderrLine: {'line': b'  110 |     \x1b[01;36m\x1b[Kbasic_ostream<_CharT, _Traits>\x1b[m\x1b[K::\n'}
+[3.865904] (doe_control) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.865994] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/ostream.tcc:111:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.866084] (doe_control) StderrLine: {'line': b'  111 |     operator<<(\x1b[01;36m\x1b[Kint __n\x1b[m\x1b[K)\n'}
+[3.866174] (doe_control) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[3.866262] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:194:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(unsigned int) \x1b[35m\x1b[K[with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.866355] (doe_control) StderrLine: {'line': b'  194 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(unsigned int __n)\n'}
+[3.866444] (doe_control) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.866532] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:194:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.866628] (doe_control) StderrLine: {'line': b'  194 |       operator<<(\x1b[01;36m\x1b[Kunsigned int __n\x1b[m\x1b[K)\n'}
+[3.866716] (doe_control) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.866815] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:203:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(long long int) \x1b[35m\x1b[K[with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.866914] (doe_control) StderrLine: {'line': b'  203 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(long long __n)\n'}
+[3.867008] (doe_control) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.867095] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:203:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong long int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.867188] (doe_control) StderrLine: {'line': b'  203 |       operator<<(\x1b[01;36m\x1b[Klong long __n\x1b[m\x1b[K)\n'}
+[3.867275] (doe_control) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.867359] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:207:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(long long unsigned int) \x1b[35m\x1b[K[with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.867452] (doe_control) StderrLine: {'line': b'  207 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(unsigned long long __n)\n'}
+[3.867543] (doe_control) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.867628] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:207:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.867714] (doe_control) StderrLine: {'line': b'  207 |       operator<<(\x1b[01;36m\x1b[Kunsigned long long __n\x1b[m\x1b[K)\n'}
+[3.867810] (doe_control) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.867899] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:222:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(double) \x1b[35m\x1b[K[with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.867987] (doe_control) StderrLine: {'line': b'  222 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(double __f)\n'}
+[3.868070] (doe_control) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.868150] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:222:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.868240] (doe_control) StderrLine: {'line': b'  222 |       operator<<(\x1b[01;36m\x1b[Kdouble __f\x1b[m\x1b[K)\n'}
+[3.868324] (doe_control) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.868414] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:226:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(float) \x1b[35m\x1b[K[with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.868503] (doe_control) StderrLine: {'line': b'  226 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(float __f)\n'}
+[3.868588] (doe_control) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.868669] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:226:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.868765] (doe_control) StderrLine: {'line': b'  226 |       operator<<(\x1b[01;36m\x1b[Kfloat __f\x1b[m\x1b[K)\n'}
+[3.868855] (doe_control) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.868938] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:234:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(long double) \x1b[35m\x1b[K[with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.869035] (doe_control) StderrLine: {'line': b'  234 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(long double __f)\n'}
+[3.869122] (doe_control) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.869208] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:234:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong double\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.869294] (doe_control) StderrLine: {'line': b'  234 |       operator<<(\x1b[01;36m\x1b[Klong double __f\x1b[m\x1b[K)\n'}
+[3.869381] (doe_control) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.869467] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:292:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(const void*) \x1b[35m\x1b[K[with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.869555] (doe_control) StderrLine: {'line': b'  292 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(const void* __p)\n'}
+[3.869639] (doe_control) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.869723] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:292:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst void*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.869824] (doe_control) StderrLine: {'line': b'  292 |       operator<<(\x1b[01;36m\x1b[Kconst void* __p\x1b[m\x1b[K)\n'}
+[3.869915] (doe_control) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.869999] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:297:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(std::nullptr_t) \x1b[35m\x1b[K[with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>; std::nullptr_t = std::nullptr_t]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.870094] (doe_control) StderrLine: {'line': b'  297 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(nullptr_t)\n'}
+[3.870178] (doe_control) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.870264] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:297:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.870351] (doe_control) StderrLine: {'line': b'  297 |       operator<<(\x1b[01;36m\x1b[Knullptr_t\x1b[m\x1b[K)\n'}
+[3.870435] (doe_control) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.870518] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/ostream.tcc:124:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(__streambuf_type*) \x1b[35m\x1b[K[with _CharT = char; _Traits = std::char_traits<char>; __streambuf_type = std::basic_streambuf<char>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.870604] (doe_control) StderrLine: {'line': b'  124 |     \x1b[01;36m\x1b[Kbasic_ostream<_CharT, _Traits>\x1b[m\x1b[K::\n'}
+[3.870689] (doe_control) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.870781] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/ostream.tcc:125:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>::__streambuf_type*\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_streambuf<char>*\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.870874] (doe_control) StderrLine: {'line': b'  125 |     operator<<(\x1b[01;36m\x1b[K__streambuf_type* __sbin\x1b[m\x1b[K)\n'}
+[3.870957] (doe_control) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[3.871045] (doe_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/bits/memory_resource.h:38\x1b[m\x1b[K,\n'}
+[3.871141] (doe_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/vector:80\x1b[m\x1b[K,\n'}
+[3.871227] (doe_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_control/include/doe_control/thrust_publisher.hpp:6\x1b[m\x1b[K:\n'}
+[3.871311] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/cstddef:124:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IntegerType> constexpr std::__byte_op_t<_IntegerType> std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(byte, _IntegerType)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.871397] (doe_control) StderrLine: {'line': b'  124 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(byte __b, _IntegerType __shift) noexcept\n'}
+[3.871478] (doe_control) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.871563] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/cstddef:124:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.871651] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:122:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::cout\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd::ostream\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K\xe2\x80\x99}) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::byte\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.871746] (doe_control) StderrLine: {'line': b'  122 |         \x1b[01;36m\x1b[Kstd::cout\x1b[m\x1b[K<<signal_msg<<std::endl;\n'}
+[3.871835] (doe_control) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~^~~~\x1b[m\x1b[K\n'}
+[3.871918] (doe_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:47\x1b[m\x1b[K,\n'}
+[3.872002] (doe_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/string:54\x1b[m\x1b[K,\n'}
+[3.872083] (doe_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/cvstd.hpp:56\x1b[m\x1b[K,\n'}
+[3.872166] (doe_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/base.hpp:58\x1b[m\x1b[K,\n'}
+[3.872250] (doe_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core.hpp:53\x1b[m\x1b[K:\n'}
+[3.872333] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/string_view:761:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<_CharT, _Traits>&, basic_string_view<_CharT, _Traits>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.872421] (doe_control) StderrLine: {'line': b'  761 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os,\n'}
+[3.872504] (doe_control) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.872588] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/string_view:761:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.872676] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:122:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_string_view<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.872772] (doe_control) StderrLine: {'line': b'  122 |         std::cout<<\x1b[01;36m\x1b[Ksignal_msg\x1b[m\x1b[K<<std::endl;\n'}
+[3.872859] (doe_control) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.872946] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:4032:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<_CharT, _Traits>&, const __cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.873037] (doe_control) StderrLine: {'line': b' 4032 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os,\n'}
+[3.873121] (doe_control) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.873205] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:4032:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.873293] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:122:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.873397] (doe_control) StderrLine: {'line': b'  122 |         std::cout<<\x1b[01;36m\x1b[Ksignal_msg\x1b[m\x1b[K<<std::endl;\n'}
+[3.873479] (doe_control) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.873564] (doe_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/memory:80\x1b[m\x1b[K,\n'}
+[3.873646] (doe_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp:11\x1b[m\x1b[K,\n'}
+[3.873738] (doe_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/cvstd.hpp:81\x1b[m\x1b[K:\n'}
+[3.873826] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:70:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Ch, class _Tr, class _Tp, __gnu_cxx::_Lock_policy _Lp> std::basic_ostream<_CharT, _Traits>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<_CharT, _Traits>&, const __shared_ptr<_Tp, _Lp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.873919] (doe_control) StderrLine: {'line': b'   70 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(std::basic_ostream<_Ch, _Tr>& __os,\n'}
+[3.874002] (doe_control) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.874088] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:70:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.874172] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:122:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__shared_ptr<_Tp, _Lp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.874255] (doe_control) StderrLine: {'line': b'  122 |         std::cout<<\x1b[01;36m\x1b[Ksignal_msg\x1b[m\x1b[K<<std::endl;\n'}
+[3.874339] (doe_control) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.874419] (doe_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/bits/ios_base.h:46\x1b[m\x1b[K,\n'}
+[3.874504] (doe_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/ios:44\x1b[m\x1b[K,\n'}
+[3.874587] (doe_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/istream:40\x1b[m\x1b[K:\n'}
+[3.874669] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/system_error:339:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<_CharT, _Traits>&, const error_code&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.874765] (doe_control) StderrLine: {'line': b'  339 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)\n'}
+[3.874852] (doe_control) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.874934] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/system_error:339:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.875016] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:122:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Ksignal_msg\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_code&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.875108] (doe_control) StderrLine: {'line': b'  122 |         std::cout<<\x1b[01;36m\x1b[Ksignal_msg\x1b[m\x1b[K<<std::endl;\n'}
+[3.875192] (doe_control) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.875274] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:554:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<_CharT, _Traits>&, _CharT)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.875364] (doe_control) StderrLine: {'line': b'  554 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)\n'}
+[3.875446] (doe_control) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.875524] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:554:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.875607] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:122:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[K_CharT\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[3.875695] (doe_control) StderrLine: {'line': b'  122 |         std::cout<<\x1b[01;36m\x1b[Ksignal_msg\x1b[m\x1b[K<<std::endl;\n'}
+[3.875793] (doe_control) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.875875] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:564:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<_CharT, _Traits>&, char)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.875959] (doe_control) StderrLine: {'line': b'  564 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __out, char __c)\n'}
+[3.876040] (doe_control) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.876122] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:564:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.876206] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:122:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Ksignal_msg\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.876296] (doe_control) StderrLine: {'line': b'  122 |         std::cout<<\x1b[01;36m\x1b[Ksignal_msg\x1b[m\x1b[K<<std::endl;\n'}
+[3.876380] (doe_control) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.876463] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:570:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<char, _Traits>&, char)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.876548] (doe_control) StderrLine: {'line': b'  570 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<char, _Traits>& __out, char __c)\n'}
+[3.876631] (doe_control) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.876713] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:570:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.876808] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:122:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Ksignal_msg\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.876905] (doe_control) StderrLine: {'line': b'  122 |         std::cout<<\x1b[01;36m\x1b[Ksignal_msg\x1b[m\x1b[K<<std::endl;\n'}
+[3.876987] (doe_control) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.877070] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:581:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<char, _Traits>&, signed char)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.877157] (doe_control) StderrLine: {'line': b'  581 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<char, _Traits>& __out, signed char __c)\n'}
+[3.877240] (doe_control) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.877322] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:581:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.877407] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:122:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Ksignal_msg\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Ksigned char\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.877494] (doe_control) StderrLine: {'line': b'  122 |         std::cout<<\x1b[01;36m\x1b[Ksignal_msg\x1b[m\x1b[K<<std::endl;\n'}
+[3.877579] (doe_control) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.877662] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:586:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<char, _Traits>&, unsigned char)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.877755] (doe_control) StderrLine: {'line': b'  586 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<char, _Traits>& __out, unsigned char __c)\n'}
+[3.877842] (doe_control) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.877926] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:586:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.878010] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:122:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Ksignal_msg\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kunsigned char\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.878101] (doe_control) StderrLine: {'line': b'  122 |         std::cout<<\x1b[01;36m\x1b[Ksignal_msg\x1b[m\x1b[K<<std::endl;\n'}
+[3.878187] (doe_control) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.878272] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:645:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<_CharT, _Traits>&, const _CharT*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.878360] (doe_control) StderrLine: {'line': b'  645 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)\n'}
+[3.878441] (doe_control) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.878523] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:645:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.878608] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:122:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst _CharT*\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.878696] (doe_control) StderrLine: {'line': b'  122 |         std::cout<<\x1b[01;36m\x1b[Ksignal_msg\x1b[m\x1b[K<<std::endl;\n'}
+[3.878789] (doe_control) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.878875] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/ostream.tcc:307:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<_CharT, _Traits>&, const char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.878962] (doe_control) StderrLine: {'line': b'  307 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)\n'}
+[3.879049] (doe_control) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.879132] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/ostream.tcc:307:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.879216] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:122:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Ksignal_msg\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.879301] (doe_control) StderrLine: {'line': b'  122 |         std::cout<<\x1b[01;36m\x1b[Ksignal_msg\x1b[m\x1b[K<<std::endl;\n'}
+[3.879386] (doe_control) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.879470] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:662:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<char, _Traits>&, const char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.879568] (doe_control) StderrLine: {'line': b'  662 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<char, _Traits>& __out, const char* __s)\n'}
+[3.879655] (doe_control) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.879748] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:662:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.879838] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:122:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Ksignal_msg\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.879931] (doe_control) StderrLine: {'line': b'  122 |         std::cout<<\x1b[01;36m\x1b[Ksignal_msg\x1b[m\x1b[K<<std::endl;\n'}
+[3.880018] (doe_control) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.880101] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:675:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<char, _Traits>&, const signed char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.880186] (doe_control) StderrLine: {'line': b'  675 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<char, _Traits>& __out, const signed char* __s)\n'}
+[3.880269] (doe_control) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.880351] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:675:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.880432] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:122:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Ksignal_msg\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kconst signed char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.880519] (doe_control) StderrLine: {'line': b'  122 |         std::cout<<\x1b[01;36m\x1b[Ksignal_msg\x1b[m\x1b[K<<std::endl;\n'}
+[3.880604] (doe_control) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.880690] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:680:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<char, _Traits>&, const unsigned char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.880782] (doe_control) StderrLine: {'line': b'  680 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)\n'}
+[3.880868] (doe_control) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.880949] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:680:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.881031] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:122:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Ksignal_msg\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kconst unsigned char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.881121] (doe_control) StderrLine: {'line': b'  122 |         std::cout<<\x1b[01;36m\x1b[Ksignal_msg\x1b[m\x1b[K<<std::endl;\n'}
+[3.881206] (doe_control) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.881290] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:801:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Ostream, class _Tp> _Ostream&& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(_Ostream&&, const _Tp&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.881381] (doe_control) StderrLine: {'line': b'  801 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(_Ostream&& __os, const _Tp& __x)\n'}
+[3.881465] (doe_control) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.881547] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:801:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.881630] (doe_control) StderrLine: {'line': b'/usr/include/c++/13/ostream: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Ostream, class _Tp> _Ostream&& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(_Ostream&&, const _Tp&) \x1b[35m\x1b[K[with _Ostream = std::basic_ostream<char>&; _Tp = std_msgs::msg::UInt32_<std::allocator<void> >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.881722] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:122:20:\x1b[m\x1b[K   required from here\n'}
+[3.881820] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ostream:801:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.881907] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/complex:558:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<_CharT, _Traits>&, const complex<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.881992] (doe_control) StderrLine: {'line': b'  558 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, const complex<_Tp>& __x)\n'}
+[3.882075] (doe_control) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.882157] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/complex:558:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.882251] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:122:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::complex<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.882338] (doe_control) StderrLine: {'line': b'  122 |         std::cout<<\x1b[01;36m\x1b[Ksignal_msg\x1b[m\x1b[K<<std::endl;\n'}
+[3.882419] (doe_control) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.882503] (doe_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19\x1b[m\x1b[K,\n'}
+[3.882585] (doe_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp:18\x1b[m\x1b[K,\n'}
+[3.882670] (doe_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:9\x1b[m\x1b[K,\n'}
+[3.882766] (doe_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:21\x1b[m\x1b[K,\n'}
+[3.882855] (doe_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K,\n'}
+[3.882939] (doe_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_control/include/doe_control/thrust_publisher.hpp:9\x1b[m\x1b[K:\n'}
+[3.883025] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/iomanip:81:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<_CharT, _Traits>&, _Resetiosflags)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.883115] (doe_control) StderrLine: {'line': b'   81 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Resetiosflags __f)\n'}
+[3.883201] (doe_control) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.883283] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/iomanip:81:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.883371] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:122:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Ksignal_msg\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Resetiosflags\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.883463] (doe_control) StderrLine: {'line': b'  122 |         std::cout<<\x1b[01;36m\x1b[Ksignal_msg\x1b[m\x1b[K<<std::endl;\n'}
+[3.883547] (doe_control) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.883632] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/iomanip:111:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<_CharT, _Traits>&, _Setiosflags)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.883717] (doe_control) StderrLine: {'line': b'  111 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Setiosflags __f)\n'}
+[3.883811] (doe_control) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.883897] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/iomanip:111:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.883979] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:122:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Ksignal_msg\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Setiosflags\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.884062] (doe_control) StderrLine: {'line': b'  122 |         std::cout<<\x1b[01;36m\x1b[Ksignal_msg\x1b[m\x1b[K<<std::endl;\n'}
+[3.884146] (doe_control) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.884230] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/iomanip:145:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<_CharT, _Traits>&, _Setbase)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.884313] (doe_control) StderrLine: {'line': b'  145 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Setbase __f)\n'}
+[3.884397] (doe_control) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.884480] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/iomanip:145:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.884560] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:122:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Ksignal_msg\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Setbase\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.884648] (doe_control) StderrLine: {'line': b'  122 |         std::cout<<\x1b[01;36m\x1b[Ksignal_msg\x1b[m\x1b[K<<std::endl;\n'}
+[3.884744] (doe_control) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.884832] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/iomanip:180:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<_CharT, _Traits>&, _Setfill<_CharT>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.884929] (doe_control) StderrLine: {'line': b'  180 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Setfill<_CharT> __f)\n'}
+[3.885020] (doe_control) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.885106] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/iomanip:180:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.885193] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:122:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Setfill<_CharT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.885282] (doe_control) StderrLine: {'line': b'  122 |         std::cout<<\x1b[01;36m\x1b[Ksignal_msg\x1b[m\x1b[K<<std::endl;\n'}
+[3.885369] (doe_control) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.885455] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/iomanip:210:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<_CharT, _Traits>&, _Setprecision)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.885542] (doe_control) StderrLine: {'line': b'  210 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Setprecision __f)\n'}
+[3.885625] (doe_control) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.885708] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/iomanip:210:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.885806] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:122:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Ksignal_msg\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Setprecision\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.885898] (doe_control) StderrLine: {'line': b'  122 |         std::cout<<\x1b[01;36m\x1b[Ksignal_msg\x1b[m\x1b[K<<std::endl;\n'}
+[3.885982] (doe_control) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.886064] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/iomanip:240:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<_CharT, _Traits>&, _Setw)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.886149] (doe_control) StderrLine: {'line': b'  240 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Setw __f)\n'}
+[3.886236] (doe_control) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.886319] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/iomanip:240:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.886404] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:122:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Ksignal_msg\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Setw\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.886492] (doe_control) StderrLine: {'line': b'  122 |         std::cout<<\x1b[01;36m\x1b[Ksignal_msg\x1b[m\x1b[K<<std::endl;\n'}
+[3.886579] (doe_control) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.886663] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/iomanip:313:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _MoneyT> std::basic_ostream<_CharT, _Traits>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<_CharT, _Traits>&, _Put_money<_MoneyT>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.886764] (doe_control) StderrLine: {'line': b'  313 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Put_money<_MoneyT> __f)\n'}
+[3.886856] (doe_control) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.886939] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/iomanip:313:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.887024] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:122:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Put_money<_MoneyT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.887108] (doe_control) StderrLine: {'line': b'  122 |         std::cout<<\x1b[01;36m\x1b[Ksignal_msg\x1b[m\x1b[K<<std::endl;\n'}
+[3.887189] (doe_control) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.887270] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/iomanip:365:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<_CharT, _Traits>&, _Put_time<_CharT>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.887357] (doe_control) StderrLine: {'line': b'  365 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Put_time<_CharT> __f)\n'}
+[3.887441] (doe_control) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.887525] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/iomanip:365:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.887609] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:122:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Put_time<_CharT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.887707] (doe_control) StderrLine: {'line': b'  122 |         std::cout<<\x1b[01;36m\x1b[Ksignal_msg\x1b[m\x1b[K<<std::endl;\n'}
+[3.887798] (doe_control) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.887882] (doe_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:22\x1b[m\x1b[K,\n'}
+[3.887970] (doe_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.888051] (doe_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172\x1b[m\x1b[K:\n'}
+[3.888131] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/thread:97:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(basic_ostream<_CharT, _Traits>&, thread::id)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.888216] (doe_control) StderrLine: {'line': b'   97 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __out, thread::id __id)\n'}
+[3.888312] (doe_control) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.888397] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/thread:97:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.888483] (doe_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dorson/Documents/github/Doe/src/doe_control/src/thrust_publisher.cpp:122:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Ksignal_msg\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::UInt32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::thread::id\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.888570] (doe_control) StderrLine: {'line': b'  122 |         std::cout<<\x1b[01;36m\x1b[Ksignal_msg\x1b[m\x1b[K<<std::endl;\n'}
+[3.888655] (doe_control) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.918777] (-) TimerEvent: {}
+[4.019074] (-) TimerEvent: {}
+[4.119526] (-) TimerEvent: {}
+[4.219904] (-) TimerEvent: {}
+[4.320332] (-) TimerEvent: {}
+[4.420786] (-) TimerEvent: {}
+[4.521238] (-) TimerEvent: {}
+[4.621593] (-) TimerEvent: {}
+[4.722037] (-) TimerEvent: {}
+[4.822389] (-) TimerEvent: {}
+[4.922816] (-) TimerEvent: {}
+[5.023250] (-) TimerEvent: {}
+[5.123830] (-) TimerEvent: {}
+[5.224298] (-) TimerEvent: {}
+[5.324764] (-) TimerEvent: {}
+[5.425100] (-) TimerEvent: {}
+[5.525474] (-) TimerEvent: {}
+[5.625952] (-) TimerEvent: {}
+[5.726412] (-) TimerEvent: {}
+[5.826868] (-) TimerEvent: {}
+[5.927255] (-) TimerEvent: {}
+[6.027694] (-) TimerEvent: {}
+[6.128145] (-) TimerEvent: {}
+[6.228588] (-) TimerEvent: {}
+[6.329058] (-) TimerEvent: {}
+[6.429499] (-) TimerEvent: {}
+[6.529962] (-) TimerEvent: {}
+[6.630343] (-) TimerEvent: {}
+[6.730796] (-) TimerEvent: {}
+[6.831233] (-) TimerEvent: {}
+[6.931673] (-) TimerEvent: {}
+[7.032152] (-) TimerEvent: {}
+[7.132528] (-) TimerEvent: {}
+[7.232894] (-) TimerEvent: {}
+[7.333239] (-) TimerEvent: {}
+[7.433665] (-) TimerEvent: {}
+[7.534149] (-) TimerEvent: {}
+[7.634608] (-) TimerEvent: {}
+[7.693052] (doe_control) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/thrust_publisher.dir/build.make:76: CMakeFiles/thrust_publisher.dir/src/thrust_publisher.cpp.o] Error 1\n'}
+[7.693520] (doe_control) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thrust_publisher.dir/all] Error 2\n'}
+[7.693683] (doe_control) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.697457] (doe_control) CommandEnded: {'returncode': 2}
+[7.734826] (-) TimerEvent: {}
+[7.770515] (doe_control) JobEnded: {'identifier': 'doe_control', 'rc': 2}
+[7.781764] (-) EventReactorShutdown: {}

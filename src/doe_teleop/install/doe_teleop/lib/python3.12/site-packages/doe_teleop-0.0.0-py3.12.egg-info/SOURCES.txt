@@ -10,6 +10,7 @@ build/doe_teleop/doe_teleop.egg-info/top_level.txt
 build/doe_teleop/doe_teleop.egg-info/zip-safe
 doe_teleop/__init__.py
 doe_teleop/keyboard_teleop.py
+launch/keyboard_teleop_launch.py
 resource/doe_teleop
 test/test_copyright.py
 test/test_flake8.py

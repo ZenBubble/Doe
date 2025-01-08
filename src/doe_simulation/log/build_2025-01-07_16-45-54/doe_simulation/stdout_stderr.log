@@ -1,0 +1,11 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o[0m
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void doe_simulation::ThrusterDriver::[01;32m[KConfigure[m[K(const gz::sim::v8::Entity&, const std::shared_ptr<const sdf::v14::Element>&, gz::sim::v8::EntityComponentManager&, gz::sim::v8::EventManager&)[m[K’:
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:50:56:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KName[m[K’ in ‘[01m[K_model.gz::sim::v8::Model::LinkByName((*(const gz::sim::v8::EntityComponentManager*)(& _ecm)), thruster_name)[m[K’, which is of non-class type ‘[01m[Kgz::sim::v8::Entity[m[K’ {aka ‘[01m[Klong unsigned int[m[K’}
+   50 |             if (_model.LinkByName(_ecm, thruster_name).[01;31m[KName[m[K(_ecm).has_value()) {
+      |                                                        [01;31m[K^~~~[m[K
+[01m[K/home/dorson/Documents/github/Doe/src/doe_simulation/src/thruster_driver_plugin.cpp:51:69:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KName[m[K’ in ‘[01m[K_model.gz::sim::v8::Model::LinkByName((*(const gz::sim::v8::EntityComponentManager*)(& _ecm)), thruster_name)[m[K’, which is of non-class type ‘[01m[Kgz::sim::v8::Entity[m[K’ {aka ‘[01m[Klong unsigned int[m[K’}
+   51 |                 std::cout << _model.LinkByName(_ecm, thruster_name).[01;31m[KName[m[K(_ecm).value() << std::endl;
+      |                                                                     [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/thruster_driver_plugin.dir/build.make:76: CMakeFiles/thruster_driver_plugin.dir/src/thruster_driver_plugin.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thruster_driver_plugin.dir/all] Error 2
+gmake: *** [Makefile:166: all] Error 2

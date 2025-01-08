@@ -17,7 +17,7 @@ class KeyboardTeleop(Node):
 
         self.force_pub = self.create_publisher(
             Wrench,
-            '/input_forces',
+            '/doe/control/input_forces',
             10
         )
 
